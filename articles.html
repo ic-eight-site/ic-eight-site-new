@@ -49,13 +49,6 @@
       <span class="card-link">Read →</span>
     </a>
 
-    <a href="/articles/designing-meaning.html" class="featured-card">
-      <span class="card-tag">Thinking</span>
-      <span class="card-title">"Human Translation Is the Degraded Version of AI Translation."</span>
-      <span class="card-desc">The value was never in swapping words. It was in designing the meaning.</span>
-      <span class="card-link">Read →</span>
-    </a>
-
     <a href="/articles/human-equals-quality.html" class="featured-card">
       <span class="card-tag">Thinking</span>
       <span class="card-title">Still Assuming "Human = Quality"?</span>
@@ -92,6 +85,7 @@
 <!-- IC EIGHT ORIGINALS -->
 <section class="more">
   <p class="section-label">IC Eight Originals</p>
+  <div id="filter-buttons" style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 1.5rem;"></div>
   <div class="more-list" id="originals-list"></div>
 </section>
 
@@ -100,15 +94,54 @@
     .then(r => r.json())
     .then(articles => {
       const list = document.getElementById('originals-list');
-      list.innerHTML = articles.map(a => `
-        <a href="${a.url}" class="more-item">
-          <span class="more-tag">${a.tag}</span>
-          <span class="more-title">${a.title}</span>
-        </a>
+      const filterDiv = document.getElementById('filter-buttons');
+
+      const tags = ['All', ...new Set(articles.map(a => a.tag))];
+
+      const btnStyle = `
+        padding: 4px 14px;
+        font-size: 0.7rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        border: 1px solid var(--rule);
+        border-radius: 20px;
+        background: transparent;
+        color: var(--muted);
+        cursor: pointer;
+        font-family: inherit;
+      `;
+      const activeBtnStyle = btnStyle + `background: var(--ink); color: var(--bg); border-color: var(--ink);`;
+
+      let active = 'All';
+
+      function render() {
+        const filtered = active === 'All' ? articles : articles.filter(a => a.tag === active);
+        list.innerHTML = filtered.map(a => `
+          <a href="${a.url}" class="more-item">
+            <span class="more-tag">${a.tag}</span>
+            <span class="more-title">${a.title}</span>
+          </a>
+        `).join('');
+
+        filterDiv.querySelectorAll('button').forEach(btn => {
+          btn.style.cssText = btn.dataset.tag === active ? activeBtnStyle : btnStyle;
+        });
+      }
+
+      filterDiv.innerHTML = tags.map(tag => `
+        <button data-tag="${tag}" style="${tag === 'All' ? activeBtnStyle : btnStyle}">${tag}</button>
       `).join('');
+
+      filterDiv.addEventListener('click', e => {
+        if (e.target.tagName === 'BUTTON') {
+          active = e.target.dataset.tag;
+          render();
+        }
+      });
+
+      render();
     });
 </script>
-
 
 <footer>
   <span>© IC Eight</span>
