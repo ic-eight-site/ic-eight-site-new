@@ -512,7 +512,7 @@ tr:last-child td { border-bottom: none; }
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--muted);
-  min-width: 160px;
+  min-width: 200px;
 }
 
 .more-title {
