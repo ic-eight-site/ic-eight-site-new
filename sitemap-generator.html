@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sitemap Generator — IC Eight</title>
+  <style>
+    body { font-family: sans-serif; max-width: 800px; margin: 2rem auto; padding: 0 1rem; background: #fafaf8; color: #222; }
+    h1 { font-size: 1.4rem; font-weight: 500; margin-bottom: 0.5rem; }
+    p { font-size: 0.9rem; color: #666; margin-bottom: 1rem; }
+    textarea { width: 100%; font-family: monospace; font-size: 12px; border: 1px solid #ddd; border-radius: 6px; padding: 10px; background: #fff; color: #222; resize: vertical; box-sizing: border-box; }
+    button { margin-top: 10px; padding: 8px 20px; border: 1px solid #aaa; border-radius: 6px; background: #fff; color: #222; font-size: 14px; cursor: pointer; }
+    button:hover { background: #f0f0f0; }
+    #output { margin-top: 1.5rem; white-space: pre; overflow-x: auto; font-family: monospace; font-size: 11px; background: #fff; border: 1px solid #ddd; border-radius: 6px; padding: 12px; color: #222; max-height: 500px; overflow-y: auto; display: none; }
+    #copy-btn { display: none; }
+    .success { color: #2a7a2a; }
+  </style>
+</head>
+<body>
+
+<h1>Sitemap Generator — IC Eight</h1>
+<p>articles.jsonの中身をまるごと貼り付けて、ボタンを押すにゃ。sitemap.xmlが出てくるにゃ。</p>
+
+<textarea id="json-input" rows="12" placeholder='[{"tag": "Japanese UX", "title": "...", "url": "/articles/....html"}, ...]'></textarea>
+
+<br>
+<button onclick="generate()">sitemap.xmlを生成するにゃ</button>
+<button id="copy-btn" onclick="copyOutput()">コピーするにゃ</button>
+
+<div id="output"></div>
+
+<script>
+  const STATIC_URLS = [
+    { loc: 'https://ic-eight.com/', priority: '1.0' },
+    { loc: 'https://ic-eight.com/about.html', priority: '0.9' },
+    { loc: 'https://ic-eight.com/services.html', priority: '0.8' },
+    { loc: 'https://ic-eight.com/articles.html', priority: '0.8' },
+    { loc: 'https://ic-eight.com/faq.html', priority: '0.7' },
+    { loc: 'https://ic-eight.com/gamma-analysis.html', priority: '0.7' },
+  ];
+
+  function generate() {
+    const input = document.getElementById('json-input').value.trim();
+    const out = document.getElementById('output');
+
+    if (!input) {
+      out.style.display = 'block';
+      out.textContent = 'articles.jsonを貼り付けてにゃ';
+      return;
+    }
+
+    let articles;
+    try {
+      articles = JSON.parse(input);
+    } catch(e) {
+      out.style.display = 'block';
+      out.textContent = 'JSONのパースに失敗したにゃ: ' + e.message;
+      return;
+    }
+
+    const articleUrls = articles.map(a => ({
+      loc: 'https://ic-eight.com' + a.url,
+      priority: '0.7'
+    }));
+
+    const allUrls = [...STATIC_URLS, ...articleUrls];
+
+    const xml = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+${allUrls.map(u => `  <url>
+    <loc>${u.loc}</loc>
+    <priority>${u.priority}</priority>
+  </url>`).join('\n')}
+</urlset>`;
+
+    out.style.display = 'block';
+    out.textContent = xml;
+    document.getElementById('copy-btn').style.display = 'inline-block';
+  }
+
+  function copyOutput() {
+    const text = document.getElementById('output').textContent;
+    navigator.clipboard.writeText(text).then(() => {
+      const btn = document.getElementById('copy-btn');
+      btn.textContent = 'コピーしたにゃ！';
+      setTimeout(() => btn.textContent = 'コピーするにゃ', 2000);
+    });
+  }
+</script>
+
+</body>
+</html>
