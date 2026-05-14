@@ -555,7 +555,7 @@ tr:last-child td { border-bottom: none; }
 
 /* ARTICLE PAGE */
 .article-header {
-  padding: 6rem 3rem 3rem;
+  padding: 3rem 3rem 2rem;
   max-width: 720px;
 }
 
@@ -575,7 +575,7 @@ tr:last-child td { border-bottom: none; }
 }
 
 .article-body {
-  padding: 4rem 3rem;
+  padding: 2rem 3rem 4rem;
   max-width: 720px;
 }
 
