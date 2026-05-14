@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="NMT is fast but fragile. What LLM-native generation actually changes for user-facing content — and why it's time to stop translating and start writing.">
+  <link rel="canonical" href="https://ic-eight.com/articles/stop-translating-start-writing.html">
+
+  <meta property="og:title" content="Why We Should Stop Translating — and Start Writing — IC Eight">
+  <meta property="og:description" content="NMT is fast but fragile. What LLM-native generation actually changes for user-facing content.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://ic-eight.com/articles/stop-translating-start-writing.html">
+  <meta property="og:image" content="https://ic-eight.com/og-image.jpg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Why We Should Stop Translating — and Start Writing — IC Eight">
+  <meta name="twitter:description" content="NMT is fast but fragile. What LLM-native generation actually changes for user-facing content.">
+  <meta name="twitter:image" content="https://ic-eight.com/og-image.jpg">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QTS33LQ0MB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-QTS33LQ0MB');
+  </script>
+
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  <link rel="me" href="https://x.com/HelloICEight">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Why We Should Stop Translating — and Start Writing",
+    "description": "NMT is fast but fragile. What LLM-native generation actually changes for user-facing content.",
+    "url": "https://ic-eight.com/articles/stop-translating-start-writing.html",
+    "datePublished": "2025-01-01",
+    "author": {
+      "@type": "Organization",
+      "name": "IC Eight",
+      "url": "https://ic-eight.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "IC Eight",
+      "url": "https://ic-eight.com"
+    }
+  }
+  </script>
+</head>
+<body>
+
+<nav>
+  <a href="/index.html" class="nav-logo">IC Eight</a>
+  <ul class="nav-links">
+    <li><a href="/services.html">How We Work</a></li>
+    <li><a href="/articles.html">Articles</a></li>
+    <li><a href="/faq.html">FAQ</a></li>
+    <li><a href="/about.html">About</a></li>
+    <li><a href="mailto:hello@ic-eight.com">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="article-header">
+  <p class="article-label">Localization Strategy</p>
+  <h1>Why We Should Stop Translating — and Start Writing</h1>
+  <p class="article-meta">NMT is fast but fragile. What LLM-native generation actually changes for user-facing content. · Published 2025</p>
+</div>
+
+<div class="divider"></div>
+
+<article class="article-body">
+
+  <p>Your Japanese localization is quietly killing user onboarding and retention. And it's not the translator's fault. It's the process most SaaS companies still use.</p>
+
+  <p>I was reading a Japanese article about a Toyota campaign powered by ElevenLabs. But it didn't make any sense. The sentences felt chopped up. Key context was missing. I had no idea who "Brock" was or what the campaign actually did.</p>
+
+  <p>So I checked the original English article. And suddenly everything clicked.</p>
+
+  <p>The Japanese was machine-translated. A whole paragraph was dropped, probably because of a hyperlink tag. Some lines were duplicated. And no human had touched it.</p>
+
+  <p>That's not just a translation issue. That's a broken user experience. And the sad part is: this wasn't an exception. It's happening everywhere.</p>
+
+  <h2>What NMT actually does to your content</h2>
+
+  <p>Neural Machine Translation is fast — but fragile. Most companies use NMT because it's cheap and fast. But that speed comes at a cost.</p>
+
+  <p>If tags or dashes appear in the wrong place, NMT can misread structure and lose entire sentences. Negations, idioms, and long noun phrases get mistranslated or dropped. Users have to work to understand what should be obvious. The tone feels off — too stiff, too casual, or just weird. Key terms are translated differently each time. And you still need people to fix all this, meaning slower workflows and more expensive reviews.</p>
+
+  <h2>A real example: ElevenLabs × Toyota</h2>
+
+  <p>Here is the original English:</p>
+
+  <p><em>"Toyota's Northern California Dealers Association and creative agency H/L launched a new kind of branded experience — a dynamic voice-driven activation hosted by an AI-powered version of 49ers quarterback Brock Purdy."</em></p>
+
+  <p>And here is what the machine-translated Japanese becomes when back-translated into English:</p>
+
+  <p><em>"Toyota's Northern California Dealer Association and [sentence cut off] — A conversational fan experience built on ElevenLabs' Agents platform, this experience offers fans a natural and interactive conversation with Brock."</em>
+
+  <p>The subject was cut off. Sentences were duplicated. Brock's context disappeared entirely. "ElevenLabs" and "platform" were mashed into one word in the Portuguese version.</p>
+
+  <p>If a machine can't reproduce the original meaning after translation, what are your users supposed to do with it?</p>
+
+  <h2>What LLMs make possible instead</h2>
+
+  <p>Large Language Models can do more — if you use them right. Instead of translating the original, you can have an LLM write the target-language content directly.</p>
+
+  <p>This lets you focus on intent rather than word-by-word fidelity, adapt to the target audience and their cultural context, stay true to your brand voice and tone, and reduce or eliminate the need for post-editing.</p>
+
+  <p>Feed the LLM your original text. Add a prompt with clear instructions: what the content is for, who it's for, what tone it should have. Review the output lightly. Done well, this produces better content faster than MT + post-editing.</p>
+
+  <h2>How to decide</h2>
+
+  <p>Does the reader need to understand and act on the content? If yes, use an LLM. If no — for example, compliance-driven text where completeness matters more than readability — MT may be sufficient, but only with expert human post-editing.</p>
+
+  <p>Do you care about the user experience? If users need to grasp intent, nuance, or tone, MT won't deliver.</p>
+
+  <p>What's the actual cost? Compare NMT plus expensive human post-editing against LLM plus light-touch QA. In many cases, the second option is faster, cheaper, and more reliable for user-facing content.</p>
+
+  <h2>Stop translating. Start writing.</h2>
+
+  <p>If you're using NMT for high-stakes, user-facing content, you're not automating. You're just creating more cleanup work.</p>
+
+  <p>Maybe it's time to stop translating — and start writing.</p>
+
+</article>
+
+<section class="back-section">
+  <a href="/articles.html" class="back-link">← Back to Articles</a>
+</section>
+
+<footer>
+  <span>© IC Eight</span>
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/company/ic-eight/">LinkedIn</a>
+    <a href="https://medium.com/@ic-eight">Medium</a>
+  </div>
+</footer>
+
+</body>
+</html>
