@@ -28,5 +28,10 @@
     "tag": "Observation",
     "title": "Don't Let It Fall",
     "url": "/articles/peteca-kemari.html"
+  },
+  {
+  "tag": "Japanese UX",
+  "title": "Localization Is Not What Most SaaS Teams Think It Is",
+  "url": "/articles/localization-is-ux.html"
   }
 ]
