@@ -1,1 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A conversational interface is not always a better interface. What Nubank's new Pix flow gets wrong about AI-native UX.">
+  <link rel="canonical" href="https://ic-eight.com/articles/nubank-conversational-ux.html">
 
+  <meta property="og:title" content="Not Everything Needs to Become a Conversation — IC Eight">
+  <meta property="og:description" content="A conversational interface is not always a better interface. What Nubank's new Pix flow gets wrong about AI-native UX.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://ic-eight.com/articles/nubank-conversational-ux.html">
+  <meta property="og:image" content="https://ic-eight.com/og-image.jpg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Not Everything Needs to Become a Conversation — IC Eight">
+  <meta name="twitter:description" content="A conversational interface is not always a better interface. What Nubank's new Pix flow gets wrong about AI-native UX.">
+  <meta name="twitter:image" content="https://ic-eight.com/og-image.jpg">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QTS33LQ0MB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-QTS33LQ0MB');
+  </script>
+
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  <link rel="me" href="https://x.com/HelloICEight">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<nav>
+  <a href="/index.html" class="nav-logo">IC Eight</a>
+  <ul class="nav-links">
+    <li><a href="/services.html">How We Work</a></li>
+    <li><a href="/articles.html">Articles</a></li>
+    <li><a href="/faq.html">FAQ</a></li>
+    <li><a href="/about.html">About</a></li>
+    <li><a href="mailto:hello@ic-eight.com">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="article-header">
+  <p class="article-label">UX Observation</p>
+  <h1>Not Everything Needs to Become a Conversation</h1>
+  <p class="article-meta">What Nubank's new Pix flow gets wrong about AI-native UX. · Published 2025</p>
+</div>
+
+<div class="divider"></div>
+
+<article class="article-body">
+
+  <p>This morning I used Nubank to send a Pix payment to my neighbor. The interface had changed. Instead of entering the recipient's key and seeing their details upfront, I was asked: "How much would you like to send?"</p>
+
+  <p>First problem: I hadn't confirmed who I was sending to yet.</p>
+
+  <p>Second problem: how do I answer? "60"? "R$60"? "60 BRL"? I wasn't sure. I cancelled, tried again with "R$60". It worked. Later that day I sent another payment and typed just "160". That worked too.</p>
+
+  <p><strong>Same interface. Different inputs. Both accepted. No guidance either time.</strong></p>
+
+  <p>So I got curious. I entered an invalid key — just to see what the AI would do with it.</p>
+
+  <p>It said: "Sorry, I couldn't detect the Pix key. Please tell me the type so I can process it correctly."</p>
+
+  <p>The type. Of a key that doesn't exist.</p>
+
+  <p>A form would have just said: key not found.</p>
+
+  <h2>The problem with conversational UX in structured flows</h2>
+
+  <p>AI-native UX doesn't mean turning every flow into a chat. It means knowing when conversation helps — and when it gets in the way.</p>
+
+  <p>Payments are one of the clearest cases where conversation does not help. When I send money through Pix, I don't need the app to ask me conversationally how much I want to send. I need to see the key, the recipient, the bank, the amount, and the final confirmation clearly — in that order.</p>
+
+  <p>A conversational layer does not automatically make a flow more human. Sometimes it just hides the structure users rely on to feel in control.</p>
+
+  <h2>Three things that broke</h2>
+
+  <p>The new interface introduced at least three distinct UX failures:</p>
+
+  <ol>
+    <li>
+      <div>
+        <strong>Confirmation order reversed</strong>
+        — I was asked for the amount before I could verify who I was sending to. In a payment flow, recipient confirmation must come first.
+      </div>
+    </li>
+    <li>
+      <div>
+        <strong>Input format undefined</strong>
+        — "How much would you like to send?" gives no indication of expected format. The interface accepted both "R$60" and "160" without explanation. That inconsistency erodes trust, even when it works.
+      </div>
+    </li>
+    <li>
+      <div>
+        <strong>Error handling regressed</strong>
+        — When a Pix key doesn't exist, there is only one correct response: key not found. Asking for the "type" of a nonexistent key is not helpful. It's a conversational response to a problem that conversation cannot solve.
+      </div>
+    </li>
+  </ol>
+
+  <h2>When conversation helps — and when it doesn't</h2>
+
+  <p>Conversational interfaces are genuinely useful when users need to explore, clarify, compare, or decide. They work well in ambiguous situations where the system needs more information to proceed.</p>
+
+  <p>But many product flows are not ambiguous. They are structured actions with a known sequence: identify recipient, confirm amount, review, send. Wrapping that sequence in a conversational layer doesn't simplify it. It removes the structural cues users depend on.</p>
+
+  <p>Payments need visibility, predictability, and confirmation. Not a dialogue.</p>
+
+  <h2>The real question</h2>
+
+  <p>The question was never "should we add AI?" It's "where does AI actually help?"</p>
+
+  <p>AI in a payment flow could genuinely help — by detecting unusual recipients, flagging amounts that look wrong, or catching input errors before they become transfers. That's AI working in the background, making the structured flow safer.</p>
+
+  <p>What it shouldn't do is replace the structure itself.</p>
+
+  <div class="note">Nubank's conversational Pix interface was in limited testing at the time of writing. The observations here reflect a specific trial version and may not represent the final design.</div>
+
+</article>
+
+<section class="back-section">
+  <a href="/articles.html" class="back-link">← Back to Articles</a>
+</section>
+
+<footer>
+  <span>© IC Eight</span>
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/company/ic-eight/">LinkedIn</a>
+    <a href="https://medium.com/@ic-eight">Medium</a>
+  </div>
+</footer>
+
+</body>
+</html>
