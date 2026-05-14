@@ -62,7 +62,7 @@ nav {
 
 /* PAGE HEADER */
 .page-header {
-  padding: 6rem 3rem 3rem;
+  padding: 3rem 3rem 1.5rem;
   max-width: 680px;
 }
 
@@ -555,7 +555,7 @@ tr:last-child td { border-bottom: none; }
 
 /* ARTICLE PAGE */
 .article-header {
-  padding: 3rem 3rem 2rem;
+  padding: 3rem 3rem 1.5rem;
   max-width: 720px;
 }
 
