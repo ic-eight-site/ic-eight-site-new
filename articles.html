@@ -85,35 +85,22 @@
 <!-- IC EIGHT ORIGINALS -->
 <section class="more">
   <p class="section-label">IC Eight Originals</p>
-  <div class="more-list">
-
-    <a href="/articles/japan-saas-sweet-spot.html" class="more-item">
-      <span class="more-tag">Japanese UX</span>
-      <span class="more-title">The SaaS Sweet Spot in Japan Isn't Who You Think</span>
-    </a>
-
-    <a href="/articles/japan-ux-mythology.html" class="more-item">
-      <span class="more-tag">Japanese UX</span>
-      <span class="more-title">Ditch the Poetry</span>
-    </a>
-
-    <a href="/articles/nubank-conversational-ux.html" class="more-item">
-      <span class="more-tag">UX Observation</span>
-      <span class="more-title">Not Everything Needs to Become a Conversation</span>
-    </a>
-
-    <a href="/articles/user-slop.html" class="more-item">
-      <span class="more-tag">AI &amp; Content</span>
-      <span class="more-title">It's Not AI Slop. It's User Slop.</span>
-    </a>
-
-    <a href="/articles/ai-slop-network-hygiene.html" class="more-item">
-      <span class="more-tag">AI &amp; Content</span>
-      <span class="more-title">The Network Hygiene Problem</span>
-    </a>
-
-  </div>
+  <div class="more-list" id="originals-list"></div>
 </section>
+
+<script>
+  fetch('/articles.json')
+    .then(r => r.json())
+    .then(articles => {
+      const list = document.getElementById('originals-list');
+      list.innerHTML = articles.map(a => `
+        <a href="${a.url}" class="more-item">
+          <span class="more-tag">${a.tag}</span>
+          <span class="more-title">${a.title}</span>
+        </a>
+      `).join('');
+    });
+</script>
 
 <div class="divider"></div>
 
