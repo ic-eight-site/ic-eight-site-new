@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The structural case for generating Japanese directly — and where human judgment still belongs.">
+  <link rel="canonical" href="https://ic-eight.com/articles/llm-native-vs-mt.html">
+
+  <meta property="og:title" content="Why We Recommend LLM-Native Content Over Machine Translation — IC Eight">
+  <meta property="og:description" content="The structural case for generating Japanese directly — and where human judgment still belongs.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://ic-eight.com/articles/llm-native-vs-mt.html">
+  <meta property="og:image" content="https://ic-eight.com/og-image.jpg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Why We Recommend LLM-Native Content Over Machine Translation — IC Eight">
+  <meta name="twitter:description" content="The structural case for generating Japanese directly — and where human judgment still belongs.">
+  <meta name="twitter:image" content="https://ic-eight.com/og-image.jpg">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QTS33LQ0MB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-QTS33LQ0MB');
+  </script>
+
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  <link rel="me" href="https://x.com/HelloICEight">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Why We Recommend LLM-Native Content Over Machine Translation",
+    "description": "The structural case for generating Japanese directly — and where human judgment still belongs.",
+    "url": "https://ic-eight.com/articles/llm-native-vs-mt.html",
+    "datePublished": "2026-01-08",
+    "author": {
+      "@type": "Organization",
+      "name": "IC Eight",
+      "url": "https://ic-eight.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "IC Eight",
+      "url": "https://ic-eight.com"
+    }
+  }
+  </script>
+</head>
+<body>
+
+<nav>
+  <a href="/index.html" class="nav-logo">IC Eight</a>
+  <ul class="nav-links">
+    <li><a href="/services.html">How We Work</a></li>
+    <li><a href="/articles.html">Articles</a></li>
+    <li><a href="/faq.html">FAQ</a></li>
+    <li><a href="/about.html">About</a></li>
+    <li><a href="mailto:hello@ic-eight.com">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="article-header">
+  <p class="article-label">Localization Strategy</p>
+  <h1>Why We Recommend LLM-Native Content Over Machine Translation</h1>
+  <p class="article-meta">The structural case for generating Japanese directly — and where human judgment still belongs. · Published 2026</p>
+</div>
+
+<div class="divider"></div>
+
+<article class="article-body">
+
+  <p>Many SaaS companies today are trying to automate localization, reduce cost, and bring more language work in-house. For most teams, that starts with Neural Machine Translation tools such as DeepL or Google Translate. That approach is understandable: NMT is fast, inexpensive, and simple to plug into existing workflows.</p>
+
+  <p>But there's a deeper structural issue that often gets missed: NMT isn't really translating in the traditional sense.</p>
+
+  <h2>What NMT actually does</h2>
+
+  <p>If translation means understanding meaning and intent in Language A, then accurately recreating that meaning in Language B, NMT isn't doing that. It doesn't reason about meaning. It is trained mainly on large collections of English–Japanese sentence pairs, and is optimized to convert English structure into Japanese structure as directly as possible.</p>
+
+  <p>What it doesn't reliably learn is the hierarchy inside the message — what is core meaning, what is supporting context, and what must remain explicit. So when sentences become complex, segmented, or interrupted by formatting, NMT tends to convert form mechanically rather than reconstructing intent.</p>
+
+  <p>This doesn't always produce obviously bad sentences. Quite often, the output looks fluent. The problem is that meaning can shift quietly — and that's a UX risk.</p>
+
+  <h2>Where NMT introduces hidden risk</h2>
+
+  <p>Risk increases when text contains hyperlinks, variables and placeholders, UI-adjacent fragments, line breaks or partial segmentation, dashes and colons, or long and nested sentence structures.</p>
+
+  <p>With simple sentences, NMT often holds up well. But as syntax becomes more complex, systems can drop or duplicate clauses, mis-attach modifiers, compress separate ideas into one, or reorder meaning. The Japanese may still look fine. But unless someone compares source and target line-by-line, it's impossible to know whether the intent truly survived.</p>
+
+  <p>Which means: if you want to control risk, you need human post-editing. And at that point, localization is no longer automated. Human labor is still your real safety net.</p>
+
+  <h2>Why we prefer LLM-native generation</h2>
+
+  <p>If automation is the goal, a more robust approach is to generate the Japanese directly with an LLM — rather than translating sentence-by-sentence. This does not mean that AI replaces translators. It means the workflow changes.</p>
+
+  <p>With LLM-native content, you can make intent explicit, define tone and risk tolerance, reflect UX context, and generate Japanese as Japanese — not English mechanically mapped into Japanese.</p>
+
+  <p>Because LLMs are trained not just on English–Japanese sentence pairs, but also on large volumes of monolingual text — and because they are capable of reasoning-like tasks such as inference and summarization — they are generally better at reconstructing meaning in a natural Japanese structure.</p>
+
+  <p>That doesn't make them magically correct. But it reduces the category of structural failures that MT commonly introduces. Review then becomes what it should be: an exercise in judgment and verification, rather than a constant process of repairing machine-generated output.</p>
+
+  <h2>This isn't about "natural-sounding Japanese"</h2>
+
+  <p>We don't recommend LLM-native content because it sounds nicer. We recommend it because, for automation-driven teams, it is simply safer.</p>
+
+  <p>Safer means fewer silent meaning shifts, fewer trust-eroding lines of copy, less UX friction, and fewer engineering surprises downstream.</p>
+
+  <p>Some content — especially legal or compliance-driven text — still works well with MT followed by specialist review, because completeness and fidelity matter more than reading experience. But for user-facing language where comprehension and confidence directly shape behavior, LLM-first workflows usually create fewer hidden risks than MT-first pipelines.</p>
+
+  <h2>Where do you want the risk to live?</h2>
+
+  <p>Automation will never remove the need for expert oversight. The real question is simply: where do you want the risk to live?</p>
+
+  <p>With MT, risk lives inside the sentence itself — sometimes invisible until a human inspects it. With LLM-native workflows, risk shifts toward human judgment instead: "Does this actually make sense for Japanese users?"</p>
+
+  <p>That is a far healthier — and more scalable — place for UX decisions to live.</p>
+
+  <p>If your goal is to build Japanese product experiences that are both trustworthy and operationally efficient, LLM-native generation isn't just stylistically appealing. It's structurally sound.</p>
+
+</article>
+
+<section class="back-section">
+  <a href="/articles.html" class="back-link">← Back to Articles</a>
+</section>
+
+<footer>
+  <span>© IC Eight</span>
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/company/ic-eight/">LinkedIn</a>
+    <a href="https://medium.com/@ic-eight">Medium</a>
+  </div>
+</footer>
+
+</body>
+</html>
