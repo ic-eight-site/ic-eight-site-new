@@ -240,4 +240,8 @@
     <loc>https://ic-eight.com/articles/fragile-interest-localization.html</loc>
     <priority>0.7</priority>
   </url>
+   <url>
+    <loc>https://ic-eight.com/articles/ai-localization-controlled-generation.html</loc>
+    <priority>0.7</priority>
+  </url>
 </urlset>
