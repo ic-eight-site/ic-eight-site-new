@@ -1,13 +1,58 @@
 [
   {
-  "tag": "Localization Strategy",
-  "title": "The Intent Brief: What Happens Before AI Generates Japanese",
-  "url": "/articles/intent-brief-before-generation.html"
+    "tag": "UX Observation",
+    "title": "Banco Inter's Missing State: A UX Field Note",
+    "url": "/articles/banco-inter-missing-state.html"
   },
   {
-  "tag": "Localization Strategy",
-  "title": "The Four-Layer Workflow: How IC Eight Localizes Without Translating",
-  "url": "/articles/four-layer-workflow-localization.html"
+    "tag": "Japanese UX",
+    "title": "Users Can Buy in English. That Is Not the Point.",
+    "url": "/articles/fragile-interest-localization.html"
+  },
+  {
+    "tag": "Japanese UX",
+    "title": "That Is Not a Language Barrier. That Is a Design Failure.",
+    "url": "/articles/cognitive-load-help-content.html"
+  },
+  {
+    "tag": "Localization Strategy",
+    "title": "\"Translation\" Is No Longer a Useful Word",
+    "url": "/articles/translation-is-not-one-thing.html"
+  },
+  {
+    "tag": "Observation",
+    "title": "Don't Let It Fall",
+    "url": "/articles/peteca-kemari.html"
+  },
+  {
+    "tag": "Localization Strategy",
+    "title": "The Four-Layer Workflow: How IC Eight Localizes Without Translating",
+    "url": "/articles/four-layer-workflow-localization.html"
+  },
+  {
+    "tag": "Localization Strategy",
+    "title": "The Intent Brief: What Happens Before AI Generates Japanese",
+    "url": "/articles/intent-brief-before-generation.html"
+  },
+  {
+    "tag": "Japanese UX",
+    "title": "Localization Is Not What Most SaaS Teams Think It Is",
+    "url": "/articles/localization-is-ux.html"
+  },
+  {
+    "tag": "AI & Content",
+    "title": "The Network Hygiene Problem",
+    "url": "/articles/ai-slop-network-hygiene.html"
+  },
+  {
+    "tag": "AI & Content",
+    "title": "It's Not AI Slop. It's User Slop.",
+    "url": "/articles/user-slop.html"
+  },
+  {
+    "tag": "UX Observation",
+    "title": "Not Everything Needs to Become a Conversation",
+    "url": "/articles/nubank-conversational-ux.html"
   },
   {
     "tag": "Japanese UX",
@@ -20,238 +65,198 @@
     "url": "/articles/japan-ux-mythology.html"
   },
   {
+    "tag": "Observation",
+    "title": "Nobody Asked Me If I Wanted an Upgrade",
+    "url": "/articles/nobody-asked-for-upgrade.html"
+  },
+  {
+    "tag": "Japanese UX",
+    "title": "Japan Doesn't Have Low Demand. Japan Has Invisible Demand.",
+    "url": "/articles/japan-invisible-demand.html"
+  },
+  {
     "tag": "UX Observation",
-    "title": "Not Everything Needs to Become a Conversation",
-    "url": "/articles/nubank-conversational-ux.html"
+    "title": "AI Can Speak Many Languages. Why Does the Microphone Still Ask Me to Choose One?",
+    "url": "/articles/multilingual-microphone-ux.html"
   },
   {
-    "tag": "AI & Content",
-    "title": "It's Not AI Slop. It's User Slop.",
-    "url": "/articles/user-slop.html"
+    "tag": "UX Observation",
+    "title": "In Brazil, the Comprar Button Is Just the Beginning",
+    "url": "/articles/brazil-whatsapp-commerce.html"
   },
   {
-    "tag": "AI & Content",
-    "title": "The Network Hygiene Problem",
-    "url": "/articles/ai-slop-network-hygiene.html"
+    "tag": "Japanese UX",
+    "title": "Japan Is Not a 'Young Market.' It's a 50+ Market.",
+    "url": "/articles/japan-50plus-market.html"
+  },
+  {
+    "tag": "Localization Strategy",
+    "title": "Why You Should Start LATAM Expansion with Brazil, Not Spanish Markets",
+    "url": "/articles/brazil-first-latam.html"
+  },
+  {
+    "tag": "Japanese UX",
+    "title": "LinkedIn Japan Is Not Japan.",
+    "url": "/articles/linkedin-japan-is-not-japan.html"
+  },
+  {
+    "tag": "Japanese UX",
+    "title": "You Can't Translate a Washing Machine Manual",
+    "url": "/articles/washing-machine-manual.html"
+  },
+  {
+    "tag": "UX Observation",
+    "title": "When Pix Works but Your System Doesn't",
+    "url": "/articles/pix-ticketing-system-failure.html"
   },
   {
     "tag": "Observation",
-    "title": "Don't Let It Fall",
-    "url": "/articles/peteca-kemari.html"
+    "title": "Decisions Aren't Made by Systems. They're Made by People.",
+    "url": "/articles/decisions-made-by-people.html"
   },
   {
-  "tag": "Japanese UX",
-  "title": "Localization Is Not What Most SaaS Teams Think It Is",
-  "url": "/articles/localization-is-ux.html"
+    "tag": "UX Observation",
+    "title": "\"It Feels Kinder Than Most People\"",
+    "url": "/articles/ai-companion-seniors.html"
   },
   {
-  "tag": "Japanese UX",
-  "title": "That Is Not a Language Barrier. That Is a Design Failure.",
-  "url": "/articles/cognitive-load-help-content.html"
+    "tag": "Localization Strategy",
+    "title": "English Proficiency ≠ Understanding",
+    "url": "/articles/english-proficiency-vs-understanding.html"
   },
   {
-  "tag": "UX & Design",
-  "title": "Transparency Is Not the Same as Disclosure",
-  "url": "/articles/c2pa-transparency.html"
+    "tag": "AI & Content",
+    "title": "We Don't Trust Humans. We Trust Accountability.",
+    "url": "/articles/trust-accountability.html"
   },
   {
-  "tag": "Japanese UX",
-  "title": "Apple Used to Be a Model of Language. Not Anymore.",
-  "url": "/articles/apple-japanese-copy.html"
+    "tag": "Localization Strategy",
+    "title": "Companies Don't Pay for Judgment. They Pay for Communication.",
+    "url": "/articles/companies-pay-for-communication.html"
   },
   {
-  "tag": "Japanese UX",
-  "title": "What Broken Localization Actually Looks Like",
-  "url": "/articles/gamma-japanese-ux-part1.html"
+    "tag": "Japanese UX",
+    "title": "This Isn't Market Exit. It's Channel Strategy.",
+    "url": "/articles/japan-channel-strategy.html"
   },
   {
-  "tag": "Localization Strategy",
-  "title": "Start Smaller",
-  "url": "/articles/start-smaller.html"
+    "tag": "Localization Strategy",
+    "title": "They Can Afford the Flight. They Just Don't Speak English.",
+    "url": "/articles/brazil-english-proficiency.html"
   },
   {
-  "tag": "AI & Content",
-  "title": "The Line Between Suggestion and Decision",
-  "url": "/articles/line-between-suggestion-and-decision.html"
+    "tag": "Localization Strategy",
+    "title": "Localization Isn't Translation. It's Redesign.",
+    "url": "/articles/localization-is-redesign.html"
   },
   {
-  "tag": "Localization Strategy",
-  "title": "Why AI Translation Will Kill the Vendor Model Before It Kills Translators",
-  "url": "/articles/vendor-model-will-die.html"
+    "tag": "Localization Strategy",
+    "title": "In LATAM, Intent Beats Income",
+    "url": "/articles/intent-beats-income.html"
   },
   {
-  "tag": "Localization Strategy",
-  "title": "Still Chasing \"Natural-Sounding\" Translation?",
-  "url": "/articles/natural-sounding-is-wrong-metric.html"
+    "tag": "Localization Strategy",
+    "title": "In LATAM, an iPhone Isn't a Phone — It's Liquidity",
+    "url": "/articles/iphone-latam-liquidity.html"
   },
   {
-  "tag": "UX Observation",
-  "title": "Why AI Support Still Feels Like an 80s Adventure Game",
-  "url": "/articles/ai-support-ux.html"
+    "tag": "UX Observation",
+    "title": "I Could Afford It. I Just Couldn't Pay.",
+    "url": "/articles/pix-payment-localization.html"
   },
   {
-  "tag": "Observation",
-  "title": "What Makes a Good Begging Sign?",
-  "url": "/articles/begging-sign-ux-value.html"
+    "tag": "Observation",
+    "title": "São Paulo Lost Its Soy Milk. What That Taught Me About Localization.",
+    "url": "/articles/soy-milk-localization.html"
   },
   {
-  "tag": "UX Observation",
-  "title": "Cash Is King — Especially When It's Personal",
-  "url": "/articles/cash-tip-ux.html"
+    "tag": "Localization Strategy",
+    "title": "You Don't Expand for Fairness. You Expand for ROI.",
+    "url": "/articles/expand-for-roi.html"
   },
   {
-  "tag": "UX Observation",
-  "title": "Four Support Layers Later, the Answer Came from ChatGPT",
-  "url": "/articles/banco-inter-ux.html"
+    "tag": "Localization Strategy",
+    "title": "The Smallest Global Rollout That Actually Works",
+    "url": "/articles/smallest-global-rollout.html"
   },
   {
-  "tag": "UX Observation",
-  "title": "When Your Bank Says \"We Miss You\" — After One Week",
-  "url": "/articles/banco-inter-ux-hug.html"
+    "tag": "Localization Strategy",
+    "title": "Skip Europe. Start with LATAM.",
+    "url": "/articles/skip-europe-start-latam.html"
   },
   {
-  "tag": "Japanese UX",
-  "title": "Perfection Isn't What Japanese Customers Really Expect",
-  "url": "/articles/japan-perfection-myth.html"
+    "tag": "Localization Strategy",
+    "title": "Some Things Just Shouldn't Be Localized",
+    "url": "/articles/dont-translate-everything.html"
   },
   {
-  "tag": "Japanese UX",
-  "title": "'Start Advertising' Sounds Like 'Get Your Credit Card Ready.'",
-  "url": "/articles/cta-translation-japan.html"
+    "tag": "Japanese UX",
+    "title": "'Start Advertising' Sounds Like 'Get Your Credit Card Ready.'",
+    "url": "/articles/cta-translation-japan.html"
   },
   {
-  "tag": "Localization Strategy",
-  "title": "Some Things Just Shouldn't Be Localized",
-  "url": "/articles/dont-translate-everything.html"
+    "tag": "Japanese UX",
+    "title": "Perfection Isn't What Japanese Customers Really Expect",
+    "url": "/articles/japan-perfection-myth.html"
   },
   {
-  "tag": "Localization Strategy",
-  "title": "Skip Europe. Start with LATAM.",
-  "url": "/articles/skip-europe-start-latam.html"
+    "tag": "UX Observation",
+    "title": "Why AI Support Still Feels Like an 80s Adventure Game",
+    "url": "/articles/ai-support-ux.html"
   },
   {
-  "tag": "Localization Strategy",
-  "title": "The Smallest Global Rollout That Actually Works",
-  "url": "/articles/smallest-global-rollout.html"
+    "tag": "UX Observation",
+    "title": "When Your Bank Says \"We Miss You\" — After One Week",
+    "url": "/articles/banco-inter-ux-hug.html"
   },
   {
-  "tag": "Localization Strategy",
-  "title": "You Don't Expand for Fairness. You Expand for ROI.",
-  "url": "/articles/expand-for-roi.html"
+    "tag": "UX Observation",
+    "title": "Four Support Layers Later, the Answer Came from ChatGPT",
+    "url": "/articles/banco-inter-ux.html"
   },
   {
-  "tag": "Observation",
-  "title": "São Paulo Lost Its Soy Milk. What That Taught Me About Localization.",
-  "url": "/articles/soy-milk-localization.html"
+    "tag": "UX Observation",
+    "title": "Cash Is King — Especially When It's Personal",
+    "url": "/articles/cash-tip-ux.html"
   },
   {
-  "tag": "UX Observation",
-  "title": "I Could Afford It. I Just Couldn't Pay.",
-  "url": "/articles/pix-payment-localization.html"
+    "tag": "Observation",
+    "title": "What Makes a Good Begging Sign?",
+    "url": "/articles/begging-sign-ux-value.html"
   },
   {
-  "tag": "Localization Strategy",
-  "title": "In LATAM, an iPhone Isn't a Phone — It's Liquidity",
-  "url": "/articles/iphone-latam-liquidity.html"
+    "tag": "Localization Strategy",
+    "title": "Still Chasing \"Natural-Sounding\" Translation?",
+    "url": "/articles/natural-sounding-is-wrong-metric.html"
   },
   {
-  "tag": "Localization Strategy",
-  "title": "In LATAM, Intent Beats Income",
-  "url": "/articles/intent-beats-income.html"
+    "tag": "Localization Strategy",
+    "title": "Start Smaller",
+    "url": "/articles/start-smaller.html"
   },
   {
-  "tag": "Localization Strategy",
-  "title": "Localization Isn't Translation. It's Redesign.",
-  "url": "/articles/localization-is-redesign.html"
+    "tag": "Localization Strategy",
+    "title": "Why AI Translation Will Kill the Vendor Model Before It Kills Translators",
+    "url": "/articles/vendor-model-will-die.html"
   },
   {
-  "tag": "Localization Strategy",
-  "title": "They Can Afford the Flight. They Just Don't Speak English.",
-  "url": "/articles/brazil-english-proficiency.html"
+    "tag": "Japanese UX",
+    "title": "What Broken Localization Actually Looks Like",
+    "url": "/articles/gamma-japanese-ux-part1.html"
   },
   {
-  "tag": "Japanese UX",
-  "title": "This Isn't Market Exit. It's Channel Strategy.",
-  "url": "/articles/japan-channel-strategy.html"
+    "tag": "AI & Content",
+    "title": "The Line Between Suggestion and Decision",
+    "url": "/articles/line-between-suggestion-and-decision.html"
   },
   {
-  "tag": "Localization Strategy",
-  "title": "Companies Don't Pay for Judgment. They Pay for Communication.",
-  "url": "/articles/companies-pay-for-communication.html"
+    "tag": "Japanese UX",
+    "title": "Apple Used to Be a Model of Language. Not Anymore.",
+    "url": "/articles/apple-japanese-copy.html"
   },
   {
-  "tag": "AI & Content",
-  "title": "We Don't Trust Humans. We Trust Accountability.",
-  "url": "/articles/trust-accountability.html"
-  },
-  {
-  "tag": "UX Observation",
-  "title": "\"It Feels Kinder Than Most People\"",
-  "url": "/articles/ai-companion-seniors.html"
-  },
-  {
-  "tag": "Localization Strategy",
-  "title": "English Proficiency ≠ Understanding",
-  "url": "/articles/english-proficiency-vs-understanding.html"
-  },
-  {
-  "tag": "Observation",
-  "title": "Decisions Aren't Made by Systems. They're Made by People.",
-  "url": "/articles/decisions-made-by-people.html"
-  },
-  {
-  "tag": "UX Observation",
-  "title": "When Pix Works but Your System Doesn't",
-  "url": "/articles/pix-ticketing-system-failure.html"
-  },
-  {
-  "tag": "Japanese UX",
-  "title": "You Can't Translate a Washing Machine Manual",
-  "url": "/articles/washing-machine-manual.html"
-  },
-  {
-  "tag": "Japanese UX",
-  "title": "LinkedIn Japan Is Not Japan.",
-  "url": "/articles/linkedin-japan-is-not-japan.html"
-  },
-  {
-  "tag": "Localization Strategy",
-  "title": "Why You Should Start LATAM Expansion with Brazil, Not Spanish Markets",
-  "url": "/articles/brazil-first-latam.html"
-  },
-  {
-  "tag": "Japanese UX",
-  "title": "Japan Is Not a 'Young Market.' It's a 50+ Market.",
-  "url": "/articles/japan-50plus-market.html"
-  },
-  {
-  "tag": "UX Observation",
-  "title": "In Brazil, the Comprar Button Is Just the Beginning",
-  "url": "/articles/brazil-whatsapp-commerce.html"
-  },
-  {
-  "tag": "UX Observation",
-  "title": "AI Can Speak Many Languages. Why Does the Microphone Still Ask Me to Choose One?",
-  "url": "/articles/multilingual-microphone-ux.html"
-  },
-  {
-  "tag": "Japanese UX",
-  "title": "Japan Doesn't Have Low Demand. Japan Has Invisible Demand.",
-  "url": "/articles/japan-invisible-demand.html"
-  },
-  {
-  "tag": "Observation",
-  "title": "Nobody Asked Me If I Wanted an Upgrade",
-  "url": "/articles/nobody-asked-for-upgrade.html"
-  },
-  {
-  "tag": "Japanese UX",
-  "title": "Users Can Buy in English. That Is Not the Point.",
-  "url": "/articles/fragile-interest-localization.html"
-  },
-  {
-  "tag": "Localization Strategy",
-  "title": "\"Translation\" Is No Longer a Useful Word",
-  "url": "/articles/translation-is-not-one-thing.html"
+    "tag": "UX & Design",
+    "title": "Transparency Is Not the Same as Disclosure",
+    "url": "/articles/c2pa-transparency.html"
   }
 ]
