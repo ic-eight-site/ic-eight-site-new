@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A UX review of Banco Inter's app reveals how hidden account states erode user trust — the kind of gap IC Eight finds in Japanese product reviews.">
+  <link rel="canonical" href="https://ic-eight.com/articles/banco-inter-missing-state.html">
+
+  <meta property="og:title" content="Banco Inter's Missing State: A UX Field Note — IC Eight">
+  <meta property="og:description" content="A UX review of Banco Inter's app reveals how hidden account states erode user trust — the kind of gap IC Eight finds in Japanese product reviews.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://ic-eight.com/articles/banco-inter-missing-state.html">
+  <meta property="og:image" content="https://ic-eight.com/og-image.jpg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Banco Inter's Missing State: A UX Field Note — IC Eight">
+  <meta name="twitter:description" content="A UX review of Banco Inter's app reveals how hidden account states erode user trust — the kind of gap IC Eight finds in Japanese product reviews.">
+  <meta name="twitter:image" content="https://ic-eight.com/og-image.jpg">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QTS33LQ0MB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-QTS33LQ0MB');
+  </script>
+
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  <link rel="me" href="https://x.com/HelloICEight">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Banco Inter's Missing State: A UX Field Note",
+    "description": "A UX review of Banco Inter's app reveals how hidden account states erode user trust — the kind of gap IC Eight finds in Japanese product reviews.",
+    "url": "https://ic-eight.com/articles/banco-inter-missing-state.html",
+    "datePublished": "2026-06-17",
+    "author": {
+      "@type": "Organization",
+      "name": "IC Eight",
+      "url": "https://ic-eight.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "IC Eight",
+      "url": "https://ic-eight.com"
+    }
+  }
+  </script>
+</head>
+<body>
+
+<nav>
+  <a href="/index.html" class="nav-logo">IC Eight</a>
+  <ul class="nav-links">
+    <li><a href="/services.html">How We Work</a></li>
+    <li><a href="/articles.html">Articles</a></li>
+    <li><a href="/faq.html">FAQ</a></li>
+    <li><a href="/about.html">About</a></li>
+    <li><a href="mailto:hello@ic-eight.com">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="article-header">
+  <p class="article-label">UX Observation</p>
+  <h1>Banco Inter's Missing State: A UX Field Note</h1>
+  <p class="article-meta">A matured Time Deposit, a button labeled Transfer that opens a Redeem flow, and a state the app never bothered to show. · Published 2026</p>
+</div>
+
+<div class="divider"></div>
+
+<article class="article-body">
+
+  <p>Banco Inter keeps giving me small UX field notes. This time: a USD Time Deposit in Global Account.</p>
+
+  <p>The product matured. Before the maturity date, I received an email saying the money would be deposited in my "global investment platform" by the end of the day. Reasonable expectation: the money will become available by the end of the maturity day.</p>
+
+  <p>So I waited. Through the evening, checking the app now and then, expecting a number to change. Nothing did. I went to bed still expecting it to resolve overnight. It didn't. The next morning, I opened a support chat. The actual answer: it is deposited on D+1.</p>
+
+  <p>That one-day difference matters, but so does the inconsistency. The email said one thing, support said another. In financial UX, "by the end of the day" and "next business day" are not interchangeable, and when the two channels disagree, the user is the one left waiting.</p>
+
+  <p>But the bigger issue came next. On D+1, my Global Account balance still had not changed. The money was not missing. I had assumed I was buying the Time Deposit directly from my Global Account. In practice, the purchase came from what Inter internally calls the Global Investment Account, the investment side of the same relationship. The thing is, that name was not shown where I actually needed it. On screen, it only shows up as "Investimentos," a tab in the bottom navigation, with a balance simply labeled "Total."</p>
+
+  <p>So after maturity, the money did not return to the Global Account balance I had been watching. It returned to that investment side first, visible only as the "Total" on the Investimentos tab, under Carteira, as available balance. The account structure was real, but its name was nowhere to be found.</p>
+
+  <p>To move the money back to Global Account, I had to tap Transferir ("Transfer"). Only then did the app open a Resgatar ("Redeem") flow. That is the UX gap. The user intent was: "I want to redeem my matured Time Deposit back to my Global Account." The visible CTA was Transferir. The actual flow was Resgatar.</p>
+
+  <p>This is not just a labeling detail. "Transfer" and "Redeem" carry different mental models. Transfer suggests moving money away from its current place. Redeem suggests closing a position and bringing the money back to a usable balance. The label made me hesitate. The actual flow was the reassuring one.</p>
+
+  <p>In hindsight, the logic makes sense: it's a transfer between two things I own, the Global Investment Account and the Global Account itself. But that logic was not visible until I tapped Transferir and watched the Resgatar flow open. Only then did it click.</p>
+
+  <p>Good financial UX should not require a support ticket, a help article, or a YouTube tutorial to understand where your own money is. If users need outside help to interpret an in-app action, or to even learn the name of the account holding their funds, the interface has already failed at one of its core jobs: making the system legible.</p>
+
+  <p>A clearer flow could be as simple as: "Your Time Deposit has matured. The funds are now available in your Global Investment Account. To use them in Global Account, redeem them here." CTA: "Resgatar para Global Account." Fee: US$0. Expected availability: immediate or by end of day.</p>
+
+  <p>Financial UX is not only about helping users invest. It is about helping them understand where their money is, what state it is in, and what action is available next.</p>
+
+  <p>The money was safe. The state was missing. And that missing state turned one quiet night of waiting into a support ticket.</p>
+
+  <p>This is the kind of UX gap IC Eight looks for. If your product has a version of this, I'd be happy to take a look.</p>
+
+</article>
+
+<section class="back-section">
+  <a href="/articles.html" class="back-link">← Back to Articles</a>
+</section>
+
+<footer>
+  <span>© IC Eight</span>
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/company/ic-eight/">LinkedIn</a>
+    <a href="https://medium.com/@ic-eight">Medium</a>
+  </div>
+</footer>
+
+</body>
+</html>
