@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The Japan Market Validation Kit — a done-for-you product message adaptation for global tech startups entering Japan. $1,500. 3 startups per month.">
+  <link rel="canonical" href="https://ic-eight.com/kit">
+
+  <meta property="og:title" content="Japan Market Validation Kit — IC Eight">
+  <meta property="og:description" content="Don't translate words. Localize the product experience. A done-for-you adaptation package for global tech startups entering Japan.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ic-eight.com/kit">
+  <meta property="og:image" content="https://ic-eight.com/og-image.jpg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Japan Market Validation Kit — IC Eight">
+  <meta name="twitter:description" content="Don't translate words. Localize the product experience.">
+  <meta name="twitter:image" content="https://ic-eight.com/og-image.jpg">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QTS33LQ0MB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-QTS33LQ0MB');
+  </script>
+
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <title>Japan Market Validation Kit — IC Eight</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    /* Kit-specific styles */
+    .kit-hero {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 5rem 2rem 3rem;
+      text-align: center;
+    }
+    .kit-hero .hero-label {
+      font-size: 0.8rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 1.5rem;
+    }
+    .kit-hero h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.2;
+      margin-bottom: 1.5rem;
+      color: var(--ink);
+    }
+    .kit-hero h1 em {
+      color: var(--accent);
+      font-style: italic;
+    }
+    .kit-hero .hero-sub {
+      font-size: 1.05rem;
+      color: var(--muted);
+      max-width: 540px;
+      margin: 0 auto 2.5rem;
+      line-height: 1.7;
+      text-align: left;
+    }
+    .kit-hero .hero-sub strong {
+      color: var(--ink);
+      font-weight: 500;
+    }
+
+    /* Philosophy section */
+    .kit-section {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 4rem 2rem;
+      border-top: 1px solid var(--rule);
+    }
+    .kit-section .section-label {
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1.2rem;
+    }
+    .kit-section h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(1.4rem, 3vw, 1.9rem);
+      line-height: 1.25;
+      margin-bottom: 1.5rem;
+    }
+    .kit-section p {
+      color: var(--muted);
+      margin-bottom: 1.2rem;
+      line-height: 1.8;
+    }
+    .kit-section p strong {
+      color: var(--ink);
+      font-weight: 500;
+    }
+
+    /* Product box */
+    .kit-box {
+      background: var(--ink);
+      color: var(--paper);
+      border-radius: 4px;
+      padding: 3rem;
+      max-width: 720px;
+      margin: 0 auto 0;
+    }
+    .kit-box .box-label {
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1rem;
+    }
+    .kit-box h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(1.4rem, 3vw, 1.9rem);
+      margin-bottom: 0.5rem;
+      color: var(--paper);
+    }
+    .kit-box .kit-tagline {
+      color: #a8a49e;
+      font-size: 0.95rem;
+      margin-bottom: 2rem;
+    }
+    .kit-price {
+      font-family: 'DM Serif Display', serif;
+      font-size: 2.2rem;
+      color: var(--paper);
+      margin-bottom: 0.4rem;
+    }
+    .kit-price-note {
+      font-size: 0.8rem;
+      color: #a8a49e;
+      margin-bottom: 2.5rem;
+    }
+    .kit-items {
+      list-style: none;
+      margin-bottom: 2.5rem;
+      border-top: 1px solid #2e2e2c;
+    }
+    .kit-items li {
+      padding: 1.2rem 0;
+      border-bottom: 1px solid #2e2e2c;
+    }
+    .kit-items li .item-num {
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.3rem;
+    }
+    .kit-items li .item-title {
+      font-weight: 500;
+      color: var(--paper);
+      margin-bottom: 0.3rem;
+    }
+    .kit-items li .item-desc {
+      font-size: 0.88rem;
+      color: #a8a49e;
+      line-height: 1.6;
+    }
+    .kit-delivery {
+      font-size: 0.85rem;
+      color: #a8a49e;
+      margin-bottom: 2.5rem;
+      padding: 1rem;
+      border: 1px solid #2e2e2c;
+      border-radius: 3px;
+    }
+    .kit-delivery strong {
+      color: var(--paper);
+      font-weight: 500;
+    }
+
+    /* Scarcity */
+    .kit-scarcity {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 3rem 2rem;
+      border-top: 1px solid var(--rule);
+    }
+    .kit-scarcity .section-label {
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1rem;
+      display: block;
+    }
+    .kit-scarcity h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(1.4rem, 3vw, 1.9rem);
+      line-height: 1.25;
+      margin-bottom: 1rem;
+    }
+    .kit-scarcity p {
+      font-size: 0.95rem;
+      color: var(--muted);
+      line-height: 1.7;
+      max-width: 560px;
+    }
+
+    /* CTA */
+    .kit-cta {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 3rem 2rem 6rem;
+      border-top: 1px solid var(--rule);
+    }
+    .kit-cta p {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-bottom: 2rem;
+      line-height: 1.7;
+    }
+    .btn-primary {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      text-decoration: none;
+      padding: 0.9rem 2.2rem;
+      font-size: 0.95rem;
+      font-weight: 500;
+      letter-spacing: 0.03em;
+      border-radius: 3px;
+      transition: opacity 0.15s;
+    }
+    .btn-primary:hover { opacity: 0.88; }
+    .kit-cta .cta-note {
+      font-size: 0.78rem;
+      color: var(--muted);
+      margin-top: 1.2rem;
+    }
+
+    .kit-wrap {
+      padding: 0 2rem;
+    }
+
+    @media (max-width: 600px) {
+      .kit-box { padding: 2rem 1.5rem; }
+      .kit-scarcity { flex-direction: column; gap: 1rem; }
+      .scarcity-num { font-size: 2.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nav-logo">IC Eight</a>
+  <ul class="nav-links">
+    <li><a href="/services.html">How We Work</a></li>
+    <li><a href="/articles.html">Articles</a></li>
+    <li><a href="/faq.html">FAQ</a></li>
+    <li><a href="/about.html">About</a></li>
+    <li><a href="mailto:hello@ic-eight.com">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="kit-hero">
+  <p class="hero-label">Japan Market Validation Kit</p>
+  <h1>Don't translate words.<br><em>Localize the product experience.</em></h1>
+  <p class="hero-sub">
+    Modern AI apps don't come with piles of documentation to translate.
+    They run on <strong>minimal UI, lightweight loops, and the first few seconds of user trust.</strong>
+    <br><br>
+    We rebuild your core product message to pass the Japanese vibe check
+    and guide users through their first 30 seconds.
+    No old-school translation agency. No fully automated AI garbage.
+  </p>
+</section>
+
+<div class="divider"></div>
+
+<!-- PHILOSOPHY -->
+<section class="kit-section">
+  <p class="section-label">The Core Philosophy</p>
+  <h2>Why Translation Is the Wrong Frame for Modern Apps</h2>
+  <p>
+    DeepL already does the old job: turning one language into another.
+  </p>
+  <p>
+    Modern apps need a different question: <strong>what should this product say, show, and explain in Japan</strong>
+    so users understand it, trust it, and know what to do next?
+  </p>
+  <p>
+    That is a product experience problem, not a translation problem.
+  </p>
+</section>
+
+<div class="divider"></div>
+
+<!-- PRODUCT BOX -->
+<div class="kit-wrap">
+  <div class="kit-box">
+    <p class="box-label">The Product</p>
+    <h2>Japan Market Validation Kit</h2>
+    <p class="kit-tagline">A done-for-you product message adaptation for global tech startups entering Japan.</p>
+
+    <div class="kit-price">$1,500</div>
+    <p class="kit-price-note">One-time payment. Simple, transparent pricing. No fake discounts. No hidden fees.</p>
+
+    <ul class="kit-items">
+      <li>
+        <p class="item-num">01 — Core Japan-Facing Page</p>
+        <p class="item-title">Your main gateway into the Japan market.</p>
+        <p class="item-desc">Choose one: a landing page, product page, or app store presentation. We adapt your core value proposition into natural Japanese UX copy while preserving the original content, brand intent, and user flow.</p>
+      </li>
+      <li>
+        <p class="item-num">02 — Next-Step Asset</p>
+        <p class="item-title">One focused asset that supports what comes after.</p>
+        <p class="item-desc">Depending on the product, this may be a signup explanation, beta access page, waitlist page, pricing note, onboarding overview, or short "how it works" page. One asset only, chosen to match the market test.</p>
+      </li>
+      <li>
+        <p class="item-num">03 — Decision Support Asset</p>
+        <p class="item-title">A concise asset that helps stakeholders understand your product fast.</p>
+        <p class="item-desc">Depending on the product, this may be a one-page product brief, FAQ, comparison table, or internal summary — for Japanese users, buyers, or internal teams.</p>
+      </li>
+    </ul>
+
+    <div class="kit-delivery">
+      <strong>Delivery format</strong><br>
+      Editable Japanese UX copy mapped to your existing page or asset structure. Design and implementation are not included.
+    </div>
+  </div>
+</div>
+
+<!-- SCARCITY -->
+<section class="kit-scarcity">
+  <span class="section-label">Limited Availability</span>
+  <h2>3 Startups Per Month.</h2>
+  <p>
+    Each kit requires focused market judgment and final human review.
+    We only take 3 startups per month to keep the output specific, coherent, and useful.
+  </p>
+</section>
+
+<div class="divider"></div>
+
+<!-- CTA -->
+<section class="kit-cta">
+  <p>
+    Tell us what you want to test in Japan.<br>
+    The next page asks four short questions about your product, audience, Japan goal, and brand vibe.<br>
+    We review every application before accepting payment and will get back to you within 24 hours.
+  </p>
+  <a href="/kit-apply.html" class="btn-primary">
+    Start Your Market Validation →
+  </a>
+  <p class="cta-note">We review every application. No payment until we confirm fit.</p>
+</section>
+
+<footer>
+  <span>© IC Eight</span>
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/company/ic-eight/">LinkedIn</a>
+    <a href="https://medium.com/@ic-eight">Medium</a>
+  </div>
+</footer>
+
+</body>
+</html>
