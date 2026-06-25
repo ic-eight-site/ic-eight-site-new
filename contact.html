@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Get in touch with IC Eight — Japanese UX Localization for global tech startups.">
+  <link rel="canonical" href="https://ic-eight.com/contact">
+
+  <meta property="og:title" content="Contact — IC Eight">
+  <meta property="og:description" content="Get in touch with IC Eight.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ic-eight.com/contact">
+  <meta property="og:image" content="https://ic-eight.com/og-image.jpg">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QTS33LQ0MB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-QTS33LQ0MB');
+  </script>
+
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <title>Contact — IC Eight</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .contact-wrap {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 4rem 2rem 6rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: start;
+    }
+    .contact-header .section-label {
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1rem;
+      display: block;
+    }
+    .contact-header h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(1.8rem, 4vw, 2.4rem);
+      line-height: 1.2;
+      margin-bottom: 1.5rem;
+    }
+    .contact-header p {
+      color: var(--muted);
+      font-size: 0.95rem;
+      line-height: 1.8;
+      margin-bottom: 1.5rem;
+    }
+    .contact-email {
+      font-size: 0.85rem;
+      color: var(--muted);
+      border-top: 1px solid var(--rule);
+      padding-top: 1.5rem;
+    }
+    .contact-email a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    .contact-email a:hover {
+      text-decoration: underline;
+    }
+
+    /* Form */
+    .contact-form .field {
+      margin-bottom: 1.5rem;
+    }
+    .contact-form label {
+      display: block;
+      font-size: 0.78rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0.4rem;
+    }
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form select,
+    .contact-form textarea {
+      width: 100%;
+      background: #fff;
+      border: 1px solid var(--rule);
+      border-radius: 3px;
+      padding: 0.7rem 0.9rem;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.95rem;
+      font-weight: 300;
+      color: var(--ink);
+      line-height: 1.6;
+      transition: border-color 0.15s;
+      appearance: none;
+    }
+    .contact-form select {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%237a7670' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 0.9rem center;
+      padding-right: 2.5rem;
+      cursor: pointer;
+    }
+    .contact-form input:focus,
+    .contact-form select:focus,
+    .contact-form textarea:focus {
+      outline: none;
+      border-color: var(--accent);
+    }
+    .contact-form textarea {
+      resize: vertical;
+      min-height: 120px;
+    }
+    .btn-primary {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      padding: 0.9rem 2.2rem;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.95rem;
+      font-weight: 500;
+      letter-spacing: 0.03em;
+      border-radius: 3px;
+      transition: opacity 0.15s;
+      margin-top: 0.5rem;
+    }
+    .btn-primary:hover { opacity: 0.88; }
+
+    @media (max-width: 600px) {
+      .contact-wrap {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nav-logo">IC Eight</a>
+  <ul class="nav-links">
+    <li><a href="/services.html">How We Work</a></li>
+    <li><a href="/articles.html">Articles</a></li>
+    <li><a href="/faq.html">FAQ</a></li>
+    <li><a href="/about.html">About</a></li>
+    <li><a href="/contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="contact-wrap">
+
+  <div class="contact-header">
+    <span class="section-label">Contact</span>
+    <h1>Let's talk about your product.</h1>
+    <p>Not sure where to start? Just tell us what you're working on and where you want to take it. We'll take it from there.</p>
+    <p>Looking for a defined starting point? <a href="/kit.html" style="color: var(--accent); text-decoration: none;">Explore the Japan Market Validation Kit →</a></p>
+    <div class="contact-email">
+      Or email us directly at <a href="mailto:hello@ic-eight.com">hello@ic-eight.com</a>
+    </div>
+  </div>
+
+  <form class="contact-form" action="https://formspree.io/f/mrewewvp" method="POST">
+    <input type="hidden" name="_next" value="https://ic-eight.com/contact-thanks" />
+
+    <div class="field">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your name" required />
+    </div>
+
+    <div class="field">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="your@email.com" required />
+    </div>
+
+    <div class="field">
+      <label for="source">How did you find IC Eight?</label>
+      <select id="source" name="source" required>
+        <option value="" disabled selected>Select one</option>
+        <option value="Google search">Google search</option>
+        <option value="LinkedIn">LinkedIn</option>
+        <option value="Product Hunt">Product Hunt</option>
+        <option value="Referred by someone">Referred by someone</option>
+        <option value="Medium / article">Medium / article</option>
+        <option value="Other">Other</option>
+      </select>
+    </div>
+
+    <div class="field">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Tell us about your product and what you're trying to do in Japan." required></textarea>
+    </div>
+
+    <button type="submit" class="btn-primary">Send →</button>
+  </form>
+
+</div>
+
+<footer>
+  <span>© IC Eight</span>
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/company/ic-eight/">LinkedIn</a>
+    <a href="https://medium.com/@ic-eight">Medium</a>
+  </div>
+</footer>
+
+</body>
+</html>
