@@ -1,5 +1,11 @@
 [
   {
+    "tag": "Localization Strategy",
+    "title": "Localization Is Not the Transfer of Text",
+    "url": "/articles/localization-design-not-transfer.html",
+    "featured": true
+  },
+  {
     "tag": "AI & Content",
     "title": "A Lot of Productivity Tools Still Assume a Human Is Doing the Manual Work",
     "url": "/articles/productivity-tools-manual-work.html"
