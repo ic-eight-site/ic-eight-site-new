@@ -6,31 +6,6 @@
     "featured": true
   },
   {
-    "tag": "Localization Strategy",
-    "title": "AI Localization Fails When We Judge It as Translation",
-    "url": "/articles/ai-localization-controlled-generation.html"
-  },
-  {
-    "tag": "Thinking",
-    "title": "\"Human Translation Is the Degraded Version of AI Translation.\"",
-    "url": "/articles/designing-meaning.html"
-  },
-  {
-    "tag": "Localization Strategy",
-    "title": "AI Isn't Making Translation Faster. It's Making It Optional.",
-    "url": "/articles/translation-is-optional.html"
-  },
-  {
-    "tag": "Thinking",
-    "title": "Still Assuming \"Human = Quality\"?",
-    "url": "/articles/human-equals-quality.html"
-  },
-  {
-    "tag": "Japanese UX",
-    "title": "When a \"Localized\" Product Still Feels Unlocalized",
-    "url": "/gamma-analysis.html"
-  },
-  {
     "tag": "AI & Content",
     "title": "A Lot of Productivity Tools Still Assume a Human Is Doing the Manual Work",
     "url": "/articles/productivity-tools-manual-work.html"
@@ -74,6 +49,11 @@
     "tag": "Japanese UX",
     "title": "Localization Is Not What Most SaaS Teams Think It Is",
     "url": "/articles/localization-is-ux.html"
+  },
+  {
+    "tag": "Localization Strategy",
+    "title": "AI Localization Fails When We Judge It as Translation",
+    "url": "/articles/ai-localization-controlled-generation.html"
   },
   {
     "tag": "AI & Content",
@@ -231,6 +211,11 @@
     "url": "/articles/cta-translation-japan.html"
   },
   {
+    "tag": "Thinking",
+    "title": "Still Assuming \"Human = Quality\"?",
+    "url": "/articles/human-equals-quality.html"
+  },
+  {
     "tag": "Japanese UX",
     "title": "Perfection Isn't What Japanese Customers Really Expect",
     "url": "/articles/japan-perfection-myth.html"
@@ -239,6 +224,16 @@
     "tag": "UX Observation",
     "title": "Why AI Support Still Feels Like an 80s Adventure Game",
     "url": "/articles/ai-support-ux.html"
+  },
+  {
+    "tag": "Localization Strategy",
+    "title": "AI Isn't Making Translation Faster. It's Making It Optional.",
+    "url": "/articles/translation-is-optional.html"
+  },
+  {
+    "tag": "Thinking",
+    "title": "\"Human Translation Is the Degraded Version of AI Translation.\"",
+    "url": "/articles/designing-meaning.html"
   },
   {
     "tag": "UX Observation",
@@ -274,6 +269,11 @@
     "tag": "Localization Strategy",
     "title": "Why AI Translation Will Kill the Vendor Model Before It Kills Translators",
     "url": "/articles/vendor-model-will-die.html"
+  },
+  {
+    "tag": "Japanese UX",
+    "title": "When a \"Localized\" Product Still Feels Unlocalized",
+    "url": "/gamma-analysis.html"
   },
   {
     "tag": "Japanese UX",
