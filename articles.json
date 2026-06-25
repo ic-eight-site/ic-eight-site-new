@@ -6,6 +6,31 @@
     "featured": true
   },
   {
+    "tag": "Localization Strategy",
+    "title": "AI Localization Fails When We Judge It as Translation",
+    "url": "/articles/ai-localization-controlled-generation.html"
+  },
+  {
+    "tag": "Thinking",
+    "title": "\"Human Translation Is the Degraded Version of AI Translation.\"",
+    "url": "/articles/designing-meaning.html"
+  },
+  {
+    "tag": "Localization Strategy",
+    "title": "AI Isn't Making Translation Faster. It's Making It Optional.",
+    "url": "/articles/translation-is-optional.html"
+  },
+  {
+    "tag": "Thinking",
+    "title": "Still Assuming \"Human = Quality\"?",
+    "url": "/articles/human-equals-quality.html"
+  },
+  {
+    "tag": "Japanese UX",
+    "title": "When a \"Localized\" Product Still Feels Unlocalized",
+    "url": "/gamma-analysis.html"
+  },
+  {
     "tag": "AI & Content",
     "title": "A Lot of Productivity Tools Still Assume a Human Is Doing the Manual Work",
     "url": "/articles/productivity-tools-manual-work.html"
