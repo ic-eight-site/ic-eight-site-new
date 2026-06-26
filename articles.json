@@ -1,12 +1,6 @@
 [
   {
     "tag": "Localization Strategy",
-    "title": "Localization Is Not the Transfer of Text",
-    "url": "/articles/localization-design-not-transfer.html",
-    "featured": true
-  },
-  {
-    "tag": "Localization Strategy",
     "title": "Translation Can Support ROI. But Only When the Output Actually Performs.",
     "url": "/articles/translation-roi-performance.html"
   },
@@ -41,6 +35,12 @@
     "url": "/articles/only-299-price-framing.html"
   },
   {
+    "tag": "Localization Strategy",
+    "title": "Localization Is Not the Transfer of Text",
+    "url": "/articles/localization-design-not-transfer.html",
+    "featured": true
+  },
+  {
     "tag": "AI & Content",
     "title": "A Lot of Productivity Tools Still Assume a Human Is Doing the Manual Work",
     "url": "/articles/productivity-tools-manual-work.html"
@@ -54,6 +54,11 @@
     "tag": "Japanese UX",
     "title": "Users Can Buy in English. That Is Not the Point.",
     "url": "/articles/fragile-interest-localization.html"
+  },
+  {
+    "tag": "UX & Design",
+    "title": "Transparency Is Not the Same as Disclosure",
+    "url": "/articles/c2pa-transparency.html"
   },
   {
     "tag": "Japanese UX",
@@ -86,14 +91,14 @@
     "url": "/articles/localization-is-ux.html"
   },
   {
-    "tag": "Localization Strategy",
-    "title": "AI Localization Fails When We Judge It as Translation",
-    "url": "/articles/ai-localization-controlled-generation.html"
-  },
-  {
     "tag": "AI & Content",
     "title": "The Network Hygiene Problem",
     "url": "/articles/ai-slop-network-hygiene.html"
+  },
+  {
+    "tag": "Localization Strategy",
+    "title": "AI Localization Fails When We Judge It as Translation",
+    "url": "/articles/ai-localization-controlled-generation.html"
   },
   {
     "tag": "AI & Content",
@@ -266,14 +271,14 @@
     "url": "/articles/translation-is-optional.html"
   },
   {
-    "tag": "Thinking",
-    "title": "\"Human Translation Is the Degraded Version of AI Translation.\"",
-    "url": "/articles/designing-meaning.html"
-  },
-  {
     "tag": "UX Observation",
     "title": "When Your Bank Says \"We Miss You\" — After One Week",
     "url": "/articles/banco-inter-ux-hug.html"
+  },
+  {
+    "tag": "Thinking",
+    "title": "\"Human Translation Is the Degraded Version of AI Translation.\"",
+    "url": "/articles/designing-meaning.html"
   },
   {
     "tag": "UX Observation",
@@ -307,11 +312,6 @@
   },
   {
     "tag": "Japanese UX",
-    "title": "When a \"Localized\" Product Still Feels Unlocalized",
-    "url": "/gamma-analysis.html"
-  },
-  {
-    "tag": "Japanese UX",
     "title": "What Broken Localization Actually Looks Like",
     "url": "/articles/gamma-japanese-ux-part1.html"
   },
@@ -326,8 +326,8 @@
     "url": "/articles/apple-japanese-copy.html"
   },
   {
-    "tag": "UX & Design",
-    "title": "Transparency Is Not the Same as Disclosure",
-    "url": "/articles/c2pa-transparency.html"
+    "tag": "Japanese UX",
+    "title": "When a \"Localized\" Product Still Feels Unlocalized",
+    "url": "/gamma-analysis.html"
   }
 ]
