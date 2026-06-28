@@ -339,5 +339,15 @@
     "tag": "Japanese UX",
     "title": "When a \"Localized\" Product Still Feels Unlocalized",
     "url": "/gamma-analysis.html"
+  },
+  {
+    "tag": "AI & Content",
+    "title": "Why We Recommend LLM-Native Content Over Machine Translation",
+    "url": "/articles/llm-native-vs-mt.html"
+  },
+  {
+    "tag": "Localization Strategy",
+    "title": "Why We Should Stop Translating — and Start Writing",
+    "url": "/articles/stop-translating-start-writing.html"
   }
 ]
