@@ -291,6 +291,11 @@
     "url": "/articles/designing-meaning.html"
   },
   {
+    "tag": "AI & Content",
+    "title": "Why We Recommend LLM-Native Content Over Machine Translation",
+    "url": "/articles/llm-native-vs-mt.html"
+  },
+  {
     "tag": "UX Observation",
     "title": "Four Support Layers Later, the Answer Came from ChatGPT",
     "url": "/articles/banco-inter-ux.html"
@@ -299,6 +304,11 @@
     "tag": "UX Observation",
     "title": "Cash Is King — Especially When It's Personal",
     "url": "/articles/cash-tip-ux.html"
+  },
+  {
+    "tag": "Localization Strategy",
+    "title": "Why We Should Stop Translating — and Start Writing",
+    "url": "/articles/stop-translating-start-writing.html"
   },
   {
     "tag": "Observation",
@@ -339,15 +349,5 @@
     "tag": "Japanese UX",
     "title": "When a \"Localized\" Product Still Feels Unlocalized",
     "url": "/gamma-analysis.html"
-  },
-  {
-    "tag": "AI & Content",
-    "title": "Why We Recommend LLM-Native Content Over Machine Translation",
-    "url": "/articles/llm-native-vs-mt.html"
-  },
-  {
-    "tag": "Localization Strategy",
-    "title": "Why We Should Stop Translating — and Start Writing",
-    "url": "/articles/stop-translating-start-writing.html"
   }
 ]
