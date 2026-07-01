@@ -123,7 +123,7 @@
 
   <p>AI-Native Localization Design is IC Eight's approach to localization: designing a system for generating Japanese UX and content from intent, product context, constraints, validation criteria, and human judgment — rather than translating source text sentence by sentence.</p>
 
-  <p>It starts from three questions: What does the Japanese user need to understand here? What do they need to trust? What do they need to do next? The answers to those questions — not the English source — drive what gets generated.</p>
+  <p>That intent — what the content needs to accomplish — is what drives generation. Not the English source. The intent determines what gets written, in what order, and at what level of detail.</p>
 
   <p>In practice, this means designing the inputs, constraints, evaluation criteria, feedback loops, and human judgment points that allow AI to generate Japanese UX reliably. The source content can inform that process. But it does not control the structure, order, tone, or level of explanation in Japanese.</p>
 
@@ -153,11 +153,11 @@
 
   <p>Translation starts with source text and asks: how should this be expressed in Japanese?</p>
 
-  <p>Intent-Based Generation starts with user intent and asks: what does the Japanese user need to understand, trust, and do here?</p>
+  <p>Intent-Based Generation starts with the content's intent and asks: what does this content need to make the Japanese user understand, trust, and do?</p>
 
   <p>The difference is not stylistic. It changes what gets written. Information order may shift. Explanations may become more explicit. CTAs may be softened. Support guidance may be restructured. Trust signals may be added where the English source assumed they were unnecessary. Onboarding explanations may expand where Japanese users need more context to act confidently.</p>
 
-  <p>Translation carries the structure of the source. Intent-Based Generation starts from the user.</p>
+  <p>Translation carries the structure of the source. Intent-Based Generation starts from what the content is there to accomplish.</p>
 
   <h2>How the Four-Layer Workflow implements this</h2>
 
@@ -166,7 +166,7 @@
   <p>The four layers are:</p>
 
   <ul>
-    <li><strong>Intent</strong> — Define what the Japanese user needs to understand, trust, and do. A human reviews and confirms the intent brief before anything is generated.</li>
+    <li><strong>Intent</strong> — Define what this content needs to accomplish. A human reviews and confirms the intent brief before anything is generated.</li>
     <li><strong>Generation</strong> — AI generates Japanese UX and content from the confirmed intent brief, not from source text.</li>
     <li><strong>Evaluation</strong> — A second AI instance evaluates the output against the intent brief: is the intent intact? Are the trust signals present? Does the CTA drive action?</li>
     <li><strong>Judgment</strong> — A human reviews the evaluation and decides what to keep, fix, cut, or regenerate.</li>
@@ -225,3 +225,4 @@
 
 </body>
 </html>
+
