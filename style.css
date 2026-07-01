@@ -552,6 +552,10 @@ tr:last-child td { border-bottom: none; }
 
 .faq-a a { color: var(--accent); text-decoration: none; }
 .faq-a a:hover { text-decoration: underline; }
+.article-body a { color: var(--accent); text-decoration: none; }
+.article-body a:hover { text-decoration: underline; }
+.section a { color: var(--accent); text-decoration: none; }
+.section a:hover { text-decoration: underline; }
 
 /* ARTICLE PAGE */
 .article-header {
