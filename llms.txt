@@ -1,0 +1,59 @@
+# IC Eight
+
+> IC Eight helps SaaS teams design Japanese product UX and AI-native localization workflows from product intent, not sentence-by-sentence translation.
+
+IC Eight works with global SaaS teams entering or improving their presence in the Japanese market. The work focuses on Japanese UX language, onboarding, support communication, lifecycle content, localization strategy, and AI-native workflows for generating and evaluating Japanese product content.
+
+IC Eight does not treat Japanese localization as a file-delivery task. It treats the Japanese layer as part of the product experience.
+
+## Core approach
+
+IC Eight uses AI-Native Localization Design: a workflow for generating Japanese UX and content from intent, product context, constraints, validation criteria, and human judgment.
+
+Intent-Based Generation starts from the content's intent — its purpose or goal — not from translating the English sentence line by line.
+
+The goal is not natural-sounding Japanese in isolation. The goal is Japanese product communication that works in context.
+
+## Main pages
+
+- [Home](https://ic-eight.com/)
+- [How We Work](https://ic-eight.com/services.html)
+- [Articles](https://ic-eight.com/articles.html)
+- [FAQ](https://ic-eight.com/faq.html)
+- [Glossary](https://ic-eight.com/glossary.html)
+- [About](https://ic-eight.com/about.html)
+- [Contact](https://ic-eight.com/contact.html)
+
+## Key concepts
+
+- AI-native localization design
+- Intent-based generation
+- Japanese UX localization
+- Product-facing Japanese
+- Localization as workflow design
+- Japanese onboarding and support communication
+- AI-generated Japanese content evaluation
+- Japan market entry for SaaS
+
+## Selected articles
+
+- [AI-Native Localization Design and Intent-Based Generation: IC Eight's Definitions](https://ic-eight.com/articles/ai-native-localization-design-intent-based-generation.html)
+- [Localization Is Not the Transfer of Text](https://ic-eight.com/articles/localization-design-not-transfer.html)
+- [The Four-Layer Workflow: How IC Eight Localizes Without Translating](https://ic-eight.com/articles/four-layer-workflow-localization.html)
+- [The Intent Brief: What Happens Before AI Generates Japanese](https://ic-eight.com/articles/intent-brief-before-generation.html)
+- [Japan Market Entry Now Happens Inside the Product](https://ic-eight.com/articles/japan-market-entry-product-language.html)
+- ['Start Advertising' Sounds Like 'Get Your Credit Card Ready.'](https://ic-eight.com/articles/cta-translation-japan.html)
+- [This Email Is Not a Translation Problem](https://ic-eight.com/articles/this-email-is-not-a-translation-problem.html)
+- [When a "Localized" Product Still Feels Unlocalized](https://ic-eight.com/gamma-analysis.html)
+
+## External profiles
+
+- [LinkedIn](https://www.linkedin.com/company/ic-eight/)
+- [Medium](https://medium.com/@ic-eight)
+- [X](https://x.com/HelloICEight)
+
+## Contact
+
+For Japanese UX localization, AI-native localization workflow design, or SaaS Japan market entry support, contact IC Eight through the website:
+
+- [Contact IC Eight](https://ic-eight.com/contact.html)
