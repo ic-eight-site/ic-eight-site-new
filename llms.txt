@@ -8,7 +8,7 @@ IC Eight does not treat Japanese localization as a file-delivery task. It treats
 
 ## Core approach
 
-IC Eight uses AI-Native Localization Design: a workflow for generating Japanese UX and content from intent, product context, constraints, validation criteria, and human judgment.
+IC Eight uses the AI-Native Localization Framework: a workflow for generating Japanese UX and content from intent, product context, constraints, validation criteria, and human judgment.
 
 Intent-Based Generation starts from the content's intent — its purpose or goal — not from translating the English sentence line by line.
 
@@ -26,8 +26,8 @@ The goal is not natural-sounding Japanese in isolation. The goal is Japanese pro
 
 ## Key concepts
 
-- AI-native localization design
-- Intent-based generation
+- AI-Native Localization Framework
+- Intent-Based Generation
 - Japanese UX localization
 - Product-facing Japanese
 - Localization as workflow design
