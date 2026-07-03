@@ -1,6 +1,11 @@
 [
   {
     "tag": "Localization Strategy",
+    "title": "Intent-Based Design: The Principle Behind IC Eight's Localization Framework",
+    "url": "/articles/intent-based-design.html"
+  },
+  {
+    "tag": "Localization Strategy",
     "title": "This Email Is Not a Translation Problem",
     "url": "/articles/this-email-is-not-a-translation-problem.html"
   },
