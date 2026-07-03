@@ -14,6 +14,8 @@ Intent-Based Generation starts from the content's intent — its purpose or goal
 
 The goal is not natural-sounding Japanese in isolation. The goal is Japanese product communication that works in context.
 
+This is different from "AI localization" in the common sense (using AI to automate and speed up translation at scale). AI-Native Localization Framework does not automate translation — it replaces the translation step itself, generating the target language from intent rather than translating source text.
+
 ## Main pages
 
 - [Home](https://ic-eight.com/)
