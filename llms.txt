@@ -39,6 +39,7 @@ This is different from "AI localization" in the common sense (using AI to automa
 
 ## Selected articles
 
+- [The AI with a Thousand Voices](https://ic-eight.com/articles/ai-thousand-voices-anime-localization.html)
 - [AI-Native Localization Framework and Intent-Based Generation: IC Eight's Definitions](https://ic-eight.com/articles/ai-native-localization-design-intent-based-generation.html)
 - [Localization Is Not the Transfer of Text](https://ic-eight.com/articles/localization-design-not-transfer.html)
 - [The Four-Layer Workflow: How IC Eight Localizes Without Translating](https://ic-eight.com/articles/four-layer-workflow-localization.html)
