@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>IC Eight — Articles</title>
+  <link>https://ic-eight.com/articles.html</link>
+  <description>Writing on language design, Japanese UX, and what it takes to build products that work across markets.</description>
+  <language>en-us</language>
+  <lastBuildDate>Wed, 22 Jul 2026 23:47:13 +0000</lastBuildDate>
+  <item>
+    <title>Creativity Has Never Lived Inside an Isolated Mind</title>
+    <link>https://ic-eight.com/articles/creativity-never-isolated-mind.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/creativity-never-isolated-mind.html</guid>
+    <pubDate>Mon, 13 Jul 2026 12:00:00 +0000</pubDate>
+    <category>Observation</category>
+  </item>
+  <item>
+    <title>"Generic" Is an Aesthetic Judgment. Market Value Is a Different Question.</title>
+    <link>https://ic-eight.com/articles/generic-is-aesthetic-market-value-is-different.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/generic-is-aesthetic-market-value-is-different.html</guid>
+    <pubDate>Mon, 13 Jul 2026 12:00:00 +0000</pubDate>
+    <category>Observation</category>
+  </item>
+  <item>
+    <title>"AI-Native" Localization, or Just an Automated Vendor Chain?</title>
+    <link>https://ic-eight.com/articles/ai-native-or-automated-vendor-chain.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/ai-native-or-automated-vendor-chain.html</guid>
+    <pubDate>Mon, 13 Jul 2026 12:00:00 +0000</pubDate>
+    <category>Observation</category>
+  </item>
+  <item>
+    <title>The AI with a Thousand Voices</title>
+    <link>https://ic-eight.com/articles/ai-thousand-voices-anime-localization.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/ai-thousand-voices-anime-localization.html</guid>
+    <pubDate>Fri, 10 Jul 2026 12:00:00 +0000</pubDate>
+    <category>AI &amp; Content</category>
+  </item>
+  <item>
+    <title>"Translate This" Was Never Actually the Request</title>
+    <link>https://ic-eight.com/articles/not-a-translation-request.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/not-a-translation-request.html</guid>
+    <pubDate>Mon, 06 Jul 2026 12:00:00 +0000</pubDate>
+    <category>Localization Strategy</category>
+  </item>
+  <item>
+    <title>AI Is a Shapeshifter, But Not a Wild One</title>
+    <link>https://ic-eight.com/articles/ai-shapeshifter-not-wild.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/ai-shapeshifter-not-wild.html</guid>
+    <pubDate>Mon, 06 Jul 2026 12:00:00 +0000</pubDate>
+    <category>Observation</category>
+  </item>
+  <item>
+    <title>We Used to Write Magic Blueprints. Now We Can Start With a Wish.</title>
+    <link>https://ic-eight.com/articles/magic-blueprint-to-wish.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/magic-blueprint-to-wish.html</guid>
+    <pubDate>Mon, 06 Jul 2026 12:00:00 +0000</pubDate>
+    <category>Observation</category>
+  </item>
+  <item>
+    <title>What Makes People Come Back to an AI Feature</title>
+    <link>https://ic-eight.com/articles/ai-feature-retention.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/ai-feature-retention.html</guid>
+    <pubDate>Sun, 05 Jul 2026 12:00:00 +0000</pubDate>
+    <category>AI &amp; Content</category>
+  </item>
+  <item>
+    <title>This Email Is Not a Translation Problem</title>
+    <link>https://ic-eight.com/articles/this-email-is-not-a-translation-problem.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/this-email-is-not-a-translation-problem.html</guid>
+    <pubDate>Thu, 02 Jul 2026 12:00:00 +0000</pubDate>
+    <category>Localization Strategy</category>
+  </item>
+  <item>
+    <title>AI Slop Has a Blind Spot, and It's Visual</title>
+    <link>https://ic-eight.com/articles/ai-slop-blind-spot.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/ai-slop-blind-spot.html</guid>
+    <pubDate>Wed, 01 Jul 2026 12:00:00 +0000</pubDate>
+    <category>AI &amp; Content</category>
+  </item>
+  <item>
+    <title>AI-Native Localization Framework and Intent-Based Generation: IC Eight's Definitions</title>
+    <link>https://ic-eight.com/articles/ai-native-localization-design-intent-based-generation.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/ai-native-localization-design-intent-based-generation.html</guid>
+    <pubDate>Wed, 01 Jul 2026 12:00:00 +0000</pubDate>
+    <category>Localization Strategy</category>
+  </item>
+  <item>
+    <title>Why Subway's Self-Ordering Kiosks Make Sense in Japan</title>
+    <link>https://ic-eight.com/articles/subway-kiosk-japan-ux.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/subway-kiosk-japan-ux.html</guid>
+    <pubDate>Sun, 28 Jun 2026 12:00:00 +0000</pubDate>
+    <category>UX Observation</category>
+  </item>
+  <item>
+    <title>AI Can Translate Discovery. It Cannot Localize Trust.</title>
+    <link>https://ic-eight.com/articles/ai-discovery-trust.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/ai-discovery-trust.html</guid>
+    <pubDate>Sun, 28 Jun 2026 12:00:00 +0000</pubDate>
+    <category>AI &amp; Content</category>
+  </item>
+  <item>
+    <title>Japan Market Entry Now Happens Inside the Product</title>
+    <link>https://ic-eight.com/articles/japan-market-entry-product-language.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/japan-market-entry-product-language.html</guid>
+    <pubDate>Sun, 28 Jun 2026 12:00:00 +0000</pubDate>
+    <category>Localization Strategy</category>
+  </item>
+  <item>
+    <title>Translation Can Support ROI. But Only When the Output Actually Performs.</title>
+    <link>https://ic-eight.com/articles/translation-roi-performance.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/translation-roi-performance.html</guid>
+    <pubDate>Thu, 25 Jun 2026 12:00:00 +0000</pubDate>
+    <category>Localization Strategy</category>
+  </item>
+  <item>
+    <title>Why "Community" Fails Without a Reason to Return: Lessons from Poupee Girl</title>
+    <link>https://ic-eight.com/articles/poupee-girl-community-loops.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/poupee-girl-community-loops.html</guid>
+    <pubDate>Thu, 25 Jun 2026 12:00:00 +0000</pubDate>
+    <category>Japanese UX</category>
+  </item>
+  <item>
+    <title>AI Tells Are Becoming the New Stone Mortar</title>
+    <link>https://ic-eight.com/articles/ai-tells-stone-mortar.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/ai-tells-stone-mortar.html</guid>
+    <pubDate>Thu, 25 Jun 2026 12:00:00 +0000</pubDate>
+    <category>Thinking</category>
+  </item>
+  <item>
+    <title>The AI Didn't Translate My Website. It Rebuilt It from Intent.</title>
+    <link>https://ic-eight.com/articles/rebuilt-from-intent.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/rebuilt-from-intent.html</guid>
+    <pubDate>Thu, 25 Jun 2026 12:00:00 +0000</pubDate>
+    <category>Localization Strategy</category>
+  </item>
+  <item>
+    <title>The Post Is Just a Container</title>
+    <link>https://ic-eight.com/articles/post-is-just-a-container.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/post-is-just-a-container.html</guid>
+    <pubDate>Thu, 25 Jun 2026 12:00:00 +0000</pubDate>
+    <category>Thinking</category>
+  </item>
+  <item>
+    <title>When AI Doesn't Replace the Writer — It Replaces the Visit</title>
+    <link>https://ic-eight.com/articles/ai-replaces-the-visit.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/ai-replaces-the-visit.html</guid>
+    <pubDate>Thu, 25 Jun 2026 12:00:00 +0000</pubDate>
+    <category>Thinking</category>
+  </item>
+  <item>
+    <title>"Only $299!" — and Why That Word Doesn't Always Travel</title>
+    <link>https://ic-eight.com/articles/only-299-price-framing.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/only-299-price-framing.html</guid>
+    <pubDate>Thu, 25 Jun 2026 12:00:00 +0000</pubDate>
+    <category>Localization Strategy</category>
+  </item>
+  <item>
+    <title>Localization Is Not the Transfer of Text</title>
+    <link>https://ic-eight.com/articles/localization-design-not-transfer.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/localization-design-not-transfer.html</guid>
+    <pubDate>Wed, 24 Jun 2026 12:00:00 +0000</pubDate>
+    <category>Localization Strategy</category>
+  </item>
+  <item>
+    <title>A Lot of Productivity Tools Still Assume a Human Is Doing the Manual Work</title>
+    <link>https://ic-eight.com/articles/productivity-tools-manual-work.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/productivity-tools-manual-work.html</guid>
+    <pubDate>Thu, 18 Jun 2026 12:00:00 +0000</pubDate>
+    <category>AI &amp; Content</category>
+  </item>
+  <item>
+    <title>Banco Inter's Missing State: A UX Field Note</title>
+    <link>https://ic-eight.com/articles/banco-inter-missing-state.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/banco-inter-missing-state.html</guid>
+    <pubDate>Wed, 17 Jun 2026 12:00:00 +0000</pubDate>
+    <category>UX Observation</category>
+  </item>
+  <item>
+    <title>Users Can Buy in English. That Is Not the Point.</title>
+    <link>https://ic-eight.com/articles/fragile-interest-localization.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/fragile-interest-localization.html</guid>
+    <pubDate>Tue, 16 Jun 2026 12:00:00 +0000</pubDate>
+    <category>Japanese UX</category>
+  </item>
+  <item>
+    <title>Transparency Is Not the Same as Disclosure</title>
+    <link>https://ic-eight.com/articles/c2pa-transparency.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/c2pa-transparency.html</guid>
+    <pubDate>Thu, 11 Jun 2026 12:00:00 +0000</pubDate>
+    <category>UX &amp; Design</category>
+  </item>
+  <item>
+    <title>That Is Not a Language Barrier. That Is a Design Failure.</title>
+    <link>https://ic-eight.com/articles/cognitive-load-help-content.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/cognitive-load-help-content.html</guid>
+    <pubDate>Thu, 04 Jun 2026 12:00:00 +0000</pubDate>
+    <category>Japanese UX</category>
+  </item>
+  <item>
+    <title>"Translation" Is No Longer a Useful Word</title>
+    <link>https://ic-eight.com/articles/translation-is-not-one-thing.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/translation-is-not-one-thing.html</guid>
+    <pubDate>Wed, 03 Jun 2026 12:00:00 +0000</pubDate>
+    <category>Localization Strategy</category>
+  </item>
+  <item>
+    <title>Don't Let It Fall</title>
+    <link>https://ic-eight.com/articles/peteca-kemari.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/peteca-kemari.html</guid>
+    <pubDate>Tue, 02 Jun 2026 12:00:00 +0000</pubDate>
+    <category>Observation</category>
+  </item>
+  <item>
+    <title>The Four-Layer Workflow: How IC Eight Localizes Without Translating</title>
+    <link>https://ic-eight.com/articles/four-layer-workflow-localization.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/four-layer-workflow-localization.html</guid>
+    <pubDate>Mon, 01 Jun 2026 12:00:00 +0000</pubDate>
+    <category>Localization Strategy</category>
+  </item>
+  <item>
+    <title>The Intent Brief: What Happens Before AI Generates Japanese</title>
+    <link>https://ic-eight.com/articles/intent-brief-before-generation.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/intent-brief-before-generation.html</guid>
+    <pubDate>Sun, 31 May 2026 12:00:00 +0000</pubDate>
+    <category>Localization Strategy</category>
+  </item>
+  <item>
+    <title>Localization Is Not What Most SaaS Teams Think It Is</title>
+    <link>https://ic-eight.com/articles/localization-is-ux.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/localization-is-ux.html</guid>
+    <pubDate>Thu, 28 May 2026 12:00:00 +0000</pubDate>
+    <category>Japanese UX</category>
+  </item>
+  <item>
+    <title>The Network Hygiene Problem</title>
+    <link>https://ic-eight.com/articles/ai-slop-network-hygiene.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/ai-slop-network-hygiene.html</guid>
+    <pubDate>Tue, 26 May 2026 12:00:00 +0000</pubDate>
+    <category>AI &amp; Content</category>
+  </item>
+  <item>
+    <title>AI Localization Fails When We Judge It as Translation</title>
+    <link>https://ic-eight.com/articles/ai-localization-controlled-generation.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/ai-localization-controlled-generation.html</guid>
+    <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
+    <category>Localization Strategy</category>
+  </item>
+  <item>
+    <title>It's Not AI Slop. It's User Slop.</title>
+    <link>https://ic-eight.com/articles/user-slop.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/user-slop.html</guid>
+    <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
+    <category>AI &amp; Content</category>
+  </item>
+  <item>
+    <title>Not Everything Needs to Become a Conversation</title>
+    <link>https://ic-eight.com/articles/nubank-conversational-ux.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/nubank-conversational-ux.html</guid>
+    <pubDate>Tue, 19 May 2026 12:00:00 +0000</pubDate>
+    <category>UX Observation</category>
+  </item>
+  <item>
+    <title>The SaaS Sweet Spot in Japan Isn't Who You Think</title>
+    <link>https://ic-eight.com/articles/japan-saas-sweet-spot.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/japan-saas-sweet-spot.html</guid>
+    <pubDate>Thu, 14 May 2026 12:00:00 +0000</pubDate>
+    <category>Japanese UX</category>
+  </item>
+  <item>
+    <title>Ditch the Poetry</title>
+    <link>https://ic-eight.com/articles/japan-ux-mythology.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/japan-ux-mythology.html</guid>
+    <pubDate>Thu, 14 May 2026 12:00:00 +0000</pubDate>
+    <category>Japanese UX</category>
+  </item>
+  <item>
+    <title>Nobody Asked Me If I Wanted an Upgrade</title>
+    <link>https://ic-eight.com/articles/nobody-asked-for-upgrade.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/nobody-asked-for-upgrade.html</guid>
+    <pubDate>Tue, 12 May 2026 12:00:00 +0000</pubDate>
+    <category>Observation</category>
+  </item>
+  <item>
+    <title>Japan Doesn't Have Low Demand. Japan Has Invisible Demand.</title>
+    <link>https://ic-eight.com/articles/japan-invisible-demand.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/japan-invisible-demand.html</guid>
+    <pubDate>Thu, 07 May 2026 12:00:00 +0000</pubDate>
+    <category>Japanese UX</category>
+  </item>
+  <item>
+    <title>AI Can Speak Many Languages. Why Does the Microphone Still Ask Me to Choose One?</title>
+    <link>https://ic-eight.com/articles/multilingual-microphone-ux.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/multilingual-microphone-ux.html</guid>
+    <pubDate>Tue, 05 May 2026 12:00:00 +0000</pubDate>
+    <category>UX Observation</category>
+  </item>
+  <item>
+    <title>In Brazil, the Comprar Button Is Just the Beginning</title>
+    <link>https://ic-eight.com/articles/brazil-whatsapp-commerce.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/brazil-whatsapp-commerce.html</guid>
+    <pubDate>Thu, 30 Apr 2026 12:00:00 +0000</pubDate>
+    <category>UX Observation</category>
+  </item>
+  <item>
+    <title>Japan Is Not a 'Young Market.' It's a 50+ Market.</title>
+    <link>https://ic-eight.com/articles/japan-50plus-market.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/japan-50plus-market.html</guid>
+    <pubDate>Tue, 28 Apr 2026 12:00:00 +0000</pubDate>
+    <category>Japanese UX</category>
+  </item>
+  <item>
+    <title>Why You Should Start LATAM Expansion with Brazil, Not Spanish Markets</title>
+    <link>https://ic-eight.com/articles/brazil-first-latam.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/brazil-first-latam.html</guid>
+    <pubDate>Thu, 23 Apr 2026 12:00:00 +0000</pubDate>
+    <category>Localization Strategy</category>
+  </item>
+  <item>
+    <title>LinkedIn Japan Is Not Japan.</title>
+    <link>https://ic-eight.com/articles/linkedin-japan-is-not-japan.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/linkedin-japan-is-not-japan.html</guid>
+    <pubDate>Tue, 21 Apr 2026 12:00:00 +0000</pubDate>
+    <category>Japanese UX</category>
+  </item>
+  <item>
+    <title>You Can't Translate a Washing Machine Manual</title>
+    <link>https://ic-eight.com/articles/washing-machine-manual.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/washing-machine-manual.html</guid>
+    <pubDate>Thu, 16 Apr 2026 12:00:00 +0000</pubDate>
+    <category>Japanese UX</category>
+  </item>
+  <item>
+    <title>When Pix Works but Your System Doesn't</title>
+    <link>https://ic-eight.com/articles/pix-ticketing-system-failure.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/pix-ticketing-system-failure.html</guid>
+    <pubDate>Tue, 14 Apr 2026 12:00:00 +0000</pubDate>
+    <category>UX Observation</category>
+  </item>
+  <item>
+    <title>Decisions Aren't Made by Systems. They're Made by People.</title>
+    <link>https://ic-eight.com/articles/decisions-made-by-people.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/decisions-made-by-people.html</guid>
+    <pubDate>Thu, 09 Apr 2026 12:00:00 +0000</pubDate>
+    <category>Observation</category>
+  </item>
+  <item>
+    <title>"It Feels Kinder Than Most People"</title>
+    <link>https://ic-eight.com/articles/ai-companion-seniors.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/ai-companion-seniors.html</guid>
+    <pubDate>Tue, 07 Apr 2026 12:00:00 +0000</pubDate>
+    <category>UX Observation</category>
+  </item>
+  <item>
+    <title>English Proficiency ≠ Understanding</title>
+    <link>https://ic-eight.com/articles/english-proficiency-vs-understanding.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/english-proficiency-vs-understanding.html</guid>
+    <pubDate>Thu, 02 Apr 2026 12:00:00 +0000</pubDate>
+    <category>Localization Strategy</category>
+  </item>
+  <item>
+    <title>We Don't Trust Humans. We Trust Accountability.</title>
+    <link>https://ic-eight.com/articles/trust-accountability.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/trust-accountability.html</guid>
+    <pubDate>Thu, 26 Mar 2026 12:00:00 +0000</pubDate>
+    <category>AI &amp; Content</category>
+  </item>
+  <item>
+    <title>Companies Don't Pay for Judgment. They Pay for Communication.</title>
+    <link>https://ic-eight.com/articles/companies-pay-for-communication.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/companies-pay-for-communication.html</guid>
+    <pubDate>Tue, 24 Mar 2026 12:00:00 +0000</pubDate>
+    <category>Localization Strategy</category>
+  </item>
+  <item>
+    <title>This Isn't Market Exit. It's Channel Strategy.</title>
+    <link>https://ic-eight.com/articles/japan-channel-strategy.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/japan-channel-strategy.html</guid>
+    <pubDate>Thu, 19 Mar 2026 12:00:00 +0000</pubDate>
+    <category>Japanese UX</category>
+  </item>
+  <item>
+    <title>They Can Afford the Flight. They Just Don't Speak English.</title>
+    <link>https://ic-eight.com/articles/brazil-english-proficiency.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/brazil-english-proficiency.html</guid>
+    <pubDate>Thu, 12 Mar 2026 12:00:00 +0000</pubDate>
+    <category>Localization Strategy</category>
+  </item>
+  <item>
+    <title>Localization Isn't Translation. It's Redesign.</title>
+    <link>https://ic-eight.com/articles/localization-is-redesign.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/localization-is-redesign.html</guid>
+    <pubDate>Tue, 10 Mar 2026 12:00:00 +0000</pubDate>
+    <category>Localization Strategy</category>
+  </item>
+  <item>
+    <title>In LATAM, Intent Beats Income</title>
+    <link>https://ic-eight.com/articles/intent-beats-income.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/intent-beats-income.html</guid>
+    <pubDate>Thu, 05 Mar 2026 12:00:00 +0000</pubDate>
+    <category>Localization Strategy</category>
+  </item>
+  <item>
+    <title>In LATAM, an iPhone Isn't a Phone — It's Liquidity</title>
+    <link>https://ic-eight.com/articles/iphone-latam-liquidity.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/iphone-latam-liquidity.html</guid>
+    <pubDate>Tue, 03 Mar 2026 12:00:00 +0000</pubDate>
+    <category>Localization Strategy</category>
+  </item>
+  <item>
+    <title>I Could Afford It. I Just Couldn't Pay.</title>
+    <link>https://ic-eight.com/articles/pix-payment-localization.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/pix-payment-localization.html</guid>
+    <pubDate>Thu, 26 Feb 2026 12:00:00 +0000</pubDate>
+    <category>UX Observation</category>
+  </item>
+  <item>
+    <title>São Paulo Lost Its Soy Milk. What That Taught Me About Localization.</title>
+    <link>https://ic-eight.com/articles/soy-milk-localization.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/soy-milk-localization.html</guid>
+    <pubDate>Tue, 24 Feb 2026 12:00:00 +0000</pubDate>
+    <category>Observation</category>
+  </item>
+  <item>
+    <title>You Don't Expand for Fairness. You Expand for ROI.</title>
+    <link>https://ic-eight.com/articles/expand-for-roi.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/expand-for-roi.html</guid>
+    <pubDate>Thu, 19 Feb 2026 12:00:00 +0000</pubDate>
+    <category>Localization Strategy</category>
+  </item>
+  <item>
+    <title>The Smallest Global Rollout That Actually Works</title>
+    <link>https://ic-eight.com/articles/smallest-global-rollout.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/smallest-global-rollout.html</guid>
+    <pubDate>Tue, 17 Feb 2026 12:00:00 +0000</pubDate>
+    <category>Localization Strategy</category>
+  </item>
+  <item>
+    <title>Skip Europe. Start with LATAM.</title>
+    <link>https://ic-eight.com/articles/skip-europe-start-latam.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/skip-europe-start-latam.html</guid>
+    <pubDate>Thu, 12 Feb 2026 12:00:00 +0000</pubDate>
+    <category>Localization Strategy</category>
+  </item>
+  <item>
+    <title>Some Things Just Shouldn't Be Localized</title>
+    <link>https://ic-eight.com/articles/dont-translate-everything.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/dont-translate-everything.html</guid>
+    <pubDate>Tue, 10 Feb 2026 12:00:00 +0000</pubDate>
+    <category>Localization Strategy</category>
+  </item>
+  <item>
+    <title>'Start Advertising' Sounds Like 'Get Your Credit Card Ready.'</title>
+    <link>https://ic-eight.com/articles/cta-translation-japan.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/cta-translation-japan.html</guid>
+    <pubDate>Thu, 29 Jan 2026 12:00:00 +0000</pubDate>
+    <category>Japanese UX</category>
+  </item>
+  <item>
+    <title>Still Assuming "Human = Quality"?</title>
+    <link>https://ic-eight.com/articles/human-equals-quality.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/human-equals-quality.html</guid>
+    <pubDate>Wed, 28 Jan 2026 12:00:00 +0000</pubDate>
+    <category>Thinking</category>
+  </item>
+  <item>
+    <title>Perfection Isn't What Japanese Customers Really Expect</title>
+    <link>https://ic-eight.com/articles/japan-perfection-myth.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/japan-perfection-myth.html</guid>
+    <pubDate>Tue, 27 Jan 2026 12:00:00 +0000</pubDate>
+    <category>Japanese UX</category>
+  </item>
+  <item>
+    <title>Why AI Support Still Feels Like an 80s Adventure Game</title>
+    <link>https://ic-eight.com/articles/ai-support-ux.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/ai-support-ux.html</guid>
+    <pubDate>Thu, 22 Jan 2026 12:00:00 +0000</pubDate>
+    <category>UX Observation</category>
+  </item>
+  <item>
+    <title>AI Isn't Making Translation Faster. It's Making It Optional.</title>
+    <link>https://ic-eight.com/articles/translation-is-optional.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/translation-is-optional.html</guid>
+    <pubDate>Thu, 22 Jan 2026 12:00:00 +0000</pubDate>
+    <category>Localization Strategy</category>
+  </item>
+  <item>
+    <title>When Your Bank Says "We Miss You" — After One Week</title>
+    <link>https://ic-eight.com/articles/banco-inter-ux-hug.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/banco-inter-ux-hug.html</guid>
+    <pubDate>Thu, 15 Jan 2026 12:00:00 +0000</pubDate>
+    <category>UX Observation</category>
+  </item>
+  <item>
+    <title>"Human Translation Is the Degraded Version of AI Translation."</title>
+    <link>https://ic-eight.com/articles/designing-meaning.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/designing-meaning.html</guid>
+    <pubDate>Tue, 13 Jan 2026 12:00:00 +0000</pubDate>
+    <category>Thinking</category>
+  </item>
+  <item>
+    <title>Why We Recommend LLM-Native Content Over Machine Translation</title>
+    <link>https://ic-eight.com/articles/llm-native-vs-mt.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/llm-native-vs-mt.html</guid>
+    <pubDate>Thu, 08 Jan 2026 12:00:00 +0000</pubDate>
+    <category>AI &amp; Content</category>
+  </item>
+  <item>
+    <title>Four Support Layers Later, the Answer Came from ChatGPT</title>
+    <link>https://ic-eight.com/articles/banco-inter-ux.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/banco-inter-ux.html</guid>
+    <pubDate>Tue, 06 Jan 2026 12:00:00 +0000</pubDate>
+    <category>UX Observation</category>
+  </item>
+  <item>
+    <title>Cash Is King — Especially When It's Personal</title>
+    <link>https://ic-eight.com/articles/cash-tip-ux.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/cash-tip-ux.html</guid>
+    <pubDate>Tue, 30 Dec 2025 12:00:00 +0000</pubDate>
+    <category>UX Observation</category>
+  </item>
+  <item>
+    <title>Why We Should Stop Translating — and Start Writing</title>
+    <link>https://ic-eight.com/articles/stop-translating-start-writing.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/stop-translating-start-writing.html</guid>
+    <pubDate>Mon, 29 Dec 2025 12:00:00 +0000</pubDate>
+    <category>Localization Strategy</category>
+  </item>
+  <item>
+    <title>What Makes a Good Begging Sign?</title>
+    <link>https://ic-eight.com/articles/begging-sign-ux-value.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/begging-sign-ux-value.html</guid>
+    <pubDate>Tue, 23 Dec 2025 12:00:00 +0000</pubDate>
+    <category>Observation</category>
+  </item>
+  <item>
+    <title>Still Chasing "Natural-Sounding" Translation?</title>
+    <link>https://ic-eight.com/articles/natural-sounding-is-wrong-metric.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/natural-sounding-is-wrong-metric.html</guid>
+    <pubDate>Wed, 03 Dec 2025 12:00:00 +0000</pubDate>
+    <category>Localization Strategy</category>
+  </item>
+  <item>
+    <title>Start Smaller</title>
+    <link>https://ic-eight.com/articles/start-smaller.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/start-smaller.html</guid>
+    <pubDate>Wed, 19 Nov 2025 12:00:00 +0000</pubDate>
+    <category>Localization Strategy</category>
+  </item>
+  <item>
+    <title>Why AI Translation Will Kill the Vendor Model Before It Kills Translators</title>
+    <link>https://ic-eight.com/articles/vendor-model-will-die.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/vendor-model-will-die.html</guid>
+    <pubDate>Mon, 10 Nov 2025 12:00:00 +0000</pubDate>
+    <category>Localization Strategy</category>
+  </item>
+  <item>
+    <title>What Broken Localization Actually Looks Like</title>
+    <link>https://ic-eight.com/articles/gamma-japanese-ux-part1.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/gamma-japanese-ux-part1.html</guid>
+    <pubDate>Sat, 01 Nov 2025 12:00:00 +0000</pubDate>
+    <category>Japanese UX</category>
+  </item>
+  <item>
+    <title>The Line Between Suggestion and Decision</title>
+    <link>https://ic-eight.com/articles/line-between-suggestion-and-decision.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/line-between-suggestion-and-decision.html</guid>
+    <pubDate>Wed, 15 Oct 2025 12:00:00 +0000</pubDate>
+    <category>AI &amp; Content</category>
+  </item>
+  <item>
+    <title>Apple Used to Be a Model of Language. Not Anymore.</title>
+    <link>https://ic-eight.com/articles/apple-japanese-copy.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/apple-japanese-copy.html</guid>
+    <pubDate>Tue, 01 Jul 2025 12:00:00 +0000</pubDate>
+    <category>Japanese UX</category>
+  </item>
+  <item>
+    <title>When a "Localized" Product Still Feels Unlocalized</title>
+    <link>https://ic-eight.com/gamma-analysis.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/gamma-analysis.html</guid>
+    <pubDate>Wed, 01 Jan 2025 12:00:00 +0000</pubDate>
+    <category>Japanese UX</category>
+  </item>
+</channel>
+</rss>
