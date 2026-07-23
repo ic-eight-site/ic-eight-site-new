@@ -5,6 +5,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://ic-eight.com/articles/ai-possible-not-valuable.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://ic-eight.com/articles/not-a-translation-request.html</loc>
     <priority>0.7</priority>
   </url>
