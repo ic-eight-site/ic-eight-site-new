@@ -707,28 +707,29 @@ footer a:hover { color: var(--ink); }
   max-width: 620px;
 }
 
-.flow-block {
+.flow-list {
+  list-style: none;
+  counter-reset: flow;
   border-top: 1px solid var(--rule);
-  border-bottom: 1px solid var(--rule);
 }
 
-.flow-row {
-  display: flex;
-  padding: 1.2rem 0;
+.flow-list li {
+  counter-increment: flow;
+  position: relative;
+  padding: 1.2rem 0 1.2rem 2.75rem;
   font-size: 1rem;
   line-height: 1.7;
   color: var(--ink);
+  border-bottom: 1px solid var(--rule);
 }
 
-.flow-row + .flow-row { border-top: 1px solid var(--rule); }
-
-.flow-num {
-  flex: 0 0 2.5rem;
+.flow-list li::before {
+  content: "0" counter(flow);
+  position: absolute;
+  left: 0;
+  top: 1.2rem;
   color: var(--accent);
-  font-weight: 400;
 }
-
-.flow-text { flex: 1; }
 
 /* BRANCHES ("What happens next?" — dark section) */
 .branches {
@@ -756,62 +757,43 @@ footer a:hover { color: var(--ink); }
   margin-bottom: 3rem;
 }
 
-.branch-headings {
-  display: flex;
-  align-items: baseline;
-  gap: 2rem;
-  padding-bottom: 0.8rem;
+.branches-note {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #9a968e;
+  margin-bottom: 3rem;
 }
 
-.branch-heading-find,
-.branch-heading-do {
-  font-size: 0.7rem;
-  font-weight: 400;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #6b6862;
-}
-
-.branch-heading-find { flex: 1.4; }
-.branch-heading-do { flex: 0 0 200px; color: var(--accent); }
-
-.branch-block {
+.branch-list {
+  list-style: none;
   border-top: 1px solid #33332f;
+}
+
+.branch-list li {
+  padding: 1.4rem 0;
   border-bottom: 1px solid #33332f;
 }
 
-.branch-row {
-  display: flex;
-  align-items: baseline;
-  gap: 2rem;
-  padding: 1.2rem 0;
-  font-size: 1rem;
-  line-height: 1.7;
-}
-
-.branch-row + .branch-row { border-top: 1px solid #33332f; }
-
 .branch-cat {
-  display: block;
   font-size: 0.7rem;
   font-weight: 400;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #6b6862;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
 }
 
 .branch-find {
-  display: block;
-  font-size: 0.92rem;
+  font-size: 1rem;
+  line-height: 1.6;
   color: #9a968e;
-  flex: 1.4;
+  margin-bottom: 0.5rem;
 }
 
 .branch-do {
-  color: #ede9df;
-  text-align: left;
-  flex: 0 0 200px;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--accent);
 }
 
 .branches a {
