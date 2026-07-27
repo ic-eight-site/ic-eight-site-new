@@ -756,6 +756,25 @@ footer a:hover { color: var(--ink); }
   margin-bottom: 3rem;
 }
 
+.branch-headings {
+  display: flex;
+  align-items: baseline;
+  gap: 2rem;
+  padding-bottom: 0.8rem;
+}
+
+.branch-heading-find,
+.branch-heading-do {
+  font-size: 0.7rem;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #6b6862;
+}
+
+.branch-heading-find { flex: 1.4; }
+.branch-heading-do { flex: 0 0 200px; color: var(--accent); }
+
 .branch-block {
   border-top: 1px solid #33332f;
   border-bottom: 1px solid #33332f;
