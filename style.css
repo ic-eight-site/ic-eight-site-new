@@ -756,7 +756,7 @@ footer a:hover { color: var(--ink); }
 .branches-note {
   font-size: 0.95rem;
   color: #9a968e;
-  margin-bottom: 2.5rem;
+  margin-bottom: 3rem;
 }
 
 .branch-list {
@@ -764,37 +764,55 @@ footer a:hover { color: var(--ink); }
 }
 
 .branch-list li {
-  padding: 1.3rem 0;
-  border-top: 1px solid #33332f;
+  position: relative;
+  padding: 2rem 0 2rem 4.5rem;
+  border-top: 1px solid #2a2a26;
 }
 
 .branch-list li:first-child { border-top: none; padding-top: 0; }
 .branch-list li:last-child { padding-bottom: 0; }
 
-.branch-issue {
-  font-size: 1rem;
-  line-height: 1.7;
-  color: #8f8b84;
-  margin-bottom: 0.5rem;
+.branch-bignum {
+  position: absolute;
+  left: 0;
+  top: 1.6rem;
+  font-family: 'DM Serif Display', serif;
+  font-size: 2.6rem;
+  font-weight: 400;
+  color: #2e2e2a;
 }
 
-.branch-action {
-  font-size: 1.1rem;
-  line-height: 1.6;
-  color: var(--accent);
+.branch-list li:first-child .branch-bignum { top: 0; }
+
+.branch-issue {
+  font-size: 1.02rem;
+  line-height: 1.7;
+  color: #9a968e;
+  margin-bottom: 0.9rem;
 }
 
 .branch-strong {
-  color: #e8e4da;
+  color: #d8d4ca;
   font-weight: 300 !important;
+}
+
+.branch-action {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #e8e4da;
+}
+
+.branch-tag {
+  color: var(--accent);
+  font-size: 0.7rem;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-right: 0.6rem;
 }
 
 .branches a {
   color: var(--accent);
-  text-decoration: none;
-}
-
-.branch-action a {
   text-decoration: underline;
 }
 
@@ -852,4 +870,7 @@ footer a:hover { color: var(--ink); }
   .gap-flow { grid-template-columns: 1fr; }
   .flow-step:nth-child(2) { border-top: 1px solid var(--rule); padding-top: 1.5rem; }
   .flow-step:nth-child(1) { border-top: none; padding-top: 0; }
+  .branch-list li { padding-left: 3rem; }
+  .branch-bignum { font-size: 1.8rem; top: 1.9rem; }
+  .branch-list li:first-child .branch-bignum { top: 0.3rem; }
 }
