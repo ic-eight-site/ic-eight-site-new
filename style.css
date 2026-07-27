@@ -783,6 +783,7 @@ footer a:hover { color: var(--ink); }
 }
 
 .branch-find {
+  display: block;
   color: #9a968e;
   flex: 1.4;
 }
