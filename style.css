@@ -774,9 +774,9 @@ footer a:hover { color: var(--ink); }
 .branch-list li:first-child { border-top: none; padding-top: 0; }
 .branch-list li:last-child { padding-bottom: 0; }
 
-.branch-list strong {
+.branch-strong {
   color: #e8e4da;
-  font-weight: 300;
+  font-weight: 300 !important;
 }
 
 .branches a {
