@@ -889,3 +889,11 @@ footer a:hover { color: var(--ink); }
   .branch-head { display: none; }
   .branch-row { flex-direction: column; gap: 0.8rem; }
 }
+
+/* Small phones (e.g. iPhone SE): give the FUX comparison image maximum width */
+@media (max-width: 480px) {
+  .fux-example {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+}
