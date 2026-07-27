@@ -104,7 +104,7 @@ nav {
 }
 
 .fux-example {
-  padding: 3rem 3rem;
+  padding: 1.5rem 3rem;
   max-width: 860px;
 }
 
@@ -162,6 +162,10 @@ nav {
   color: var(--muted);
   max-width: 520px;
   line-height: 1.75;
+}
+
+.accent-word {
+  color: var(--accent);
 }
 
 .hero-sub + .hero-sub {
