@@ -701,6 +701,119 @@ footer a { color: var(--muted); text-decoration: none; }
 footer a:hover { color: var(--ink); }
 .footer-links { display: flex; gap: 1.5rem; }
 
+/* GAP-FLOW (services page — 5-step process, visually light) */
+.gap-flow {
+  padding: 4rem 3rem;
+  max-width: 620px;
+}
+
+.flow-step {
+  display: flex;
+  gap: 1.5rem;
+  align-items: baseline;
+}
+
+.flow-num {
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.1rem;
+  color: var(--accent);
+  min-width: 1.6rem;
+}
+
+.flow-step p {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--ink);
+}
+
+.flow-connector {
+  display: flex;
+  padding-left: calc(1.6rem + 1.5rem);
+}
+
+.flow-connector span {
+  color: var(--rule);
+  font-size: 1rem;
+  line-height: 2.4rem;
+}
+
+/* BRANCHES ("What happens next?") */
+.branches {
+  padding: 5rem 3rem;
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.branches-inner { max-width: 980px; margin: 0 auto; }
+
+.branches .section-label { color: #7a7670; text-align: center; }
+
+.branches h2 {
+  font-family: 'DM Serif Display', serif;
+  font-size: clamp(1.5rem, 2.8vw, 2rem);
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.branch-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.branch-card {
+  border-top: 1px solid #3a3a38;
+  padding-top: 1.25rem;
+}
+
+.branch-label {
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #7a7670;
+  margin-bottom: 0.9rem;
+}
+
+.branch-result {
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.15rem;
+  line-height: 1.4;
+  color: var(--paper);
+}
+
+.branch-result.link a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.branch-result.link a:hover { text-decoration: underline; }
+
+/* PRACTICE (Chance entry point) */
+.practice {
+  padding: 3.5rem 3rem;
+  max-width: 680px;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+
+.practice .section-label { margin-bottom: 1rem; }
+
+.practice p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--muted);
+  margin-bottom: 1rem;
+}
+
+.practice a {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 0.92rem;
+}
+
+.practice a:hover { text-decoration: underline; }
+
 /* MOBILE */
 @media (max-width: 640px) {
   nav {
@@ -716,6 +829,7 @@ footer a:hover { color: var(--ink); }
   .featured, .more,
   .faq-section, .not-section,
   .steps, .article-body, .back-section,
+  .gap-flow, .branches, .practice,
   footer {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -726,4 +840,5 @@ footer a:hover { color: var(--ink); }
   .how-steps { grid-template-columns: 1fr; }
   .featured-grid { grid-template-columns: 1fr; }
   .featured-card.intro { grid-column: 1; }
+  .branch-grid { grid-template-columns: 1fr 1fr; gap: 2rem 1.5rem; }
 }
