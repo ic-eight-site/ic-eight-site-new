@@ -103,6 +103,17 @@ nav {
   max-width: 680px;
 }
 
+.fux-example {
+  padding: 3rem 3rem;
+  max-width: 860px;
+}
+
+.fux-example img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .section h2 {
   font-family: 'DM Serif Display', serif;
   font-size: clamp(1.4rem, 2.5vw, 1.8rem);
@@ -860,7 +871,7 @@ footer a:hover { color: var(--ink); }
   .featured, .more,
   .faq-section, .not-section,
   .steps, .article-body, .back-section,
-  .gap-flow, .branches, .practice,
+  .gap-flow, .branches, .practice, .fux-example,
   footer {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
