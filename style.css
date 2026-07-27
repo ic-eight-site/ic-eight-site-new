@@ -704,10 +704,10 @@ footer a:hover { color: var(--ink); }
 /* GAP-FLOW (services page — 5-step process) */
 .gap-flow {
   padding: 3rem 3rem 4rem;
-  max-width: 620px;
-  display: flex;
-  flex-direction: column;
-  gap: 1.75rem;
+  max-width: 780px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem 2.5rem;
 }
 
 .flow-step {
@@ -715,7 +715,11 @@ footer a:hover { color: var(--ink); }
   padding-top: 1.5rem;
 }
 
-.flow-step:first-child { border-top: none; padding-top: 0; }
+.flow-step:nth-child(1),
+.flow-step:nth-child(2) {
+  border-top: none;
+  padding-top: 0;
+}
 
 .flow-num {
   font-size: 0.75rem;
@@ -762,25 +766,12 @@ footer a:hover { color: var(--ink); }
   font-size: 1rem;
   line-height: 1.8;
   color: #c8c4bc;
-  padding: 1.3rem 0 1.3rem 1.5rem;
+  padding: 1.3rem 0;
   border-top: 1px solid #33332f;
-  position: relative;
 }
 
 .branch-list li:first-child { border-top: none; padding-top: 0; }
 .branch-list li:last-child { padding-bottom: 0; }
-
-.branch-list li::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 1.7rem;
-  width: 0.5rem;
-  height: 1px;
-  background: var(--accent);
-}
-
-.branch-list li:first-child::before { top: 0.4rem; }
 
 .branch-list strong {
   color: var(--paper);
@@ -843,4 +834,7 @@ footer a:hover { color: var(--ink); }
   .how-steps { grid-template-columns: 1fr; }
   .featured-grid { grid-template-columns: 1fr; }
   .featured-card.intro { grid-column: 1; }
+  .gap-flow { grid-template-columns: 1fr; }
+  .flow-step:nth-child(2) { border-top: 1px solid var(--rule); padding-top: 1.5rem; }
+  .flow-step:nth-child(1) { border-top: none; padding-top: 0; }
 }
