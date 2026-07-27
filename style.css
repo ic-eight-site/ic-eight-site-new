@@ -703,8 +703,11 @@ footer a:hover { color: var(--ink); }
 
 /* GAP-FLOW (services page — 5-step process, visually light) */
 .gap-flow {
-  padding: 4rem 3rem;
+  padding: 2.5rem 3rem 4rem;
   max-width: 620px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
 }
 
 .flow-step {
@@ -726,17 +729,6 @@ footer a:hover { color: var(--ink); }
   color: var(--ink);
 }
 
-.flow-connector {
-  display: flex;
-  padding-left: calc(1.6rem + 1.5rem);
-}
-
-.flow-connector span {
-  color: var(--rule);
-  font-size: 1rem;
-  line-height: 2.4rem;
-}
-
 /* BRANCHES ("What happens next?") */
 .branches {
   padding: 5rem 3rem;
@@ -744,15 +736,14 @@ footer a:hover { color: var(--ink); }
   color: var(--paper);
 }
 
-.branches-inner { max-width: 980px; margin: 0 auto; }
+.branches-inner { max-width: 980px; }
 
-.branches .section-label { color: #7a7670; text-align: center; }
+.branches .section-label { color: #7a7670; }
 
 .branches h2 {
   font-family: 'DM Serif Display', serif;
   font-size: clamp(1.5rem, 2.8vw, 2rem);
   font-weight: 400;
-  text-align: center;
   margin-bottom: 3rem;
 }
 
