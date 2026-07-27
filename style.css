@@ -749,8 +749,8 @@ footer a:hover { color: var(--ink); }
 
 .branch-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1.5rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem 2rem;
 }
 
 .branch-card {
@@ -779,6 +779,13 @@ footer a:hover { color: var(--ink); }
 }
 
 .branch-result.link a:hover { text-decoration: underline; }
+
+.branch-desc {
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: #9a968e;
+  margin-top: 0.9rem;
+}
 
 /* PRACTICE (Chance entry point) */
 .practice {
@@ -829,5 +836,5 @@ footer a:hover { color: var(--ink); }
   .how-steps { grid-template-columns: 1fr; }
   .featured-grid { grid-template-columns: 1fr; }
   .featured-card.intro { grid-column: 1; }
-  .branch-grid { grid-template-columns: 1fr 1fr; gap: 2rem 1.5rem; }
+  .branch-grid { grid-template-columns: 1fr; gap: 2rem; }
 }
