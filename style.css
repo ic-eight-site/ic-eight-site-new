@@ -744,7 +744,14 @@ footer a:hover { color: var(--ink); }
   font-family: 'DM Serif Display', serif;
   font-size: clamp(1.5rem, 2.8vw, 2rem);
   font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.branches-note {
+  font-size: 0.92rem;
+  color: #9a968e;
   margin-bottom: 3rem;
+  max-width: 480px;
 }
 
 .branch-grid {
