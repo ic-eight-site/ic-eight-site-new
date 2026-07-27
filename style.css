@@ -721,8 +721,9 @@ footer a:hover { color: var(--ink); }
 }
 
 .process-title {
-  font-size: 1.02rem;
-  line-height: 1.45;
+  font-family: 'DM Serif Display', serif;
+  font-size: clamp(1.1rem, 1.8vw, 1.35rem);
+  line-height: 1.35;
   font-weight: 400;
   color: var(--ink);
   margin-bottom: 0.4rem;
