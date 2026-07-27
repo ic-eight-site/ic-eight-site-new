@@ -713,6 +713,7 @@ footer a:hover { color: var(--ink); }
 }
 
 .flow-row {
+  display: flex;
   padding: 1.2rem 0;
   font-size: 1rem;
   line-height: 1.7;
@@ -722,10 +723,12 @@ footer a:hover { color: var(--ink); }
 .flow-row + .flow-row { border-top: 1px solid var(--rule); }
 
 .flow-num {
+  flex: 0 0 2.5rem;
   color: var(--accent);
   font-weight: 400;
-  margin-right: 0.9rem;
 }
+
+.flow-text { flex: 1; }
 
 /* BRANCHES ("What happens next?" — dark section) */
 .branches {
@@ -760,7 +763,6 @@ footer a:hover { color: var(--ink); }
 
 .branch-row {
   display: flex;
-  justify-content: space-between;
   align-items: baseline;
   gap: 2rem;
   padding: 1.2rem 0;
@@ -770,15 +772,27 @@ footer a:hover { color: var(--ink); }
 
 .branch-row + .branch-row { border-top: 1px solid #33332f; }
 
+.branch-cat {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #6b6862;
+  margin-bottom: 0.3rem;
+}
+
 .branch-find {
   color: #9a968e;
-  flex: 1.3;
+  flex: 1.4;
 }
 
 .branch-do {
   color: #ede9df;
   text-align: right;
   flex: 1;
+  flex-shrink: 0;
+  max-width: 220px;
 }
 
 .branches a {
