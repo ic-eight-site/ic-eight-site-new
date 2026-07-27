@@ -749,6 +749,7 @@ footer a:hover { color: var(--ink); }
   font-family: 'DM Serif Display', serif;
   font-size: clamp(1.5rem, 2.8vw, 2rem);
   font-weight: 400;
+  color: #ede9df;
   margin-bottom: 1rem;
 }
 
@@ -774,7 +775,7 @@ footer a:hover { color: var(--ink); }
 .branch-list li:last-child { padding-bottom: 0; }
 
 .branch-list strong {
-  color: var(--paper);
+  color: #e8e4da;
   font-weight: 300;
 }
 
