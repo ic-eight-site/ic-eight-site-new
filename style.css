@@ -121,7 +121,7 @@ nav {
 
 /* HERO */
 .hero {
-  padding: 7rem 3rem 5rem;
+  padding: 6rem 3rem 3.5rem;
   max-width: 860px;
 }
 
@@ -704,19 +704,30 @@ footer a:hover { color: var(--ink); }
 /* GAP-FLOW (services page — 5-step process) */
 .gap-flow {
   padding: 3rem 3rem 4rem;
-  max-width: 640px;
+  max-width: 620px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
 }
 
-.gap-flow p {
-  font-size: 1.05rem;
-  line-height: 1.9;
-  color: var(--ink);
+.flow-step {
+  border-top: 1px solid var(--rule);
+  padding-top: 1.5rem;
 }
+
+.flow-step:first-child { border-top: none; padding-top: 0; }
 
 .flow-num {
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
   color: var(--accent);
-  font-weight: 400;
-  margin-right: 0.4rem;
+  margin-bottom: 0.6rem;
+}
+
+.flow-step p:last-child {
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: var(--ink);
 }
 
 /* BRANCHES ("What happens next?") */
@@ -743,14 +754,38 @@ footer a:hover { color: var(--ink); }
   margin-bottom: 2.5rem;
 }
 
-.branches p {
+.branch-list {
+  list-style: none;
+}
+
+.branch-list li {
   font-size: 1rem;
   line-height: 1.8;
   color: #c8c4bc;
-  margin-bottom: 1.2rem;
+  padding: 1.3rem 0 1.3rem 1.5rem;
+  border-top: 1px solid #33332f;
+  position: relative;
 }
 
-.branches p:last-child { margin-bottom: 0; }
+.branch-list li:first-child { border-top: none; padding-top: 0; }
+.branch-list li:last-child { padding-bottom: 0; }
+
+.branch-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 1.7rem;
+  width: 0.5rem;
+  height: 1px;
+  background: var(--accent);
+}
+
+.branch-list li:first-child::before { top: 0.4rem; }
+
+.branch-list strong {
+  color: var(--paper);
+  font-weight: 500;
+}
 
 .branches a {
   color: var(--accent);
