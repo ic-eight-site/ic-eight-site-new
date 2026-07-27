@@ -704,31 +704,35 @@ footer a:hover { color: var(--ink); }
 /* GAP-FLOW (services page — 5-step process) */
 .gap-flow {
   padding: 3rem 3rem 4rem;
-  max-width: 620px;
+  max-width: 680px;
+  border-top: 1px solid var(--ink);
 }
 
-.flow-list {
-  list-style: none;
-  counter-reset: flow;
-  border-top: 1px solid var(--rule);
-}
-
-.flow-list li {
-  counter-increment: flow;
-  position: relative;
-  padding: 1.2rem 0 1.2rem 2.75rem;
-  font-size: 1rem;
-  line-height: 1.7;
-  color: var(--ink);
+.process-row {
+  padding: 1.5rem 0 1.65rem;
   border-bottom: 1px solid var(--rule);
 }
 
-.flow-list li::before {
-  content: "0" counter(flow);
-  position: absolute;
-  left: 0;
-  top: 1.2rem;
+.process-num {
   color: var(--accent);
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  font-weight: 400;
+  margin-bottom: 0.55rem;
+}
+
+.process-title {
+  font-size: 1.02rem;
+  line-height: 1.45;
+  font-weight: 400;
+  color: var(--ink);
+  margin-bottom: 0.4rem;
+}
+
+.process-detail {
+  color: var(--muted);
+  font-size: 0.91rem;
+  line-height: 1.68;
 }
 
 /* BRANCHES ("What happens next?" — dark section) */
@@ -754,52 +758,66 @@ footer a:hover { color: var(--ink); }
   font-size: 1rem;
   line-height: 1.7;
   color: #9a968e;
-  margin-bottom: 3rem;
+  margin-bottom: 2.8rem;
+  max-width: 480px;
 }
 
-.branches-note {
-  font-size: 1rem;
-  line-height: 1.7;
-  color: #9a968e;
-  margin-bottom: 3rem;
+.branch-head {
+  display: flex;
+  gap: 1.2rem;
+  padding: 0 0 0.8rem;
+  color: #6f6b65;
+  font-size: 0.66rem;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  font-weight: 400;
+  border-bottom: 1px solid #3b3a36;
 }
 
-.branch-list {
-  list-style: none;
-  border-top: 1px solid #33332f;
-}
+.branch-head span:first-child { display: none; }
+.branch-head span:nth-child(2)::after { content: " /"; }
+.branch-head span:nth-child(3) { color: #8c877f; }
 
-.branch-list li {
-  padding: 1.4rem 0;
-  border-bottom: 1px solid #33332f;
+.branch-table { border-top: none; }
+
+.branch-row {
+  display: block;
+  padding: 1.45rem 0 1.6rem;
+  border-bottom: 1px solid #3b3a36;
 }
 
 .branch-cat {
-  font-size: 0.7rem;
-  font-weight: 400;
-  letter-spacing: 0.06em;
+  color: #77736d;
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #6b6862;
-  margin-bottom: 0.5rem;
+  font-weight: 400;
+  margin-bottom: 0.55rem;
 }
 
 .branch-find {
-  font-size: 1rem;
-  line-height: 1.6;
-  color: #9a968e;
-  margin-bottom: 0.5rem;
+  color: #c7c1b7;
+  font-size: 0.94rem;
+  line-height: 1.62;
+  margin-bottom: 0.7rem;
 }
 
 .branch-do {
-  font-size: 1rem;
-  line-height: 1.6;
-  color: var(--accent);
+  font-family: 'DM Serif Display', serif;
+  font-size: clamp(1.1rem, 1.8vw, 1.4rem);
+  line-height: 1.3;
+  font-weight: 400;
+  color: #f2ede4;
 }
 
-.branches a {
-  color: var(--accent);
-  text-decoration: underline;
+.branch-do a {
+  color: inherit;
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
 }
+
+.branches a { color: inherit; }
 
 /* PRACTICE (Chance entry point) */
 .practice {
