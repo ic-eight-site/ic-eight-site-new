@@ -707,31 +707,16 @@ footer a:hover { color: var(--ink); }
   max-width: 640px;
 }
 
-.flow-step {
-  display: grid;
-  grid-template-columns: 3rem 1fr;
-  gap: 1.5rem;
-  align-items: baseline;
-  padding: 1.4rem 0;
-  border-bottom: 1px solid var(--rule);
+.gap-flow p {
+  font-size: 1.05rem;
+  line-height: 1.9;
+  color: var(--ink);
 }
-
-.flow-step:first-child { padding-top: 0; }
-.flow-step:last-child { border-bottom: none; }
 
 .flow-num {
-  font-family: 'DM Serif Display', serif;
-  font-style: italic;
-  font-size: 1.6rem;
-  font-weight: 400;
   color: var(--accent);
-}
-
-.flow-step p {
-  font-size: 1.05rem;
-  font-weight: 300;
-  line-height: 1.6;
-  color: var(--ink);
+  font-weight: 400;
+  margin-right: 0.4rem;
 }
 
 /* BRANCHES ("What happens next?") */
@@ -741,7 +726,7 @@ footer a:hover { color: var(--ink); }
   color: var(--paper);
 }
 
-.branches-inner { max-width: 780px; }
+.branches-inner { max-width: 680px; }
 
 .branches .section-label { color: #7a7670; }
 
@@ -753,71 +738,26 @@ footer a:hover { color: var(--ink); }
 }
 
 .branches-note {
-  font-family: 'DM Sans', sans-serif;
-  font-size: 0.92rem;
-  font-weight: 300;
-  color: #7a7670;
-  margin-bottom: 3rem;
-  max-width: 480px;
+  font-size: 0.95rem;
+  color: #9a968e;
+  margin-bottom: 2.5rem;
 }
 
-.branch-table {
-  width: 100%;
-  border-collapse: collapse;
+.branches p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #c8c4bc;
+  margin-bottom: 1.2rem;
 }
 
-.branch-table th {
-  text-align: left;
-  padding: 0 0 1rem;
-  font-size: 0.72rem;
-  font-weight: 400;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: #7a7670;
-  border-bottom: 1px solid #33332f;
-}
+.branches p:last-child { margin-bottom: 0; }
 
-.branch-table th:last-child { color: var(--accent); }
-
-.branch-table td {
-  padding: 1.4rem 1.5rem 1.4rem 0;
-  border-bottom: 1px solid #33332f;
-  vertical-align: top;
-}
-
-.branch-table tr:last-child td { border-bottom: none; }
-
-.branch-table td:last-child { padding-right: 0; }
-
-.branch-label {
-  font-size: 0.9rem;
-  font-weight: 400;
-  color: var(--paper);
-  margin-bottom: 0.3rem;
-}
-
-.branch-desc {
-  font-family: 'DM Sans', sans-serif;
-  font-size: 0.85rem;
-  font-weight: 300;
-  line-height: 1.5;
-  color: #7a7670;
-}
-
-.branch-result {
-  font-family: 'DM Serif Display', serif;
-  font-size: 1.15rem;
-  font-weight: 400;
-  line-height: 1.35;
-  color: var(--paper);
-}
-
-.branch-result.link a {
+.branches a {
   color: var(--accent);
   text-decoration: none;
 }
 
-.branch-result.link a:hover { text-decoration: underline; }
+.branches a:hover { text-decoration: underline; }
 
 /* PRACTICE (Chance entry point) */
 .practice {
@@ -868,12 +808,4 @@ footer a:hover { color: var(--ink); }
   .how-steps { grid-template-columns: 1fr; }
   .featured-grid { grid-template-columns: 1fr; }
   .featured-card.intro { grid-column: 1; }
-  .flow-step {
-    grid-template-columns: 2.2rem 1fr;
-  }
-  .branch-table td {
-    padding: 1.1rem 0.75rem 1.1rem 0;
-    font-size: 0.95rem;
-  }
-  .branch-result { font-size: 1rem; }
 }
