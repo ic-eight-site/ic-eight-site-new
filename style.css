@@ -784,8 +784,6 @@ footer a:hover { color: var(--ink); }
 .practice {
   padding: 3.5rem 3rem;
   max-width: 680px;
-  border-top: 1px solid var(--rule);
-  border-bottom: 1px solid var(--rule);
 }
 
 .practice .section-label { margin-bottom: 1rem; }
