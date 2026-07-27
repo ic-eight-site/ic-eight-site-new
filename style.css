@@ -764,15 +764,25 @@ footer a:hover { color: var(--ink); }
 }
 
 .branch-list li {
-  font-size: 1rem;
-  line-height: 1.8;
-  color: #c8c4bc;
   padding: 1.3rem 0;
   border-top: 1px solid #33332f;
 }
 
 .branch-list li:first-child { border-top: none; padding-top: 0; }
 .branch-list li:last-child { padding-bottom: 0; }
+
+.branch-issue {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #8f8b84;
+  margin-bottom: 0.5rem;
+}
+
+.branch-action {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--accent);
+}
 
 .branch-strong {
   color: #e8e4da;
@@ -782,6 +792,10 @@ footer a:hover { color: var(--ink); }
 .branches a {
   color: var(--accent);
   text-decoration: none;
+}
+
+.branch-action a {
+  text-decoration: underline;
 }
 
 .branches a:hover { text-decoration: underline; }
