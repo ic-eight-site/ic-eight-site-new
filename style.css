@@ -60,6 +60,10 @@ nav {
   background: var(--rule);
 }
 
+.divider-tight {
+  margin: 1rem 3rem;
+}
+
 /* PAGE HEADER */
 .page-header {
   padding: 3rem 3rem 1.5rem;
@@ -380,7 +384,7 @@ tr:last-child td { border-bottom: none; }
 
 /* STORY (about page) */
 .story {
-  padding: 4rem 3rem;
+  padding: 3rem;
   max-width: 640px;
 }
 
@@ -406,7 +410,7 @@ tr:last-child td { border-bottom: none; }
 }
 
 .service {
-  padding: 4rem 3rem;
+  padding: 3rem;
   max-width: 640px;
 }
 
