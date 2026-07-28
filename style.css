@@ -766,7 +766,6 @@ footer a:hover { color: var(--ink); }
 .process-row-3 { width: 76%; }
 .process-row-4 { width: 64%; }
 .process-row-5 { width: 52%; border-bottom: none; }
-.process-row-5::after { display: none; }
 
 .process-num {
   color: var(--accent);
