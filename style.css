@@ -724,6 +724,18 @@ footer a:hover { color: var(--ink); }
 
 .process-intro {
   margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 2.5rem;
+  position: relative;
+}
+
+.process-intro::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -1px;
+  width: 18px;
+  border-bottom: 2px solid var(--accent);
 }
 
 .process-intro h2 {
@@ -754,11 +766,17 @@ footer a:hover { color: var(--ink); }
   border-top: 2px solid var(--accent);
 }
 
+.process-row-1, .process-row-2, .process-row-3,
+.process-row-4, .process-row-5 {
+  display: block;
+}
+
 .process-row-1 { width: 100%; }
 .process-row-2 { width: 88%; }
 .process-row-3 { width: 76%; }
 .process-row-4 { width: 64%; }
-.process-row-5 { width: 52%; }
+.process-row-5 { width: 52%; border-bottom: none; }
+.process-row-5::after { display: none; }
 
 .process-num {
   color: var(--accent);
