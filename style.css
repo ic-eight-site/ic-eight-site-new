@@ -879,6 +879,20 @@ footer a:hover { color: var(--ink); }
   color: #f2ede4;
 }
 
+.branch-right { flex: 1; }
+.branch-right .branch-do { margin-bottom: 0.5rem; }
+
+.branch-sublink {
+  font-size: 0.82rem;
+}
+
+.branch-sublink a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.branch-sublink a:hover { text-decoration: underline; }
+
 .branch-do a {
   color: inherit;
   text-decoration-color: var(--accent);
