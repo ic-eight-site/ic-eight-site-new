@@ -716,16 +716,49 @@ footer a { color: var(--muted); text-decoration: none; }
 footer a:hover { color: var(--ink); }
 .footer-links { display: flex; gap: 1.5rem; }
 
-/* GAP-FLOW (services page — 5-step process) */
+/* GAP-FLOW (services page — 5-step process, narrowing) */
 .gap-flow {
   padding: 3rem 3rem 4rem;
   max-width: 680px;
 }
 
+.process-intro {
+  margin-bottom: 2.5rem;
+}
+
+.process-intro h2 {
+  font-family: 'DM Serif Display', serif;
+  font-size: clamp(1.4rem, 2.5vw, 1.7rem);
+  font-weight: 400;
+  margin: 0.6rem 0 0.4rem;
+}
+
+.process-intro-sub {
+  color: var(--muted);
+  font-size: 1rem;
+  margin: 0;
+}
+
 .process-row {
   padding: 1.5rem 0 1.65rem;
   border-bottom: 1px solid var(--rule);
+  position: relative;
 }
+
+.process-row::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: -1px;
+  width: 18px;
+  border-top: 2px solid var(--accent);
+}
+
+.process-row-1 { width: 100%; }
+.process-row-2 { width: 88%; }
+.process-row-3 { width: 76%; }
+.process-row-4 { width: 64%; }
+.process-row-5 { width: 52%; }
 
 .process-num {
   color: var(--accent);
@@ -837,28 +870,64 @@ footer a:hover { color: var(--ink); }
 
 .branches a { color: inherit; }
 
-/* PRACTICE (Chance entry point) */
+/* PRACTICE / CASE (Chance entry point) */
 .practice {
   padding: 3.5rem 3rem;
   max-width: 680px;
 }
 
-.practice .section-label { margin-bottom: 1rem; }
+.practice .section-label { margin-bottom: 1.5rem; }
 
-.practice p {
-  font-size: 1rem;
-  line-height: 1.7;
-  color: var(--muted);
-  margin-bottom: 1rem;
+.case-card {
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  padding: 1.6rem 0;
 }
 
-.practice a {
+.case-card h2 {
+  font-family: 'DM Serif Display', serif;
+  font-size: clamp(1.4rem, 2.5vw, 1.7rem);
+  font-weight: 400;
+  margin: 0 0 0.5rem;
+}
+
+.case-finding {
+  font-family: 'DM Serif Display', serif;
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
+  line-height: 1.4;
+  color: var(--ink);
+  margin: 0 0 1.5rem;
+}
+
+.case-meta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 1.4rem;
+}
+
+.case-meta-label {
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #9a968e;
+  margin: 0 0 0.4rem;
+}
+
+.case-meta-value {
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.text-link {
   color: var(--accent);
   text-decoration: none;
   font-size: 0.92rem;
 }
 
-.practice a:hover { text-decoration: underline; }
+.text-link:hover { text-decoration: underline; }
 
 /* MOBILE */
 @media (max-width: 640px) {
@@ -888,6 +957,10 @@ footer a:hover { color: var(--ink); }
   .featured-card.intro { grid-column: 1; }
   .branch-head { display: none; }
   .branch-row { flex-direction: column; gap: 0.8rem; }
+  .process-row-1, .process-row-2, .process-row-3,
+  .process-row-4, .process-row-5 { width: 100%; }
+  .process-row::after { display: none; }
+  .case-meta { grid-template-columns: 1fr; gap: 1rem; }
 }
 
 /* Small phones (e.g. iPhone SE): give the FUX comparison image maximum width */
