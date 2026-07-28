@@ -726,6 +726,16 @@ footer a:hover { color: var(--ink); }
   margin-bottom: 2.5rem;
   border-bottom: 1px solid var(--rule);
   padding-bottom: 2.5rem;
+  position: relative;
+}
+
+.process-intro::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -1px;
+  width: 18px;
+  border-bottom: 2px solid var(--accent);
 }
 
 .process-intro h2 {
@@ -762,6 +772,7 @@ footer a:hover { color: var(--ink); }
 }
 
 .process-row-1 { width: 100%; }
+.process-row-1::after { display: none; }
 .process-row-2 { width: 88%; }
 .process-row-3 { width: 76%; }
 .process-row-4 { width: 64%; }
