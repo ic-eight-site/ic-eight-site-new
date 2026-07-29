@@ -3,14 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Get in touch with IC Eight — Japanese UX Localization for global tech startups.">
-  <link rel="canonical" href="https://ic-eight.com/contact">
+  <meta name="description" content="Talk to IC Eight about how your product lands in Japan, from positioning and first use to trust, UX, and localization.">
+  <link rel="canonical" href="https://ic-eight.com/contact.html">
 
   <meta property="og:title" content="Contact — IC Eight">
-  <meta property="og:description" content="Get in touch with IC Eight.">
+  <meta property="og:description" content="Talk to IC Eight about how your product lands in Japan, from positioning and first use to trust, UX, and localization.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://ic-eight.com/contact">
+  <meta property="og:url" content="https://ic-eight.com/contact.html">
   <meta property="og:image" content="https://ic-eight.com/og-image.jpg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Contact — IC Eight">
+  <meta name="twitter:description" content="Talk to IC Eight about how your product lands in Japan, from positioning and first use to trust, UX, and localization.">
+  <meta name="twitter:image" content="https://ic-eight.com/og-image.jpg">
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-QTS33LQ0MB"></script>
   <script>
@@ -21,6 +26,22 @@
   </script>
 
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="me" href="https://x.com/HelloICEight">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://ic-eight.com/contact.html",
+    "url": "https://ic-eight.com/contact.html",
+    "name": "Contact — IC Eight",
+    "description": "Talk to IC Eight about how your product lands in Japan, from positioning and first use to trust, UX, and localization.",
+    "isPartOf": { "@id": "https://ic-eight.com/#website" },
+    "datePublished": "2025-11-12",
+    "dateModified": "2026-07-27"
+  }
+  </script>
+
   <title>Contact — IC Eight</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,11 +52,7 @@
     .contact-wrap {
       max-width: 720px;
       margin: 0 auto;
-      padding: 4rem 2rem 6rem;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 4rem;
-      align-items: start;
+      padding: 3.5rem 2rem 5rem;
     }
     .contact-header .section-label {
       font-size: 0.75rem;
@@ -49,19 +66,23 @@
       font-family: 'DM Serif Display', serif;
       font-size: clamp(1.8rem, 4vw, 2.4rem);
       line-height: 1.2;
-      margin-bottom: 1.5rem;
+      margin-bottom: 1.25rem;
+      max-width: 26ch;
     }
     .contact-header p {
       color: var(--muted);
       font-size: 0.95rem;
-      line-height: 1.8;
-      margin-bottom: 1.5rem;
+      line-height: 1.75;
+      margin-bottom: 1rem;
+      max-width: 46ch;
     }
     .contact-email {
       font-size: 0.85rem;
       color: var(--muted);
-      border-top: 1px solid var(--rule);
-      padding-top: 1.5rem;
+      margin-top: 1.5rem;
+      margin-bottom: 2.5rem;
+      padding-bottom: 2.5rem;
+      border-bottom: 1px solid var(--rule);
     }
     .contact-email a {
       color: var(--accent);
@@ -72,8 +93,11 @@
     }
 
     /* Form */
+    .contact-form {
+      max-width: 480px;
+    }
     .contact-form .field {
-      margin-bottom: 1.5rem;
+      margin-bottom: 1.25rem;
     }
     .contact-form label {
       display: block;
@@ -81,16 +105,16 @@
       letter-spacing: 0.08em;
       text-transform: uppercase;
       color: var(--muted);
-      margin-bottom: 0.4rem;
+      margin-bottom: 0.5rem;
     }
     .contact-form input[type="text"],
     .contact-form input[type="email"],
     .contact-form select,
     .contact-form textarea {
       width: 100%;
-      background: #fff;
+      background: var(--paper);
       border: 1px solid var(--rule);
-      border-radius: 3px;
+      border-radius: 0;
       padding: 0.7rem 0.9rem;
       font-family: 'DM Sans', sans-serif;
       font-size: 0.95rem;
@@ -104,6 +128,7 @@
       background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%237a7670' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
       background-repeat: no-repeat;
       background-position: right 0.9rem center;
+      background-color: var(--paper);
       padding-right: 2.5rem;
       cursor: pointer;
     }
@@ -115,7 +140,7 @@
     }
     .contact-form textarea {
       resize: vertical;
-      min-height: 120px;
+      min-height: 110px;
     }
     .btn-primary {
       display: inline-block;
@@ -123,22 +148,19 @@
       color: #fff;
       border: none;
       cursor: pointer;
-      padding: 0.9rem 2.2rem;
+      padding: 0.85rem 2.2rem;
       font-family: 'DM Sans', sans-serif;
       font-size: 0.95rem;
       font-weight: 500;
       letter-spacing: 0.03em;
-      border-radius: 3px;
+      border-radius: 0;
       transition: opacity 0.15s;
-      margin-top: 0.5rem;
+      margin-top: 0.25rem;
     }
     .btn-primary:hover { opacity: 0.88; }
 
     @media (max-width: 600px) {
-      .contact-wrap {
-        grid-template-columns: 1fr;
-        gap: 2.5rem;
-      }
+      .contact-form { max-width: 100%; }
     }
   </style>
 </head>
@@ -190,6 +212,18 @@
         <option value="Referred by someone">Referred by someone</option>
         <option value="Medium / article">Medium / article</option>
         <option value="Other">Other</option>
+      </select>
+    </div>
+
+    <div class="field">
+      <label for="budget">Estimated Budget for Product Diagnostic (USD)</label>
+      <select id="budget" name="budget" required>
+        <option value="" disabled selected>Select one</option>
+        <option value="Under $5,000">Under $5,000</option>
+        <option value="$5,000–$15,000">$5,000–$15,000</option>
+        <option value="$15,000–$50,000">$15,000–$50,000</option>
+        <option value="$50,000+">$50,000+</option>
+        <option value="Not decided / Need to discuss">Not decided / Need to discuss</option>
       </select>
     </div>
 
