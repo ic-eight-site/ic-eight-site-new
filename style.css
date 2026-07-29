@@ -699,10 +699,15 @@ tr:last-child td { border-bottom: none; }
 }
 
 .article-cta {
-  background: #eeeae2;
-  border-left: 3px solid var(--accent);
-  padding: 1.4rem 1.5rem;
-  margin: 2.5rem 0 0;
+  margin-top: 1.35rem;
+  padding-top: 0;
+}
+
+.article-cta-rule {
+  width: 56px;
+  height: 1px;
+  background: var(--rule);
+  margin-bottom: 1rem;
 }
 
 .article-cta p {
@@ -712,7 +717,7 @@ tr:last-child td { border-bottom: none; }
   line-height: 1.6;
 }
 
-.article-cta p:first-child { margin-bottom: 0.5rem; color: var(--muted); }
+.article-cta p:first-child { margin-bottom: 0.4rem; }
 
 .article-cta a {
   color: var(--accent);
