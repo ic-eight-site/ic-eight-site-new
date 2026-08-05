@@ -5,7 +5,7 @@
   <link>https://ic-eight.com/articles.html</link>
   <description>Writing on language design, Japanese UX, and what it takes to build products that work across markets.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 05 Aug 2026 12:59:23 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 05 Aug 2026 13:04:11 +0000</lastBuildDate>
   <item>
     <title>AI Efficiency Is Not Customer Value</title>
     <link>https://ic-eight.com/articles/ai-efficiency-not-customer-value.html</link>
@@ -14,25 +14,32 @@
     <category>AI &amp; Content</category>
   </item>
   <item>
+    <title>AI Made More Things Possible. It Didn't Make More Things Valuable.</title>
+    <link>https://ic-eight.com/articles/ai-possible-not-valuable.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/ai-possible-not-valuable.html</guid>
+    <pubDate>Thu, 23 Jul 2026 12:00:00 +0000</pubDate>
+    <category>AI &amp; Content</category>
+  </item>
+  <item>
     <title>Creativity Has Never Lived Inside an Isolated Mind</title>
     <link>https://ic-eight.com/articles/creativity-never-isolated-mind.html</link>
     <guid isPermaLink="true">https://ic-eight.com/articles/creativity-never-isolated-mind.html</guid>
     <pubDate>Mon, 13 Jul 2026 12:00:00 +0000</pubDate>
-    <category>Observation</category>
+    <category>AI &amp; Content</category>
   </item>
   <item>
     <title>"Generic" Is an Aesthetic Judgment. Market Value Is a Different Question.</title>
     <link>https://ic-eight.com/articles/generic-is-aesthetic-market-value-is-different.html</link>
     <guid isPermaLink="true">https://ic-eight.com/articles/generic-is-aesthetic-market-value-is-different.html</guid>
     <pubDate>Mon, 13 Jul 2026 12:00:00 +0000</pubDate>
-    <category>Observation</category>
+    <category>Thinking</category>
   </item>
   <item>
     <title>"AI-Native" Localization, or Just an Automated Vendor Chain?</title>
     <link>https://ic-eight.com/articles/ai-native-or-automated-vendor-chain.html</link>
     <guid isPermaLink="true">https://ic-eight.com/articles/ai-native-or-automated-vendor-chain.html</guid>
     <pubDate>Mon, 13 Jul 2026 12:00:00 +0000</pubDate>
-    <category>Observation</category>
+    <category>Localization Strategy</category>
   </item>
   <item>
     <title>The AI with a Thousand Voices</title>
@@ -53,14 +60,14 @@
     <link>https://ic-eight.com/articles/ai-shapeshifter-not-wild.html</link>
     <guid isPermaLink="true">https://ic-eight.com/articles/ai-shapeshifter-not-wild.html</guid>
     <pubDate>Mon, 06 Jul 2026 12:00:00 +0000</pubDate>
-    <category>Observation</category>
+    <category>AI &amp; Content</category>
   </item>
   <item>
     <title>We Used to Write Magic Blueprints. Now We Can Start With a Wish.</title>
     <link>https://ic-eight.com/articles/magic-blueprint-to-wish.html</link>
     <guid isPermaLink="true">https://ic-eight.com/articles/magic-blueprint-to-wish.html</guid>
     <pubDate>Mon, 06 Jul 2026 12:00:00 +0000</pubDate>
-    <category>Observation</category>
+    <category>AI &amp; Content</category>
   </item>
   <item>
     <title>What Makes People Come Back to an AI Feature</title>
@@ -214,7 +221,7 @@
     <link>https://ic-eight.com/articles/peteca-kemari.html</link>
     <guid isPermaLink="true">https://ic-eight.com/articles/peteca-kemari.html</guid>
     <pubDate>Tue, 02 Jun 2026 12:00:00 +0000</pubDate>
-    <category>Observation</category>
+    <category>Thinking</category>
   </item>
   <item>
     <title>The Four-Layer Workflow: How IC Eight Localizes Without Translating</title>
@@ -284,7 +291,7 @@
     <link>https://ic-eight.com/articles/nobody-asked-for-upgrade.html</link>
     <guid isPermaLink="true">https://ic-eight.com/articles/nobody-asked-for-upgrade.html</guid>
     <pubDate>Tue, 12 May 2026 12:00:00 +0000</pubDate>
-    <category>Observation</category>
+    <category>Business Observation</category>
   </item>
   <item>
     <title>Japan Doesn't Have Low Demand. Japan Has Invisible Demand.</title>
@@ -347,7 +354,7 @@
     <link>https://ic-eight.com/articles/decisions-made-by-people.html</link>
     <guid isPermaLink="true">https://ic-eight.com/articles/decisions-made-by-people.html</guid>
     <pubDate>Thu, 09 Apr 2026 12:00:00 +0000</pubDate>
-    <category>Observation</category>
+    <category>Business Observation</category>
   </item>
   <item>
     <title>"It Feels Kinder Than Most People"</title>
@@ -424,7 +431,7 @@
     <link>https://ic-eight.com/articles/soy-milk-localization.html</link>
     <guid isPermaLink="true">https://ic-eight.com/articles/soy-milk-localization.html</guid>
     <pubDate>Tue, 24 Feb 2026 12:00:00 +0000</pubDate>
-    <category>Observation</category>
+    <category>Business Observation</category>
   </item>
   <item>
     <title>You Don't Expand for Fairness. You Expand for ROI.</title>
@@ -536,7 +543,7 @@
     <link>https://ic-eight.com/articles/begging-sign-ux-value.html</link>
     <guid isPermaLink="true">https://ic-eight.com/articles/begging-sign-ux-value.html</guid>
     <pubDate>Tue, 23 Dec 2025 12:00:00 +0000</pubDate>
-    <category>Observation</category>
+    <category>Thinking</category>
   </item>
   <item>
     <title>Still Chasing "Natural-Sounding" Translation?</title>
