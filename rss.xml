@@ -3,9 +3,16 @@
 <channel>
   <title>IC Eight — Articles</title>
   <link>https://ic-eight.com/articles.html</link>
-  <description>Writing on language design, Japanese UX, and what it takes to build products that work across markets.</description>
+  <description>Articles on Japan market entry, product UX, AI, and localization, exploring how global technology products land with Japanese users and where intended value gets lost.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 05 Aug 2026 13:06:46 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 08 Aug 2026 21:26:55 +0000</lastBuildDate>
+  <item>
+    <title>When Quality Becomes the Wrong Goal</title>
+    <link>https://ic-eight.com/articles/when-quality-becomes-wrong-goal.html</link>
+    <guid isPermaLink="true">https://ic-eight.com/articles/when-quality-becomes-wrong-goal.html</guid>
+    <pubDate>Sat, 08 Aug 2026 21:26:55 +0000</pubDate>
+    <category>Business Observation</category>
+  </item>
   <item>
     <title>AI Efficiency Is Not Customer Value</title>
     <link>https://ic-eight.com/articles/ai-efficiency-not-customer-value.html</link>
