@@ -965,7 +965,6 @@ footer a:hover { color: var(--ink); }
 
 .case-card {
   border-bottom: 1px solid var(--rule);
-  padding-bottom: 1.6rem;
 }
 
 .case-card h2 {
@@ -1006,9 +1005,11 @@ footer a:hover { color: var(--ink); }
 }
 
 .text-link {
+  display: inline-block;
   color: var(--accent);
   text-decoration: none;
   font-size: 0.92rem;
+  margin-bottom: 1.5rem;
 }
 
 .text-link:hover { text-decoration: underline; }
@@ -1097,6 +1098,8 @@ footer a:hover { color: var(--ink); }
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
+
+  .practice { padding-bottom: 0; }
 
   .how { padding-left: 1.5rem; padding-right: 1.5rem; }
   .divider { margin: 0 1.5rem; }
