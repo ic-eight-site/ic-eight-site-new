@@ -957,7 +957,7 @@ footer a:hover { color: var(--ink); }
 
 /* PRACTICE / CASE (Chance entry point) */
 .practice {
-  padding: 3.5rem 3rem 0;
+  padding: 4rem 3rem;
   max-width: 680px;
 }
 
@@ -965,7 +965,7 @@ footer a:hover { color: var(--ink); }
 
 .case-card {
   border-bottom: 1px solid var(--rule);
-  padding: 0 0 0.5rem;
+  padding-bottom: 1.6rem;
 }
 
 .case-card h2 {
@@ -1015,7 +1015,7 @@ footer a:hover { color: var(--ink); }
 
 /* WAYS TO START */
 .ways-to-start {
-  padding: 3.5rem 3rem;
+  padding: 4rem 3rem;
   max-width: 760px;
 }
 
@@ -1092,8 +1092,13 @@ footer a:hover { color: var(--ink); }
     padding-right: 1.5rem;
   }
 
+  /* Unified rule: halve vertical padding on mobile for all main sections */
+  .gap-flow, .branches, .practice, .ways-to-start, .cta {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
   .how { padding-left: 1.5rem; padding-right: 1.5rem; }
-  .ways-to-start { padding-top: 1.75rem; }
   .divider { margin: 0 1.5rem; }
   .how-steps { grid-template-columns: 1fr; }
   .featured-grid { grid-template-columns: 1fr; }
