@@ -814,6 +814,23 @@ footer a:hover { color: var(--ink); }
   flex-shrink: 0;
 }
 
+/* SPEC ROW: flat variant of process-row/process-divider, no narrowing effect */
+.spec-row {
+  padding: 1.5rem 0 1.65rem;
+}
+
+.spec-divider {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.spec-divider-line {
+  flex: 1;
+  height: 1px;
+  background: var(--rule);
+}
+
 .process-num {
   color: var(--accent);
   font-size: 0.7rem;
