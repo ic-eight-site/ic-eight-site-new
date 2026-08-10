@@ -965,7 +965,7 @@ footer a:hover { color: var(--ink); }
 
 .case-card {
   border-bottom: 1px solid var(--rule);
-  padding: 1.6rem 0;
+  padding: 0 0 1.6rem;
 }
 
 .case-card h2 {
