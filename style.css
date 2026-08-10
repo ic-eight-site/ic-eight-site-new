@@ -964,7 +964,6 @@ footer a:hover { color: var(--ink); }
 .practice .section-label { margin-bottom: 1.5rem; }
 
 .case-card {
-  border-top: 1px solid var(--rule);
   border-bottom: 1px solid var(--rule);
   padding: 1.6rem 0;
 }
