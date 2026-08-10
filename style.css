@@ -997,6 +997,64 @@ footer a:hover { color: var(--ink); }
 
 .text-link:hover { text-decoration: underline; }
 
+/* WAYS TO START */
+.ways-to-start {
+  padding: 3.5rem 3rem;
+  max-width: 760px;
+}
+
+.ways-to-start h2 {
+  font-family: 'DM Serif Display', serif;
+  font-size: clamp(1.4rem, 2.5vw, 1.7rem);
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.ways-list {
+  border-top: 1px solid var(--rule);
+}
+
+.ways-item {
+  display: block;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--rule);
+  text-decoration: none;
+  color: inherit;
+}
+
+.ways-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.15rem;
+  font-weight: 400;
+  color: var(--ink);
+  margin-bottom: 0.4rem;
+}
+
+.ways-desc {
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.6;
+  margin-bottom: 0.6rem;
+  max-width: 52ch;
+}
+
+.ways-link {
+  color: var(--accent);
+  font-size: 0.85rem;
+}
+
+.ways-item:hover .ways-title { color: var(--accent); }
+
+.ways-anchor {
+  display: inline-block;
+  margin-top: 1.25rem;
+  font-size: 0.82rem;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.ways-anchor:hover { text-decoration: underline; }
+
 /* MOBILE */
 @media (max-width: 640px) {
   nav {
@@ -1012,7 +1070,7 @@ footer a:hover { color: var(--ink); }
   .featured, .more,
   .faq-section, .not-section,
   .steps, .article-body, .back-section,
-  .gap-flow, .branches, .practice, .fux-example,
+  .gap-flow, .branches, .practice, .fux-example, .ways-to-start,
   footer {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
