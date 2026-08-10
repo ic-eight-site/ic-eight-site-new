@@ -961,7 +961,7 @@ footer a:hover { color: var(--ink); }
   max-width: 680px;
 }
 
-.practice .section-label { margin-bottom: 1.5rem; }
+.practice .section-label { margin-bottom: 0.75rem; }
 
 .case-card {
   border-bottom: 1px solid var(--rule);
