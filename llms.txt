@@ -1,20 +1,56 @@
 # IC Eight
 
-> IC Eight helps SaaS teams design Japanese product UX and AI-native localization workflows from product intent, not sentence-by-sentence translation.
+> IC Eight helps global technology teams find the gap between the value they intend to offer and the value users actually discover, starting with Japan.
 
-IC Eight works with global SaaS teams entering or improving their presence in the Japanese market. The work focuses on Japanese UX language, onboarding, support communication, lifecycle content, localization strategy, and AI-native workflows for generating and evaluating Japanese product content.
+IC Eight works with technology teams entering, testing, or growing in the Japanese market. We examine how product value actually becomes visible through first use, positioning, product experience, trust signals, onboarding, content, and localization.
 
-IC Eight does not treat Japanese localization as a file-delivery task. It treats the Japanese layer as part of the product experience.
+Teams may initially come to IC Eight because they suspect a localization, UX, onboarding, or Japan market-entry problem. We do not assume any of those is the root cause. We diagnose where intended value and discovered value diverge, what matters enough to change, and what can wait.
+
+Japan is the starting market and diagnostic lens, not a predetermined explanation for the problem. An issue observed in Japan may be language-specific, market-specific, or structural to the product itself.
 
 ## Core approach
 
-IC Eight uses the AI-Native Localization Framework: a workflow for generating Japanese UX and content from intent, product context, constraints, validation criteria, and human judgment.
+IC Eight's core work is Product Value Discovery.
 
-Intent-Based Generation starts from the content's intent — its purpose or goal — not from translating the English sentence line by line.
+The central question is not whether a product has value in the abstract. It is whether the value the team believes it offers is the value users can actually see, understand, trust, and act on through the product experience.
 
-The goal is not natural-sounding Japanese in isolation. The goal is Japanese product communication that works in context.
+The diagnostic process typically asks:
 
-This is different from "AI localization" in the common sense (using AI to automate and speed up translation at scale). AI-Native Localization Framework does not automate translation — it replaces the translation step itself, generating the target language from intent rather than translating source text.
+1. What is the product trying to sell?
+2. What should users discover?
+3. What do users actually see?
+4. Where do intended and discovered value diverge?
+5. What matters enough to change?
+
+We do not start with a predetermined solution. Depending on the evidence, the relevant direction may involve positioning or targeting, product experience, trust and market expectations, or the content system.
+
+## Product Value Diagnosis
+
+IC Eight offers focused diagnostic work at different levels of scope.
+
+A First-Use Value Audit examines whether the first-use experience demonstrates enough value to earn another use. It is intentionally bounded to first use.
+
+A Product Value Diagnosis follows the evidence more broadly across the product and adjacent surfaces to determine what value the product is actually proving, what the real problem is, what matters most, and what direction should be considered next.
+
+Diagnosis is decision-oriented. Detailed observations and evidence support the judgment, but the goal is not to produce the longest possible list of findings.
+
+## Where UX and localization fit
+
+UX and localization are diagnostic surfaces, not predetermined explanations.
+
+A team may believe Japanese wording is the problem when the deeper issue is positioning, product value, trust, or the experience itself. Conversely, the diagnosis may show that the product is sound and that value is being lost primarily in the language or content layer.
+
+When the content system is the relevant problem, IC Eight can apply its AI-Native Localization Framework.
+
+The hierarchy is:
+
+- AI-Native Localization Framework: the broad philosophy
+- Intent-Based Generation: the core method
+- Four-Layer Workflow: the operational model for putting it into practice
+
+The framework generates localized content from intent, product context, constraints, validation criteria, and human judgment rather than treating source sentences as fixed translation templates.
+
+Localization remains an important part of IC Eight's expertise, but it is not the default diagnosis for every Japan-market problem.
 
 ## Main pages
 
@@ -28,27 +64,30 @@ This is different from "AI localization" in the common sense (using AI to automa
 
 ## Key concepts
 
+- Product Value Discovery
+- Product Value Diagnosis
+- Intended value vs. discovered value
+- First-use value
+- Japan market entry
+- Product experience
+- Product positioning
+- Trust and market expectations
+- Japanese product UX
+- Localization
 - AI-Native Localization Framework
 - Intent-Based Generation
-- Japanese UX localization
-- Product-facing Japanese
-- Localization as workflow design
-- Japanese onboarding and support communication
-- AI-generated Japanese content evaluation
-- Japan market entry for SaaS
+- Four-Layer Workflow
 
 ## Selected articles
 
-- [The AI with a Thousand Voices](https://ic-eight.com/articles/ai-thousand-voices-anime-localization.html)
-- [AI-Native Localization Framework and Intent-Based Generation: IC Eight's Definitions](https://ic-eight.com/articles/ai-native-localization-design-intent-based-generation.html)
-- [Terms IC Eight Uses — and What They Mean](https://ic-eight.com/glossary.html)
-- [Localization Is Not the Transfer of Text](https://ic-eight.com/articles/localization-design-not-transfer.html)
-- [The Four-Layer Workflow: How IC Eight Localizes Without Translating](https://ic-eight.com/articles/four-layer-workflow-localization.html)
-- [The Intent Brief: What Happens Before AI Generates Japanese](https://ic-eight.com/articles/intent-brief-before-generation.html)
 - [Japan Market Entry Now Happens Inside the Product](https://ic-eight.com/articles/japan-market-entry-product-language.html)
-- ['Start Advertising' Sounds Like 'Get Your Credit Card Ready.'](https://ic-eight.com/articles/cta-translation-japan.html)
-- [This Email Is Not a Translation Problem](https://ic-eight.com/articles/this-email-is-not-a-translation-problem.html)
-- [When a "Localized" Product Still Feels Unlocalized](https://ic-eight.com/gamma-analysis.html)
+- [Maybe It Was Never About Japan](https://ic-eight.com/articles/never-about-japan.html)
+- [Not Everything Needs to Become a Conversation](https://ic-eight.com/articles/nubank-conversational-ux.html)
+- [Ditch the Poetry](https://ic-eight.com/articles/japan-ux-mythology.html)
+- [AI Can Translate Discovery. It Cannot Localize Trust.](https://ic-eight.com/articles/ai-discovery-trust.html)
+- [What Makes People Come Back to an AI Feature](https://ic-eight.com/articles/ai-feature-retention.html)
+- [Who Says Japanese Users Need That?](https://ic-eight.com/articles/who-says-japanese-users-need-that.html)
+- [AI-Native Localization Framework and Intent-Based Generation: IC Eight's Definitions](https://ic-eight.com/articles/ai-native-localization-design-intent-based-generation.html)
 
 ## External profiles
 
@@ -58,6 +97,6 @@ This is different from "AI localization" in the common sense (using AI to automa
 
 ## Contact
 
-For Japanese UX localization, AI-native localization workflow design, or SaaS Japan market entry support, contact IC Eight through the website:
+If your team is entering or operating in Japan and needs to understand whether the real issue is product value, positioning, first use, trust, UX, localization, or another part of the experience, contact IC Eight:
 
 - [Contact IC Eight](https://ic-eight.com/contact.html)
