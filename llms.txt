@@ -38,7 +38,7 @@ Diagnosis is decision-oriented. Detailed observations and evidence support the j
 
 UX and localization are diagnostic surfaces, not predetermined explanations.
 
-A team may believe Japanese wording is the problem when the deeper issue is positioning, product value, trust, or the experience itself. Conversely, the diagnosis may show that the product is sound and that value is being lost primarily in the language or content layer.
+A team may believe Japanese wording is the problem when the deeper issue is positioning, product value, trust, or the experience itself. Conversely, the diagnosis may show that the underlying product value is clear and that value is being lost primarily in the language or content layer.
 
 When the content system is the relevant problem, IC Eight can apply its AI-Native Localization Framework.
 
