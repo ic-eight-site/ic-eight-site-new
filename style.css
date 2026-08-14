@@ -1162,11 +1162,12 @@ footer a:hover { color: var(--ink); }
 }
 
 .sample-toc .toc-label {
+  display: block;
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--muted);
-  margin-bottom: 0.6rem;
+  margin: 0 0 0.8rem 0;
   white-space: nowrap;
 }
 
