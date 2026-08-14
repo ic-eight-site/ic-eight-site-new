@@ -161,12 +161,31 @@ nav {
   color: var(--accent);
 }
 
-.hero-pain {
-  font-size: 1.05rem;
+.hero-prompt {
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 1rem;
+}
+
+.hero-pain-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  max-width: 640px;
+  margin-bottom: 1.75rem;
+  border-top: 1px solid var(--rule);
+  border-left: 1px solid var(--rule);
+}
+
+.hero-pain-item {
+  font-size: 0.98rem;
   color: var(--muted);
-  max-width: 520px;
-  line-height: 1.85;
-  margin-bottom: 1.5rem;
+  line-height: 1.55;
+  padding: 1rem 1.25rem;
+  border-right: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
 }
 
 .hero-sub {
@@ -1088,6 +1107,8 @@ footer a:hover { color: var(--ink); }
     gap: 0.75rem;
   }
   .nav-links { gap: 1.2rem; }
+
+  .hero-pain-grid { grid-template-columns: 1fr; }
 
   .hero, .page-header, .article-header,
   .section, .table-section, .cta,
