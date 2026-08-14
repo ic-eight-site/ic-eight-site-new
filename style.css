@@ -1351,6 +1351,30 @@ details.evidence-item p {
   .visual-evidence-pair { grid-template-columns: 1fr; }
 }
 
+.visual-evidence-single {
+  max-width: calc(50% - 0.75rem);
+  margin: 1rem 0 1.5rem;
+}
+
+.visual-evidence-single figure { margin: 0; }
+
+.visual-evidence-single img {
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid var(--rule);
+}
+
+.visual-evidence-single figcaption {
+  font-size: 0.82rem;
+  color: var(--muted);
+  margin-top: 0.5rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 640px) {
+  .visual-evidence-single { max-width: 100%; }
+}
+
 @media (max-width: 800px) {
   .sample-howto, .sample-toc, .sample-divider { margin-left: 1.5rem; margin-right: 1.5rem; }
 }
