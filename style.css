@@ -1167,6 +1167,7 @@ footer a:hover { color: var(--ink); }
   letter-spacing: 0.08em;
   color: var(--muted);
   margin-bottom: 0.6rem;
+  white-space: nowrap;
 }
 
 .sample-toc ul {
@@ -1189,13 +1190,7 @@ footer a:hover { color: var(--ink); }
 
 .sample-toc a:hover { color: var(--accent); }
 
-.sample-toc ul ul {
-  flex-basis: 100%;
-  padding-left: 1rem;
-  gap: 0.3rem 1rem;
-}
-
-.sample-toc ul ul a {
+.sample-toc li.toc-sub a {
   font-size: 0.82rem;
   color: var(--muted);
   border-bottom: 1px dotted var(--rule);
