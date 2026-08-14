@@ -34,6 +34,12 @@ A Product Value Diagnosis follows the evidence more broadly across the product a
 
 Diagnosis is decision-oriented. Detailed observations and evidence support the judgment, but the goal is not to produce the longest possible list of findings.
 
+## Sample diagnosis
+
+A published sample shows what a Product Value Diagnosis looks like in practice: a consumer AI app that believed its Japanese users were confused, when the underlying issue was that the product's most reliable capability was not the one placed at the center of the experience. The sample includes both a full First-Use Value Audit and a full Product Value Diagnosis, plus excerpts from the supporting evidence record and visual evidence.
+
+- [Chance AI: Product Value Diagnosis Sample](https://ic-eight.com/chance-ai-sample.html)
+
 ## Where UX and localization fit
 
 UX and localization are diagnostic surfaces, not predetermined explanations.
