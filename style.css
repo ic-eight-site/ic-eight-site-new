@@ -1157,7 +1157,6 @@ footer a:hover { color: var(--ink); }
 .sample-howto a {
   color: var(--accent);
   text-decoration: none;
-  border-bottom: 1px solid var(--accent);
 }
 
 .sample-howto a:hover { text-decoration: underline; }
