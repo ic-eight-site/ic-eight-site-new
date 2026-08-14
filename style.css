@@ -203,6 +203,7 @@ nav {
   font-size: 0.95rem;
 }
 
+.hero-cta:visited { color: var(--accent); }
 .hero-cta:hover { text-decoration: underline; }
 
 .accent-word {
