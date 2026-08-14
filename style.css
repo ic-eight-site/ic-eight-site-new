@@ -1154,35 +1154,43 @@ footer a:hover { color: var(--ink); }
   font-size: 0.92rem;
 }
 
+.sample-howto a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent);
+}
+
+.sample-howto a:hover { text-decoration: underline; }
+
 .sample-toc {
   max-width: 720px;
   margin: 0 3rem 2.5rem;
   padding-bottom: 1.5rem;
   border-bottom: 1px solid var(--rule);
-  display: flex;
-  flex-direction: column;
 }
 
 .sample-toc .toc-label {
-  display: block;
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--muted);
   margin: 0 0 0.8rem 0;
-  white-space: nowrap;
 }
 
 .sample-toc ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem 1.2rem;
 }
 
-.sample-toc li { margin: 0; padding-right: 0.3rem; }
+.sample-toc li {
+  margin: 0 0 0.55rem 0;
+}
+
+.sample-toc li.toc-sub {
+  padding-left: 1.2rem;
+  margin-top: -0.15rem;
+}
 
 .sample-toc a {
   font-size: 0.9rem;
