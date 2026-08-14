@@ -195,6 +195,16 @@ nav {
   line-height: 1.75;
 }
 
+.hero-cta {
+  display: inline-block;
+  margin-top: 1.5rem;
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.hero-cta:hover { text-decoration: underline; }
+
 .accent-word {
   color: var(--accent);
 }
