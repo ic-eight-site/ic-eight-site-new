@@ -143,7 +143,7 @@
 </section>
 
 <script>
-  fetch('/articles.json')
+    fetch('/articles.json?v=20260816-2')
     .then(r => r.json())
     .then(articles => {
       const list = document.getElementById('originals-list');
