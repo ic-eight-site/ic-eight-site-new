@@ -149,7 +149,7 @@
       const list = document.getElementById('originals-list');
       const filterDiv = document.getElementById('filter-buttons');
 
-      const tags = ['All', ...new Set(articles.map(a => a.tag))];
+      const tags = ['All', ...new Set([...articles.map(a => a.tag), 'Product Value Discovery'])];
 
       const btnStyle = `
         padding: 4px 14px;
