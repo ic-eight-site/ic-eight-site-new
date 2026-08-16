@@ -119,7 +119,9 @@
 
   <h3>Method note</h3>
 
-  <p>The constraints changed deliberately at each stage. During first-use testing, Codex was instructed not to explore every feature or try to prove the product useful. It was asked to behave like a plausible first-time user with limited patience. Later, those constraints were removed and Codex was told to audit the product broadly, including capabilities a normal user might never discover.</p>
+  <p>The constraints changed deliberately at each stage. During first-use testing, Codex was instructed not to explore every feature or try to prove the product useful. It was asked to behave like a plausible first-time user with limited patience.</p>
+
+  <p>Later, those constraints were removed and Codex was told to audit the product broadly, including capabilities a normal user might never discover.</p>
 
   <p>The prompts and interaction logs were preserved throughout the experiment.</p>
 
@@ -161,21 +163,25 @@
 
   <h2>Stage 3: Asking AI to infer the business from first-use evidence</h2>
 
-  <p>I then gave the first-use findings to a separate AI and asked it to reconsider Chance’s commercial direction.</p>
+  <p>I then gave the first-use findings to a separate ChatGPT that had never used Chance and asked it to reconsider the product’s commercial direction.</p>
 
   <p>The AI was explicitly allowed to change the buyer, end user, business model, distribution model, and product packaging.</p>
 
-  <p>Its strongest conclusion was that Chance should stop depending on occasional consumer curiosity and move toward contexts in which one organization serves many low-frequency users.</p>
+  <p>The strategy shifted sharply away from Chance’s original broad consumer framing.</p>
 
-  <p>It proposed directions such as cultural institutions, resale and fashion commerce, travel, and other B2B2C models.</p>
+  <p>It proposed a range of mostly B2B opportunities, including a Visual Customer Support Agent, a Marketplace Catalog Intelligence API, a Field Service Visual Copilot, Photo-first Maintenance Intake, and embedded retail use cases. It also proposed directions such as a Cultural Venue Platform and Visual Learning.</p>
 
-  <p>The reasoning was sensible.</p>
+  <p>These were commercially plausible ideas.</p>
 
-  <p>If an individual only needs visual interpretation occasionally, charging that individual is difficult. But a museum, retailer, or other organization may encounter thousands of those occasional interactions in aggregate.</p>
+  <p>But they immediately raised another question:</p>
 
-  <p>This was already a meaningful strategic shift.</p>
+  <p><strong>Why Chance?</strong></p>
 
-  <p>But there was a limitation hidden inside the exercise.</p>
+  <p>Many of the proposed businesses could also be built around ChatGPT, Gemini, Meta AI, or another general-purpose multimodal model.</p>
+
+  <p>A Visual Customer Support Agent might be a viable AI product. A field-service visual copilot might also have commercial value. But neither idea necessarily depended on assets that were distinctive to Chance.</p>
+
+  <p>There was another limitation hidden inside the exercise.</p>
 
   <p>The AI could reason only from the evidence it had been given.</p>
 
@@ -209,9 +215,9 @@
 
   <p>After exploring the product directly, Codex was asked the same broader commercial question:</p>
 
-  <p>Forget the current consumer positioning. Based on what you actually observed, where are the strongest commercial opportunities?</p>
+  <p><strong>Forget the current consumer positioning. Based on what you actually observed, where are the strongest commercial opportunities?</strong></p>
 
-  <p>Its top recommendation was no longer museum interpretation or generic visual search.</p>
+  <p>Its top recommendation was no longer a generic support, field-service, or visual-search workflow.</p>
 
   <p>It proposed a branded visual campaign platform.</p>
 
@@ -221,21 +227,21 @@
 
   <p>Other proposals used Snap history, recurring Insights, and visual agents for field operations, clienteling, and beauty services.</p>
 
+  <p>These ideas were much more tightly connected to capabilities actually present in Chance.</p>
+
   <p>The important result is not whether any of these businesses is correct.</p>
 
   <p>None has yet been validated by paying customers.</p>
 
   <p>The important result is that <strong>the opportunity map changed when the AI gained access to a different layer of evidence.</strong></p>
 
-  <p>Public information led toward one type of business.</p>
+  <p>Public information shaped which users the AI expected to matter.</p>
 
-  <p>First-use evidence led toward another.</p>
+  <p>First-use evidence produced one picture of the product and one set of commercial possibilities.</p>
 
-  <p>Direct product exploration led somewhere else again.</p>
+  <p>Direct product exploration produced another.</p>
 
   <h2>Comparison of evidence, visibility, and direction</h2>
-
-  <p>The five stages differed in the evidence available to the AI and, therefore, in what it could see.</p>
 
   <div class="table-wrapper">
     <table>
@@ -263,16 +269,16 @@
           <td>Three constrained first-use journeys in the actual app.</td>
           <td>Simulated first-time user with limited patience.</td>
           <td>Basic explanation value, help with visual vocabulary, generic styling advice, errors, and realistic stopping points.</td>
-          <td>Value shifted from identification toward helping users notice more and form better questions.</td>
+          <td>Value shifted from identification toward helping users notice more and form better questions, but no strong recurring use emerged across the three personas.</td>
           <td>Users explored shallowly, so unreached product capabilities remained invisible.</td>
         </tr>
         <tr>
           <td><strong>Stage 3</strong></td>
           <td>Only the findings produced by the first-use journeys.</td>
           <td>Business strategist allowed to change buyer, model, and packaging.</td>
-          <td>Occasional individual demand could be aggregated by an organizational buyer.</td>
-          <td>B2B2C directions including cultural institutions, resale and fashion commerce, and travel.</td>
-          <td>The strategy treated features absent from first-use evidence as if they did not exist.</td>
+          <td>Weak recurring consumer value could be reframed as a business or workflow problem for a different buyer.</td>
+          <td>Mostly B2B directions including visual customer support, catalog intelligence, field service, maintenance intake, and embedded retail, with additional ideas in cultural venues and visual learning.</td>
+          <td>The strategy treated features absent from first-use evidence as if they did not exist, and many recommendations were generic enough to raise the question: why Chance?</td>
         </tr>
         <tr>
           <td><strong>Stage 4</strong></td>
@@ -334,9 +340,11 @@
 
   <p>But there was also a recurring weakness.</p>
 
-  <p>When operating from public information alone, the AI was more likely to fall into commercially plausible but generic categories such as customer support, field service, or workflow automation.</p>
+  <p>When the strategy AI worked from first-use findings without direct access to the broader product, it was more likely to fall into commercially plausible but generic categories such as customer support, field service, or workflow automation.</p>
 
-  <p>Those ideas may have good economics. But they raise another question:</p>
+  <p>Those ideas may have good economics.</p>
+
+  <p>But they raise another question:</p>
 
   <p><strong>Why Chance?</strong></p>
 
@@ -377,11 +385,11 @@
 
   <p>What it could not do was escape the evidence environment it had been given.</p>
 
-  <p>Change the evidence, and the product changed.</p>
+  <p><strong>Change the evidence, and the product changed.</strong></p>
 
-  <p>Change the product that the AI could see, and the opportunity map changed with it.</p>
+  <p><strong>Change the product that the AI could see, and the opportunity map changed with it.</strong></p>
 
-  <p>This makes Product Value Discovery less a question of whether AI can “do strategy” and more a question of <strong>how evidence is constructed before strategy begins.</strong></p>
+  <p>This makes Product Value Discovery less a question of whether AI can “do strategy” and more a question of how evidence is constructed before strategy begins.</p>
 
   <h2>What this means for Product Value Discovery</h2>
 
@@ -393,15 +401,15 @@
 
   <p>But it also showed why simply asking an AI to “analyze this product” is not enough.</p>
 
-  <p>The quality of the answer depends heavily on whether the AI is looking at:</p>
+  <p>The answer depends heavily on whether the AI is looking at:</p>
 
-  <p><strong>what the company says the product is,</strong></p>
+  <ul>
+    <li>what the company says the product is,</li>
+    <li>what users actually discover,</li>
+    <li>or what the product is technically capable of becoming.</li>
+  </ul>
 
-  <p><strong>what users actually discover,</strong></p>
-
-  <p>or <strong>what the product is technically capable of becoming.</strong></p>
-
-  <p>Those three views can produce three different businesses.</p>
+  <p>Those three views can produce very different pictures of the same product, and very different opportunity maps when strategy is built from them.</p>
 
   <p>For product teams entering a new market, that distinction matters.</p>
 
