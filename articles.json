@@ -171,9 +171,10 @@
     "url": "/articles/translation-is-not-one-thing.html"
   },
   {
-    "tag": "Thinking",
+    "tag": null,
     "title": "Don't Let It Fall",
-    "url": "/articles/peteca-kemari.html"
+    "url": "/articles/peteca-kemari.html",
+    "primaryStatus": "unclassified_legacy"
   },
   {
     "tag": "Content Systems",
@@ -246,9 +247,10 @@
     "url": "/articles/japan-50plus-market.html"
   },
   {
-    "tag": "Localization Strategy",
+    "tag": null,
     "title": "Why You Should Start LATAM Expansion with Brazil, Not Spanish Markets",
-    "url": "/articles/brazil-first-latam.html"
+    "url": "/articles/brazil-first-latam.html",
+    "primaryStatus": "unclassified_legacy"
   },
   {
     "tag": "Positioning & Assumptions",
@@ -266,9 +268,10 @@
     "url": "/articles/pix-ticketing-system-failure.html"
   },
   {
-    "tag": "Business Observation",
+    "tag": null,
     "title": "Decisions Aren't Made by Systems. They're Made by People.",
-    "url": "/articles/decisions-made-by-people.html"
+    "url": "/articles/decisions-made-by-people.html",
+    "primaryStatus": "unclassified_legacy"
   },
   {
     "tag": "Value in Use",
@@ -291,9 +294,10 @@
     "url": "/articles/companies-pay-for-communication.html"
   },
   {
-    "tag": "Japanese UX",
+    "tag": null,
     "title": "This Isn't Market Exit. It's Channel Strategy.",
-    "url": "/articles/japan-channel-strategy.html"
+    "url": "/articles/japan-channel-strategy.html",
+    "primaryStatus": "unclassified_legacy"
   },
   {
     "tag": "Positioning & Assumptions",
@@ -326,19 +330,22 @@
     "url": "/articles/soy-milk-localization.html"
   },
   {
-    "tag": "Localization Strategy",
+    "tag": null,
     "title": "You Don't Expand for Fairness. You Expand for ROI.",
-    "url": "/articles/expand-for-roi.html"
+    "url": "/articles/expand-for-roi.html",
+    "primaryStatus": "unclassified_legacy"
   },
   {
-    "tag": "Localization Strategy",
+    "tag": null,
     "title": "The Smallest Global Rollout That Actually Works",
-    "url": "/articles/smallest-global-rollout.html"
+    "url": "/articles/smallest-global-rollout.html",
+    "primaryStatus": "unclassified_legacy"
   },
   {
-    "tag": "Localization Strategy",
+    "tag": null,
     "title": "Skip Europe. Start with LATAM.",
-    "url": "/articles/skip-europe-start-latam.html"
+    "url": "/articles/skip-europe-start-latam.html",
+    "primaryStatus": "unclassified_legacy"
   },
   {
     "tag": "Content Systems",
@@ -401,9 +408,10 @@
     "url": "/articles/stop-translating-start-writing.html"
   },
   {
-    "tag": "Thinking",
+    "tag": null,
     "title": "What Makes a Good Begging Sign?",
-    "url": "/articles/begging-sign-ux-value.html"
+    "url": "/articles/begging-sign-ux-value.html",
+    "primaryStatus": "unclassified_legacy"
   },
   {
     "tag": "Diagnosis & Priority",
@@ -411,9 +419,10 @@
     "url": "/articles/natural-sounding-is-wrong-metric.html"
   },
   {
-    "tag": "Localization Strategy",
+    "tag": null,
     "title": "Start Smaller",
-    "url": "/articles/start-smaller.html"
+    "url": "/articles/start-smaller.html",
+    "primaryStatus": "unclassified_legacy"
   },
   {
     "tag": "AI & Value Creation",
