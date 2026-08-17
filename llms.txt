@@ -63,6 +63,7 @@ Localization remains an important part of IC Eight's expertise, but it is not th
 - [Home](https://ic-eight.com/)
 - [How We Work](https://ic-eight.com/services.html)
 - [Articles](https://ic-eight.com/articles.html)
+- [Product Value Evaluation Experiments](https://ic-eight.com/product-value-evaluations.html)
 - [FAQ](https://ic-eight.com/faq.html)
 - [Glossary](https://ic-eight.com/glossary.html)
 - [About](https://ic-eight.com/about.html)
@@ -94,6 +95,8 @@ Localization remains an important part of IC Eight's expertise, but it is not th
 - [What Makes People Come Back to an AI Feature](https://ic-eight.com/articles/ai-feature-retention.html)
 - [Who Says Japanese Users Need That?](https://ic-eight.com/articles/who-says-japanese-users-need-that.html)
 - [AI-Native Localization Framework and Intent-Based Generation: IC Eight's Definitions](https://ic-eight.com/articles/ai-native-localization-design-intent-based-generation.html)
+- [What AI Discovers Depends on What You Let It Observe](https://ic-eight.com/articles/what-ai-discovers-depends-on-what-you-let-it-observe.html)
+- [AI Can Discover More. But Can It Decide What to Kill?](https://ic-eight.com/articles/ai-can-discover-but-can-it-kill.html)
 
 ## External profiles
 
