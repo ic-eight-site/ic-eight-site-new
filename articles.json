@@ -1,172 +1,172 @@
 [
   {
-    "tag": "Product Value Discovery",
+    "tag": "Diagnosis & Priority",
     "title": "AI Can Discover More. But Can It Decide What to Kill?",
     "url": "/articles/ai-can-discover-but-can-it-kill.html"
   },
   {
-    "tag": "Product Value Discovery",
+    "tag": "Diagnosis & Priority",
     "title": "What AI Discovers Depends on What You Let It Observe",
     "url": "/articles/what-ai-discovers-depends-on-what-you-let-it-observe.html"
   },
   {
-    "tag": "Product Value Discovery",
+    "tag": "AI & Value Creation",
     "title": "How Fast the Unit of Work Keeps Changing",
     "url": "/articles/how-fast-the-unit-of-work-keeps-changing.html"
   },
   {
-    "tag": "Localization Strategy",
+    "tag": "Diagnosis & Priority",
     "title": "Who Says Japanese Users Need That?",
     "url": "/articles/who-says-japanese-users-need-that.html"
   },
   {
-    "tag": "Business Observation",
+    "tag": "Diagnosis & Priority",
     "title": "When Quality Becomes the Wrong Goal",
     "url": "/articles/when-quality-becomes-wrong-goal.html"
   },
   {
-    "tag": "AI & Content",
+    "tag": "Diagnosis & Priority",
     "title": "AI Efficiency Is Not Customer Value",
     "url": "/articles/ai-efficiency-not-customer-value.html"
   },
   {
-    "tag": "AI & Content",
+    "tag": "AI & Value Creation",
     "title": "Creativity Has Never Lived Inside an Isolated Mind",
     "url": "/articles/creativity-never-isolated-mind.html"
   },
   {
-    "tag": "Thinking",
+    "tag": "Diagnosis & Priority",
     "title": "\"Generic\" Is an Aesthetic Judgment. Market Value Is a Different Question.",
     "url": "/articles/generic-is-aesthetic-market-value-is-different.html"
   },
   {
-    "tag": "Localization Strategy",
+    "tag": "Content Systems",
     "title": "\"AI-Native\" Localization, or Just an Automated Vendor Chain?",
     "url": "/articles/ai-native-or-automated-vendor-chain.html"
   },
   {
-    "tag": "AI & Content",
+    "tag": "Content Systems",
     "title": "The AI with a Thousand Voices",
     "url": "/articles/ai-thousand-voices-anime-localization.html"
   },
   {
-    "tag": "Localization Strategy",
+    "tag": "Positioning & Assumptions",
     "title": "\"Translate This\" Was Never Actually the Request",
     "url": "/articles/not-a-translation-request.html"
   },
   {
-    "tag": "AI & Content",
+    "tag": "AI & Value Creation",
     "title": "AI Is a Shapeshifter, But Not a Wild One",
     "url": "/articles/ai-shapeshifter-not-wild.html"
   },
   {
-    "tag": "AI & Content",
+    "tag": "AI & Value Creation",
     "title": "We Used to Write Magic Blueprints. Now We Can Start With a Wish.",
     "url": "/articles/magic-blueprint-to-wish.html"
   },
   {
-    "tag": "AI & Content",
+    "tag": "Value in Use",
     "title": "What Makes People Come Back to an AI Feature",
     "url": "/articles/ai-feature-retention.html"
   },
   {
-    "tag": "Localization Strategy",
+    "tag": "Content Systems",
     "title": "This Email Is Not a Translation Problem",
     "url": "/articles/this-email-is-not-a-translation-problem.html"
   },
   {
-    "tag": "AI & Content",
+    "tag": "Diagnosis & Priority",
     "title": "AI Slop Has a Blind Spot, and It's Visual",
     "url": "/articles/ai-slop-blind-spot.html"
   },
   {
-    "tag": "Localization Strategy",
+    "tag": "Content Systems",
     "title": "AI-Native Localization Framework and Intent-Based Generation: IC Eight's Definitions",
     "url": "/articles/ai-native-localization-design-intent-based-generation.html"
   },
   {
-    "tag": "UX Observation",
+    "tag": "Value in Use",
     "title": "Why Subway's Self-Ordering Kiosks Make Sense in Japan",
     "url": "/articles/subway-kiosk-japan-ux.html"
   },
   {
-    "tag": "AI & Content",
+    "tag": "Value in Use",
     "title": "AI Can Translate Discovery. It Cannot Localize Trust.",
     "url": "/articles/ai-discovery-trust.html"
   },
   {
-    "tag": "Localization Strategy",
+    "tag": "Value in Use",
     "title": "Japan Market Entry Now Happens Inside the Product",
     "url": "/articles/japan-market-entry-product-language.html"
   },
   {
-    "tag": "Localization Strategy",
+    "tag": "Diagnosis & Priority",
     "title": "Translation Can Support ROI. But Only When the Output Actually Performs.",
     "url": "/articles/translation-roi-performance.html"
   },
   {
-    "tag": "Japanese UX",
+    "tag": "Value in Use",
     "title": "Why \"Community\" Fails Without a Reason to Return: Lessons from Poupee Girl",
     "url": "/articles/poupee-girl-community-loops.html"
   },
   {
-    "tag": "Thinking",
+    "tag": "Diagnosis & Priority",
     "title": "AI Tells Are Becoming the New Stone Mortar",
     "url": "/articles/ai-tells-stone-mortar.html"
   },
   {
-    "tag": "Localization Strategy",
+    "tag": "Content Systems",
     "title": "The AI Didn't Translate My Website. It Rebuilt It from Intent.",
     "url": "/articles/rebuilt-from-intent.html"
   },
   {
-    "tag": "Thinking",
+    "tag": "AI & Value Creation",
     "title": "The Post Is Just a Container",
     "url": "/articles/post-is-just-a-container.html"
   },
   {
-    "tag": "Thinking",
+    "tag": "AI & Value Creation",
     "title": "When AI Doesn't Replace the Writer — It Replaces the Visit",
     "url": "/articles/ai-replaces-the-visit.html"
   },
   {
-    "tag": "Localization Strategy",
+    "tag": "Positioning & Assumptions",
     "title": "\"Only $299!\" — and Why That Word Doesn't Always Travel",
     "url": "/articles/only-299-price-framing.html"
   },
   {
-    "tag": "Localization Strategy",
+    "tag": "Content Systems",
     "title": "Localization Is Not the Transfer of Text",
     "url": "/articles/localization-design-not-transfer.html",
     "featured": true
   },
   {
-    "tag": "AI & Content",
+    "tag": "AI & Value Creation",
     "title": "A Lot of Productivity Tools Still Assume a Human Is Doing the Manual Work",
     "url": "/articles/productivity-tools-manual-work.html"
   },
   {
-    "tag": "UX Observation",
+    "tag": "Value in Use",
     "title": "Banco Inter's Missing State: A UX Field Note",
     "url": "/articles/banco-inter-missing-state.html"
   },
   {
-    "tag": "Japanese UX",
+    "tag": "Value in Use",
     "title": "Users Can Buy in English. That Is Not the Point.",
     "url": "/articles/fragile-interest-localization.html"
   },
   {
-    "tag": "UX & Design",
+    "tag": "Value in Use",
     "title": "Transparency Is Not the Same as Disclosure",
     "url": "/articles/c2pa-transparency.html"
   },
   {
-    "tag": "Japanese UX",
+    "tag": "Value in Use",
     "title": "That Is Not a Language Barrier. That Is a Design Failure.",
     "url": "/articles/cognitive-load-help-content.html"
   },
   {
-    "tag": "Localization Strategy",
+    "tag": "Content Systems",
     "title": "\"Translation\" Is No Longer a Useful Word",
     "url": "/articles/translation-is-not-one-thing.html"
   },
@@ -176,72 +176,72 @@
     "url": "/articles/peteca-kemari.html"
   },
   {
-    "tag": "Localization Strategy",
+    "tag": "Content Systems",
     "title": "The Four-Layer Workflow: How IC Eight Localizes Without Translating",
     "url": "/articles/four-layer-workflow-localization.html"
   },
   {
-    "tag": "Localization Strategy",
+    "tag": "Content Systems",
     "title": "The Intent Brief: What Happens Before AI Generates Japanese",
     "url": "/articles/intent-brief-before-generation.html"
   },
   {
-    "tag": "Japanese UX",
+    "tag": "Value in Use",
     "title": "Localization Is Not What Most SaaS Teams Think It Is",
     "url": "/articles/localization-is-ux.html"
   },
   {
-    "tag": "AI & Content",
+    "tag": "Diagnosis & Priority",
     "title": "The Network Hygiene Problem",
     "url": "/articles/ai-slop-network-hygiene.html"
   },
   {
-    "tag": "Localization Strategy",
+    "tag": "Content Systems",
     "title": "AI Localization Fails When We Judge It as Translation",
     "url": "/articles/ai-localization-controlled-generation.html"
   },
   {
-    "tag": "AI & Content",
+    "tag": "Diagnosis & Priority",
     "title": "It's Not AI Slop. It's User Slop.",
     "url": "/articles/user-slop.html"
   },
   {
-    "tag": "UX Observation",
+    "tag": "Value in Use",
     "title": "Not Everything Needs to Become a Conversation",
     "url": "/articles/nubank-conversational-ux.html"
   },
   {
-    "tag": "Japanese UX",
+    "tag": "Positioning & Assumptions",
     "title": "The SaaS Sweet Spot in Japan Isn't Who You Think",
     "url": "/articles/japan-saas-sweet-spot.html"
   },
   {
-    "tag": "Japanese UX",
+    "tag": "Positioning & Assumptions",
     "title": "Ditch the Poetry",
     "url": "/articles/japan-ux-mythology.html"
   },
   {
-    "tag": "Business Observation",
+    "tag": "Value in Use",
     "title": "Nobody Asked Me If I Wanted an Upgrade",
     "url": "/articles/nobody-asked-for-upgrade.html"
   },
   {
-    "tag": "Japanese UX",
+    "tag": "Positioning & Assumptions",
     "title": "Japan Doesn't Have Low Demand. Japan Has Invisible Demand.",
     "url": "/articles/japan-invisible-demand.html"
   },
   {
-    "tag": "UX Observation",
+    "tag": "Value in Use",
     "title": "AI Can Speak Many Languages. Why Does the Microphone Still Ask Me to Choose One?",
     "url": "/articles/multilingual-microphone-ux.html"
   },
   {
-    "tag": "UX Observation",
+    "tag": "Value in Use",
     "title": "In Brazil, the Comprar Button Is Just the Beginning",
     "url": "/articles/brazil-whatsapp-commerce.html"
   },
   {
-    "tag": "Japanese UX",
+    "tag": "Positioning & Assumptions",
     "title": "Japan Is Not a 'Young Market.' It's a 50+ Market.",
     "url": "/articles/japan-50plus-market.html"
   },
@@ -251,17 +251,17 @@
     "url": "/articles/brazil-first-latam.html"
   },
   {
-    "tag": "Japanese UX",
+    "tag": "Positioning & Assumptions",
     "title": "LinkedIn Japan Is Not Japan.",
     "url": "/articles/linkedin-japan-is-not-japan.html"
   },
   {
-    "tag": "Japanese UX",
+    "tag": "Value in Use",
     "title": "You Can't Translate a Washing Machine Manual",
     "url": "/articles/washing-machine-manual.html"
   },
   {
-    "tag": "UX Observation",
+    "tag": "Value in Use",
     "title": "When Pix Works but Your System Doesn't",
     "url": "/articles/pix-ticketing-system-failure.html"
   },
@@ -271,22 +271,22 @@
     "url": "/articles/decisions-made-by-people.html"
   },
   {
-    "tag": "UX Observation",
+    "tag": "Value in Use",
     "title": "\"It Feels Kinder Than Most People\"",
     "url": "/articles/ai-companion-seniors.html"
   },
   {
-    "tag": "Localization Strategy",
+    "tag": "Positioning & Assumptions",
     "title": "English Proficiency ≠ Understanding",
     "url": "/articles/english-proficiency-vs-understanding.html"
   },
   {
-    "tag": "AI & Content",
+    "tag": "Content Systems",
     "title": "We Don't Trust Humans. We Trust Accountability.",
     "url": "/articles/trust-accountability.html"
   },
   {
-    "tag": "Localization Strategy",
+    "tag": "AI & Value Creation",
     "title": "Companies Don't Pay for Judgment. They Pay for Communication.",
     "url": "/articles/companies-pay-for-communication.html"
   },
@@ -296,32 +296,32 @@
     "url": "/articles/japan-channel-strategy.html"
   },
   {
-    "tag": "Localization Strategy",
+    "tag": "Positioning & Assumptions",
     "title": "They Can Afford the Flight. They Just Don't Speak English.",
     "url": "/articles/brazil-english-proficiency.html"
   },
   {
-    "tag": "Localization Strategy",
+    "tag": "Content Systems",
     "title": "Localization Isn't Translation. It's Redesign.",
     "url": "/articles/localization-is-redesign.html"
   },
   {
-    "tag": "Localization Strategy",
+    "tag": "Positioning & Assumptions",
     "title": "In LATAM, Intent Beats Income",
     "url": "/articles/intent-beats-income.html"
   },
   {
-    "tag": "Localization Strategy",
+    "tag": "Positioning & Assumptions",
     "title": "In LATAM, an iPhone Isn't a Phone — It's Liquidity",
     "url": "/articles/iphone-latam-liquidity.html"
   },
   {
-    "tag": "UX Observation",
+    "tag": "Value in Use",
     "title": "I Could Afford It. I Just Couldn't Pay.",
     "url": "/articles/pix-payment-localization.html"
   },
   {
-    "tag": "Business Observation",
+    "tag": "Positioning & Assumptions",
     "title": "São Paulo Lost Its Soy Milk. What That Taught Me About Localization.",
     "url": "/articles/soy-milk-localization.html"
   },
@@ -341,62 +341,62 @@
     "url": "/articles/skip-europe-start-latam.html"
   },
   {
-    "tag": "Localization Strategy",
+    "tag": "Content Systems",
     "title": "Some Things Just Shouldn't Be Localized",
     "url": "/articles/dont-translate-everything.html"
   },
   {
-    "tag": "Japanese UX",
+    "tag": "Value in Use",
     "title": "'Start Advertising' Sounds Like 'Get Your Credit Card Ready.'",
     "url": "/articles/cta-translation-japan.html"
   },
   {
-    "tag": "Thinking",
+    "tag": "Diagnosis & Priority",
     "title": "Still Assuming \"Human = Quality\"?",
     "url": "/articles/human-equals-quality.html"
   },
   {
-    "tag": "Japanese UX",
+    "tag": "Positioning & Assumptions",
     "title": "Perfection Isn't What Japanese Customers Really Expect",
     "url": "/articles/japan-perfection-myth.html"
   },
   {
-    "tag": "UX Observation",
+    "tag": "Value in Use",
     "title": "Why AI Support Still Feels Like an 80s Adventure Game",
     "url": "/articles/ai-support-ux.html"
   },
   {
-    "tag": "Localization Strategy",
+    "tag": "Content Systems",
     "title": "AI Isn't Making Translation Faster. It's Making It Optional.",
     "url": "/articles/translation-is-optional.html"
   },
   {
-    "tag": "UX Observation",
+    "tag": "Value in Use",
     "title": "When Your Bank Says \"We Miss You\" — After One Week",
     "url": "/articles/banco-inter-ux-hug.html"
   },
   {
-    "tag": "Thinking",
+    "tag": "Content Systems",
     "title": "\"Human Translation Is the Degraded Version of AI Translation.\"",
     "url": "/articles/designing-meaning.html"
   },
   {
-    "tag": "AI & Content",
+    "tag": "Content Systems",
     "title": "Why We Recommend LLM-Native Content Over Machine Translation",
     "url": "/articles/llm-native-vs-mt.html"
   },
   {
-    "tag": "UX Observation",
+    "tag": "Value in Use",
     "title": "Four Support Layers Later, the Answer Came from ChatGPT",
     "url": "/articles/banco-inter-ux.html"
   },
   {
-    "tag": "UX Observation",
+    "tag": "Value in Use",
     "title": "Cash Is King — Especially When It's Personal",
     "url": "/articles/cash-tip-ux.html"
   },
   {
-    "tag": "Localization Strategy",
+    "tag": "Content Systems",
     "title": "Why We Should Stop Translating — and Start Writing",
     "url": "/articles/stop-translating-start-writing.html"
   },
@@ -406,7 +406,7 @@
     "url": "/articles/begging-sign-ux-value.html"
   },
   {
-    "tag": "Localization Strategy",
+    "tag": "Diagnosis & Priority",
     "title": "Still Chasing \"Natural-Sounding\" Translation?",
     "url": "/articles/natural-sounding-is-wrong-metric.html"
   },
@@ -416,42 +416,42 @@
     "url": "/articles/start-smaller.html"
   },
   {
-    "tag": "Localization Strategy",
+    "tag": "AI & Value Creation",
     "title": "Why AI Translation Will Kill the Vendor Model Before It Kills Translators",
     "url": "/articles/vendor-model-will-die.html"
   },
   {
-    "tag": "Japanese UX",
+    "tag": "Value in Use",
     "title": "What Broken Localization Actually Looks Like",
     "url": "/articles/gamma-japanese-ux-part1.html"
   },
   {
-    "tag": "AI & Content",
+    "tag": "Diagnosis & Priority",
     "title": "The Line Between Suggestion and Decision",
     "url": "/articles/line-between-suggestion-and-decision.html"
   },
   {
-    "tag": "Japanese UX",
+    "tag": "Content Systems",
     "title": "Apple Used to Be a Model of Language. Not Anymore.",
     "url": "/articles/apple-japanese-copy.html"
   },
   {
-    "tag": "Japanese UX",
+    "tag": "Value in Use",
     "title": "When a \"Localized\" Product Still Feels Unlocalized",
     "url": "/gamma-analysis.html"
   },
   {
-    "tag": "AI & Content",
+    "tag": "Diagnosis & Priority",
     "title": "AI Made More Things Possible. It Didn't Make More Things Valuable.",
     "url": "/articles/ai-possible-not-valuable.html"
   },
   {
-    "tag": "Japanese UX",
+    "tag": "Positioning & Assumptions",
     "title": "Maybe It Was Never About Japan",
     "url": "/articles/never-about-japan.html"
   },
   {
-    "tag": "Localization Strategy",
+    "tag": "AI & Value Creation",
     "title": "What If We Need Less Localized Content?",
     "url": "/articles/less-localized-content.html"
   }
