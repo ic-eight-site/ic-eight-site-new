@@ -161,7 +161,9 @@
       const list = document.getElementById('originals-list');
       const filterDiv = document.getElementById('filter-buttons');
 
-      const tags = ['All', ...new Set(articles.map(a => a.tag).filter(Boolean))];
+      const categoryOrder = ['Diagnosis & Priority', 'Value in Use', 'Positioning & Assumptions', 'Content Systems', 'AI & Value Creation'];
+      const presentTags = new Set(articles.map(a => a.tag).filter(Boolean));
+      const tags = ['All', ...categoryOrder.filter(t => presentTags.has(t))];
 
       const btnStyle = `
         padding: 4px 14px;
@@ -183,7 +185,7 @@
         const filtered = active === 'All' ? articles : articles.filter(a => a.tag === active);
         list.innerHTML = filtered.map(a => `
           <a href="${a.url}" class="more-item">
-            <span class="more-tag">${a.tag || ''}</span>
+            ${a.tag ? `<span class="more-tag">${a.tag}</span>` : ''}
             <span class="more-title">${a.title}</span>
           </a>
         `).join('');
