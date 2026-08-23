@@ -92,6 +92,16 @@ nav {
   max-width: 520px;
 }
 
+.pve-not-a-review {
+  margin-top: 1.2rem !important;
+  padding-left: 1rem;
+  border-left: 2px solid var(--accent);
+  color: var(--ink) !important;
+  font-size: 0.98rem !important;
+  line-height: 1.6;
+  max-width: 540px;
+}
+
 .pve-kind-note {
   margin-top: 1.75rem;
   padding-top: 1.25rem;
