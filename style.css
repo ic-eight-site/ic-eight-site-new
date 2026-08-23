@@ -92,6 +92,25 @@ nav {
   max-width: 520px;
 }
 
+.pve-kind-note {
+  margin-top: 1.75rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--rule);
+  max-width: 520px;
+}
+
+.pve-kind-note p {
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.pve-kind-note p:last-child { margin-bottom: 0; }
+
+.pve-kind-note strong { color: var(--ink); }
+
 /* SECTION LABEL */
 .section-label {
   font-size: 0.75rem;
@@ -1149,6 +1168,20 @@ footer a:hover { color: var(--ink); }
 }
 
 .ways-anchor:hover { text-decoration: underline; }
+
+.ways-anchor-note {
+  margin-top: 1.5rem;
+  font-size: 0.88rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.ways-anchor-note a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.ways-anchor-note a:hover { text-decoration: underline; }
 
 /* MOBILE */
 @media (max-width: 640px) {
