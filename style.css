@@ -1007,6 +1007,40 @@ footer a:hover { color: var(--ink); }
 
 .practice .section-label { margin-bottom: 0.75rem; }
 
+/* SIGNAL LIST (numbered self-diagnosis list, e.g. services.html "When PVD is useful") */
+.signal-intro {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: var(--ink);
+  max-width: 560px;
+  margin-bottom: 0.5rem;
+}
+
+.signal-list { margin-top: 1.75rem; }
+
+.signal-item {
+  display: flex;
+  gap: 1.25rem;
+  padding: 1.1rem 0;
+  border-top: 1px solid var(--rule);
+}
+
+.signal-item:last-child { border-bottom: 1px solid var(--rule); }
+
+.signal-num {
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.1rem;
+  color: var(--accent);
+  flex-shrink: 0;
+  width: 1.5rem;
+}
+
+.signal-text {
+  font-size: 0.98rem;
+  line-height: 1.62;
+  color: var(--ink);
+}
+
 .case-card {
   border-bottom: 1px solid var(--rule);
 }
