@@ -121,6 +121,32 @@ nav {
 
 .pve-kind-note strong { color: var(--ink); }
 
+.pve-context-block {
+  padding: 2.25rem 3rem;
+  max-width: 680px;
+  border-top: 1px solid var(--rule);
+}
+
+.pve-context-label {
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.9rem;
+}
+
+.pve-context-block p:not(.pve-context-label) {
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.6;
+  margin-bottom: 0.6rem;
+  max-width: 560px;
+}
+
+.pve-context-block p:not(.pve-context-label):last-child { margin-bottom: 0; }
+
+.pve-context-block strong { color: var(--ink); }
+
 /* SECTION LABEL */
 .section-label {
   font-size: 0.75rem;
