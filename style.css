@@ -1144,6 +1144,13 @@ footer a:hover { color: var(--ink); }
   margin-bottom: 0.4rem;
 }
 
+.ways-question {
+  font-style: italic;
+  color: var(--accent);
+  font-size: 0.92rem;
+  margin-bottom: 0.5rem;
+}
+
 .ways-desc {
   color: var(--muted);
   font-size: 0.92rem;
