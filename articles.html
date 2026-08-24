@@ -185,7 +185,7 @@
         const filtered = active === 'All' ? articles : articles.filter(a => a.tag === active);
         list.innerHTML = filtered.map(a => `
           <a href="${a.url}" class="more-item">
-            ${a.tag ? `<span class="more-tag">${a.tag}</span>` : ''}
+            <span class="more-tag">${a.tag || ''}</span>
             <span class="more-title">${a.title}</span>
           </a>
         `).join('');
