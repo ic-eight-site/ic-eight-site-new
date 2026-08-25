@@ -618,7 +618,7 @@ tr:last-child td { border-bottom: none; }
 
 .more-item {
   display: flex;
-  align-items: baseline;
+  align-items: flex-start;
   gap: 1.5rem;
   padding: 1.2rem 0;
   border-bottom: 1px solid var(--rule);
@@ -636,12 +636,17 @@ tr:last-child td { border-bottom: none; }
   text-transform: uppercase;
   color: var(--muted);
   min-width: 200px;
+  max-width: 200px;
+  line-height: 1.4;
+  min-height: calc(1.4em * 2);
+  padding-top: 0.1rem;
 }
 
 .more-title {
   font-size: 0.95rem;
   line-height: 1.4;
   transition: color 0.2s;
+  padding-top: 0.1rem;
 }
 
 /* FAQ */
