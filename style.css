@@ -174,6 +174,34 @@ nav {
   border-color: var(--accent);
 }
 
+.key-findings {
+  border-left: 2px solid var(--accent);
+  padding: 1.25rem 1.5rem;
+  margin: 2rem 0;
+  background: rgba(200, 75, 47, 0.04);
+}
+
+.key-findings-label {
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.85rem 0;
+  font-weight: 500;
+}
+
+.key-findings ul {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.key-findings li {
+  margin-bottom: 0.6rem;
+  line-height: 1.55;
+}
+
+.key-findings li:last-child { margin-bottom: 0; }
+
 /* SECTION LABEL */
 .section-label {
   font-size: 0.75rem;
