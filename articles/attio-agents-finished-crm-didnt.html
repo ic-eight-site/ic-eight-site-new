@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Attio's AI builder connected CRM records, web research, and agent qualification — but omitted the one native step that would save the result. Asked directly, Ask Attio said the workflow was fine.">
+  <link rel="canonical" href="https://ic-eight.com/articles/attio-agents-finished-crm-didnt.html">
+
+  <meta property="og:title" content="Attio: The Agents Finished. The CRM Didn't. — IC Eight">
+  <meta property="og:description" content="Attio's AI builder connected CRM records, web research, and agent qualification — but omitted the one native step that would save the result. Asked directly, Ask Attio said the workflow was fine.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://ic-eight.com/articles/attio-agents-finished-crm-didnt.html">
+  <meta property="og:image" content="https://ic-eight.com/og-image.jpg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Attio: The Agents Finished. The CRM Didn't. — IC Eight">
+  <meta name="twitter:description" content="Attio's AI builder connected CRM records, web research, and agent qualification — but omitted the one native step that would save the result. Asked directly, Ask Attio said the workflow was fine.">
+  <meta name="twitter:image" content="https://ic-eight.com/og-image.jpg">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QTS33LQ0MB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-QTS33LQ0MB');
+  </script>
+
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  <link rel="me" href="https://x.com/HelloICEight">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Attio: The Agents Finished. The CRM Didn't.",
+    "description": "Attio's AI builder connected CRM records, web research, and agent qualification — but omitted the one native step that would save the result. Asked directly, Ask Attio said the workflow was fine.",
+    "url": "https://ic-eight.com/articles/attio-agents-finished-crm-didnt.html",
+    "datePublished": "2026-09-05",
+    "dateModified": "2026-09-05",
+    "author": {
+      "@type": "Organization",
+      "name": "IC Eight",
+      "url": "https://ic-eight.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "IC Eight",
+      "url": "https://ic-eight.com"
+    }
+  }
+  </script>
+  <title>Attio: The Agents Finished. The CRM Didn't. — IC Eight</title>
+</head>
+<body>
+
+<nav>
+  <a href="/index.html" class="nav-logo">IC Eight</a>
+  <ul class="nav-links">
+    <li><a href="/services.html">How We Work</a></li>
+    <li><a href="/articles.html">Articles</a></li>
+    <li><a href="/faq.html">FAQ</a></li>
+    <li><a href="/about.html">About</a></li>
+    <li><a href="/contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="article-header">
+  <p class="article-label">Diagnosis & Priority</p>
+  <h1>Attio: The Agents Finished. The CRM Didn't.</h1>
+  <p class="article-meta">Product Value Evaluation #015 · Published September 2026</p>
+</div>
+
+<div class="divider"></div>
+
+<article class="article-body">
+
+  <p><a href="https://attio.com/" target="_blank" rel="noopener">Attio</a>'s most interesting promise is not that AI can research prospects.</p>
+
+  <p>Plenty of tools can do that.</p>
+
+  <p>The more distinctive proposition is that CRM context can become the starting point for research, qualification, and reusable human-reviewed action without forcing the user to move repeatedly between a CRM, browser research, separate AI tools, and manual data entry.</p>
+
+  <p>This Product Value Evaluation tested that proposition with a nuanced revenue-research task.</p>
+
+  <p>The fixed first-use task began with five preselected company records. The simulated user was the founder of a small specialist B2B consultancy with no dedicated sales team. The goal was not autonomous outreach. It was to research public evidence, distinguish genuinely promising prospects from merely relevant companies, and leave the final decision with a human.</p>
+
+  <p>The expected value path was:</p>
+
+  <p style="text-align: center; color: var(--muted);"><strong>Company record → Web Agent research → Custom Agent qualification → persistent CRM state → human review</strong></p>
+
+  <p>Attio made that architecture visible.</p>
+
+  <p>It also exposed where AI-assisted workflow construction can fail even when the underlying product capability works.</p>
+
+  <p>The natural-language builder created a reusable workflow combining a record trigger, Web Agent research, and Custom Agent qualification. The eventual research produced differentiated outcomes rather than forcing every company into a positive category.</p>
+
+  <p>But the builder stopped one block too early.</p>
+
+  <p>The requested qualification results were never written into the CRM because the generated workflow omitted Attio's native <code>Create note</code> step. Five runs completed and consumed 554 credits while every Company record still showed zero notes.</p>
+
+  <p>A controlled minimum test reproduced the same builder omission once. The workflow contained only a read-only Custom Agent, the editor reported no error or warning, the run was marked <code>Completed</code>, and no note was created.</p>
+
+  <p>Then the product failed a second test.</p>
+
+  <p>When asked directly whether that incomplete workflow would persist its result, <strong>Ask Attio answered yes</strong> and described read-only Notes access as if it could create a permanent note.</p>
+
+  <p>Finally, the workflow was manually corrected:</p>
+
+  <p style="text-align: center; color: var(--muted);"><strong>Record action → Custom Agent → Create note</strong></p>
+
+  <p>That run completed for two credits and created the expected note on the synthetic Company record.</p>
+
+  <p>The underlying write capability worked.</p>
+
+  <p>The failure was in how the AI assembled, validated, described, and diagnosed the workflow around it.</p>
+
+  <div class="key-findings">
+    <p class="key-findings-label">Key Findings</p>
+    <ul>
+      <li>Attio exposed a genuinely product-specific value architecture: CRM records could provide context, Web Agent could perform external research, and Custom Agent could apply a nuanced user-supplied qualification rubric while leaving final prospect judgment to a human.</li>
+      <li>The AI builder omitted the documented persistence step. It produced research and qualification blocks but not the native <code>Create note</code> block required to turn agent output into durable CRM state — and the omission survived both editor validation and a controlled minimum-test reproduction.</li>
+      <li>Asked directly whether the incomplete workflow would persist its result, Ask Attio incorrectly said yes, describing read-only agent access as if it were permanent write capability.</li>
+      <li>The native write path itself worked. Once <code>Create note</code> was manually added and mapped correctly, the expected Company note was created for two credits.</li>
+      <li>A separate Cursor record showed why CRM identity matters before expensive research: automatic enrichment attached the record to an apparently different company, though the research agents themselves stayed correctly focused on the intended product.</li>
+      <li>The economics were material. Five research-and-qualification runs consumed 554 credits — more than twice the 250-credit monthly Free allowance — though the live workspace was on a Pro trial, so permanent Free-plan viability was not tested.</li>
+    </ul>
+  </div>
+
+  <h2>The Value Architecture Was Real</h2>
+
+  <p>The first-use experience did something important before it produced any result.</p>
+
+  <p>It made Attio's intended division of labor understandable.</p>
+
+  <p>The user supplied the qualification logic in natural language rather than manually encoding a conventional sales score.</p>
+
+  <p>Attio translated that request into a workflow connecting CRM records, web research, and AI judgment.</p>
+
+  <p>The builder did not complete the workflow quickly. It used 19 tools and repeatedly corrected itself before producing the final structure.</p>
+
+  <p>But the structure itself was legible.</p>
+
+  <p>For the simulated consultancy, that mattered.</p>
+
+  <p>The alternative workflow was familiar: maintain a company list somewhere, research each prospect separately, move findings into another AI tool, interpret them manually, and then copy the useful result back into the working system.</p>
+
+  <p>Attio suggested a more integrated possibility.</p>
+
+  <p>Research could begin from the CRM record itself.</p>
+
+  <p>The qualification logic could be reused.</p>
+
+  <p>The output could, in principle, become persistent CRM state.</p>
+
+  <p>And the human could remain responsible for the actual prospect decision.</p>
+
+  <p>That was the product-specific value hypothesis.</p>
+
+  <h2>P01 Saw the Possibility Before Receiving the Outcome</h2>
+
+  <p>The formal first-use timebox expired before any qualification result became available.</p>
+
+  <p>At the frozen stop, all five runs were still pending.</p>
+
+  <p>The user therefore did not leave first use with a ranked prospect list, a usable qualification view, or even a single completed decision.</p>
+
+  <p>The frozen conclusion at that point was narrower:</p>
+
+  <p><strong>The intended AI-native CRM architecture became visible, but task-level value was not reached within first use.</strong></p>
+
+  <p>That distinction is important.</p>
+
+  <p>The eventual Strong and Ambiguous outcomes were discovered later during audit.</p>
+
+  <p>They should not be retroactively treated as part of the first-use experience.</p>
+
+  <p>First use discovered <strong>how Attio could create value</strong>.</p>
+
+  <p>First use did not yet deliver <strong>usable value from the completed task</strong>.</p>
+
+  <p>That is one of the clearest findings in this evaluation.</p>
+
+  <h2>The Research and Qualification Logic Showed Promise</h2>
+
+  <p>After first use ended, all five runs eventually completed.</p>
+
+  <p>Three companies were classified as Strong candidates and two as Ambiguous.</p>
+
+  <p>Those classifications are Attio-generated outputs, not verified findings about the companies themselves.</p>
+
+  <p>This evaluation does not establish that the tested companies actually have the Product Value Gaps Attio identified, nor that companies classified as Ambiguous should be treated as weaker prospects.</p>
+
+  <p>What the outputs do show is how Attio applied the supplied rubric.</p>
+
+  <p>The agent did not simply interpret international presence as evidence of a market problem.</p>
+
+  <p>For one AI coding tool in the set, it found stronger expansion signals outside Japan but insufficient Japan-specific evidence, and kept the qualification at Ambiguous.</p>
+
+  <p>For another developer-tools company, it similarly identified broader friction without enough Japan-specific mismatch evidence to support a stronger classification.</p>
+
+  <p>That restraint was useful.</p>
+
+  <p>The product demonstrated that a specialist qualification rule could survive contact with real research without collapsing into generic lead scoring.</p>
+
+  <h2>The Workflow Stopped One Block Too Early</h2>
+
+  <p>The central failure appeared after the reasoning was complete.</p>
+
+  <p>The workflow builder had been asked to leave the result in the CRM.</p>
+
+  <p>Because the originally requested custom attributes did not exist, the builder chose a structured note as the fallback.</p>
+
+  <p>But the generated chain ended with the Custom Agent.</p>
+
+  <p>Attio's documented architecture makes Custom Agent tools read-only. Agent output is not automatically saved as CRM state. Persistence requires a later native action such as <code>Create note</code>.</p>
+
+  <p>That action existed in the live workflow catalog.</p>
+
+  <p>The AI builder simply did not add it.</p>
+
+  <p>The result was a peculiar state.</p>
+
+  <p>All five runs displayed <code>Completed</code>.</p>
+
+  <figure style="margin: 2rem 0;">
+    <img src="/images/articles/attio-figure-01-run-overview.png" alt="Attio workflow run history showing five completed runs, zero failed runs, and 554 credits consumed." style="width: 100%; height: auto; border-radius: 8px;">
+    <figcaption style="font-size: 0.9rem; color: var(--muted); margin-top: 0.75rem;">All five research-and-qualification runs completed without a reported failure, consuming 554 credits in total. Completion did not mean the requested CRM notes existed.</figcaption>
+  </figure>
+
+  <p>The qualification text existed inside individual execution logs.</p>
+
+  <p>But every Company record still showed zero notes, and the global Notes collection remained empty.</p>
+
+  <figure style="margin: 2rem 0;">
+    <img src="/images/articles/attio-figure-02-notes-empty.png" alt="Attio Notes page showing a count of zero and the message 'No notes yet.'" style="width: 100%; height: auto; border-radius: 8px;">
+    <figcaption style="font-size: 0.9rem; color: var(--muted); margin-top: 0.75rem;">After the five completed runs, Attio's global Notes view still showed zero notes. The agent outputs existed only inside execution logs.</figcaption>
+  </figure>
+
+  <p>For the user, that difference is fundamental.</p>
+
+  <p>A result hidden inside an execution log is not equivalent to CRM state.</p>
+
+  <p>It cannot easily become a sortable prospect view, a filterable qualification list, or a durable next-action record.</p>
+
+  <p>The research happened.</p>
+
+  <p>The judgment happened.</p>
+
+  <p>The operational state did not.</p>
+
+  <h2>&ldquo;Completed&rdquo; Described Execution, Not the Requested Outcome</h2>
+
+  <p>Attio's status model made the failure harder to detect.</p>
+
+  <p>The Custom Agent block ran.</p>
+
+  <p>It returned text.</p>
+
+  <p>From the runtime's perspective, <code>Completed</code> may therefore have been accurate.</p>
+
+  <p>But the task requested more than a completed inference.</p>
+
+  <p>It requested a persisted CRM outcome.</p>
+
+  <p>No note existed.</p>
+
+  <p>This reveals a distinction that matters for agentic software:</p>
+
+  <p style="text-align: center; color: var(--muted);"><strong>block execution</strong> is not the same as <strong>workflow success</strong>, and neither is necessarily the same as <strong>business-outcome success</strong>.</p>
+
+  <p>For this task, a more useful status would have been something like:</p>
+
+  <p style="text-align: center; color: var(--muted);">Research completed → Qualification completed → Persistence missing</p>
+
+  <p>or</p>
+
+  <p style="text-align: center; color: var(--muted);">Partial success: output generated, CRM write not configured</p>
+
+  <p>Instead, the user received a green completion state around an incomplete business result.</p>
+
+  <h2>A Minimum Test Reproduced the Builder Omission</h2>
+
+  <p>Because the missing notes were initially discovered in a relatively complex five-company workflow, a smaller controlled test was needed.</p>
+
+  <p>A new synthetic Company was created.</p>
+
+  <p>No Web Agent research was used.</p>
+
+  <p>The prompt requested a fixed note.</p>
+
+  <p>The AI builder again produced a workflow containing only a read-only Custom Agent.</p>
+
+  <p>It again omitted <code>Create note</code>.</p>
+
+  <p>The editor displayed no errors or warnings.</p>
+
+  <p>The single run completed in three seconds, consumed one credit, and was marked <code>Completed</code>.</p>
+
+  <p>No note was created.</p>
+
+  <p>This does not establish that the builder always makes this mistake.</p>
+
+  <p>It was reproduced once, in one account, with one controlled prompt.</p>
+
+  <p>But it removed one important ambiguity.</p>
+
+  <p>The original omission did not depend on Web Agent complexity, the five-company research task, or the particular qualification rubric.</p>
+
+  <p>The builder could independently produce the same incomplete persistence chain in a minimal case.</p>
+
+  <h2>Ask Attio Could Not Diagnose Its Own Workflow</h2>
+
+  <p>The next test examined a possible recovery path.</p>
+
+  <p>A user who suspects something is wrong does not necessarily open external documentation.</p>
+
+  <p>Attio already provides an in-product AI surface: Ask Attio.</p>
+
+  <p>The incomplete minimum workflow was therefore inspected by asking a direct question:</p>
+
+  <blockquote style="border-left: 2px solid var(--accent); padding-left: 1.25rem; margin: 1.5rem 0; color: var(--muted);">Does this workflow persist the result?</blockquote>
+
+  <p>Ask Attio answered yes.</p>
+
+  <p>It described the Custom Agent's Notes tool access as if that read-only access could create a permanent note.</p>
+
+  <p>That answer contradicted both the actual workflow structure and Attio's documented capability model.</p>
+
+  <p>The missing <code>Create note</code> block was not identified.</p>
+
+  <p>This matters because Ask Attio is the natural place for a user to recover from an AI-generated configuration problem.</p>
+
+  <p>The same product had enough context to see the workflow graph.</p>
+
+  <p>It also had a documented native persistence mechanism.</p>
+
+  <p>Yet when asked directly whether persistence existed, it gave false reassurance.</p>
+
+  <figure style="margin: 2rem 0;">
+    <img src="/images/articles/attio-figure-03-ask-attio-false-diagnosis.jpg" alt="Ask Attio answering yes to 'Does this workflow persist the result?' and claiming the Notes tool can write permanent notes." style="width: 100%; height: auto; border-radius: 8px;">
+    <figcaption style="font-size: 0.9rem; color: var(--muted); margin-top: 0.75rem;">Asked whether the incomplete workflow persisted its result, Ask Attio answered yes and described read-only Notes access as permanent write capability. The required <code>Create note</code> block was absent.</figcaption>
+  </figure>
+
+  <p>The problem therefore extended beyond initial composition.</p>
+
+  <p>The system also failed to accurately inspect its own generated workflow when the user explicitly asked it to do so.</p>
+
+  <h2>The Corrected Workflow Worked</h2>
+
+  <p>The final controlled test separated AI composition from native capability.</p>
+
+  <p>The workflow was manually repaired to:</p>
+
+  <p style="text-align: center; color: var(--muted);"><strong>Record action → Custom Agent → Create note</strong></p>
+
+  <figure style="margin: 2rem 0;">
+    <img src="/images/articles/attio-figure-04-correct-create-note-chain.jpg" alt="Attio workflow editor showing Record action, Custom Agent, and Create note, with the agent response and triggering Company mapped into the note fields." style="width: 100%; height: auto; border-radius: 8px;">
+    <figcaption style="font-size: 0.9rem; color: var(--muted); margin-top: 0.75rem;">The repaired workflow explicitly maps the Custom Agent response into a native <code>Create note</code> block and attaches the note to the triggering Company record.</figcaption>
+  </figure>
+
+  <p>The output of the Custom Agent was mapped into the native note-creation block.</p>
+
+  <p>The corrected run completed for two credits.</p>
+
+  <p>The expected note title and body appeared on the synthetic Company record.</p>
+
+  <figure style="margin: 2rem 0;">
+    <img src="/images/articles/attio-figure-05-persisted-company-note.jpg" alt="Attio note titled 'VER-010 Correct Note Closure' on the synthetic Company record, containing 'VER-010 persisted successfully.'" style="width: 100%; height: auto; border-radius: 8px;">
+    <figcaption style="font-size: 0.9rem; color: var(--muted); margin-top: 0.75rem;">With the native persistence block in place, the workflow created the expected note on the synthetic Company record. The underlying write capability worked.</figcaption>
+  </figure>
+
+  <p>This is an important correction to the interpretation of the earlier failure.</p>
+
+  <p>Attio's note-writing capability was not shown to be broken.</p>
+
+  <p>In this account, the native write path worked when configured correctly.</p>
+
+  <p>The observed failure was concentrated elsewhere:</p>
+
+  <ul>
+    <li>the AI builder omitted a required persistence block;</li>
+    <li>the editor did not flag the missing business outcome;</li>
+    <li>the runtime displayed <code>Completed</code>;</li>
+    <li>Ask Attio incorrectly said persistence was already configured.</li>
+  </ul>
+
+  <p>The product had the capability.</p>
+
+  <p>The AI-assisted path did not reliably assemble or verify it.</p>
+
+  <h2>Cursor Showed Why Correct Research Is Not Enough</h2>
+
+  <p>A separate issue appeared in the Cursor record.</p>
+
+  <p>Only the company name and <code>cursor.com</code> domain had been supplied.</p>
+
+  <p>Attio's automatic enrichment populated the CRM record with details belonging to an apparently different company.</p>
+
+  <p>The research agents, however, were investigating the intended current AI coding product.</p>
+
+  <p>Their output referred to current product and market conditions.</p>
+
+  <p>The Custom Agent also noticed the identity mismatch and warned that the CRM record likely did not represent the intended prospect.</p>
+
+  <p>That identity warning was separate from the Ambiguous qualification.</p>
+
+  <p>The Ambiguous result was driven primarily by insufficient Japan-specific evidence, not by the identity conflict itself.</p>
+
+  <p>Still, the conflict matters.</p>
+
+  <p>The system reached a state in which the research layer was reasoning about one company while the CRM master represented another.</p>
+
+  <figure style="margin: 2rem 0;">
+    <img src="/images/articles/attio-figure-06-cursor-entity-mismatch.png" alt="Attio Company record named Cursor with the cursor.com domain and enrichment details inconsistent with the intended AI coding company." style="width: 100%; height: auto; border-radius: 8px;">
+    <figcaption style="font-size: 0.9rem; color: var(--muted); margin-top: 0.75rem;">The record used the intended <code>cursor.com</code> domain but displayed enrichment associated with an apparently different company, creating an identity conflict before agent research began.</figcaption>
+  </figure>
+
+  <p>This is a particularly important risk in an AI-native CRM.</p>
+
+  <p>Research, scoring, routing, and future action inherit the identity of the underlying record.</p>
+
+  <p>If that identity is wrong, individually sensible AI outputs can still become operationally misplaced.</p>
+
+  <p>In this case, the agent itself was capable of noticing the mismatch.</p>
+
+  <p>The opportunity is to surface that uncertainty earlier, before a credit-consuming research workflow runs.</p>
+
+  <h2>The Credit Cost Was Not Trivial</h2>
+
+  <p>The five-company workflow consumed 554 credits, with individual runs ranging from 97 to 124 credits.</p>
+
+  <p>The frozen public baseline listed 250 workspace credits per month on the Free plan.</p>
+
+  <p>The live workspace was operating under an automatic 14-day Pro trial, so this evaluation does not establish permanent Free-plan behavior or exact plan equivalence.</p>
+
+  <p>It does establish that the observed five-company workflow consumed more than twice the frozen Free monthly allowance.</p>
+
+  <p>That makes credit visibility part of the product-value equation.</p>
+
+  <p>For a small team, the question is not only: can this workflow work?</p>
+
+  <p>It is also: how much will a reusable version cost every time it runs?</p>
+
+  <p>The Cursor case makes that particularly concrete. One 97-credit run proceeded despite an unresolved company-identity problem.</p>
+
+  <p>A pre-run estimate of likely credits and runtime would help users decide whether the workflow is proportionate to the value of the decision being made.</p>
+
+  <h2>Japan Was a Qualification Dimension, Not the Product Problem</h2>
+
+  <p>This evaluation targeted a Japan-sensitive use case.</p>
+
+  <p>That did not produce evidence of a broad Japan localization problem in Attio itself.</p>
+
+  <p>The more interesting result was that the workflow could encode a qualification rule in which Japan presence alone was insufficient.</p>
+
+  <p>The agent could distinguish between generic international signals and evidence specifically relevant to Japan, and it could leave a company at Ambiguous when that evidence was insufficient.</p>
+
+  <p>The Product Value Gap observed here was therefore not primarily linguistic or cultural.</p>
+
+  <p>It was operational.</p>
+
+  <p>Nuanced market-specific judgment only creates usable value when:</p>
+
+  <ul>
+    <li>the right company identity is attached to the record;</li>
+    <li>the research arrives in a useful timeframe;</li>
+    <li>the credit cost is understandable;</li>
+    <li>the result becomes durable CRM state;</li>
+    <li>and the human reviewer can see the outcome without opening individual execution logs.</li>
+  </ul>
+
+  <p>Those requirements matter in Japan.</p>
+
+  <p>They are not unique to Japan.</p>
+
+  <h2>What Attio Could Improve</h2>
+
+  <p>Three improvements stand out because each depends on capabilities Attio already has.</p>
+
+  <p><strong>1. Make the AI builder complete the requested persistence chain.</strong> If a user asks for research, qualification, and storage, the builder should generate the complete chain required to produce that durable state. For this use case, agent output → Create note should have been generated automatically. Attio can also validate the graph before publication: if the user's requested outcome is to save a note and no persistence block exists, the workflow should not pass silently. The correct native <code>Create note</code> block already exists — the observed gap was specifically between Attio's natural-language builder and Attio's own workflow capability model.</p>
+
+  <p><strong>2. Make completion reflect the requested business outcome.</strong> A successful model invocation should not automatically imply a successful workflow outcome. Attio can inspect its own CRM state after execution. If the expected note, attribute update, list assignment, or other mutation did not occur, the run can report partial success rather than simply <code>Completed</code>. Only Attio can reconcile agent execution with the resulting state of Attio's own CRM.</p>
+
+  <p><strong>3. Make Ask Attio inspect the actual workflow before answering capability questions.</strong> Ask Attio is the natural recovery surface for users who do not want to leave the product and read documentation. When asked whether a workflow persists output, it should inspect the actual block graph and tool permissions before answering. In this case, the useful response would have been: &ldquo;The Custom Agent is read-only. This workflow does not currently persist the result. Add <code>Create note</code> after the agent.&rdquo; Ideally, it could then offer to make the repair. Ask Attio has contextual access to the workflow the user is already building, which uniquely positions it to connect explanation, diagnosis, and repair.</p>
+
+  <p>A fourth opportunity is worth monitoring rather than elevating to the core finding: when automatic enrichment conflicts with the supplied domain or current web identity, Attio could insert an entity-confirmation gate before expensive Agent research begins.</p>
+
+  <h2>Product Value Assessment</h2>
+
+  <p>Attio demonstrated more value than a generic &ldquo;AI inside CRM&rdquo; story.</p>
+
+  <p>The combination of Company records, Web Agent research, Custom Agent qualification, reusable workflows, and human review maps well to a real specialist research problem.</p>
+
+  <p>That architecture was discoverable.</p>
+
+  <p>The eventual agent outputs also showed enough differentiation to suggest that the supplied qualification logic was doing meaningful work rather than producing generic positive scores.</p>
+
+  <p>But the operational value did not reach the user during first use.</p>
+
+  <p>The initial workflow took time to construct.</p>
+
+  <p>The first-use window ended before results arrived.</p>
+
+  <p>When those results eventually appeared, they remained trapped in execution logs because the AI-generated workflow had stopped before the persistence step.</p>
+
+  <p>A minimum reproduction showed the same omission once.</p>
+
+  <p>Ask Attio then incorrectly assured the user that the incomplete workflow already persisted its output.</p>
+
+  <p>Only after manual repair did the intended closed loop work.</p>
+
+  <p>That final success is important.</p>
+
+  <p>It changes the conclusion from <strong>Attio could not do the task</strong> to <strong>Attio could do the task, but its AI-assisted construction path did not reliably assemble or verify the complete workflow required to deliver the value.</strong></p>
+
+  <p>That is a much more specific finding.</p>
+
+  <p>For users, the practical lesson is equally specific.</p>
+
+  <p>When building a consequential Attio workflow with AI, do not verify only what the Agent researches or concludes.</p>
+
+  <p>Verify the last operational step: where does this result actually go?</p>
+
+  <p>For Attio, the opportunity is to make that verification unnecessary more often.</p>
+
+  <p>The product already contains the research layer, the reasoning layer, and the native persistence primitive.</p>
+
+  <p>The missing value was in connecting them reliably.</p>
+
+  <p>The agents finished.</p>
+
+  <p>The CRM didn't.</p>
+
+  <p>Until the final block was added.</p>
+
+  <h2>Evaluation Limits</h2>
+
+  <p>This evaluation used one approved simulated persona, not a recruited participant.</p>
+
+  <p>The fixed seed set consisted of five companies, identified only by name and domain. No prior evaluator findings were provided to Attio.</p>
+
+  <p>The formal first-use timebox expired before qualification results became available. Later findings from the persona-free audit were not imported back into the frozen first-use reaction.</p>
+
+  <p>The workspace entered an automatic 14-day Pro trial. Permanent Free-plan behavior was not tested, and no payment-method request was observed.</p>
+
+  <p>The public research produced by Attio about the five companies was not independently fact-checked during the bounded audit. Strong and Ambiguous labels should therefore be interpreted as product outputs rather than verified assessments of those companies.</p>
+
+  <p>The AI builder's omission of <code>Create note</code> was reproduced once with a separate controlled minimum prompt. That single reproduction does not establish a frequency across prompts, accounts, models, or future product versions.</p>
+
+  <p>Ask Attio was tested once with one direct persistence question. This evaluation does not establish its broader diagnostic accuracy.</p>
+
+  <p>The manually corrected <code>Create note</code> chain was executed once and succeeded. Broader reliability of the native write path was not measured.</p>
+
+  <p>The Cursor CRM record showed one observed entity mismatch. No general entity-resolution error rate should be inferred.</p>
+
+  <p>No outreach was drafted or sent. No email or calendar account was connected.</p>
+
+  <p>The evaluation therefore supports a narrow conclusion about one research-and-qualification workflow and the AI-assisted path used to construct it, not a general reliability claim about Attio as a whole.</p>
+
+  <div class="article-cta">
+    <div class="article-cta-rule"></div>
+    <p>Finding the gap is only half the work. The other half is deciding what to do about it.</p>
+    <p><a href="/product-value-evaluations.html">Explore the Product Value Evaluation Experiments →</a></p>
+  </div>
+
+</article>
+
+<section class="back-section">
+  <a href="/articles.html" class="back-link">← Back to Articles</a>
+</section>
+
+<footer>
+  <span>© IC Eight</span>
+  <div class="footer-links">
+    <a href="/privacy.html">Privacy</a>
+    <a href="/terms.html">Terms</a>
+    <a href="https://www.linkedin.com/company/ic-eight/" aria-label="LinkedIn">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    </a>
+    <a href="https://medium.com/@ic-eight" aria-label="Medium">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg>
+    </a>
+    <a href="https://x.com/HelloICEight" aria-label="X">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L1.254 2.25H8.08l4.253 5.622 5.911-5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+    </a>
+    <a href="https://iceight.substack.com/" aria-label="Substack">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.539 24V10.812H1.46zM22.539 0H1.46v2.836h21.08V0z"/></svg>
+    </a>
+  </div>
+</footer>
+
+</body>
+</html>
