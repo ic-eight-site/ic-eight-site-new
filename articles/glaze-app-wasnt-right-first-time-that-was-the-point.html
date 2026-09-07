@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Glaze built a real Mac menu-bar app from a plain-language description. The first version reported success and then froze on 'Loading...' in real use. One natural-language correction fixed it.">
+  <link rel="canonical" href="https://ic-eight.com/articles/glaze-app-wasnt-right-first-time-that-was-the-point.html">
+
+  <meta property="og:title" content="Glaze: The App Wasn't Right the First Time. That Was the Point. — IC Eight">
+  <meta property="og:description" content="Glaze built a real Mac menu-bar app from a plain-language description. The first version reported success and then froze on 'Loading...' in real use. One natural-language correction fixed it.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://ic-eight.com/articles/glaze-app-wasnt-right-first-time-that-was-the-point.html">
+  <meta property="og:image" content="https://ic-eight.com/og-image.jpg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Glaze: The App Wasn't Right the First Time. That Was the Point. — IC Eight">
+  <meta name="twitter:description" content="Glaze built a real Mac menu-bar app from a plain-language description. The first version reported success and then froze on 'Loading...' in real use. One natural-language correction fixed it.">
+  <meta name="twitter:image" content="https://ic-eight.com/og-image.jpg">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QTS33LQ0MB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-QTS33LQ0MB');
+  </script>
+
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  <link rel="me" href="https://x.com/HelloICEight">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Glaze: The App Wasn't Right the First Time. That Was the Point.",
+    "description": "Glaze built a real Mac menu-bar app from a plain-language description. The first version reported success and then froze on 'Loading...' in real use. One natural-language correction fixed it.",
+    "url": "https://ic-eight.com/articles/glaze-app-wasnt-right-first-time-that-was-the-point.html",
+    "datePublished": "2026-09-08",
+    "dateModified": "2026-09-08",
+    "author": {
+      "@type": "Organization",
+      "name": "IC Eight",
+      "url": "https://ic-eight.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "IC Eight",
+      "url": "https://ic-eight.com"
+    }
+  }
+  </script>
+  <title>Glaze: The App Wasn't Right the First Time. That Was the Point. — IC Eight</title>
+</head>
+<body>
+
+<nav>
+  <a href="/index.html" class="nav-logo">IC Eight</a>
+  <ul class="nav-links">
+    <li><a href="/services.html">How We Work</a></li>
+    <li><a href="/articles.html">Articles</a></li>
+    <li><a href="/faq.html">FAQ</a></li>
+    <li><a href="/about.html">About</a></li>
+    <li><a href="/contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="article-header">
+  <p class="article-label">Diagnosis & Priority</p>
+  <h1>Glaze: The App Wasn't Right the First Time. That Was the Point.</h1>
+  <p class="article-meta">Product Value Evaluation #019 · Published September 2026</p>
+</div>
+
+<div class="divider"></div>
+
+<article class="article-body">
+
+  <p><a href="https://www.glaze.app/" target="_blank" rel="noopener">Glaze</a> promises something unusually direct: describe a Mac app in ordinary language, let the system build it, and use the result as real software on your computer.</p>
+
+  <p>In this evaluation, that promise became materially real.</p>
+
+  <p>A non-developer described a small personal utility called Flow: a menu-bar app that would stay out of the way during focused work, remember a manually entered appointment, and surface a reminder shortly before it began.</p>
+
+  <p>Glaze built the app.</p>
+
+  <p>The first version did not work.</p>
+
+  <p>That failure turned out to be the most revealing part of the evaluation.</p>
+
+  <p>A natural-language specification became a local menu-bar Mac app without manual source editing. But the first real timed reminder was unusable despite Glaze reporting a successful build: it remained stuck on <code>Loading...</code>, omitted the required event information and Dismiss control, and had to be closed with Cmd-W.</p>
+
+  <p>One meaningful natural-language correction then produced a working reminder with the correct event title, event time, live countdown, Dismiss control, centered presentation, and an Upcoming Events list.</p>
+
+  <p>The strongest value was therefore not one-shot app generation. It was the loop: describe → build → run → observe → correct → rebuild. Glaze did not earn trust by getting the software right immediately. It earned value by making the software meaningfully correctable without requiring the user to translate every product judgment into source code.</p>
+
+  <h2>Evaluation Setup</h2>
+
+  <p>The evaluation used a fixed first-use scenario: a non-developer Mac user who becomes deeply absorbed in work and may miss scheduled appointments.</p>
+
+  <p>The desired app was deliberately small. Flow needed to live in the menu bar, accept an event title and time, offer a five- or ten-minute reminder lead, remain unobtrusive while idle, and automatically surface a small frontmost reminder when attention was needed. The reminder needed to show the event, display the remaining time, provide a Dismiss control, and include a short audible cue.</p>
+
+  <p>Calendar integration was deliberately excluded. The purpose was not to test account connections or APIs, but to answer a narrower question:</p>
+
+  <p><strong>Can Glaze turn a specific personal need into a genuinely useful native Mac utility without requiring the user to become a developer?</strong></p>
+
+  <p>Manual source editing was not allowed. One meaningful natural-language revision was permitted if the initial result required it.</p>
+
+  <p>The test used a new Free account on an Apple Silicon Mac. Both the Glaze interface and build prompt were in English. The physical test took place in Brazil; Japan was the target market, but no Japan-specific product behavior was evaluated.</p>
+
+  <p>This was not recruited-user research. First use was a simulated lens used to test a fixed product-value hypothesis under defined test conditions.</p>
+
+  <div class="key-findings">
+    <p class="key-findings-label">Key Findings</p>
+    <ul>
+      <li>A non-developer specification became a real menu-bar Mac app. Flow ran locally, remained resident in the menu bar, maintained background timing, and surfaced frontmost when a reminder was due, without manual source editing.</li>
+      <li>The first build passed Glaze's own reported completion state but failed the real task. The timed reminder appeared, but remained stuck on <code>Loading...</code>, omitted the event information and Dismiss control, and became an obstructive frontmost window that had to be closed with Cmd-W.</li>
+      <li>One ordinary-language correction materially repaired the app. After rebuilding and manually relaunching Flow, the reminder displayed the correct title, event time, live countdown, and Dismiss control while preserving the menu-bar workflow and adding an Upcoming Events view.</li>
+      <li>Runtime testing, not build telemetry, established product value. Glaze could report that the software had built and launched, but only real use exposed whether the generated behavior actually solved the user's problem.</li>
+      <li>The notification sound depended on a macOS permission that Flow did not make legible. After notifications were enabled, a short subtle system sound worked and was preferred by the evaluator, although the original requirement for audio that was independently difficult to ignore was not demonstrated.</li>
+      <li>The Free allocation was enough to discover the core value once. One initial generation plus one substantial correction consumed 16 of 50 welcome credits; the remaining launch credits were shown as having no expiry.</li>
+      <li>The broader product extends beyond one-off private app generation. Glaze exposed Public Store publishing, remixing, Store discovery, local project access, export, external-agent entry points, MCP Servers, generated-app AI Access, and Creator Hub surfaces, although these broader capabilities were not outcome-tested.</li>
+      <li>Glaze is most promising for people with a specific small Mac workflow who are willing to test and refine what gets built — not for those expecting a finished app from one prompt.</li>
+    </ul>
+  </div>
+
+  <h2>The First Build Succeeded Until It Was Used</h2>
+
+  <p>The initial generation took just under seven minutes.</p>
+
+  <p>During the build, Glaze encountered an invalid tray GUID, diagnosed the problem, repaired it, completed its remaining tasks, and reported that the app was ready.</p>
+
+  <p>From the builder's perspective, this looked like a successful generation.</p>
+
+  <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 1.5rem; margin: 2rem 0;">
+    <figure style="margin: 0; max-width: 280px;">
+      <img src="/images/articles/glaze-figure-01-reported-completion.png" alt="Glaze chat summary reporting that the Flow app was built and running after working for 6 minutes 58 seconds and completing 10 tasks." style="width: 100%; height: auto; border-radius: 3px; border: 1px solid var(--rule);">
+      <figcaption style="font-size: 0.82rem; color: var(--muted); margin-top: 0.5rem; text-align: center;">Figure 1. Glaze reported the initial Flow build complete after 6 minutes 58 seconds. This was a builder-reported completion state, not yet evidence that the timed reminder worked.</figcaption>
+    </figure>
+    <figure style="margin: 0; max-width: 200px;">
+      <img src="/images/articles/glaze-figure-02-loading-stuck.png" alt="A small reminder window showing only the word Loading, with no event title, countdown, or Dismiss button." style="width: 100%; height: auto; border-radius: 3px; border: 1px solid var(--rule);">
+      <figcaption style="font-size: 0.82rem; color: var(--muted); margin-top: 0.5rem; text-align: center;">Figure 2. In the real timed test, the reminder surfaced at the intended lead time but remained stuck on <code>Loading...</code>, without the event information or Dismiss control.</figcaption>
+    </figure>
+  </div>
+
+  <p>The real timed test told a different story.</p>
+
+  <p>Five minutes before the scheduled event, Flow did appear as intended. But the reminder remained stuck on <code>Loading...</code>. The event title was absent. The countdown was absent. The required Dismiss control was absent.</p>
+
+  <p>Because the window appeared frontmost over the evaluator's current work, the failure was not merely cosmetic. The app had successfully interrupted the user without providing the information or control that made the interruption useful.</p>
+
+  <p>It had to be closed with Cmd-W.</p>
+
+  <p>This created an important distinction:</p>
+
+  <p><strong>A successful build was not the same as a successful app.</strong></p>
+
+  <p>Glaze's internal repair and validation could report that the software compiled and launched. They could not establish that the generated behavior solved the user's actual problem.</p>
+
+  <p>That required using it.</p>
+
+  <h2>The Correction Was More Impressive Than the Generation</h2>
+
+  <p>The failed reminder produced a much better specification than the original prompt could have.</p>
+
+  <p>The evaluator now knew exactly what was wrong.</p>
+
+  <p>The reminder needed reliable event data. It needed a visible Dismiss control. It should appear centered rather than simply becoming an awkward frontmost window. The user also wanted an Upcoming Events view while preserving the menu-bar-only behavior that had already worked.</p>
+
+  <p>Those observations were given back to Glaze in ordinary language. No source code was edited.</p>
+
+  <figure style="max-width: calc(50% - 0.75rem); margin: 1.5rem auto;">
+    <img src="/images/articles/glaze-figure-03-correction-prompt.png" alt="Glaze chat panel showing the evaluator's natural-language correction request describing reliable reminder content, dismissal, centered presentation, a noticeable sound, and an Upcoming Events list." style="width: 100%; height: auto; border-radius: 3px; border: 1px solid var(--rule);">
+    <figcaption style="font-size: 0.82rem; color: var(--muted); margin-top: 0.5rem;">Figure 3. One natural-language correction translated the observed failure into behavioral requirements: reliable reminder content and dismissal, centered presentation, a more noticeable brief sound, and an Upcoming Events list.</figcaption>
+  </figure>
+
+  <p>Glaze rebuilt the app in about four and a half minutes.</p>
+
+  <p>After the running Flow process was manually quit and relaunched, the difference was substantial.</p>
+
+  <p>An event could be created and appeared in the Upcoming list. At the scheduled reminder time, Flow surfaced over the current work with the correct event title, event time, a live countdown, and a Dismiss button. Dismiss closed the reminder immediately, and Flow continued residing in the menu bar.</p>
+
+  <figure style="max-width: calc(50% - 0.75rem); margin: 1.5rem auto;">
+    <img src="/images/articles/glaze-figure-04-corrected-reminder.png" alt="Corrected Flow reminder window showing the event title 'P01 Revised Check', the time 2:50 PM, a live countdown reading 'in 4 min 36 sec', and a blue Dismiss button." style="width: 100%; height: auto; border-radius: 3px; border: 1px solid var(--rule);">
+    <figcaption style="font-size: 0.82rem; color: var(--muted); margin-top: 0.5rem;">Figure 4. After the rebuild and manual relaunch, the timed reminder displayed the correct title, event time, live countdown, and Dismiss control centered over the evaluator's current work.</figcaption>
+  </figure>
+
+  <p>The first app had been generated from an imagined workflow.</p>
+
+  <p>The second had been shaped by lived use.</p>
+
+  <p>That was where Glaze's value became much more convincing.</p>
+
+  <h2>Operation Success Was Not Task Success</h2>
+
+  <p>The first run is important because it exposes a problem that applies beyond Glaze.</p>
+
+  <p>Generated software can satisfy implementation checks while failing the actual job.</p>
+
+  <p>The app launched.</p>
+
+  <p>The menu-bar icon existed.</p>
+
+  <p>The timer triggered.</p>
+
+  <p>A window appeared.</p>
+
+  <p>Those are all operational successes.</p>
+
+  <p>But the user needed something different: a reminder that delivered the correct information at the correct moment, could be dismissed immediately, and did not become a new distraction.</p>
+
+  <p>Until those conditions were tested, the real product value remained unknown.</p>
+
+  <p>That makes runtime use part of the generation workflow rather than a final ceremonial step.</p>
+
+  <p>For this task, the meaningful sequence was not: prompt → build → done.</p>
+
+  <p>It was: prompt → build → use → notice → revise → use again.</p>
+
+  <h2>The Product Was Not Really About Avoiding Code</h2>
+
+  <p>It would be easy to describe Glaze as a tool that lets non-programmers create software without learning a programming language.</p>
+
+  <p>That is true, but it understates what happened here.</p>
+
+  <p>The evaluator did not need to know how the reminder window communicated with the menu-bar process, how the timer was implemented, how stale windows were handled, or how the app should recover from duplicate triggers.</p>
+
+  <p>Glaze handled those implementation details.</p>
+
+  <p>But the evaluator still had to decide what the software should do.</p>
+
+  <p>The first reminder made that distinction unusually clear.</p>
+
+  <p>A generated app can compile successfully and still be wrong because the specification has not yet captured what matters in actual use. Only after the user experienced an undismissable interruption did requirements such as placement, control, visibility, and behavior become concrete enough to refine.</p>
+
+  <p><strong>Removing programming syntax did not remove software design. It exposed it.</strong></p>
+
+  <h2>Native Software Changed the Value</h2>
+
+  <p>Flow was also meaningfully different from a small web app generated inside a browser.</p>
+
+  <p>The desired behavior depended on being part of the operating environment.</p>
+
+  <p>The app needed to stay out of sight while the user worked elsewhere. Its timer needed to continue in the background. At the correct moment, it needed to surface over whatever the user was doing, deliver the reminder, and then disappear again.</p>
+
+  <p>The revised version demonstrated that pattern.</p>
+
+  <p>That matters because the need itself was not &ldquo;I want a reminder dashboard.&rdquo;</p>
+
+  <p>It was almost the opposite.</p>
+
+  <p>The user did not want another surface demanding attention throughout the day. The desired software should become visible only when its intervention was useful.</p>
+
+  <p>Glaze allowed that behavior to be specified directly and then tested as actual Mac behavior.</p>
+
+  <h2>Even the Sound Became a Design Decision</h2>
+
+  <p>The reminder was initially silent for a reason that Flow itself did not make clear.</p>
+
+  <p>macOS Notifications contained entries for Flow, but notifications were disabled. Once permission was enabled, a subsequent timed reminder produced a short, subtle system sound.</p>
+
+  <p>This did not fully satisfy the original requirement for an audible cue that would be difficult to miss.</p>
+
+  <p>But the evaluator preferred the actual result.</p>
+
+  <p>A louder sound might be more noticeable, but it could also be irritating or disruptive around other people. The centered visual reminder already provided the primary interruption, while the quieter sound acted as reinforcement.</p>
+
+  <p>That is another example of why real use mattered.</p>
+
+  <p>The initial specification contained an abstract requirement: make the notification difficult to ignore.</p>
+
+  <p>The lived result produced a more nuanced next improvement requirement: make it difficult for this user to miss without making it unpleasant for everyone nearby.</p>
+
+  <p>No further build was used to implement that judgment in this evaluation.</p>
+
+  <h2>The Friction Was Still Real</h2>
+
+  <p>The correction-dependent success should not be mistaken for a frictionless experience.</p>
+
+  <p>The rebuilt app did not visibly update until Flow was manually quit and relaunched, even though Glaze reported the revised version as running.</p>
+
+  <p>The empty state also gave little indication that an Upcoming Events list would appear after an event was added.</p>
+
+  <p>An event created without a title appeared to do nothing, leading the evaluator initially to interpret a validation failure as a broken creation flow.</p>
+
+  <p>The notification-permission dependency was similarly opaque.</p>
+
+  <p>And although the user never had to edit code, Glaze exposed a substantial amount of technical narration about IPC, lifecycle handling, SDK APIs, files, and race conditions.</p>
+
+  <p>None of this prevented the task from succeeding.</p>
+
+  <p>But it shows that &ldquo;no coding required&rdquo; does not yet mean &ldquo;no implementation complexity reaches the user.&rdquo;</p>
+
+  <h2>Free Was Enough to Discover the Core Value</h2>
+
+  <p>The Free account began with 50 welcome credits.</p>
+
+  <p>After one initial generation and one substantial correction, 34 remained. The observed build-and-repair loop therefore consumed 16 credits. The credit detail view labeled the welcome allocation <code>No expiry</code>.</p>
+
+  <p>That was enough to complete this particular experiment and establish the central value.</p>
+
+  <p>It does not establish the economics of larger apps, repeated iteration, sustained Free use, or paid models.</p>
+
+  <p>The important observation is narrower: the Free allocation was sufficient to move one small app through both generation and a meaningful repair cycle in this account at the time of testing.</p>
+
+  <h2>Glaze Is Broader Than This One App</h2>
+
+  <p>The persona-free audit showed that Glaze is being built as more than a private prompt-to-app generator.</p>
+
+  <p>The product exposed Public Store publishing, Store discovery, Made to Remix surfaces, local app and source paths, project export, external-agent entry points, MCP Servers, generated-app AI Access, icon controls, and Creator Hub surfaces.</p>
+
+  <p>On the observed Free plan, publishing pointed to the Public Store with remixing fixed on. Pro visibly added unlisted sharing and control over remixing.</p>
+
+  <p>None of those broader capabilities were outcome-tested in this evaluation. Flow remained unpublished, and no Store app was installed or remixed.</p>
+
+  <p>Their presence nevertheless changes the apparent product direction.</p>
+
+  <p>Glaze is not only trying to shorten the distance between a person and a piece of personal software. It is also exposing paths by which that software can potentially be inspected, extended, shared, discovered, and adapted by others.</p>
+
+  <h2>A Familiar Assignment in a Very Different Era</h2>
+
+  <p>The experiment also triggered an unexpected sense of recognition.</p>
+
+  <p>The evaluator recalled an introductory university computing course in 1993. For the final assignment, small groups were asked to build any tool or game they wanted in C and present it to the class.</p>
+
+  <p>The visible skill being taught was programming.</p>
+
+  <p>But programming syntax was never the whole lesson.</p>
+
+  <p>Students still had to decide what to build. They had to turn vague ideas into specific behavior, discover what failed once the program ran, revise it, and eventually explain their choices to other people.</p>
+
+  <p>Tools like Glaze change the implementation barrier dramatically.</p>
+
+  <p>A student no longer has to spend the first part of the exercise learning enough C syntax to make an idea executable before discovering whether the idea itself is any good.</p>
+
+  <p>They can move much sooner into questions such as:</p>
+
+  <p>What should this do? Who is it for? What happens when the first idea is wrong? What needs to change after someone actually uses it? What counts as success?</p>
+
+  <p>The code has not disappeared from the software.</p>
+
+  <p>It has disappeared from the student's required interface with it.</p>
+
+  <p>That makes tools like Glaze potentially interesting for education not because they eliminate the thinking involved in software creation, but because they may expose that thinking more directly.</p>
+
+  <p>A modern version of the old assignment could begin with a different requirement:</p>
+
+  <p><strong>Design a small tool that solves a real problem or makes something delightful possible. Write the specification. Build it with AI. Use it. Document what was wrong. Revise the specification. Then explain why the second version is better.</strong></p>
+
+  <p>That is not necessarily a programming-language exercise.</p>
+
+  <p>It is still very much an exercise in making software.</p>
+
+  <h2>What Held, What Narrowed, and What Changed</h2>
+
+  <p>The frozen hypothesis largely held.</p>
+
+  <p>A non-developer could describe a highly specific personal utility and obtain software that behaved materially like a native Mac accessory rather than a browser prototype.</p>
+
+  <p>But the interpretation narrowed in one important way.</p>
+
+  <p>&ldquo;Glaze builds it&rdquo; should not be read as evidence of reliable one-shot generation. The initial build was reported complete and validated, yet the core reminder behavior failed in real use.</p>
+
+  <p>The more defensible proposition is:</p>
+
+  <p><strong>Glaze can support a build-test-correct loop for personal software without requiring the user to edit source code.</strong></p>
+
+  <p>The evaluation also changed what appeared most valuable.</p>
+
+  <p>The strongest moment was not the generated UI, the technical narration, or even the first launch.</p>
+
+  <p>It was the point where the evaluator could say, in ordinary language, what felt wrong after actually using the app and then see those judgments reflected in changed behavior.</p>
+
+  <h2>Evaluation Limits</h2>
+
+  <p>This evaluation used one simulated persona, one small utility, one Apple Silicon Mac, one Free account, and one build-and-repair sequence.</p>
+
+  <p>The nominal first-use timebox was exceeded, primarily because two build cycles and real timed reminders required waiting.</p>
+
+  <p>Multi-display placement was not tested, so the requested focused-display behavior should not be treated as confirmed. Long-term persistence, offline operation, calendar integration, snooze behavior, Store publication, remix quality, export fidelity, external-agent workflows, MCP, AI Access, team sharing, creator monetization, paid-model quality, and larger-project economics were not tested.</p>
+
+  <p>The sound result depended on enabling macOS notification permission. The final subtle cue was preferred by the evaluator, but the original requirement for audio independently difficult to ignore was not demonstrated.</p>
+
+  <p>The broader Store and extensibility surfaces establish that those capabilities were visible in the product. They do not establish their quality or reliability.</p>
+
+  <p>This was not recruited-user research. The physical test took place in Brazil, while Japan was the target market, and both the interface and build prompt were used in English. The evaluation therefore does not establish Japan-specific discovery, language behavior, adoption, or preference.</p>
+
+  <h2>Conclusion</h2>
+
+  <p>Glaze did not earn trust by generating the right app on the first attempt.</p>
+
+  <p>It earned value by making the wrong app correctable.</p>
+
+  <p>The first build showed why generated software still has to be treated as software: it has to be run in the real environment, experienced, challenged, and revised.</p>
+
+  <p>The second build showed what becomes possible when that feedback loop no longer requires the user to translate every behavioral judgment into source code.</p>
+
+  <p>For this evaluation, that was enough to make the product genuinely interesting.</p>
+
+  <p>The most compelling promise was not: describe an app and Glaze will build it correctly.</p>
+
+  <p>It was: describe what you need, use what gets built, discover what you actually meant, and keep refining it in ordinary language.</p>
+
+  <p>That is a smaller claim than perfect one-shot software generation.</p>
+
+  <p>It may also be the more important one.</p>
+
+  <p>And for anyone who remembers when turning an idea into a working program first required learning the language of the machine, there is something quietly remarkable about the shift.</p>
+
+  <p>The goal has not changed.</p>
+
+  <p>You still have to decide what to build.</p>
+
+  <p>You still have to decide whether it works.</p>
+
+  <p>You still have to make it better.</p>
+
+  <p>Once, people had to learn the language of machines before they could build.</p>
+
+  <p>Now machines are beginning to understand the language of people.</p>
+
+  <p><strong>The syntax is simply no longer standing in the doorway.</strong></p>
+
+  <div class="article-cta">
+    <div class="article-cta-rule"></div>
+    <p>Finding the gap is only half the work. The other half is deciding what to do about it.</p>
+    <p><a href="/product-value-evaluations.html">Explore the Product Value Evaluation Experiments →</a></p>
+  </div>
+
+</article>
+
+<section class="back-section">
+  <a href="/articles.html" class="back-link">← Back to Articles</a>
+</section>
+
+<footer>
+  <span>© IC Eight</span>
+  <div class="footer-links">
+    <a href="/privacy.html">Privacy</a>
+    <a href="/terms.html">Terms</a>
+    <a href="https://www.linkedin.com/company/ic-eight/" aria-label="LinkedIn">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    </a>
+    <a href="https://medium.com/@ic-eight" aria-label="Medium">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg>
+    </a>
+    <a href="https://x.com/HelloICEight" aria-label="X">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L1.254 2.25H8.08l4.253 5.622 5.911-5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+    </a>
+    <a href="https://iceight.substack.com/" aria-label="Substack">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.539 24V10.812H1.46zM22.539 0H1.46v2.836h21.08V0z"/></svg>
+    </a>
+  </div>
+</footer>
+
+</body>
+</html>
