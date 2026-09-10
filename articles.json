@@ -1,6 +1,26 @@
 [
   {
     "tag": "Diagnosis & Priority",
+    "title": "Tally: When AI Generation Is Only the Beginning",
+    "url": "/articles/tally-ai-generation-only-the-beginning.html",
+    "description": "Tally's AI generated a 42-block conditional form in seconds, then repeatedly reported it was complete when it wasn't. The real value showed up after generation, in the environment that let the form be repaired.",
+    "publishedAt": "2026-09-10T22:24:43Z",
+    "pve": {
+      "id": "pve-028",
+      "label": "Product Value Evaluation #028",
+      "order": 29,
+      "cards": [
+        {
+          "title": "Tally",
+          "finding": "Tally's AI generated a 42-block conditional form in seconds, then repeatedly reported it was complete when it wasn't. The real value showed up after generation, in the environment that let the form be repaired.",
+          "url": "/articles/tally-ai-generation-only-the-beginning.html",
+          "linkLabel": "Read the evaluation →"
+        }
+      ]
+    }
+  },
+  {
+    "tag": "Diagnosis & Priority",
     "title": "Cursor: What Changes When the AI Owns the Implementation Path",
     "url": "/articles/cursor-ai-owns-implementation-path.html",
     "description": "Given one feature requirement, Cursor explored a real codebase, chose its own implementation approach, recovered from a failed command, and shipped a nine-file feature that survived independent audit.",
