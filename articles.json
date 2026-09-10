@@ -1,622 +1,1317 @@
 [
   {
     "tag": "Diagnosis & Priority",
+    "title": "Cursor: What Changes When the AI Owns the Implementation Path",
+    "url": "/articles/cursor-ai-owns-implementation-path.html",
+    "description": "Given one feature requirement, Cursor explored a real codebase, chose its own implementation approach, recovered from a failed command, and shipped a nine-file feature that survived independent audit.",
+    "publishedAt": "2026-09-09T20:42:13Z",
+    "pve": {
+      "id": "pve-027",
+      "label": "Product Value Evaluation #027",
+      "order": 28,
+      "cards": [
+        {
+          "finding": "Given one feature requirement, Cursor explored a real codebase, chose its own implementation approach, recovered from a failed command, and shipped a nine-file feature that survived independent audit.",
+          "url": "/articles/cursor-ai-owns-implementation-path.html",
+          "linkLabel": "Read the evaluation →",
+          "title": "Cursor"
+        }
+      ]
+    }
+  },
+  {
+    "tag": "Diagnosis & Priority",
+    "title": "Browse AI: The Monitor Ran. The Itinerary Still Needed a Human.",
+    "url": "/articles/browse-ai-monitor-ran-itinerary-needed-human.html",
+    "description": "Browse AI turned a one-time Google Flights search into a scheduled monitor that reran automatically and emailed detected changes. The itinerary data it captured still needed human validation before a flight decision.",
+    "publishedAt": "2026-09-09T17:25:05Z",
+    "pve": {
+      "id": "pve-026",
+      "label": "Product Value Evaluation #026",
+      "order": 27,
+      "cards": [
+        {
+          "finding": "Browse AI turned a one-time Google Flights search into a scheduled monitor that reran automatically and emailed detected changes. The itinerary data it captured still needed human validation before a flight decision.",
+          "url": "/articles/browse-ai-monitor-ran-itinerary-needed-human.html",
+          "linkLabel": "Read the evaluation →",
+          "title": "Browse AI"
+        }
+      ]
+    }
+  },
+  {
+    "tag": "Diagnosis & Priority",
+    "title": "Cal.com: The Scheduling Stack Was Free. The Operation Still Worked.",
+    "url": "/articles/cal-com-scheduling-stack-was-free.html",
+    "description": "A solo provider assembled an international lesson-booking operation entirely on Cal.com's free plan. Timezone conversion, rescheduling, and cancellation all worked. Only payment settlement remained untested.",
+    "publishedAt": "2026-09-09T17:13:56Z",
+    "pve": {
+      "id": "pve-025",
+      "label": "Product Value Evaluation #025",
+      "order": 26,
+      "cards": [
+        {
+          "finding": "A solo provider assembled an international lesson-booking operation entirely on Cal.com's free plan. Timezone conversion, rescheduling, and cancellation all worked. Only payment settlement remained untested.",
+          "url": "/articles/cal-com-scheduling-stack-was-free.html",
+          "linkLabel": "Read the evaluation →",
+          "title": "Cal.com"
+        }
+      ]
+    }
+  },
+  {
+    "tag": "Diagnosis & Priority",
+    "title": "Relume: The Brief Became a Website System",
+    "url": "/articles/relume-brief-became-website-system.html",
+    "description": "Given only a business brief, Relume proposed a coherent seven-page site architecture, kept a specialist value hierarchy intact, and rendered a working Home in 15 minutes — without a sitemap to start from.",
+    "publishedAt": "2026-09-09T12:52:35Z",
+    "pve": {
+      "id": "pve-024",
+      "label": "Product Value Evaluation #024",
+      "order": 25,
+      "cards": [
+        {
+          "finding": "Given only a business brief, Relume proposed a coherent seven-page site architecture, kept a specialist value hierarchy intact, and rendered a working Home in 15 minutes — without a sitemap to start from.",
+          "url": "/articles/relume-brief-became-website-system.html",
+          "linkLabel": "Read the evaluation →",
+          "title": "Relume"
+        }
+      ]
+    }
+  },
+  {
+    "tag": "Diagnosis & Priority",
     "title": "Arcade: The Website Became the Brief",
-    "url": "/articles/arcade-website-became-the-brief.html"
+    "url": "/articles/arcade-website-became-the-brief.html",
+    "description": "Given only a homepage URL, Arcade turned Gamma's public value proposition into a finished 29.5-second promotional video — narration, music, motion, and CTA included. No script required.",
+    "publishedAt": "2026-09-09T01:52:56Z",
+    "pve": {
+      "id": "pve-023",
+      "label": "Product Value Evaluation #023",
+      "order": 24,
+      "cards": [
+        {
+          "finding": "Given only a homepage URL, Arcade turned Gamma's public value proposition into a finished 29.5-second promotional video — narration, music, motion, and CTA included. No script required.",
+          "url": "/articles/arcade-website-became-the-brief.html",
+          "linkLabel": "Read the evaluation →",
+          "title": "Arcade",
+          "noBorder": true
+        }
+      ]
+    }
   },
   {
     "tag": "Diagnosis & Priority",
     "title": "Scribe: The Click Was Clear. The Context Wasn't.",
-    "url": "/articles/scribe-click-was-clear-context-wasnt.html"
+    "url": "/articles/scribe-click-was-clear-context-wasnt.html",
+    "description": "Scribe turned a real browser workflow into a 16-step guide automatically. Most of the text still needed rewriting, and even at maximum zoom-out, some screenshots didn't show a new reader where they were.",
+    "publishedAt": "2026-09-08T21:00:33Z",
+    "pve": {
+      "id": "pve-022",
+      "label": "Product Value Evaluation #022",
+      "order": 23,
+      "cards": [
+        {
+          "finding": "Scribe turned a real browser workflow into a 16-step guide automatically. Most of the text still needed rewriting, and even at maximum zoom-out, some screenshots didn't show a new reader where they were.",
+          "url": "/articles/scribe-click-was-clear-context-wasnt.html",
+          "linkLabel": "Read the evaluation →",
+          "title": "Scribe"
+        }
+      ]
+    }
   },
   {
     "tag": "Diagnosis & Priority",
     "title": "Lyro: The Missing Answer Wasn't a Copy Problem.",
-    "url": "/articles/lyro-missing-answer-wasnt-copy-problem.html"
+    "url": "/articles/lyro-missing-answer-wasnt-copy-problem.html",
+    "description": "Lyro couldn't fully answer one question about IC Eight's own methodology. The cause wasn't weak website copy — the relevant page had never been imported into its knowledge base.",
+    "publishedAt": "2026-09-08T20:28:02Z",
+    "pve": {
+      "id": "pve-021",
+      "label": "Product Value Evaluation #021",
+      "order": 22,
+      "cards": [
+        {
+          "finding": "Lyro couldn't fully answer one question about IC Eight's own methodology. The cause wasn't weak website copy — the relevant page had never been imported into its knowledge base.",
+          "url": "/articles/lyro-missing-answer-wasnt-copy-problem.html",
+          "linkLabel": "Read the evaluation →",
+          "title": "Lyro"
+        }
+      ]
+    }
   },
   {
     "tag": "Diagnosis & Priority",
     "title": "Lovable: The App Worked. The Research Still Needed an Auditor.",
-    "url": "/articles/lovable-app-worked-research-needed-auditor.html"
+    "url": "/articles/lovable-app-worked-research-needed-auditor.html",
+    "description": "Lovable turned a specialist prospect-research brief into a working application without a single line of manual code. Whether the research inside it could be trusted was a separate question.",
+    "publishedAt": "2026-09-08T01:19:17Z",
+    "pve": {
+      "id": "pve-020",
+      "label": "Product Value Evaluation #020",
+      "order": 21,
+      "cards": [
+        {
+          "finding": "Lovable turned a specialist prospect-research brief into a working application without a single line of manual code. Whether the research inside it could be trusted was a separate question.",
+          "url": "/articles/lovable-app-worked-research-needed-auditor.html",
+          "linkLabel": "Read the evaluation →",
+          "title": "Lovable"
+        }
+      ]
+    }
   },
   {
     "tag": "Diagnosis & Priority",
     "title": "Glaze: The App Wasn't Right the First Time. That Was the Point.",
-    "url": "/articles/glaze-app-wasnt-right-first-time-that-was-the-point.html"
+    "url": "/articles/glaze-app-wasnt-right-first-time-that-was-the-point.html",
+    "description": "Glaze built a real Mac menu-bar app from a plain-language description. The first version reported success and then froze on 'Loading...' in real use. One natural-language correction fixed it.",
+    "publishedAt": "2026-09-07T19:03:01Z",
+    "pve": {
+      "id": "pve-019",
+      "label": "Product Value Evaluation #019",
+      "order": 20,
+      "cards": [
+        {
+          "finding": "Glaze built a real Mac menu-bar app from a plain-language description. The first version reported success and then froze on “Loading...” in real use. One natural-language correction fixed it.",
+          "url": "/articles/glaze-app-wasnt-right-first-time-that-was-the-point.html",
+          "linkLabel": "Read the evaluation →",
+          "title": "Glaze"
+        }
+      ]
+    }
   },
   {
     "tag": "Diagnosis & Priority",
     "title": "Rask AI: The Translation Was Serviceable. The Dubbing Was Not.",
-    "url": "/articles/rask-ai-translation-serviceable-dubbing-was-not.html"
+    "url": "/articles/rask-ai-translation-serviceable-dubbing-was-not.html",
+    "description": "Rask AI made video localization easy to start: URL in, translation, Voice Clone, and timing sync out. The Japanese dub that came out the other end was a different story.",
+    "publishedAt": "2026-09-07T17:14:05Z",
+    "pve": {
+      "id": "pve-018",
+      "label": "Product Value Evaluation #018",
+      "order": 19,
+      "cards": [
+        {
+          "finding": "Rask AI made video localization easy to start: URL in, translation, Voice Clone, and timing sync out. The Japanese dub that came out the other end was a different story.",
+          "url": "/articles/rask-ai-translation-serviceable-dubbing-was-not.html",
+          "linkLabel": "Read the evaluation →",
+          "title": "Rask AI"
+        }
+      ]
+    }
   },
   {
     "tag": "Diagnosis & Priority",
     "title": "Kittl: The AI Created the Look. The Editor Held the Real Workflow.",
-    "url": "/articles/kittl-ai-created-look-editor-held-workflow.html"
+    "url": "/articles/kittl-ai-created-look-editor-held-workflow.html",
+    "description": "Kittl's AI turned a source illustration into a polished soap label in one shot — while inventing a Japanese rendering of the brand name and an unsupported 'MADE IN JAPAN' claim. The real product-specific value was waiting in the editor.",
+    "publishedAt": "2026-09-06T22:45:24Z",
+    "pve": {
+      "id": "pve-017",
+      "label": "Product Value Evaluation #017",
+      "order": 18,
+      "cards": [
+        {
+          "finding": "Kittl's AI turned a source illustration into a polished soap label in one shot — and quietly added an unrequested “MADE IN JAPAN” claim. The real product-specific value was waiting in the editor.",
+          "url": "/articles/kittl-ai-created-look-editor-held-workflow.html",
+          "linkLabel": "Read the evaluation →",
+          "title": "Kittl"
+        }
+      ]
+    }
   },
   {
     "tag": "Diagnosis & Priority",
     "title": "Vizcom: The Concept Looked Resolved Before the Design Was",
-    "url": "/articles/vizcom-concept-looked-resolved-before-design-was.html"
+    "url": "/articles/vizcom-concept-looked-resolved-before-design-was.html",
+    "description": "Vizcom turned a rough chair sketch into a persuasive render and stable material variations. What it didn't show was a path from visual resolution to physical, buildable design.",
+    "publishedAt": "2026-09-06T13:57:12Z",
+    "pve": {
+      "id": "pve-016",
+      "label": "Product Value Evaluation #016",
+      "order": 17,
+      "cards": [
+        {
+          "finding": "Vizcom turned a rough chair sketch into a persuasive render and stable material variations. What it didn't show was a path from visual resolution to physical, buildable design.",
+          "url": "/articles/vizcom-concept-looked-resolved-before-design-was.html",
+          "linkLabel": "Read the evaluation →",
+          "title": "Vizcom"
+        }
+      ]
+    }
   },
   {
     "tag": "Diagnosis & Priority",
     "title": "Attio: The Agents Finished. The CRM Didn't.",
-    "url": "/articles/attio-agents-finished-crm-didnt.html"
+    "url": "/articles/attio-agents-finished-crm-didnt.html",
+    "description": "Attio's AI builder connected CRM records, web research, and agent qualification — but omitted the one native step that would save the result. Asked directly, Ask Attio said the workflow was fine.",
+    "publishedAt": "2026-09-06T00:23:42Z",
+    "pve": {
+      "id": "pve-015",
+      "label": "Product Value Evaluation #015",
+      "order": 16,
+      "cards": [
+        {
+          "finding": "Attio's AI builder connected CRM records, web research, and agent qualification — but omitted the one native step that would save the result. Asked directly, Ask Attio said the workflow was fine.",
+          "url": "/articles/attio-agents-finished-crm-didnt.html",
+          "linkLabel": "Read the evaluation →",
+          "title": "Attio"
+        }
+      ]
+    }
   },
   {
     "tag": "Positioning & Assumptions",
-    "title": "\u201cConnect Like a Human, Not a Robot.\u201d \u2014 A PVE Extra on Reevo's LinkedIn Outreach",
-    "url": "/articles/reevo-connect-like-a-human-not-a-robot.html"
+    "title": "“Connect Like a Human, Not a Robot.” — A PVE Extra on Reevo's LinkedIn Outreach",
+    "url": "/articles/reevo-connect-like-a-human-not-a-robot.html",
+    "description": "Reevo sells relevant, human-feeling outreach. Its own LinkedIn outreach to IC Eight tested that promise from the other side of the table — and repetition created more evidence, not more relevance.",
+    "publishedAt": "2026-09-05T22:02:02Z",
+    "pve": {
+      "id": "pve-extra-reevo",
+      "label": "PVE Extra",
+      "order": 15,
+      "cards": [
+        {
+          "finding": "Reevo sells relevant, human-feeling outreach. Its own LinkedIn outreach to IC Eight tested that promise from the other side of the table — and repetition created more evidence, not more relevance.",
+          "url": "/articles/reevo-connect-like-a-human-not-a-robot.html",
+          "linkLabel": "Read the evaluation →",
+          "title": "Reevo"
+        }
+      ]
+    }
   },
   {
     "tag": "Diagnosis & Priority",
     "title": "Elicit: The Strongest Answer Was the One That Changed",
-    "url": "/articles/elicit-strongest-answer-was-the-one-that-changed.html"
+    "url": "/articles/elicit-strongest-answer-was-the-one-that-changed.html",
+    "description": "Elicit found a genuine contrary study and revised its research recommendation for AI coding assistants — but in the tested Basic account, the usage limit cut off deeper scrutiny right after the answer became trustworthy.",
+    "publishedAt": "2026-09-04T13:38:53Z",
+    "pve": {
+      "id": "pve-014",
+      "label": "Product Value Evaluation #014",
+      "order": 14,
+      "cards": [
+        {
+          "finding": "Elicit's first research answer was already useful. It became genuinely trustworthy only after being challenged — and the Basic usage limit cut off that same scrutiny loop right after it proved its worth.",
+          "url": "/articles/elicit-strongest-answer-was-the-one-that-changed.html",
+          "linkLabel": "Read the evaluation →",
+          "title": "Elicit"
+        }
+      ]
+    }
   },
   {
     "tag": "Diagnosis & Priority",
     "title": "Granola: The User Took Six Notes. Granola Built a Useful Meeting Record.",
-    "url": "/articles/granola-six-notes-useful-meeting-record.html"
+    "url": "/articles/granola-six-notes-useful-meeting-record.html",
+    "description": "The user entered six rough fragments while listening to a 25-minute Japanese session. Granola reconstructed a useful structured meeting record around them — though proper nouns and the calendar gate remain important qualifications.",
+    "publishedAt": "2026-09-03T13:30:00Z",
+    "pve": {
+      "id": "pve-013",
+      "label": "Product Value Evaluation #013",
+      "order": 13,
+      "cards": [
+        {
+          "finding": "A user entered six rough fragments while listening to a 25-minute Japanese session. Granola reconstructed a genuinely useful structured record around them — though a required calendar gate and proper-noun errors remain real qualifications.",
+          "url": "/articles/granola-six-notes-useful-meeting-record.html",
+          "linkLabel": "Read the evaluation →",
+          "title": "Granola",
+          "noBorder": true
+        }
+      ]
+    }
   },
   {
     "tag": "Diagnosis & Priority",
     "title": "Wispr Flow: The Speech Was Captured. The Writing Still Needed Understanding.",
-    "url": "/articles/wispr-flow-speech-captured-writing-needed-understanding.html"
+    "url": "/articles/wispr-flow-speech-captured-writing-needed-understanding.html",
+    "description": "Wispr Flow captured natural, spontaneous Japanese speech. But its cleanup layer left substantial disfluency in place, and its stronger setting invented a closing sentence the speaker never said.",
+    "publishedAt": "2026-09-03T02:50:00Z",
+    "pve": {
+      "id": "pve-012",
+      "label": "Product Value Evaluation #012",
+      "order": 12,
+      "cards": [
+        {
+          "finding": "Wispr Flow captured natural, spontaneous Japanese speech, but left substantial disfluency in place at its default setting. Its stronger cleanup level went further — it invented a closing sentence the speaker never said.",
+          "url": "/articles/wispr-flow-speech-captured-writing-needed-understanding.html",
+          "linkLabel": "Read the evaluation →",
+          "title": "Wispr Flow",
+          "noBorder": true
+        }
+      ]
+    }
   },
   {
     "tag": "Diagnosis & Priority",
     "title": "Luma: It Could Imagine the Ad. It Couldn't Reliably Stage the Product.",
-    "url": "/articles/luma-imagine-the-ad-stage-the-product.html"
+    "url": "/articles/luma-imagine-the-ad-stage-the-product.html",
+    "description": "Luma could design a genuinely strong nine-second promotional sequence from a compact brief. It struggled to reliably stage the product once its own concept required physical details the source image didn't show.",
+    "publishedAt": "2026-09-02T18:00:00Z",
+    "pve": {
+      "id": "pve-011",
+      "label": "Product Value Evaluation #011",
+      "order": 11,
+      "cards": [
+        {
+          "finding": "Luma independently designed a genuinely strong nine-second promotional sequence from a compact brief. But once its own concept needed a product state the source image didn't show, it invented the missing physical details — and more reference material didn't fully fix it.",
+          "url": "/articles/luma-imagine-the-ad-stage-the-product.html",
+          "linkLabel": "Read the evaluation →",
+          "title": "Luma",
+          "noBorder": true
+        }
+      ]
+    }
   },
   {
     "tag": "Diagnosis & Priority",
     "title": "Descript: The Cut Disappeared",
-    "url": "/articles/descript-the-cut-disappeared.html"
+    "url": "/articles/descript-the-cut-disappeared.html",
+    "description": "Descript turned a text deletion into a clean, imperceptible media edit and a natural Japanese-captioned export. The most important thing it removed wasn't 18.6 seconds — it was the visible evidence that an edit had happened.",
+    "publishedAt": "2026-09-02T16:20:00Z",
+    "pve": {
+      "id": "pve-010",
+      "label": "Product Value Evaluation #010",
+      "order": 10,
+      "cards": [
+        {
+          "finding": "A transcript deletion became a clean, imperceptible media edit, and the Japanese-captioned export held up too. The most important thing Descript removed wasn't 18.6 seconds of video — it was the visible evidence that an edit had happened.",
+          "url": "/articles/descript-the-cut-disappeared.html",
+          "linkLabel": "Read the evaluation →",
+          "title": "Descript",
+          "noBorder": true
+        }
+      ]
+    }
   },
   {
     "tag": "Diagnosis & Priority",
     "title": "Synthesia: Source Becomes Video, Accuracy Still Needs an Owner",
-    "url": "/articles/synthesia-source-becomes-video-accuracy-needs-owner.html"
+    "url": "/articles/synthesia-source-becomes-video-accuracy-needs-owner.html",
+    "description": "Synthesia turned written source material into a finished Japanese video. What it didn't remove was the judgment needed to decide whether that video was accurate, well structured, and ready to use.",
+    "publishedAt": "2026-09-01T19:05:00Z",
+    "pve": {
+      "id": "pve-009",
+      "label": "Product Value Evaluation #009",
+      "order": 9,
+      "cards": [
+        {
+          "finding": "Synthesia turned written source material into a finished Japanese video, but source retrieval failures and unsupported content still needed human review. AI Dubbing came the closest to feeling finished.",
+          "url": "/articles/synthesia-source-becomes-video-accuracy-needs-owner.html",
+          "linkLabel": "Read the evaluation →",
+          "title": "Synthesia",
+          "noBorder": true
+        }
+      ]
+    }
   },
   {
     "tag": "Positioning & Assumptions",
     "title": "Market Conventions Are Not User Preferences",
-    "url": "/articles/market-conventions-are-not-user-preferences.html"
+    "url": "/articles/market-conventions-are-not-user-preferences.html",
+    "description": "Why 'Japanese users prefer information-dense design' may be the wrong conclusion from the right observation. Market convention tells us what is common. User evidence tells us what is needed.",
+    "publishedAt": "2026-08-31T03:00:00Z"
   },
   {
     "tag": "AI & Value Creation",
     "title": "What Happens to AI Products When Users Get Better at AI?",
-    "url": "/articles/what-happens-when-users-get-better-at-ai.html"
+    "url": "/articles/what-happens-when-users-get-better-at-ai.html",
+    "description": "Some AI products may not be displaced by better models, but by users who no longer need their help. The competitive threat is not only better models — it is better users.",
+    "publishedAt": "2026-08-31T01:30:00Z"
   },
   {
     "tag": "Diagnosis & Priority",
     "title": "Recraft: The Vector Is Real. The Workflow Is Still Yours.",
-    "url": "/articles/recraft-vector-is-real-workflow-is-yours.html"
+    "url": "/articles/recraft-vector-is-real-workflow-is-yours.html",
+    "description": "Recraft's true-vector claim held: a genuine, editable SVG came out of the product. What narrowed was the broader workflow — the user still had to choose, maintain, and police the path to a usable asset.",
+    "publishedAt": "2026-08-31T00:20:00Z",
+    "pve": {
+      "id": "pve-008",
+      "label": "Product Value Evaluation #008",
+      "order": 8,
+      "cards": [
+        {
+          "finding": "Recraft's true-vector claim held — a genuine, editable SVG came out of the product. What narrowed was the broader workflow: the user still had to choose, maintain, and police the path to a usable asset.",
+          "url": "/articles/recraft-vector-is-real-workflow-is-yours.html",
+          "linkLabel": "Read the evaluation →",
+          "title": "Recraft",
+          "noBorder": true
+        }
+      ]
+    }
   },
   {
     "tag": "Diagnosis & Priority",
     "title": "HeyGen: The Camera Disappears. The Review Does Not.",
-    "url": "/articles/heygen-camera-disappears-review-does-not.html"
+    "url": "/articles/heygen-camera-disappears-review-does-not.html",
+    "description": "HeyGen removes filming from presenter-video production. It doesn't remove the work — the work shifts into selection, review, repair, and identity decisions.",
+    "publishedAt": "2026-08-30T20:45:00Z",
+    "pve": {
+      "id": "pve-007",
+      "label": "Product Value Evaluation #007",
+      "order": 7,
+      "cards": [
+        {
+          "finding": "HeyGen removed the work of filming a presenter video. It didn't remove the work — it shifted into selection, review, script repair, and, for personal avatars, identity decisions.",
+          "url": "/articles/heygen-camera-disappears-review-does-not.html",
+          "linkLabel": "Read the evaluation →",
+          "title": "HeyGen",
+          "noBorder": true
+        }
+      ]
+    }
   },
   {
     "tag": "Diagnosis & Priority",
     "title": "The Workflow Completed. The Outcome Did Not.",
-    "url": "/articles/workflow-completed-outcome-did-not.html"
+    "url": "/articles/workflow-completed-outcome-did-not.html",
+    "description": "A completed workflow is not the same as a completed task. Three questions for evaluating multi-step AI products, drawn from IC Eight's Photoroom evaluation.",
+    "publishedAt": "2026-08-30T18:00:00Z"
   },
   {
     "tag": "Diagnosis & Priority",
     "title": "Photoroom: When the User Has to Design the Workflow",
-    "url": "/articles/photoroom-user-designs-workflow.html"
+    "url": "/articles/photoroom-user-designs-workflow.html",
+    "description": "Photoroom exported images successfully, but neither tested jewelry workflow produced a usable e-commerce image. A Product Value Evaluation of what happens when the user has to design the workflow.",
+    "publishedAt": "2026-08-30T16:00:00Z",
+    "pve": {
+      "id": "pve-006",
+      "label": "Product Value Evaluation #006",
+      "order": 6,
+      "cards": [
+        {
+          "finding": "Photoroom exported images successfully, but neither tested jewelry workflow produced a usable e-commerce photo. Once an early processing step was wrong, later tools made the image look more finished without making it more correct.",
+          "url": "/articles/photoroom-user-designs-workflow.html",
+          "linkLabel": "Read the evaluation →",
+          "title": "Photoroom"
+        },
+        {
+          "finding": "A completed workflow is not the same as a completed task. Three questions for evaluating multi-step AI products.",
+          "url": "/articles/workflow-completed-outcome-did-not.html",
+          "linkLabel": "Read the follow-up →",
+          "metaLabel": "Follow-up",
+          "noBorder": true
+        }
+      ]
+    }
   },
   {
     "tag": "Diagnosis & Priority",
     "title": "Raycast: The Friction of Discovering What Friction to Remove",
-    "url": "/articles/raycast-friction-of-discovering-friction.html"
+    "url": "/articles/raycast-friction-of-discovering-friction.html",
+    "description": "Raycast contains far more value than first use reveals. A Product Value Evaluation of the discovery cost standing between a broad command layer and the friction it's meant to remove.",
+    "publishedAt": "2026-08-29T14:00:00Z",
+    "pve": {
+      "id": "pve-005",
+      "label": "Product Value Evaluation #005",
+      "order": 5,
+      "cards": [
+        {
+          "finding": "Raycast contains far more value than first use reveals. The harder problem isn't removing friction — it's discovering which friction Raycast can remove before the exploration itself becomes work.",
+          "url": "/articles/raycast-friction-of-discovering-friction.html",
+          "linkLabel": "Read the evaluation →",
+          "title": "Raycast",
+          "noBorder": true
+        }
+      ]
+    }
   },
   {
     "tag": "Diagnosis & Priority",
     "title": "Napkin AI: The Visual Is Fast. The Verification Is Not.",
-    "url": "/articles/napkin-ai-visual-fast-verification-not.html"
+    "url": "/articles/napkin-ai-visual-fast-verification-not.html",
+    "description": "Napkin AI turns text into visuals in one generation cycle. A Product Value Evaluation of what that speed actually removes — and what work moves to the user instead.",
+    "publishedAt": "2026-08-29T12:00:00Z",
+    "pve": {
+      "id": "pve-004",
+      "label": "Product Value Evaluation #004",
+      "order": 4,
+      "cards": [
+        {
+          "finding": "Napkin turns text into a visual in one generation cycle. But the candidate visuals weren't just different layouts — they sometimes carried different interpretations of the source. The speed was real. So was the verification work it left behind.",
+          "url": "/articles/napkin-ai-visual-fast-verification-not.html",
+          "linkLabel": "Read the evaluation →",
+          "title": "Napkin AI",
+          "noBorder": true
+        }
+      ]
+    }
   },
   {
     "tag": "Positioning & Assumptions",
     "title": "When You Build a New Category, AI Rounds You Down to an Old One",
-    "url": "/articles/ai-rounds-new-categories-to-old-ones.html"
+    "url": "/articles/ai-rounds-new-categories-to-old-ones.html",
+    "description": "A category that doesn't exist yet in the training data gets absorbed into the nearest one that does, even when the page explicitly says it isn't that. What IC Eight's own site taught us about building a new category.",
+    "publishedAt": "2026-08-26T12:00:00Z"
   },
   {
     "tag": "Value in Use",
     "title": "Julius AI: The Value Appears After the First Answer",
-    "url": "/articles/julius-ai-value-after-first-answer.html"
+    "url": "/articles/julius-ai-value-after-first-answer.html",
+    "description": "Julius AI's first autonomous analysis was fast and largely reproducible — but it also contained a reliability issue. A Product Value Evaluation of what changed once a human took control of the analytical frame.",
+    "publishedAt": "2026-08-22T18:00:00Z",
+    "pve": {
+      "id": "pve-003",
+      "label": "Product Value Evaluation #003",
+      "order": 3,
+      "cards": [
+        {
+          "finding": "Julius's first autonomous analysis was fast and largely reproducible — but it also contained a reliability issue that a structured, code-backed answer didn't expose on its own.",
+          "url": "/articles/julius-ai-value-after-first-answer.html",
+          "linkLabel": "Read the evaluation →",
+          "title": "Julius AI",
+          "noBorder": true
+        }
+      ]
+    }
   },
   {
     "tag": "Value in Use",
     "title": "OpusClip: What Makes a Moment Worth Posting?",
-    "url": "/articles/opusclip-what-makes-a-moment-worth-posting.html"
+    "url": "/articles/opusclip-what-makes-a-moment-worth-posting.html",
+    "description": "OpusClip turns one long video into many short clips. A Product Value Evaluation of what the product actually treats as a moment worth posting — and where selection intelligence and packaging reliability diverge.",
+    "publishedAt": "2026-08-21T12:00:00Z",
+    "pve": {
+      "id": "pve-002",
+      "label": "Product Value Evaluation #002",
+      "order": 2,
+      "cards": [
+        {
+          "finding": "OpusClip turns one long video into many short clips. But what does it actually treat as a moment worth posting — and is selecting the right moment the same problem as describing it correctly?",
+          "url": "/articles/opusclip-what-makes-a-moment-worth-posting.html",
+          "linkLabel": "Read the evaluation →",
+          "title": "OpusClip",
+          "noBorder": true
+        }
+      ]
+    }
   },
   {
     "tag": "AI & Value Creation",
     "title": "The Second Monkey Matters More Than the First",
-    "url": "/articles/second-monkey-matters-more.html"
+    "url": "/articles/second-monkey-matters-more.html",
+    "description": "A new behavior does not spread because it works. It spreads because someone else notices it working, and says so. That is closer to how AI adoption is actually happening.",
+    "publishedAt": "2026-08-19T12:00:00Z"
   },
   {
     "tag": "Diagnosis & Priority",
     "title": "AI Can Agree on What to Reject and Still Disagree on What to Do Next",
-    "url": "/articles/chance-pilot-2-model-sensitivity.html"
+    "url": "/articles/chance-pilot-2-model-sensitivity.html",
+    "description": "Four AI models were given the same product evidence and the same strategic question. They converged on what to reject and diverged sharply on what to build instead. A Product Value Discovery experiment.",
+    "publishedAt": "2026-08-18T18:00:00Z"
   },
   {
     "tag": "Diagnosis & Priority",
     "title": "What Value Remains Differentiated After Everyone Adds AI?",
-    "url": "/articles/what-value-remains-differentiated-after-ai.html"
+    "url": "/articles/what-value-remains-differentiated-after-ai.html",
+    "description": "A follow-up to the tl;dv Product Value Evaluation: AI features may be becoming table stakes faster than they become differentiation. What remains defensible is the data layer underneath them.",
+    "publishedAt": "2026-08-18T12:00:00Z"
   },
   {
     "tag": "Value in Use",
     "title": "tl;dv: When the Easiest Value to Discover Faces the Most Familiar Alternatives",
-    "url": "/articles/tldv-easiest-to-discover-strongest-alternatives.html"
+    "url": "/articles/tldv-easiest-to-discover-strongest-alternatives.html",
+    "description": "A Product Value Discovery review of tl;dv: the value users discover first — recording, transcription, summarization — is also the value surrounded by the most familiar alternatives.",
+    "publishedAt": "2026-08-17T15:00:00Z",
+    "pve": {
+      "id": "pve-001",
+      "label": "Product Value Evaluation #001",
+      "order": 1,
+      "cards": [
+        {
+          "finding": "The value users discover first — recording, transcription, summarization — is also the value surrounded by the most familiar alternatives. Where does tl;dv's differentiated value actually sit?",
+          "url": "/articles/tldv-easiest-to-discover-strongest-alternatives.html",
+          "linkLabel": "Read the evaluation →",
+          "title": "tl;dv"
+        },
+        {
+          "finding": "AI features may be becoming table stakes faster than they become differentiation. What remains defensible once everyone has AI?",
+          "url": "/articles/what-value-remains-differentiated-after-ai.html",
+          "linkLabel": "Read the follow-up →",
+          "metaLabel": "Follow-up",
+          "noBorder": true
+        }
+      ]
+    }
   },
   {
     "tag": "Diagnosis & Priority",
     "title": "AI Can Discover More. But Can It Decide What to Kill?",
-    "url": "/articles/ai-can-discover-but-can-it-kill.html"
+    "url": "/articles/ai-can-discover-but-can-it-kill.html",
+    "description": "A follow-up to our Chance AI experiment: the AI had enough evidence to cut a weak product feature, but it didn't. Here's why, in its own words.",
+    "publishedAt": "2026-08-16T19:30:00Z"
   },
   {
     "tag": "Diagnosis & Priority",
     "title": "What AI Discovers Depends on What You Let It Observe",
-    "url": "/articles/what-ai-discovers-depends-on-what-you-let-it-observe.html"
+    "url": "/articles/what-ai-discovers-depends-on-what-you-let-it-observe.html",
+    "description": "A Product Value Discovery case study showing how the evidence available to AI changed what it believed Chance AI was and which commercial opportunities it found.",
+    "publishedAt": "2026-08-16T17:45:00Z",
+    "pve": {
+      "id": "pilot-experiment",
+      "label": "Pilot Experiment",
+      "order": 0,
+      "cards": [
+        {
+          "finding": "How did the product and opportunity map change when AI was given public positioning, first-use evidence, and direct product access?",
+          "url": "/articles/what-ai-discovers-depends-on-what-you-let-it-observe.html",
+          "linkLabel": "Read the evaluation →",
+          "title": "Chance AI"
+        },
+        {
+          "finding": "AI found the failure evidence. Why did it still preserve the weak capability?",
+          "url": "/articles/ai-can-discover-but-can-it-kill.html",
+          "linkLabel": "Read the follow-up →",
+          "metaLabel": "Follow-up"
+        },
+        {
+          "finding": "Four AI models, the same evidence, the same strategic question. Where did they agree — and where did the strategy split?",
+          "url": "/articles/chance-pilot-2-model-sensitivity.html",
+          "linkLabel": "Read the experiment →",
+          "metaLabel": "Chance Pilot #2",
+          "noBorder": true
+        }
+      ]
+    }
   },
   {
     "tag": "AI & Value Creation",
     "title": "How Fast the Unit of Work Keeps Changing",
-    "url": "/articles/how-fast-the-unit-of-work-keeps-changing.html"
+    "url": "/articles/how-fast-the-unit-of-work-keeps-changing.html",
+    "description": "A thinking log: how quickly my assumptions about localization, generation, and diagnosis changed as AI capabilities changed, from December 2025 to now.",
+    "publishedAt": "2026-08-11T03:39:26Z"
   },
   {
     "tag": "Diagnosis & Priority",
     "title": "Who Says Japanese Users Need That?",
-    "url": "/articles/who-says-japanese-users-need-that.html"
+    "url": "/articles/who-says-japanese-users-need-that.html",
+    "description": "Unnatural Japanese loses trust. CJK fonts lose trust. Bad line breaks look unprofessional. Who says so, and where's the data?",
+    "publishedAt": "2026-08-08T23:03:37Z"
   },
   {
     "tag": "Diagnosis & Priority",
     "title": "When Quality Becomes the Wrong Goal",
-    "url": "/articles/when-quality-becomes-wrong-goal.html"
+    "url": "/articles/when-quality-becomes-wrong-goal.html",
+    "description": "A manager once told me 75 percent was enough. It took me years to understand he was right — and that quality and value are not the same thing.",
+    "publishedAt": "2026-08-08T21:26:55Z"
   },
   {
     "tag": "Diagnosis & Priority",
     "title": "AI Efficiency Is Not Customer Value",
-    "url": "/articles/ai-efficiency-not-customer-value.html"
+    "url": "/articles/ai-efficiency-not-customer-value.html",
+    "description": "A faster workflow does not necessarily produce a better result. It may simply make a commodity task even easier for everyone else to perform.",
+    "publishedAt": "2026-08-05T12:00:00Z"
   },
   {
     "tag": "AI & Value Creation",
     "title": "Creativity Has Never Lived Inside an Isolated Mind",
-    "url": "/articles/creativity-never-isolated-mind.html"
+    "url": "/articles/creativity-never-isolated-mind.html",
+    "description": "AI-assisted creation is often dismissed as mere consumption. But creativity has never emerged from an isolated mind — it has always been shaped by interaction with the outside world.",
+    "publishedAt": "2026-07-13T12:00:00Z"
   },
   {
     "tag": "Diagnosis & Priority",
     "title": "\"Generic\" Is an Aesthetic Judgment. Market Value Is a Different Question.",
-    "url": "/articles/generic-is-aesthetic-market-value-is-different.html"
+    "url": "/articles/generic-is-aesthetic-market-value-is-different.html",
+    "description": "AI-generated design and copy get criticized as generic. That's an aesthetic judgment. Market value is a different question — and commercial translation has been confusing the two for years.",
+    "publishedAt": "2026-07-13T12:00:00Z"
   },
   {
     "tag": "Content Systems",
     "title": "\"AI-Native\" Localization, or Just an Automated Vendor Chain?",
-    "url": "/articles/ai-native-or-automated-vendor-chain.html"
+    "url": "/articles/ai-native-or-automated-vendor-chain.html",
+    "description": "OpenAI is hiring a Localization Manager described in AI-native terms. But the operating model underneath is a vendor chain, modernized. That's not the same as AI-native localization.",
+    "publishedAt": "2026-07-13T12:00:00Z"
   },
   {
     "tag": "Content Systems",
     "title": "The AI with a Thousand Voices",
-    "url": "/articles/ai-thousand-voices-anime-localization.html"
+    "url": "/articles/ai-thousand-voices-anime-localization.html",
+    "description": "Japan's reported ¥11.5 billion (roughly US$70 million) anime localization subsidy has revived the debate over AI translation quality. The real question isn't whether AI can translate faster — it's whether generative AI can give every character a consistent, designed voice.",
+    "publishedAt": "2026-07-10T12:00:00Z"
   },
   {
     "tag": "Positioning & Assumptions",
     "title": "\"Translate This\" Was Never Actually the Request",
-    "url": "/articles/not-a-translation-request.html"
+    "url": "/articles/not-a-translation-request.html",
+    "description": "A rental contract in Portuguese taught me something simple: I never wanted a translation — I wanted to know what mattered. It's the same question every SaaS team faces when they enter Japan, whether they realize it yet or not.",
+    "publishedAt": "2026-07-06T12:00:00Z"
   },
   {
     "tag": "AI & Value Creation",
     "title": "AI Is a Shapeshifter, But Not a Wild One",
-    "url": "/articles/ai-shapeshifter-not-wild.html"
+    "url": "/articles/ai-shapeshifter-not-wild.html",
+    "description": "Conversational AI can feel like a shapeshifter — an editor one moment, a strategist the next. But unlike a wild shapeshifter, it has no self to protect. That absence is what makes it able to adapt so fluidly to a user's purpose.",
+    "publishedAt": "2026-07-06T12:00:00Z"
   },
   {
     "tag": "AI & Value Creation",
     "title": "We Used to Write Magic Blueprints. Now We Can Start With a Wish.",
-    "url": "/articles/magic-blueprint-to-wish.html"
+    "url": "/articles/magic-blueprint-to-wish.html",
+    "description": "Early AI prompting needed carefully built blueprints — roles, constraints, formats. Newer conversational AI works differently: it can take fragments, hesitation, and unfinished thoughts, and turn them into the next move.",
+    "publishedAt": "2026-07-06T12:00:00Z"
   },
   {
     "tag": "Value in Use",
     "title": "What Makes People Come Back to an AI Feature",
-    "url": "/articles/ai-feature-retention.html"
+    "url": "/articles/ai-feature-retention.html",
+    "description": "Paying for something is just the strongest version of a simpler question: why would anyone keep coming back to this at all?",
+    "publishedAt": "2026-07-05T12:00:00Z"
   },
   {
     "tag": "Content Systems",
     "title": "This Email Is Not a Translation Problem",
-    "url": "/articles/this-email-is-not-a-translation-problem.html"
+    "url": "/articles/this-email-is-not-a-translation-problem.html",
+    "description": "A cancellation email had all the right information and still failed to answer the one question that mattered. This is what happens when content is assembled from translation units instead of designed around intent.",
+    "publishedAt": "2026-07-02T12:00:00Z"
   },
   {
     "tag": "Diagnosis & Priority",
     "title": "AI Slop Has a Blind Spot, and It's Visual",
-    "url": "/articles/ai-slop-blind-spot.html"
+    "url": "/articles/ai-slop-blind-spot.html",
+    "description": "Everyone can spot AI-written text now. But visual AI slop hides in plain sight. Because most people don't have the vocabulary to call it out.",
+    "publishedAt": "2026-07-01T12:00:00Z"
   },
   {
     "tag": "Content Systems",
     "title": "AI-Native Localization Framework and Intent-Based Generation: IC Eight's Definitions",
-    "url": "/articles/ai-native-localization-design-intent-based-generation.html"
+    "url": "/articles/ai-native-localization-design-intent-based-generation.html",
+    "description": "A retained definition, not a current service: IC Eight's early-2026 term for generating Japanese UX and content from intent rather than sentence-by-sentence translation. Superseded by Product Value Discovery.",
+    "publishedAt": "2026-07-01T12:00:00Z"
   },
   {
     "tag": "Value in Use",
     "title": "Why Subway's Self-Ordering Kiosks Make Sense in Japan",
-    "url": "/articles/subway-kiosk-japan-ux.html"
+    "url": "/articles/subway-kiosk-japan-ux.html",
+    "description": "Subway's touchscreen kiosks in Japan aren't about replacing service. They remove the social pressure of choosing in public, while preserving customization.",
+    "publishedAt": "2026-06-28T12:00:00Z"
   },
   {
     "tag": "Value in Use",
     "title": "AI Can Translate Discovery. It Cannot Localize Trust.",
-    "url": "/articles/ai-discovery-trust.html"
+    "url": "/articles/ai-discovery-trust.html",
+    "description": "AI discovery does not follow the same map as search ranking. English content can now reach Japanese users through AI summaries — before a company has formally entered Japan. But being discovered is not the same as being trusted.",
+    "publishedAt": "2026-06-28T12:00:00Z"
   },
   {
     "tag": "Value in Use",
     "title": "Japan Market Entry Now Happens Inside the Product",
-    "url": "/articles/japan-market-entry-product-language.html"
+    "url": "/articles/japan-market-entry-product-language.html",
+    "description": "Japan market entry used to mean building content around the product. Now it means making the product understandable before the user leaves.",
+    "publishedAt": "2026-06-28T12:00:00Z"
   },
   {
     "tag": "Diagnosis & Priority",
     "title": "Translation Can Support ROI. But Only When the Output Actually Performs.",
-    "url": "/articles/translation-roi-performance.html"
+    "url": "/articles/translation-roi-performance.html",
+    "description": "Translation can support ROI. But only when the output actually performs in the target market.",
+    "publishedAt": "2026-06-25T12:00:00Z"
   },
   {
     "tag": "Value in Use",
     "title": "Why \"Community\" Fails Without a Reason to Return: Lessons from Poupee Girl",
-    "url": "/articles/poupee-girl-community-loops.html"
+    "url": "/articles/poupee-girl-community-loops.html",
+    "description": "Community is not a feed. Community starts when users have a reason to return, react, and care about what other people are doing.",
+    "publishedAt": "2026-06-25T12:00:00Z"
   },
   {
     "tag": "Diagnosis & Priority",
     "title": "AI Tells Are Becoming the New Stone Mortar",
-    "url": "/articles/ai-tells-stone-mortar.html"
+    "url": "/articles/ai-tells-stone-mortar.html",
+    "description": "A bad idea written manually is still a bad idea. A clear idea shaped with AI is still a clear idea. Effort is not the same as quality.",
+    "publishedAt": "2026-06-25T12:00:00Z"
   },
   {
     "tag": "Content Systems",
     "title": "The AI Didn't Translate My Website. It Rebuilt It from Intent.",
-    "url": "/articles/rebuilt-from-intent.html"
+    "url": "/articles/rebuilt-from-intent.html",
+    "description": "Translation preserves the source. Intent-driven localization preserves the job the content is supposed to do.",
+    "publishedAt": "2026-06-25T12:00:00Z"
   },
   {
     "tag": "AI & Value Creation",
     "title": "The Post Is Just a Container",
-    "url": "/articles/post-is-just-a-container.html"
+    "url": "/articles/post-is-just-a-container.html",
+    "description": "LinkedIn is trying to penalize AI-written posts. But maybe it's solving the wrong problem.",
+    "publishedAt": "2026-06-25T12:00:00Z"
   },
   {
     "tag": "AI & Value Creation",
     "title": "When AI Doesn't Replace the Writer — It Replaces the Visit",
-    "url": "/articles/ai-replaces-the-visit.html"
+    "url": "/articles/ai-replaces-the-visit.html",
+    "description": "AI is not only affecting future writing work. It is also affecting past writing work — and the route through which value becomes traffic.",
+    "publishedAt": "2026-06-25T12:00:00Z"
   },
   {
     "tag": "Positioning & Assumptions",
     "title": "\"Only $299!\" — and Why That Word Doesn't Always Travel",
-    "url": "/articles/only-299-price-framing.html"
+    "url": "/articles/only-299-price-framing.html",
+    "description": "Localization is not translation. It is deciding whether the product has earned the right to frame that price as low in that market.",
+    "publishedAt": "2026-06-25T12:00:00Z"
   },
   {
     "tag": "Content Systems",
     "title": "Localization Is Not the Transfer of Text",
     "url": "/articles/localization-design-not-transfer.html",
-    "featured": true
+    "featured": true,
+    "description": "Localization is not the transfer of text. It is the design of product value across markets.",
+    "publishedAt": "2026-06-24T12:00:00Z"
   },
   {
     "tag": "AI & Value Creation",
     "title": "A Lot of Productivity Tools Still Assume a Human Is Doing the Manual Work",
-    "url": "/articles/productivity-tools-manual-work.html"
+    "url": "/articles/productivity-tools-manual-work.html",
+    "description": "I quit Notion. Not because it's bad — because the workflow it was built for, the human doing the manual structuring, isn't mine anymore.",
+    "publishedAt": "2026-06-18T12:00:00Z"
   },
   {
     "tag": "Value in Use",
     "title": "Banco Inter's Missing State: A UX Field Note",
-    "url": "/articles/banco-inter-missing-state.html"
+    "url": "/articles/banco-inter-missing-state.html",
+    "description": "A UX review of Banco Inter's app reveals how hidden account states erode user trust — the kind of gap IC Eight finds in Japanese product reviews.",
+    "publishedAt": "2026-06-17T12:00:00Z"
   },
   {
     "tag": "Value in Use",
     "title": "Users Can Buy in English. That Is Not the Point.",
-    "url": "/articles/fragile-interest-localization.html"
+    "url": "/articles/fragile-interest-localization.html",
+    "description": "Localization is not about assuming users cannot buy in English. It is about not killing fragile interest before it has a chance to grow.",
+    "publishedAt": "2026-06-16T12:00:00Z"
   },
   {
     "tag": "Value in Use",
     "title": "Transparency Is Not the Same as Disclosure",
-    "url": "/articles/c2pa-transparency.html"
+    "url": "/articles/c2pa-transparency.html",
+    "description": "Transparency is not the same as disclosure. Disclosure is showing everything. Transparency is showing what helps people understand.",
+    "publishedAt": "2026-06-11T12:00:00Z"
   },
   {
     "tag": "Value in Use",
     "title": "That Is Not a Language Barrier. That Is a Design Failure.",
-    "url": "/articles/cognitive-load-help-content.html"
+    "url": "/articles/cognitive-load-help-content.html",
+    "description": "When users are confused and stressed, they're already running at full capacity. Add a foreign language on top of that, and they don't push through. They leave.",
+    "publishedAt": "2026-06-04T12:00:00Z"
   },
   {
     "tag": "Content Systems",
     "title": "\"Translation\" Is No Longer a Useful Word",
-    "url": "/articles/translation-is-not-one-thing.html"
+    "url": "/articles/translation-is-not-one-thing.html",
+    "description": "Literary translation, SaaS UI, support content, and post-editing do not operate under the same rules. Using examples from one kind of work to defend another is not clarifying the debate.",
+    "publishedAt": "2026-06-03T12:00:00Z"
   },
   {
     "tag": null,
     "title": "Don't Let It Fall",
     "url": "/articles/peteca-kemari.html",
-    "primaryStatus": "unclassified_legacy"
+    "primaryStatus": "unclassified_legacy",
+    "description": "A Brazilian expression, a Japanese court game, and the same idea across two cultures: don't let it fall.",
+    "publishedAt": "2026-06-02T12:00:00Z"
   },
   {
     "tag": "Content Systems",
     "title": "The Four-Layer Workflow: How IC Eight Localizes Without Translating",
-    "url": "/articles/four-layer-workflow-localization.html"
+    "url": "/articles/four-layer-workflow-localization.html",
+    "description": "IC Eight's four-layer workflow: intent brief, human decisions, generation, evaluation, and final judgment. How to make AI-generated localization controllable.",
+    "publishedAt": "2026-06-01T12:00:00Z"
   },
   {
     "tag": "Content Systems",
     "title": "The Intent Brief: What Happens Before AI Generates Japanese",
-    "url": "/articles/intent-brief-before-generation.html"
+    "url": "/articles/intent-brief-before-generation.html",
+    "description": "AI-native localization is not about asking AI to generate Japanese. It is about deciding what the AI should generate, what it should not generate, and how the output should be judged.",
+    "publishedAt": "2026-05-31T12:00:00Z"
   },
   {
     "tag": "Value in Use",
     "title": "Localization Is Not What Most SaaS Teams Think It Is",
-    "url": "/articles/localization-is-ux.html"
+    "url": "/articles/localization-is-ux.html",
+    "description": "Localization is not what most SaaS teams think it is. Language is the interface. And if it's clunky, unclear, or fails to build trust, onboarding breaks.",
+    "publishedAt": "2026-05-28T12:00:00Z"
   },
   {
     "tag": "Diagnosis & Priority",
     "title": "The Network Hygiene Problem",
-    "url": "/articles/ai-slop-network-hygiene.html"
+    "url": "/articles/ai-slop-network-hygiene.html",
+    "description": "Not every annoying post needs to become a moderation problem. The useful distinction is not AI vs. human. It's judgment vs. no judgment.",
+    "publishedAt": "2026-05-26T12:00:00Z"
   },
   {
     "tag": "Content Systems",
     "title": "AI Localization Fails When We Judge It as Translation",
-    "url": "/articles/ai-localization-controlled-generation.html"
+    "url": "/articles/ai-localization-controlled-generation.html",
+    "description": "AI localization fails when we judge it as translation. It becomes useful when we guide it as controlled generation.",
+    "publishedAt": "2026-05-21T12:00:00Z"
   },
   {
     "tag": "Diagnosis & Priority",
     "title": "It's Not AI Slop. It's User Slop.",
-    "url": "/articles/user-slop.html"
+    "url": "/articles/user-slop.html",
+    "description": "AI slop puts the blame in the wrong place. The problem isn't the tool. It's the absence of judgment, context, and ownership.",
+    "publishedAt": "2026-05-21T12:00:00Z"
   },
   {
     "tag": "Value in Use",
     "title": "Not Everything Needs to Become a Conversation",
-    "url": "/articles/nubank-conversational-ux.html"
+    "url": "/articles/nubank-conversational-ux.html",
+    "description": "A conversational interface is not always a better interface. What Nubank's new Pix flow gets wrong about AI-native UX.",
+    "publishedAt": "2026-05-19T12:00:00Z"
   },
   {
     "tag": "Positioning & Assumptions",
     "title": "The SaaS Sweet Spot in Japan Isn't Who You Think",
-    "url": "/articles/japan-saas-sweet-spot.html"
+    "url": "/articles/japan-saas-sweet-spot.html",
+    "description": "Global SaaS teams assume Japan's tech-resistant users are the 50+ crowd. They have it backwards.",
+    "publishedAt": "2026-05-14T12:00:00Z"
   },
   {
     "tag": "Positioning & Assumptions",
     "title": "Ditch the Poetry",
-    "url": "/articles/japan-ux-mythology.html"
+    "url": "/articles/japan-ux-mythology.html",
+    "description": "Japan does not need to be decoded. The product experience needs to be made clear, usable, and trustworthy in Japanese.",
+    "publishedAt": "2026-05-14T12:00:00Z"
   },
   {
     "tag": "Value in Use",
     "title": "Nobody Asked Me If I Wanted an Upgrade",
-    "url": "/articles/nobody-asked-for-upgrade.html"
+    "url": "/articles/nobody-asked-for-upgrade.html",
+    "description": "The neighborhood got better. More European. More aspirational. But I just wanted a cheap, warm snack from the place downstairs. Product teams do this too.",
+    "publishedAt": "2026-05-12T12:00:00Z"
   },
   {
     "tag": "Positioning & Assumptions",
     "title": "Japan Doesn't Have Low Demand. Japan Has Invisible Demand.",
-    "url": "/articles/japan-invisible-demand.html"
+    "url": "/articles/japan-invisible-demand.html",
+    "description": "Japanese users don't complain. They quietly leave. Japan doesn't have low demand. Japan has invisible demand.",
+    "publishedAt": "2026-05-07T12:00:00Z"
   },
   {
     "tag": "Value in Use",
     "title": "AI Can Speak Many Languages. Why Does the Microphone Still Ask Me to Choose One?",
-    "url": "/articles/multilingual-microphone-ux.html"
+    "url": "/articles/multilingual-microphone-ux.html",
+    "description": "AI can speak many languages. Why does the microphone still ask me to choose one? Multilingual support isn't just about translation — it's about everywhere language meets real life.",
+    "publishedAt": "2026-05-05T12:00:00Z"
   },
   {
     "tag": "Value in Use",
     "title": "In Brazil, the Comprar Button Is Just the Beginning",
-    "url": "/articles/brazil-whatsapp-commerce.html"
+    "url": "/articles/brazil-whatsapp-commerce.html",
+    "description": "Brazilian buyers don't abandon carts — they open WhatsApp. Not because the UX failed them, but because they know that talking to a person unlocks things the product page never shows.",
+    "publishedAt": "2026-04-30T12:00:00Z"
   },
   {
     "tag": "Positioning & Assumptions",
     "title": "Japan Is Not a 'Young Market.' It's a 50+ Market.",
-    "url": "/articles/japan-50plus-market.html"
+    "url": "/articles/japan-50plus-market.html",
+    "description": "Japan is not a young market. It's a 50+ market. Half of Japan's population is over 50 — and most SaaS teams are designing for the wrong half.",
+    "publishedAt": "2026-04-28T12:00:00Z"
   },
   {
     "tag": null,
     "title": "Why You Should Start LATAM Expansion with Brazil, Not Spanish Markets",
     "url": "/articles/brazil-first-latam.html",
-    "primaryStatus": "unclassified_legacy"
+    "primaryStatus": "unclassified_legacy",
+    "description": "Spanish isn't one market. It's eighteen. Brazil is one language, one market, 215 million people. Start LATAM expansion with Brazil — before Mexico.",
+    "publishedAt": "2026-04-23T12:00:00Z"
   },
   {
     "tag": "Positioning & Assumptions",
     "title": "LinkedIn Japan Is Not Japan.",
-    "url": "/articles/linkedin-japan-is-not-japan.html"
+    "url": "/articles/linkedin-japan-is-not-japan.html",
+    "description": "Every time global teams look at Japan on LinkedIn, they're not seeing Japan — they're seeing a tiny, self-selected fragment of it. The other 96% determine whether a product succeeds in Japan.",
+    "publishedAt": "2026-04-21T12:00:00Z"
   },
   {
     "tag": "Value in Use",
     "title": "You Can't Translate a Washing Machine Manual",
-    "url": "/articles/washing-machine-manual.html"
+    "url": "/articles/washing-machine-manual.html",
+    "description": "Same manufacturer. Completely different documents depending on the country. You can't get to the Japanese manual by translating the Brazilian one. That's not translation. That's experience redesign.",
+    "publishedAt": "2026-04-16T12:00:00Z"
   },
   {
     "tag": "Value in Use",
     "title": "When Pix Works but Your System Doesn't",
-    "url": "/articles/pix-ticketing-system-failure.html"
+    "url": "/articles/pix-ticketing-system-failure.html",
+    "description": "The payment cleared. The ticket never arrived. Localization failures don't start at translation. They start in how systems are designed to understand context.",
+    "publishedAt": "2026-04-14T12:00:00Z"
   },
   {
     "tag": null,
     "title": "Decisions Aren't Made by Systems. They're Made by People.",
     "url": "/articles/decisions-made-by-people.html",
-    "primaryStatus": "unclassified_legacy"
+    "primaryStatus": "unclassified_legacy",
+    "description": "The process may look finished. The numbers may look clear. But the decision is not made when the process ends. It is made when the decision maker decides. And decision makers are human.",
+    "publishedAt": "2026-04-09T12:00:00Z"
   },
   {
     "tag": "Value in Use",
     "title": "\"It Feels Kinder Than Most People\"",
-    "url": "/articles/ai-companion-seniors.html"
+    "url": "/articles/ai-companion-seniors.html",
+    "description": "My 84-year-old mother said AI felt kinder than most people. Four weeks later, she still won't use it alone. What I learned about pace, trust, and UI design for seniors.",
+    "publishedAt": "2026-04-07T12:00:00Z"
   },
   {
     "tag": "Positioning & Assumptions",
     "title": "English Proficiency ≠ Understanding",
-    "url": "/articles/english-proficiency-vs-understanding.html"
+    "url": "/articles/english-proficiency-vs-understanding.html",
+    "description": "English proficiency is not the same as full cultural and contextual understanding. What's basic English to you might be invisible to your users.",
+    "publishedAt": "2026-04-02T12:00:00Z"
   },
   {
     "tag": "Content Systems",
     "title": "We Don't Trust Humans. We Trust Accountability.",
-    "url": "/articles/trust-accountability.html"
+    "url": "/articles/trust-accountability.html",
+    "description": "People don't trust content because it's written by humans. They trust content because someone is accountable for it. That changes everything about how we think about AI and localization.",
+    "publishedAt": "2026-03-26T12:00:00Z"
   },
   {
     "tag": "AI & Value Creation",
     "title": "Companies Don't Pay for Judgment. They Pay for Communication.",
-    "url": "/articles/companies-pay-for-communication.html"
+    "url": "/articles/companies-pay-for-communication.html",
+    "description": "AI won't replace human judgment in everyday life. But it will rewrite most of how companies communicate. And when communication changes, localization becomes part of product, UX, and trust design.",
+    "publishedAt": "2026-03-24T12:00:00Z"
   },
   {
     "tag": null,
     "title": "This Isn't Market Exit. It's Channel Strategy.",
     "url": "/articles/japan-channel-strategy.html",
-    "primaryStatus": "unclassified_legacy"
+    "primaryStatus": "unclassified_legacy",
+    "description": "Brands aren't abandoning Japan. They're shifting channels. Localization doesn't start with translation — it starts with understanding how each market actually works.",
+    "publishedAt": "2026-03-19T12:00:00Z"
   },
   {
     "tag": "Positioning & Assumptions",
     "title": "They Can Afford the Flight. They Just Don't Speak English.",
-    "url": "/articles/brazil-english-proficiency.html"
+    "url": "/articles/brazil-english-proficiency.html",
+    "description": "Many global SaaS teams assume that if users can afford international travel, they probably speak English. Not in Brazil. Fluent English speakers: 1%. That gap kills activation.",
+    "publishedAt": "2026-03-12T12:00:00Z"
   },
   {
     "tag": "Content Systems",
     "title": "Localization Isn't Translation. It's Redesign.",
-    "url": "/articles/localization-is-redesign.html"
+    "url": "/articles/localization-is-redesign.html",
+    "description": "Products don't break in new markets because of language. They break because the assumptions don't travel. Localization has always been redesign, not translation.",
+    "publishedAt": "2026-03-10T12:00:00Z"
   },
   {
     "tag": "Positioning & Assumptions",
     "title": "In LATAM, Intent Beats Income",
-    "url": "/articles/intent-beats-income.html"
+    "url": "/articles/intent-beats-income.html",
+    "description": "Adoption in LATAM isn't about disposable income. It's about what people choose to value. Intent beats income. Every time.",
+    "publishedAt": "2026-03-05T12:00:00Z"
   },
   {
     "tag": "Positioning & Assumptions",
     "title": "In LATAM, an iPhone Isn't a Phone — It's Liquidity",
-    "url": "/articles/iphone-latam-liquidity.html"
+    "url": "/articles/iphone-latam-liquidity.html",
+    "description": "In LATAM, smartphones aren't just tools. They're liquid assets. Income doesn't predict tech adoption here. Intent does.",
+    "publishedAt": "2026-03-03T12:00:00Z"
   },
   {
     "tag": "Value in Use",
     "title": "I Could Afford It. I Just Couldn't Pay.",
-    "url": "/articles/pix-payment-localization.html"
+    "url": "/articles/pix-payment-localization.html",
+    "description": "I could afford the ticket. I just couldn't complete the payment. A real story about payment localization, Pix, and why checkout UX is activation — not just conversion.",
+    "publishedAt": "2026-02-26T12:00:00Z"
   },
   {
     "tag": "Positioning & Assumptions",
     "title": "São Paulo Lost Its Soy Milk. What That Taught Me About Localization.",
-    "url": "/articles/soy-milk-localization.html"
+    "url": "/articles/soy-milk-localization.html",
+    "description": "Soy milk vanished from São Paulo supermarkets. What happened next is a localization story. The product changed shape three times — because the market kept correcting it.",
+    "publishedAt": "2026-02-24T12:00:00Z"
   },
   {
     "tag": null,
     "title": "You Don't Expand for Fairness. You Expand for ROI.",
     "url": "/articles/expand-for-roi.html",
-    "primaryStatus": "unclassified_legacy"
+    "primaryStatus": "unclassified_legacy",
+    "description": "You don't expand for fairness — you expand for ROI. Europe is a fragmentation trap. LATAM and East Asia are simply more efficient. Here's why.",
+    "publishedAt": "2026-02-19T12:00:00Z"
   },
   {
     "tag": null,
     "title": "The Smallest Global Rollout That Actually Works",
     "url": "/articles/smallest-global-rollout.html",
-    "primaryStatus": "unclassified_legacy"
+    "primaryStatus": "unclassified_legacy",
+    "description": "The smallest global rollout that actually makes sense: LATAM + one East Asian market. Here's the math — and why Brazil alone can subsidize the cost of localizing Europe.",
+    "publishedAt": "2026-02-17T12:00:00Z"
   },
   {
     "tag": null,
     "title": "Skip Europe. Start with LATAM.",
     "url": "/articles/skip-europe-start-latam.html",
-    "primaryStatus": "unclassified_legacy"
+    "primaryStatus": "unclassified_legacy",
+    "description": "Europe takes 8–12 languages just to unlock a sliver of ROI. LATAM? Just two. If you need to start small: LATAM + East Asia beats Europe. Every single time.",
+    "publishedAt": "2026-02-12T12:00:00Z"
   },
   {
     "tag": "Content Systems",
     "title": "Some Things Just Shouldn't Be Localized",
-    "url": "/articles/dont-translate-everything.html"
+    "url": "/articles/dont-translate-everything.html",
+    "description": "Some content is defined by how it's said, not just what is said. Translation is a feature. Voice is identity. Good UX respects both.",
+    "publishedAt": "2026-02-10T12:00:00Z"
   },
   {
     "tag": "Value in Use",
     "title": "'Start Advertising' Sounds Like 'Get Your Credit Card Ready.'",
-    "url": "/articles/cta-translation-japan.html"
+    "url": "/articles/cta-translation-japan.html",
+    "description": "What feels like a gentle nudge in English can become a hard push in Japanese. A real example from Microsoft Advertising — and what it tells us about CTA localization.",
+    "publishedAt": "2026-01-29T12:00:00Z"
   },
   {
     "tag": "Diagnosis & Priority",
     "title": "Still Assuming \"Human = Quality\"?",
-    "url": "/articles/human-equals-quality.html"
+    "url": "/articles/human-equals-quality.html",
+    "description": "When humans are placed in roles that require volume over judgment, quality degrades. Here's the better model.",
+    "publishedAt": "2026-01-28T12:00:00Z"
   },
   {
     "tag": "Positioning & Assumptions",
     "title": "Perfection Isn't What Japanese Customers Really Expect",
-    "url": "/articles/japan-perfection-myth.html"
+    "url": "/articles/japan-perfection-myth.html",
+    "description": "Japanese customers don't expect perfection. They expect sincere, immediate, and transparent support when something goes wrong. There's a difference.",
+    "publishedAt": "2026-01-27T12:00:00Z"
   },
   {
     "tag": "Value in Use",
     "title": "Why AI Support Still Feels Like an 80s Adventure Game",
-    "url": "/articles/ai-support-ux.html"
+    "url": "/articles/ai-support-ux.html",
+    "description": "AI support isn't where trust begins. It's where trust is tested — or lost. A real account of what happens when AI support is designed to simulate progress without providing it.",
+    "publishedAt": "2026-01-22T12:00:00Z"
   },
   {
     "tag": "Content Systems",
     "title": "AI Isn't Making Translation Faster. It's Making It Optional.",
-    "url": "/articles/translation-is-optional.html"
+    "url": "/articles/translation-is-optional.html",
+    "description": "AI is not changing localization by making translation faster or cheaper. It's changing whether translation is needed at all.",
+    "publishedAt": "2026-01-22T12:00:00Z"
   },
   {
     "tag": "Value in Use",
     "title": "When Your Bank Says \"We Miss You\" — After One Week",
-    "url": "/articles/banco-inter-ux-hug.html"
+    "url": "/articles/banco-inter-ux-hug.html",
+    "description": "Brazilian banking UX is wild. One week after opening an account, Banco Inter sent a love letter. Emotional tone isn't fluff — it's culture-aware, sticky, and gets remembered.",
+    "publishedAt": "2026-01-15T12:00:00Z"
   },
   {
     "tag": "Content Systems",
     "title": "\"Human Translation Is the Degraded Version of AI Translation.\"",
-    "url": "/articles/designing-meaning.html"
+    "url": "/articles/designing-meaning.html",
+    "description": "The value was never in swapping words. It was in designing the meaning. Why the translation industry misunderstood what it was doing for decades.",
+    "publishedAt": "2026-01-13T12:00:00Z"
   },
   {
     "tag": "Content Systems",
     "title": "Why We Recommend LLM-Native Content Over Machine Translation",
-    "url": "/articles/llm-native-vs-mt.html"
+    "url": "/articles/llm-native-vs-mt.html",
+    "description": "The structural case for generating Japanese directly — and where human judgment still belongs.",
+    "publishedAt": "2026-01-08T12:00:00Z"
   },
   {
     "tag": "Value in Use",
     "title": "Four Support Layers Later, the Answer Came from ChatGPT",
-    "url": "/articles/banco-inter-ux.html"
+    "url": "/articles/banco-inter-ux.html",
+    "description": "Four support layers later, ChatGPT solved it instantly. A UX story about balance visibility, icon placement, and what banking apps get wrong.",
+    "publishedAt": "2026-01-06T12:00:00Z"
   },
   {
     "tag": "Value in Use",
     "title": "Cash Is King — Especially When It's Personal",
-    "url": "/articles/cash-tip-ux.html"
+    "url": "/articles/cash-tip-ux.html",
+    "description": "Uber's tipping interface doesn't support what users actually want to do: show gratitude — personally, immediately, unmistakably. A UX story about cash, trust, and emotional feedback.",
+    "publishedAt": "2025-12-30T12:00:00Z"
   },
   {
     "tag": "Content Systems",
     "title": "Why We Should Stop Translating — and Start Writing",
-    "url": "/articles/stop-translating-start-writing.html"
+    "url": "/articles/stop-translating-start-writing.html",
+    "description": "NMT is fast but fragile. What LLM-native generation actually changes for user-facing content — and why it's time to stop translating and start writing.",
+    "publishedAt": "2025-12-29T12:00:00Z"
   },
   {
     "tag": null,
     "title": "What Makes a Good Begging Sign?",
     "url": "/articles/begging-sign-ux-value.html",
-    "primaryStatus": "unclassified_legacy"
+    "primaryStatus": "unclassified_legacy",
+    "description": "UX is value exchange — and value isn't limited to what we own. A story from São Paulo about dignity, meaning, and what good communication actually gives back.",
+    "publishedAt": "2025-12-23T12:00:00Z"
   },
   {
     "tag": "Diagnosis & Priority",
     "title": "Still Chasing \"Natural-Sounding\" Translation?",
-    "url": "/articles/natural-sounding-is-wrong-metric.html"
+    "url": "/articles/natural-sounding-is-wrong-metric.html",
+    "description": "Still chasing natural-sounding translation? Here's what you should really measure. Effectiveness, not fluency, is where the actual value is.",
+    "publishedAt": "2025-12-03T12:00:00Z"
   },
   {
     "tag": null,
     "title": "Start Smaller",
     "url": "/articles/start-smaller.html",
-    "primaryStatus": "unclassified_legacy"
+    "primaryStatus": "unclassified_legacy",
+    "description": "10 languages at once looks impressive. But it delays learning, dilutes quality, and slows you down. Localization compounds when you start early and learn market by market.",
+    "publishedAt": "2025-11-19T12:00:00Z"
   },
   {
     "tag": "AI & Value Creation",
     "title": "Why AI Translation Will Kill the Vendor Model Before It Kills Translators",
-    "url": "/articles/vendor-model-will-die.html"
+    "url": "/articles/vendor-model-will-die.html",
+    "description": "AI won't replace translators first. It will replace the systems that kept translators interchangeable. When reuse dies, so does the vendor model.",
+    "publishedAt": "2025-11-10T12:00:00Z"
   },
   {
     "tag": "Value in Use",
     "title": "What Broken Localization Actually Looks Like",
-    "url": "/articles/gamma-japanese-ux-part1.html"
+    "url": "/articles/gamma-japanese-ux-part1.html",
+    "description": "Gamma is one of the sleekest AI tools out there. But if you visit the Japanese site, something feels off. A real-world look at what broken localization actually looks like.",
+    "publishedAt": "2025-11-01T12:00:00Z"
   },
   {
     "tag": "Diagnosis & Priority",
     "title": "The Line Between Suggestion and Decision",
-    "url": "/articles/line-between-suggestion-and-decision.html"
+    "url": "/articles/line-between-suggestion-and-decision.html",
+    "description": "AI can offer phrasings. It can play with tone. But it doesn't decide. You do. Authorship lives in the act of choosing.",
+    "publishedAt": "2025-10-15T12:00:00Z"
   },
   {
     "tag": "Content Systems",
     "title": "Apple Used to Be a Model of Language. Not Anymore.",
-    "url": "/articles/apple-japanese-copy.html"
+    "url": "/articles/apple-japanese-copy.html",
+    "description": "Apple used to be a model of language. Not anymore. What happens when you stop caring about the difference between correct and compelling.",
+    "publishedAt": "2025-07-01T12:00:00Z"
   },
   {
     "tag": "Value in Use",
     "title": "When a \"Localized\" Product Still Feels Unlocalized",
-    "url": "/gamma-analysis.html"
+    "url": "/gamma-analysis.html",
+    "description": "A close look at Gamma's Japanese UX — and why language still defines usability. An IC Eight analysis from 2025.",
+    "publishedAt": "2025-01-01T12:00:00Z"
   },
   {
     "tag": "Diagnosis & Priority",
     "title": "AI Made More Things Possible. It Didn't Make More Things Valuable.",
-    "url": "/articles/ai-possible-not-valuable.html"
+    "url": "/articles/ai-possible-not-valuable.html",
+    "description": "AI has made it dramatically easier to build things. It has done nothing to guarantee anyone wants to pay for them.",
+    "publishedAt": "2026-07-23T12:00:00Z"
+  },
+  {
+    "tag": "Value in Use",
+    "title": "Why Your AI Feature Feels Shallow After the First Try",
+    "url": "/articles/ai-feature-shallow.html",
+    "description": "Most AI features fall into three categories. Only one of them creates a durable reason to come back — and it isn't the flashiest one.",
+    "publishedAt": "2026-07-04T12:00:00Z"
   },
   {
     "tag": "Positioning & Assumptions",
     "title": "Maybe It Was Never About Japan",
-    "url": "/articles/never-about-japan.html"
+    "url": "/articles/never-about-japan.html",
+    "description": "The pitch for why Japan is hard always had two legs: language and culture. AI knocked one out. Maybe the answer was in the product the whole time.",
+    "publishedAt": "2026-07-23T12:00:00Z"
   },
   {
     "tag": "AI & Value Creation",
     "title": "What If We Need Less Localized Content?",
-    "url": "/articles/less-localized-content.html"
+    "url": "/articles/less-localized-content.html",
+    "description": "Localization vendors are getting very good at producing multilingual content at scale. But what if companies are about to need far less fixed multilingual content in the first place?",
+    "publishedAt": "2026-07-27T12:00:00Z"
   }
 ]

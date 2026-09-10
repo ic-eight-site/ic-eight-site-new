@@ -23,6 +23,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Build content indexes
+        run: python3 scripts/build-content-indexes.py
+      - name: Verify content indexes
+        run: python3 scripts/build-content-indexes.py --check
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact

@@ -12,6 +12,8 @@ Japan is the starting market and diagnostic lens, not a predetermined explanatio
 
 IC Eight's core work is Product Value Discovery.
 
+Product Value Discovery is the overall approach, with two primary paths: Evaluation establishes what users can actually see; Diagnosis determines why the value is not landing and what should change next.
+
 The central question is not whether a product has value in the abstract. It is whether the value the team believes it offers is the value users can actually see, understand, trust, and act on through the product experience.
 
 The diagnostic process typically asks:
@@ -33,6 +35,14 @@ A First-Use Value Audit examines whether the first-use experience demonstrates e
 A Product Value Diagnosis follows the evidence more broadly across the product and adjacent surfaces to determine what value the product is actually proving, what the real problem is, what matters most, and what direction should be considered next.
 
 Diagnosis is decision-oriented. Detailed observations and evidence support the judgment, but the goal is not to produce the longest possible list of findings.
+
+## Product Value Evaluation
+
+Product Value Evaluation is the evidence-focused layer. It compares a product's public promise with what becomes visible in controlled first use and a broader product audit, while keeping observations, generated output, human judgment, and unknowns distinct.
+
+A Product Value Evaluation may be independently selected and published by IC Eight, or privately commissioned by a company. A commissioned evaluation reports what value is visible without providing strategic direction or implementation recommendations.
+
+Published Evaluations are independent examples of this method applied to real products. The full library is available at https://ic-eight.com/product-value-evaluations.html.
 
 ## Sample diagnosis
 
@@ -61,9 +71,12 @@ Localization remains an important part of IC Eight's expertise, but it is not th
 ## Main pages
 
 - [Home](https://ic-eight.com/)
-- [How We Work](https://ic-eight.com/services.html)
-- [Articles](https://ic-eight.com/articles.html)
-- [Product Value Evaluation Experiments](https://ic-eight.com/product-value-evaluations.html)
+- [Product Value Evaluation](https://ic-eight.com/product-value-evaluation.html)
+- [Commissioned Product Value Evaluation](https://ic-eight.com/commissioned-pve.html)
+- [Product Value Diagnosis](https://ic-eight.com/product-value-diagnosis.html)
+- [Method](https://ic-eight.com/services.html)
+- [Published Evaluations](https://ic-eight.com/product-value-evaluations.html)
+- [Insights](https://ic-eight.com/articles.html)
 - [FAQ](https://ic-eight.com/faq.html)
 - [Glossary](https://ic-eight.com/glossary.html)
 - [About](https://ic-eight.com/about.html)
