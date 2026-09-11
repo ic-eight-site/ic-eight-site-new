@@ -1,6 +1,26 @@
 [
   {
     "tag": "Diagnosis & Priority",
+    "title": "Apify: When a Successful Run Is Not Yet a Successful Task",
+    "url": "/articles/apify-successful-run-not-successful-task.html",
+    "description": "Three personas ran three different Apify workflows, and all three got technically valid results. Two of them didn't get what they actually needed — because a successful run is not the same as a successful task.",
+    "publishedAt": "2026-09-11T01:56:29Z",
+    "pve": {
+      "id": "pve-030",
+      "label": "Product Value Evaluation #030",
+      "order": 31,
+      "cards": [
+        {
+          "title": "Apify",
+          "finding": "Three personas ran three different Apify workflows, and all three got technically valid results. Two of them didn't get what they actually needed — because a successful run is not the same as a successful task.",
+          "url": "/articles/apify-successful-run-not-successful-task.html",
+          "linkLabel": "Read the evaluation →"
+        }
+      ]
+    }
+  },
+  {
+    "tag": "Diagnosis & Priority",
     "title": "Visily: When a Product Concept Becomes a Shared Visual Object",
     "url": "/articles/visily-product-concept-shared-visual-object.html",
     "description": "Visily turned a Japanese product description into a coherent four-screen SaaS concept in minutes. The screens looked like one product before anyone noticed the mismatched currencies, dates, and broken prototype navigation.",

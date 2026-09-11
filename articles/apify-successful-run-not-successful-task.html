@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Three personas ran three different Apify workflows, and all three got technically valid results. Two of them didn't get what they actually needed — because a successful run is not the same as a successful task.">
+  <link rel="canonical" href="https://ic-eight.com/articles/apify-successful-run-not-successful-task.html">
+
+  <meta property="og:title" content="Apify: When a Successful Run Is Not Yet a Successful Task — IC Eight">
+  <meta property="og:description" content="Three personas ran three different Apify workflows, and all three got technically valid results. Two of them didn't get what they actually needed — because a successful run is not the same as a successful task.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://ic-eight.com/articles/apify-successful-run-not-successful-task.html">
+  <meta property="og:image" content="https://ic-eight.com/og-image.jpg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Apify: When a Successful Run Is Not Yet a Successful Task — IC Eight">
+  <meta name="twitter:description" content="Three personas ran three different Apify workflows, and all three got technically valid results. Two of them didn't get what they actually needed — because a successful run is not the same as a successful task.">
+  <meta name="twitter:image" content="https://ic-eight.com/og-image.jpg">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QTS33LQ0MB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-QTS33LQ0MB');
+  </script>
+
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  <link rel="me" href="https://x.com/HelloICEight">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Apify: When a Successful Run Is Not Yet a Successful Task",
+    "description": "Three personas ran three different Apify workflows, and all three got technically valid results. Two of them didn't get what they actually needed — because a successful run is not the same as a successful task.",
+    "url": "https://ic-eight.com/articles/apify-successful-run-not-successful-task.html",
+    "datePublished": "2026-09-11",
+    "dateModified": "2026-09-11",
+    "author": {
+      "@type": "Organization",
+      "name": "IC Eight",
+      "url": "https://ic-eight.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "IC Eight",
+      "url": "https://ic-eight.com"
+    }
+  }
+  </script>
+  <title>Apify: When a Successful Run Is Not Yet a Successful Task — IC Eight</title>
+</head>
+<body>
+
+<nav>
+  <a href="/index.html" class="nav-logo">IC Eight</a>
+  <ul class="nav-links">
+    <li><a href="/services.html">How We Work</a></li>
+    <li><a href="/articles.html">Articles</a></li>
+    <li><a href="/faq.html">FAQ</a></li>
+    <li><a href="/about.html">About</a></li>
+    <li><a href="/contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="article-header">
+  <p class="article-label">Diagnosis & Priority</p>
+  <h1>Apify: When a Successful Run Is Not Yet a Successful Task</h1>
+  <p class="article-meta">Product Value Evaluation #030 · Published September 2026</p>
+</div>
+
+<div class="divider"></div>
+
+<article class="article-body">
+
+  <p><a href="https://apify.com/" target="_blank" rel="noopener">Apify</a>'s frozen public positioning, reviewed on September 10, 2026, presented a product that combines ready-made web-data tools with infrastructure for running, storing, scheduling, and delivering extraction workloads. The pre-test review described a Store of Actors alongside custom Actor development, datasets, schedules, proxy infrastructure, APIs, integrations, and AI-facing delivery.</p>
+
+  <p>The later product audit showed how those pieces fit together in practice. Across three simulated first-use routes, the same Actor abstraction connected marketplace reuse, custom code, managed execution, persisted data, scheduling, and AI-oriented delivery surfaces.</p>
+
+  <p>All three personas obtained technically valid outputs.</p>
+
+  <p>That did not mean all three had completed their intended task.</p>
+
+  <p>The central distinction in this Product Value Evaluation was therefore between a successful run and a successful result. Apify made web-data workloads executable through several different routes, but users still had to define the target precisely, inspect what came back, and decide whether the workload was suitable for repeated operation.</p>
+
+  <h2>Three Routes Converged on the Same Product Model</h2>
+
+  <p>The three personas entered Apify from different directions.</p>
+
+  <p>P01, a non-engineer marketer, began in the Store and immediately found a Google Maps Scraper relevant to a local business-data task.</p>
+
+  <figure style="margin: 2rem 0;">
+    <img src="/images/articles/apify-figure-01-store-entry.png" alt="Apify Store showing Google Maps Scraper as the first Actor, with navigation for Actors, runs, tasks, integrations, schedules, proxies, storage, and billing." style="width: 100%; height: auto; border-radius: 8px;">
+    <figcaption style="font-size: 0.9rem; color: var(--muted); margin-top: 0.75rem;">Apify Store made a relevant Google Maps data route visible immediately, while the sidebar exposed the broader run, schedule, proxy, storage, and billing platform.</figcaption>
+  </figure>
+
+  <p>P02, an experienced scraping engineer, approached Apify as infrastructure. This persona could already write extraction code and instead tested whether the platform reduced the surrounding work of building, running, storing, exporting, scheduling, and eventually operating a recurring scraper.</p>
+
+  <p>P03, a non-engineer AI product founder, began with a web-data requirement rather than knowledge of Apify terminology. The Dashboard assistant translated that requirement into a pipeline involving an Actor, Scheduler, Dataset, and downstream integration or API route, and recommended RAG Web Browser.</p>
+
+  <figure style="margin: 2rem 0;">
+    <img src="/images/articles/apify-figure-02-dashboard-ai-pipeline.png" alt="Apify AI response recommending RAG Web Browser, clean Markdown in a Dataset, a schedule, and delivery through Zapier, webhook, or an LLM workflow." style="width: 100%; height: auto; border-radius: 8px;">
+    <figcaption style="font-size: 0.9rem; color: var(--muted); margin-top: 0.75rem;">Apify's Dashboard assistant translated a plain-language AI-data need into an Actor, Dataset, scheduling, and downstream delivery path.</figcaption>
+  </figure>
+
+  <p>The later persona-free audit made the common structure clearer. Store Actors and custom Actors fed into the same managed execution model, with datasets and storage, schedules, proxy services, API surfaces, integrations, and MCP extending the same underlying system.</p>
+
+  <p>This was the strongest explanation of Apify's product coherence. Marketplace reuse, developer infrastructure, and AI-facing web data were not three unrelated propositions. They were different entry points into the same Actor-centered system.</p>
+
+  <h2>P01: The Run Worked Before the Task Did</h2>
+
+  <p>P01 needed approximately 100 public Google Maps records for cafes in Tokyo's 23 special wards, with fields such as business name, address, phone number where available, rating, review count, and website.</p>
+
+  <p>The first run completed in 55 seconds, returned 100 rows, and cost <code>$0.400</code>.</p>
+
+  <p>Technically, it worked.</p>
+
+  <p>Semantically, the result was broader than intended. The output included locations from Tokyo islands and outside the 23 special wards, including Saitama, as well as categories that did not map cleanly to cafes.</p>
+
+  <figure style="margin: 2rem 0;">
+    <img src="/images/articles/apify-figure-03-relevance-gap.png" alt="Apify run output table showing technically successful results with rows from Toshima, Niijima, Nishitokyo, and Saitama rather than a clean Tokyo 23-ward cafe dataset." style="width: 100%; height: auto; border-radius: 8px;">
+    <figcaption style="font-size: 0.9rem; color: var(--muted); margin-top: 0.75rem;">The first run returned 100 rows, but visible results included Tokyo islands, a Saitama record, and categories outside a clean 23-ward cafe set.</figcaption>
+  </figure>
+
+  <p>This should not be read as a general failure of Apify or the Google Maps Actor. &ldquo;Tokyo&rdquo; carries a locally specific ambiguity in this task, and the user possessed domain knowledge about the desired administrative boundary that the initial input did not express successfully.</p>
+
+  <p>The more useful observation was what happened during correction.</p>
+
+  <p>A natural-language attempt to specify the 23 special wards returned <code>LOCATION NOT FOUND</code>. The eventual solution was to provide 23 explicit ward queries. That run returned 115 rows in 1 minute 17 seconds at a displayed cost of <code>$0.575</code>, and the preserved CSV passed the recorded geography and duplicate checks.</p>
+
+  <p>Apify therefore handled execution and iteration, while the user remained responsible for translating a local semantic requirement into an input the Actor could use.</p>
+
+  <p>The platform did not automatically understand the intended geography. It did allow the user to correct the input and rerun the workload without building a scraper from scratch.</p>
+
+  <h2>P02: A Concrete Reason to Use Managed Infrastructure</h2>
+
+  <p>P02 tested a different proposition: why would someone who already knows how to scrape use Apify?</p>
+
+  <p>A generated Python Actor built successfully in eight seconds at a displayed cost of <code>$0.002</code>. A bounded run against the public <code>example.com</code> page then completed in four seconds and produced an exportable dataset.</p>
+
+  <p>The test was deliberately small and does not establish production scaling, retry behavior, blocking resistance, or long-term reliability.</p>
+
+  <p>What it did demonstrate was the surrounding operating environment.</p>
+
+  <p>The same workflow exposed managed build and execution, stored output, multiple export formats, scheduling surfaces, and proxy configuration. The run settings also displayed a 3,600-second timeout, 1 GB memory, and <code>Maximum cost: Unlimited</code>.</p>
+
+  <p>For an engineer who can already write the scraper, this is a more defensible source of product value than code generation itself. Apify can remove the need to assemble several operational services around that code.</p>
+
+  <p>The tradeoff remains visible. Actor schemas, SDK and Crawlee conventions, storage primitives, pricing units, and other platform-specific concepts create a learning and lock-in boundary.</p>
+
+  <p>P02 therefore established a reason to use Apify for some workloads, not a case for migrating every scraper to it.</p>
+
+  <h2>P03: AI Translated the Platform Before the User Had To</h2>
+
+  <p>P03 showed another useful route into the same architecture.</p>
+
+  <p>The Dashboard assistant translated an ordinary-language AI-data requirement into an Actor → Scheduler → Dataset → integration/API → LLM workflow. That mattered because the persona did not need to understand Apify's internal vocabulary before seeing a plausible path through the product.</p>
+
+  <p>The first RAG Web Browser run succeeded technically but returned listing pages rather than the article bodies the user wanted.</p>
+
+  <p>After the input was changed to one direct article URL, the Actor returned approximately 16,994 characters of article-body Markdown in four seconds at a displayed cost of <code>$0.002</code>.</p>
+
+  <figure style="margin: 2rem 0;">
+    <img src="/images/articles/apify-figure-04-corrected-result.png" alt="Successful Apify RAG Web Browser run showing one page, zero failures, a four-second duration, a two-tenths-of-a-cent cost, and a dataset row with page URL, title, and Markdown." style="width: 100%; height: auto; border-radius: 8px;">
+    <figcaption style="font-size: 0.9rem; color: var(--muted); margin-top: 0.75rem;">After one direct-URL correction, RAG Web Browser returned a structured article result with Markdown in four seconds.</figcaption>
+  </figure>
+
+  <p>Again, the correction illustrates the difference between successful execution and successful targeting. The Actor ran both times; only the second input identified the desired content object precisely enough.</p>
+
+  <p>The later audit showed dedicated MCP configuration, an OpenAPI endpoint, and a broad integration catalog. These were visible product surfaces, not executed external workflows.</p>
+
+  <p>The demonstrated value was narrower: Apify could translate a non-technical AI-data requirement into its Actor model and produce structured web content suitable for downstream use. Actual LLM consumption, MCP execution, and automated delivery were not tested.</p>
+
+  <h2>Actor Is the Product's Common Operating Unit</h2>
+
+  <p>The three persona results make more sense when Apify is treated as an Actor-centered execution and data environment rather than as a collection of unrelated scraping tools.</p>
+
+  <p>A user can discover an existing Actor or create one. That Actor can run in Apify's managed environment, persist results, be scheduled, use proxy infrastructure, and expose output through APIs or integration surfaces.</p>
+
+  <p>A general-purpose AI can suggest scraping code or work with content supplied to it. A standalone scraping framework can extract data. A cloud service can host recurring jobs. Apify's demonstrated distinction was the joined operating model across these stages.</p>
+
+  <p>The Store extends that model through reuse, but it introduces another boundary. First-party and community Actors appeared alongside developer identity, ratings, usage counts, update recency, security scope, and Actor-specific pricing. Those signals help discovery; they do not independently prove output accuracy, maintenance quality, or reliability.</p>
+
+  <h2>Pricing Was Visible, but Real Workload Cost Required Observation</h2>
+
+  <p>The frozen public review identified Free at <code>$0</code> with <code>$5</code> monthly platform usage, Starter at <code>$19</code>, and higher tiers with greater prepaid usage and infrastructure allowances. It also recorded an ongoing transition away from the older fixed-rental Actor model, with the remaining rental model scheduled for retirement by October 1, 2026. That transition timeline belongs to the frozen public baseline rather than a live-product finding.</p>
+
+  <p>The later audit confirmed a simpler current Store pattern: visible Actors used pay-per-event or pay-per-usage pricing. The Google Maps Actor used event-based pricing with platform usage included in that model, while RAG Web Browser displayed pay per usage. At the same time, the plan comparison still contained a <code>Rented Actors</code> limit, showing that legacy rental terminology had not disappeared from every live surface.</p>
+
+  <p>The audit also observed Free at <code>$0</code>, Starter at <code>$19</code>, Scale at <code>$199</code>, and Business at <code>$999</code> per month, with prepaid usage and additional service or Actor-specific charges. The live Free account showed <code>$5</code> monthly usage, no payment method, rounded use of <code>$0.01</code>, and <code>$4.99</code> remaining.</p>
+
+  <p>Those prices were visible. Total workload cost was less immediately predictable because Actor events, compute, storage, transfer, proxies, retries, and plan-level pricing can combine.</p>
+
+  <p>The first-use sessions also exposed <code>Maximum cost per run: Unlimited</code> in both P01 and P03, and a comparable <code>Maximum cost: Unlimited</code> setting in P02.</p>
+
+  <p>For an unfamiliar recurring workload, the most useful evidence came from bounded representative runs followed by Billing inspection rather than from estimating production cost from one headline unit.</p>
+
+  <h2>Free Supported Real Experimentation</h2>
+
+  <p>The audited Free account exposed enough capacity for meaningful first-use work: 16 GB total Actor RAM, five concurrent runs, 500 Actors, 100 schedules, 5,000 tasks, five datacenter IPs, and a <code>$5</code> monthly usage stop.</p>
+
+  <p>That supported actual Store and Actor execution rather than a restricted product demo.</p>
+
+  <p>It does not establish that Free is suitable for production. Volume, concurrency, retention, paid Actors, proxy use, support, and uninterrupted operation can all change the economics.</p>
+
+  <p>The audit also found inconsistent retention messaging. One Storage surface said unnamed storages expire after 14 days, while Billing Limits displayed seven days for unnamed storages and other runs, alongside a separate rule retaining the ten newest runs for four months.</p>
+
+  <p>The correct operational interpretation was not established. The finding is the conflict itself.</p>
+
+  <div class="key-findings">
+    <p class="key-findings-label">Key Findings</p>
+    <ul>
+      <li>Three different first-use routes converged on the Actor model. Store reuse, managed developer execution, and AI-facing web data all connected to the same execution, storage, scheduling, and delivery architecture.</li>
+      <li>A valid run was not a substitute for task validation. P01 initially returned the wrong geographic scope, while P03 initially returned the wrong type of content despite technically successful runs.</li>
+      <li>P02 demonstrated a concrete managed-infrastructure reason to use Apify. The bounded workflow joined build, cloud execution, storage, export, scheduling surfaces, and proxy configuration without testing production reliability.</li>
+      <li>P03 made the AI-data proposition concrete. The assistant translated the task into an Actor-based pipeline, and a corrected direct URL produced structured article Markdown.</li>
+      <li>Store reuse and pricing both shift responsibility rather than eliminate it. Users still need to validate Actor quality, input semantics, result relevance, and the economics of the workload they intend to repeat.</li>
+    </ul>
+  </div>
+
+  <h2>Implications for Apify</h2>
+
+  <p>The most important product gap observed here appeared between valid execution and valid task interpretation.</p>
+
+  <p>Apify could make consequential input semantics easier to inspect before execution. Geographic scope is one example: when a location can map to materially different boundaries, exposing that interpretation before the run could prevent a technically successful but irrelevant result. Search-oriented Actors could similarly clarify whether an input is likely to retrieve listing pages or final content objects.</p>
+
+  <p>Cost controls deserve the same treatment. An <code>Unlimited</code> maximum-cost default is difficult to interpret when a first-time user does not yet understand the workload's charging units. A bounded default or clearer pre-run cost signal could reduce that uncertainty without requiring the user to understand the entire pricing system first.</p>
+
+  <p>The retention conflict is more direct: the 7-day and 14-day messages should be reconciled or scoped clearly enough that users can tell which rule applies.</p>
+
+  <p>These opportunities are specific to Apify because the platform sits between user intent and repeated data execution. Its value is not only that workloads run, but that users can trust what those runs mean and understand what continuing to run them will require.</p>
+
+  <h2>Evaluation Limits</h2>
+
+  <p>This evaluation used three approved simulated first-use personas rather than recruited users. Testing occurred in Brazil on a Mac in Google Chrome with an English Apify interface. Separate accounts were used, although P02 and P03 continued within the same Codex task and were therefore not blind to all earlier context.</p>
+
+  <p>No private data was used. P01 used public business listings, P02 used the public <code>example.com</code> page, and P03 used public news pages.</p>
+
+  <p>No payment, external OAuth connection, persistent schedule firing, webhook, direct API invocation, MCP client, Make or Zapier connection, proxy workload, external LLM delivery, production load, or long-term maintenance test was performed. Production scaling, retry behavior, blocking resistance, alerting, collaboration, security administration, and representative long-term economics remain untested.</p>
+
+  <p>P02's developer workflow is supported mainly by the session log and one durable JSON output; no durable first-use UI screenshots were preserved for that persona. P01's corrected result is supported by the preserved CSV and mechanical validation rather than by a final-result screenshot.</p>
+
+  <h2>Conclusion</h2>
+
+  <p>Within those boundaries, Apify made three distinct routes to product value executable. The common architecture was the Actor model, while the common boundary was equally clear: the platform could execute the workload, but the user still had to specify what the desired result meant, validate what came back, and decide whether the cost and reliability were acceptable for a workload intended to run again.</p>
+
+  <div class="article-cta">
+    <div class="article-cta-rule"></div>
+    <p>Finding the gap is only half the work. The other half is deciding what to do about it.</p>
+    <p><a href="/product-value-evaluations.html">Explore the Product Value Evaluation Experiments →</a></p>
+  </div>
+
+</article>
+
+<section class="back-section">
+  <a href="/articles.html" class="back-link">← Back to Articles</a>
+</section>
+
+<footer>
+  <span>© IC Eight</span>
+  <div class="footer-links">
+    <a href="/privacy.html">Privacy</a>
+    <a href="/terms.html">Terms</a>
+    <a href="https://www.linkedin.com/company/ic-eight/" aria-label="LinkedIn">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    </a>
+    <a href="https://medium.com/@ic-eight" aria-label="Medium">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg>
+    </a>
+    <a href="https://x.com/HelloICEight" aria-label="X">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L1.254 2.25H8.08l4.253 5.622 5.911-5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+    </a>
+    <a href="https://iceight.substack.com/" aria-label="Substack">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.539 24V10.812H1.46zM22.539 0H1.46v2.836h21.08V0z"/></svg>
+    </a>
+  </div>
+</footer>
+
+</body>
+</html>
