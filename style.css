@@ -78,6 +78,7 @@ td:last-child { color:var(--accent); font-weight:500; } tr:last-child td { borde
 
 .gap-flow { padding-inline:min(4vw,42px); }
 .process-intro { max-width:780px; margin-bottom:3rem; }
+.pve-why { max-width:920px; padding-bottom:clamp(3rem,5vw,4.5rem); margin-bottom:clamp(3rem,5vw,4.5rem); border-bottom:1px solid var(--rule); }
 .process-intro-sub { color:var(--ink-soft); font-size:1.08rem; }
 .process-intro-note,.branches-note { color:var(--muted); margin-top:.7rem; }
 .process-row,.spec-row { display:grid; grid-template-columns:100px minmax(220px,.8fr) 1.4fr; gap:1.5rem; padding:1.5rem 0; border-top:1px solid var(--rule); }
