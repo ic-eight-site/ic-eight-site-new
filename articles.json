@@ -1,6 +1,26 @@
 [
   {
     "tag": "Diagnosis & Priority",
+    "title": "Papermark: When a Data Room Becomes More Than a Place to Store Files",
+    "url": "/articles/papermark-data-room-more-than-storage.html",
+    "description": "Papermark did more than give three diligence files a formal place to live. A simulated seller governed buyer access, watched a viewer-specific watermark, changed a live permission, and saw exactly where attention concentrated.",
+    "publishedAt": "2026-09-11T21:30:00Z",
+    "pve": {
+      "id": "pve-032",
+      "label": "Product Value Evaluation #032",
+      "order": 33,
+      "cards": [
+        {
+          "title": "Papermark",
+          "finding": "Papermark did more than give three diligence files a formal place to live. A simulated seller governed buyer access, watched a viewer-specific watermark, changed a live permission, and saw exactly where attention concentrated.",
+          "url": "/articles/papermark-data-room-more-than-storage.html",
+          "linkLabel": "Read the evaluation →"
+        }
+      ]
+    }
+  },
+  {
+    "tag": "Diagnosis & Priority",
     "title": "Wondercraft: The Value Was in the Revision Loop, Not the First Draft",
     "url": "/articles/wondercraft-value-in-revision-loop.html",
     "description": "Wondercraft reached a usable audio briefing and a usable launch video in two tests, but neither accepted result was the first draft. The value was in revising inside one production environment, not in first-pass generation quality.",
