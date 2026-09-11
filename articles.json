@@ -1,6 +1,26 @@
 [
   {
     "tag": "Diagnosis & Priority",
+    "title": "Wondercraft: The Value Was in the Revision Loop, Not the First Draft",
+    "url": "/articles/wondercraft-value-in-revision-loop.html",
+    "description": "Wondercraft reached a usable audio briefing and a usable launch video in two tests, but neither accepted result was the first draft. The value was in revising inside one production environment, not in first-pass generation quality.",
+    "publishedAt": "2026-09-11T05:00:00Z",
+    "pve": {
+      "id": "pve-031",
+      "label": "Product Value Evaluation #031",
+      "order": 32,
+      "cards": [
+        {
+          "title": "Wondercraft",
+          "finding": "Wondercraft reached a usable audio briefing and a usable launch video in two tests, but neither accepted result was the first draft. The value was in revising inside one production environment, not in first-pass generation quality.",
+          "url": "/articles/wondercraft-value-in-revision-loop.html",
+          "linkLabel": "Read the evaluation →"
+        }
+      ]
+    }
+  },
+  {
+    "tag": "Diagnosis & Priority",
     "title": "Apify: When a Successful Run Is Not Yet a Successful Task",
     "url": "/articles/apify-successful-run-not-successful-task.html",
     "description": "Three personas ran three different Apify workflows, and all three got technically valid results. Two of them didn't get what they actually needed — because a successful run is not the same as a successful task.",
