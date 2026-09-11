@@ -1,6 +1,26 @@
 [
   {
     "tag": "Diagnosis & Priority",
+    "title": "Visily: When a Product Concept Becomes a Shared Visual Object",
+    "url": "/articles/visily-product-concept-shared-visual-object.html",
+    "description": "Visily turned a Japanese product description into a coherent four-screen SaaS concept in minutes. The screens looked like one product before anyone noticed the mismatched currencies, dates, and broken prototype navigation.",
+    "publishedAt": "2026-09-11T00:13:26Z",
+    "pve": {
+      "id": "pve-029",
+      "label": "Product Value Evaluation #029",
+      "order": 30,
+      "cards": [
+        {
+          "title": "Visily",
+          "finding": "Visily turned a Japanese product description into a coherent four-screen SaaS concept in minutes. The screens looked like one product before anyone noticed the mismatched currencies, dates, and broken prototype navigation.",
+          "url": "/articles/visily-product-concept-shared-visual-object.html",
+          "linkLabel": "Read the evaluation →"
+        }
+      ]
+    }
+  },
+  {
+    "tag": "Diagnosis & Priority",
     "title": "Tally: When AI Generation Is Only the Beginning",
     "url": "/articles/tally-ai-generation-only-the-beginning.html",
     "description": "Tally's AI generated a 42-block conditional form in seconds, then repeatedly reported it was complete when it wasn't. The real value showed up after generation, in the environment that let the form be repaired.",
