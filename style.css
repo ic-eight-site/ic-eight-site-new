@@ -85,6 +85,11 @@ td:last-child { color:var(--accent); font-weight:500; } tr:last-child td { borde
 .process-num { color:var(--accent); font-size:.72rem; font-weight:600; letter-spacing:.1em; text-transform:uppercase; }
 .process-title { font-weight:600; line-height:1.35; }
 .process-detail { color:var(--muted); line-height:1.55; }
+.pve-evidence-boundary { max-width:920px; margin-top:clamp(2.5rem,5vw,4rem); padding:clamp(1.5rem,3vw,2.25rem); background:var(--blue-wash); border:1px solid var(--rule); border-radius:var(--radius); }
+.pve-evidence-boundary .section-label { margin-bottom:.85rem; }
+.pve-evidence-boundary h3 { margin-bottom:.85rem; font-size:clamp(1.35rem,2.3vw,1.85rem); line-height:1.25; letter-spacing:-.025em; }
+.pve-evidence-copy { max-width:760px; color:var(--ink-soft); }
+.pve-evidence-link { margin-top:1.15rem; }
 .process-divider,.spec-divider { display:none; }
 
 .branch-head,.branch-row { display:grid; grid-template-columns:1.4fr .8fr; gap:2rem; }
