@@ -93,6 +93,18 @@
 
   <p>The boundary was equally important. Polar maintained the commercial state, but it did not take over the final product decision about whether a customer with no remaining credits should still be allowed to use the application.</p>
 
+  <div class="key-findings">
+    <p class="key-findings-label">Key Findings</p>
+    <ul>
+      <li>One accepted synthetic usage event connected recorded consumption to the same commercial customer state. A 50-credit event reduced the customer&rsquo;s native balance from 2,000 to 1,950 and appeared alongside subscription, payment, benefit, revenue, and cost data.</li>
+      <li>Credit balance is native, but zero-balance access enforcement remains application-owned. Polar exposes balance and Customer State; the application must enforce the access policy.</li>
+      <li>The Germany order connected checkout, tax, fees, and payout state, but different screens used &ldquo;Net&rdquo; for different deduction boundaries.</li>
+      <li>Merchant of Record behavior was visible on both buyer and seller surfaces. Brazil showed $0 tax, Germany showed $4.63 included tax, checkout and confirmation named Polar as reseller/MoR, and Finance / Taxes marked the Germany tax as Handled.</li>
+      <li>Subscription, recurring Meter Credits, and one-time credits mapped directly to native product objects. The top-up was configured but not purchased.</li>
+      <li>Cost Insights worked, but the <code>_cost.amount</code> cents unit was easy to misinterpret. The displayed $0.0042 was correct for the submitted 0.42-cent value.</li>
+    </ul>
+  </div>
+
   <h2>The Commercial Model Mapped Cleanly to Product Primitives</h2>
 
   <p>The P01 scenario used a small fictional AI SaaS with a hybrid model: a base subscription, recurring monthly credits, and an optional one-time credit pack.</p>
@@ -200,18 +212,6 @@
   <p>That distinction matters because a seller looking at &ldquo;net&rdquo; needs to know whether the screen means buyer total excluding tax or actual payout economics after tax and Polar fees.</p>
 
   <p>The joined views are useful. Their terminology still requires context.</p>
-
-  <div class="key-findings">
-    <p class="key-findings-label">Key Findings</p>
-    <ul>
-      <li>One accepted synthetic usage event connected recorded consumption to the same commercial customer state. A 50-credit event reduced the customer&rsquo;s native balance from 2,000 to 1,950 and appeared alongside subscription, payment, benefit, revenue, and cost data.</li>
-      <li>Credit balance is native, but zero-balance access enforcement remains application-owned. Polar exposes balance and Customer State; the application must enforce the access policy.</li>
-      <li>The Germany order connected checkout, tax, fees, and payout state, but different screens used &ldquo;Net&rdquo; for different deduction boundaries.</li>
-      <li>Merchant of Record behavior was visible on both buyer and seller surfaces. Brazil showed $0 tax, Germany showed $4.63 included tax, checkout and confirmation named Polar as reseller/MoR, and Finance / Taxes marked the Germany tax as Handled.</li>
-      <li>Subscription, recurring Meter Credits, and one-time credits mapped directly to native product objects. The top-up was configured but not purchased.</li>
-      <li>Cost Insights worked, but the <code>_cost.amount</code> cents unit was easy to misinterpret. The displayed $0.0042 was correct for the submitted 0.42-cent value.</li>
-    </ul>
-  </div>
 
   <h2>Why the System Felt More Complete Than a Payment Layer</h2>
 
