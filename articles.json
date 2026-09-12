@@ -1,6 +1,26 @@
 [
   {
     "tag": "Diagnosis & Priority",
+    "title": "Fourthwall: From One Design to an Inventory-Free Storefront",
+    "url": "/articles/fourthwall-one-design-inventory-free-storefront.html",
+    "description": "Fourthwall connected one finished design to a live inventory-free storefront and buyer checkout. Later pricing comparisons revealed a more specific reason to choose the familiar workflow: seller economics.",
+    "publishedAt": "2026-09-12T21:56:59Z",
+    "pve": {
+      "id": "pve-035",
+      "label": "Product Value Evaluation #035",
+      "order": 36,
+      "cards": [
+        {
+          "title": "Fourthwall",
+          "finding": "Fourthwall connected one finished design to a live inventory-free storefront and buyer checkout. Later pricing comparisons revealed a more specific reason to choose the familiar workflow: seller economics.",
+          "url": "/articles/fourthwall-one-design-inventory-free-storefront.html",
+          "linkLabel": "Read the evaluation →"
+        }
+      ]
+    }
+  },
+  {
+    "tag": "Diagnosis & Priority",
     "title": "Dovetail: When Customer Evidence Stays Attached to the Answer",
     "url": "/articles/dovetail-customer-evidence-stays-attached-to-answer.html",
     "description": "Dovetail turned mixed customer interviews, support tickets, sales conversations, and surveys into cited answers with a path back to the original evidence. The links aided verification, but did not eliminate analytical error.",
