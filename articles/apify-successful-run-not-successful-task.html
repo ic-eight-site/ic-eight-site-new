@@ -89,6 +89,17 @@
 
   <p>The central distinction in this Product Value Evaluation was therefore between a successful run and a successful result. Apify made web-data workloads executable through several different routes, but users still had to define the target precisely, inspect what came back, and decide whether the workload was suitable for repeated operation.</p>
 
+  <div class="key-findings">
+    <p class="key-findings-label">Key Findings</p>
+    <ul>
+      <li>Three different first-use routes converged on the Actor model. Store reuse, managed developer execution, and AI-facing web data all connected to the same execution, storage, scheduling, and delivery architecture.</li>
+      <li>A valid run was not a substitute for task validation. P01 initially returned the wrong geographic scope, while P03 initially returned the wrong type of content despite technically successful runs.</li>
+      <li>P02 demonstrated a concrete managed-infrastructure reason to use Apify. The bounded workflow joined build, cloud execution, storage, export, scheduling surfaces, and proxy configuration without testing production reliability.</li>
+      <li>P03 made the AI-data proposition concrete. The assistant translated the task into an Actor-based pipeline, and a corrected direct URL produced structured article Markdown.</li>
+      <li>Store reuse and pricing both shift responsibility rather than eliminate it. Users still need to validate Actor quality, input semantics, result relevance, and the economics of the workload they intend to repeat.</li>
+    </ul>
+  </div>
+
   <h2>Three Routes Converged on the Same Product Model</h2>
 
   <p>The three personas entered Apify from different directions.</p>
@@ -212,17 +223,6 @@
   <p>The audit also found inconsistent retention messaging. One Storage surface said unnamed storages expire after 14 days, while Billing Limits displayed seven days for unnamed storages and other runs, alongside a separate rule retaining the ten newest runs for four months.</p>
 
   <p>The correct operational interpretation was not established. The finding is the conflict itself.</p>
-
-  <div class="key-findings">
-    <p class="key-findings-label">Key Findings</p>
-    <ul>
-      <li>Three different first-use routes converged on the Actor model. Store reuse, managed developer execution, and AI-facing web data all connected to the same execution, storage, scheduling, and delivery architecture.</li>
-      <li>A valid run was not a substitute for task validation. P01 initially returned the wrong geographic scope, while P03 initially returned the wrong type of content despite technically successful runs.</li>
-      <li>P02 demonstrated a concrete managed-infrastructure reason to use Apify. The bounded workflow joined build, cloud execution, storage, export, scheduling surfaces, and proxy configuration without testing production reliability.</li>
-      <li>P03 made the AI-data proposition concrete. The assistant translated the task into an Actor-based pipeline, and a corrected direct URL produced structured article Markdown.</li>
-      <li>Store reuse and pricing both shift responsibility rather than eliminate it. Users still need to validate Actor quality, input semantics, result relevance, and the economics of the workload they intend to repeat.</li>
-    </ul>
-  </div>
 
   <h2>Implications for Apify</h2>
 
