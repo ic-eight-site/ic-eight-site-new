@@ -1,6 +1,26 @@
 [
   {
     "tag": "Diagnosis & Priority",
+    "title": "CodeRabbit: What an AI Review Layer Caught After the Tests Passed",
+    "url": "/articles/coderabbit-what-ai-review-caught-after-tests-passed.html",
+    "description": "In a controlled benchmark, CodeRabbit caught three of four seeded runtime defects after the submitted tests and build had already passed — but a clean re-review with no new comments still did not mean the change was defect-free.",
+    "publishedAt": "2026-09-12T22:00:00Z",
+    "pve": {
+      "id": "pve-036",
+      "label": "Product Value Evaluation #036",
+      "order": 37,
+      "cards": [
+        {
+          "title": "CodeRabbit",
+          "finding": "In a controlled benchmark, CodeRabbit caught three of four seeded runtime defects after the submitted tests and build had already passed — but a clean re-review with no new comments still did not mean the change was defect-free.",
+          "url": "/articles/coderabbit-what-ai-review-caught-after-tests-passed.html",
+          "linkLabel": "Read the evaluation →"
+        }
+      ]
+    }
+  },
+  {
+    "tag": "Diagnosis & Priority",
     "title": "Fourthwall: From One Design to an Inventory-Free Storefront",
     "url": "/articles/fourthwall-one-design-inventory-free-storefront.html",
     "description": "Fourthwall connected one finished design to a live inventory-free storefront and buyer checkout. Later pricing comparisons revealed a more specific reason to choose the familiar workflow: seller economics.",
