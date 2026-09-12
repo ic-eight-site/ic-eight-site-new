@@ -1,5 +1,25 @@
 [
   {
+    "tag": "Diagnosis & Priority",
+    "title": "Dovetail: When Customer Evidence Stays Attached to the Answer",
+    "url": "/articles/dovetail-customer-evidence-stays-attached-to-answer.html",
+    "description": "Dovetail turned mixed customer interviews, support tickets, sales conversations, and surveys into cited answers with a path back to the original evidence. The links aided verification, but did not eliminate analytical error.",
+    "publishedAt": "2026-09-12T20:37:18Z",
+    "pve": {
+      "id": "pve-034",
+      "label": "Product Value Evaluation #034",
+      "order": 35,
+      "cards": [
+        {
+          "title": "Dovetail",
+          "finding": "Dovetail turned mixed customer interviews, support tickets, sales conversations, and surveys into cited answers with a path back to the original evidence. The links aided verification, but did not eliminate analytical error.",
+          "url": "/articles/dovetail-customer-evidence-stays-attached-to-answer.html",
+          "linkLabel": "Read the evaluation →"
+        }
+      ]
+    }
+  },
+  {
     "tag": "AI & Value Creation",
     "title": "The Value Is in the Path, Not the Capability",
     "url": "/articles/value-is-in-the-path-not-the-capability.html",
