@@ -1,6 +1,26 @@
 [
   {
     "tag": "Diagnosis & Priority",
+    "title": "Partiful Makes RSVP Easier to Manage, Not More Binding",
+    "url": "/articles/partiful-rsvp-easier-to-manage-not-more-binding.html",
+    "description": "Once a guest RSVP'd, Partiful turned that reply into a connected operational record — capacity, dietary answers, and targeted messaging all stayed attached to the same guest. It did not demonstrate that Going responses become more reliable.",
+    "publishedAt": "2026-09-13T20:30:00Z",
+    "pve": {
+      "id": "pve-037",
+      "label": "Product Value Evaluation #037",
+      "order": 38,
+      "cards": [
+        {
+          "title": "Partiful",
+          "finding": "Once a guest RSVP'd, Partiful turned that reply into a connected operational record — capacity, dietary answers, and targeted messaging all stayed attached to the same guest. It did not demonstrate that Going responses become more reliable.",
+          "url": "/articles/partiful-rsvp-easier-to-manage-not-more-binding.html",
+          "linkLabel": "Read the evaluation →"
+        }
+      ]
+    }
+  },
+  {
+    "tag": "Diagnosis & Priority",
     "title": "CodeRabbit: What an AI Review Layer Caught After the Tests Passed",
     "url": "/articles/coderabbit-what-ai-review-caught-after-tests-passed.html",
     "description": "In a controlled benchmark, CodeRabbit caught three of four seeded runtime defects after the submitted tests and build had already passed — but a clean re-review with no new comments still did not mean the change was defect-free.",
