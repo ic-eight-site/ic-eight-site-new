@@ -96,6 +96,19 @@
 
   <p>That changed the interpretation of the failure, and ultimately made Lyro more useful than a simple support bot.</p>
 
+  <div class="key-findings">
+    <p class="key-findings-label">Key Findings</p>
+    <ul>
+      <li>Lyro produced strong first-use value from the existing website. It handled most of nine nuanced Japanese questions accurately, resisted unsupported claims, linked to source pages, and suggested human contact when evidence was insufficient.</li>
+      <li>Its most important miss was primarily a source-coverage problem, not proof that the website copy itself was inadequate. The PVE hub containing explicit human-judgment language was absent from the six imported website pages.</li>
+      <li>One manual Q&A repaired both the exact question and a related misleading premise. That demonstrated useful operator control rather than complete initial coverage.</li>
+      <li>A stronger repair happened on the website itself. After an explicit public FAQ answer was added and the updated FAQ page was re-imported, the same misconception was answered correctly without the manual Lyro Q&A enabled.</li>
+      <li>Language matching was a separate deployment condition. Correct retrieval still produced English answers to Japanese questions until Japanese support was enabled. Under &ldquo;All,&rdquo; Lyro answered Japanese in Japanese and Portuguese in Portuguese from the same English FAQ source.</li>
+      <li>Lyro became useful as a website-audit probe. Weak answers could be preserved, source coverage inspected, one variable changed, and the result retested in Playground without consuming the live conversation allowance.</li>
+      <li>The evaluator judged that Lyro's human-contact behavior could reduce navigation friction. When Lyro could not fully answer, it surfaced a direct contact path instead of requiring the user to find and complete a separate contact journey. No live visitor handoff was tested.</li>
+    </ul>
+  </div>
+
   <h2>Evaluation Setup</h2>
 
   <p>The evaluation used one simulated first-use scenario: a small specialist consultancy that wants visitors to understand a relatively nuanced service model without forcing them to navigate several pages before asking a question.</p>
@@ -111,19 +124,6 @@
   <p>After first use was frozen, a separate persona-free audit examined source coverage, manual repair, website-side repair, language configuration, quota behavior, handoff controls, and the broader product surface.</p>
 
   <p>This was one simulated first-use lens, not recruited-user research.</p>
-
-  <div class="key-findings">
-    <p class="key-findings-label">Key Findings</p>
-    <ul>
-      <li>Lyro produced strong first-use value from the existing website. It handled most of nine nuanced Japanese questions accurately, resisted unsupported claims, linked to source pages, and suggested human contact when evidence was insufficient.</li>
-      <li>Its most important miss was primarily a source-coverage problem, not proof that the website copy itself was inadequate. The PVE hub containing explicit human-judgment language was absent from the six imported website pages.</li>
-      <li>One manual Q&A repaired both the exact question and a related misleading premise. That demonstrated useful operator control rather than complete initial coverage.</li>
-      <li>A stronger repair happened on the website itself. After an explicit public FAQ answer was added and the updated FAQ page was re-imported, the same misconception was answered correctly without the manual Lyro Q&A enabled.</li>
-      <li>Language matching was a separate deployment condition. Correct retrieval still produced English answers to Japanese questions until Japanese support was enabled. Under &ldquo;All,&rdquo; Lyro answered Japanese in Japanese and Portuguese in Portuguese from the same English FAQ source.</li>
-      <li>Lyro became useful as a website-audit probe. Weak answers could be preserved, source coverage inspected, one variable changed, and the result retested in Playground without consuming the live conversation allowance.</li>
-      <li>The evaluator judged that Lyro's human-contact behavior could reduce navigation friction. When Lyro could not fully answer, it surfaced a direct contact path instead of requiring the user to find and complete a separate contact journey. No live visitor handoff was tested.</li>
-    </ul>
-  </div>
 
   <h2>First Use Was Stronger Than the Onboarding Suggested</h2>
 

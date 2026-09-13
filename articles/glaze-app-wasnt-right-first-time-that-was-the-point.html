@@ -98,6 +98,20 @@
 
   <p>The strongest value was therefore not one-shot app generation. It was the loop: describe → build → run → observe → correct → rebuild. Glaze did not earn trust by getting the software right immediately. It earned value by making the software meaningfully correctable without requiring the user to translate every product judgment into source code.</p>
 
+  <div class="key-findings">
+    <p class="key-findings-label">Key Findings</p>
+    <ul>
+      <li>A non-developer specification became a real menu-bar Mac app. Flow ran locally, remained resident in the menu bar, maintained background timing, and surfaced frontmost when a reminder was due, without manual source editing.</li>
+      <li>The first build passed Glaze's own reported completion state but failed the real task. The timed reminder appeared, but remained stuck on <code>Loading...</code>, omitted the event information and Dismiss control, and became an obstructive frontmost window that had to be closed with Cmd-W.</li>
+      <li>One ordinary-language correction materially repaired the app. After rebuilding and manually relaunching Flow, the reminder displayed the correct title, event time, live countdown, and Dismiss control while preserving the menu-bar workflow and adding an Upcoming Events view.</li>
+      <li>Runtime testing, not build telemetry, established product value. Glaze could report that the software had built and launched, but only real use exposed whether the generated behavior actually solved the user's problem.</li>
+      <li>The notification sound depended on a macOS permission that Flow did not make legible. After notifications were enabled, a short subtle system sound worked and was preferred by the evaluator, although the original requirement for audio that was independently difficult to ignore was not demonstrated.</li>
+      <li>The Free allocation was enough to discover the core value once. One initial generation plus one substantial correction consumed 16 of 50 welcome credits; the remaining launch credits were shown as having no expiry.</li>
+      <li>The broader product extends beyond one-off private app generation. Glaze exposed Public Store publishing, remixing, Store discovery, local project access, export, external-agent entry points, MCP Servers, generated-app AI Access, and Creator Hub surfaces, although these broader capabilities were not outcome-tested.</li>
+      <li>Glaze is most promising for people with a specific small Mac workflow who are willing to test and refine what gets built — not for those expecting a finished app from one prompt.</li>
+    </ul>
+  </div>
+
   <h2>Evaluation Setup</h2>
 
   <p>The evaluation used a fixed first-use scenario: a non-developer Mac user who becomes deeply absorbed in work and may miss scheduled appointments.</p>
@@ -113,20 +127,6 @@
   <p>The test used a new Free account on an Apple Silicon Mac. Both the Glaze interface and build prompt were in English. The physical test took place in Brazil; Japan was the target market, but no Japan-specific product behavior was evaluated.</p>
 
   <p>This was not recruited-user research. First use was a simulated lens used to test a fixed product-value hypothesis under defined test conditions.</p>
-
-  <div class="key-findings">
-    <p class="key-findings-label">Key Findings</p>
-    <ul>
-      <li>A non-developer specification became a real menu-bar Mac app. Flow ran locally, remained resident in the menu bar, maintained background timing, and surfaced frontmost when a reminder was due, without manual source editing.</li>
-      <li>The first build passed Glaze's own reported completion state but failed the real task. The timed reminder appeared, but remained stuck on <code>Loading...</code>, omitted the event information and Dismiss control, and became an obstructive frontmost window that had to be closed with Cmd-W.</li>
-      <li>One ordinary-language correction materially repaired the app. After rebuilding and manually relaunching Flow, the reminder displayed the correct title, event time, live countdown, and Dismiss control while preserving the menu-bar workflow and adding an Upcoming Events view.</li>
-      <li>Runtime testing, not build telemetry, established product value. Glaze could report that the software had built and launched, but only real use exposed whether the generated behavior actually solved the user's problem.</li>
-      <li>The notification sound depended on a macOS permission that Flow did not make legible. After notifications were enabled, a short subtle system sound worked and was preferred by the evaluator, although the original requirement for audio that was independently difficult to ignore was not demonstrated.</li>
-      <li>The Free allocation was enough to discover the core value once. One initial generation plus one substantial correction consumed 16 of 50 welcome credits; the remaining launch credits were shown as having no expiry.</li>
-      <li>The broader product extends beyond one-off private app generation. Glaze exposed Public Store publishing, remixing, Store discovery, local project access, export, external-agent entry points, MCP Servers, generated-app AI Access, and Creator Hub surfaces, although these broader capabilities were not outcome-tested.</li>
-      <li>Glaze is most promising for people with a specific small Mac workflow who are willing to test and refine what gets built — not for those expecting a finished app from one prompt.</li>
-    </ul>
-  </div>
 
   <h2>The First Build Succeeded Until It Was Used</h2>
 

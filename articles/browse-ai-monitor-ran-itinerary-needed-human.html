@@ -88,18 +88,6 @@
 
   <p>The recurring monitor worked. The itinerary data still required human validation before it could safely support a flight decision.</p>
 
-  <h2>Evaluation Setup</h2>
-
-  <p>The evaluation used one simulated first-use scenario: a person in Brazil repeatedly checking a fixed São Paulo–Tokyo itinerary for a one-month stay and wanting to replace manual revisits with structured recurring monitoring.</p>
-
-  <p>The task was deliberately more specific than &ldquo;find a cheap flight.&rdquo; The goal was to determine whether a non-developer could record the search once, extract useful itinerary information into a table, rerun the workflow automatically, detect changes, and receive an alert without writing scraper code.</p>
-
-  <p>The frozen expectation was not merely one-time extraction. The intended value depended on scheduled monitoring, automatic reruns, and visible change detection.</p>
-
-  <p>Testing used a new Free account in Google Chrome on a Mac with the Browse AI interface in English. The target trip concerned Japan, but no Japan-specific localization behavior was evaluated.</p>
-
-  <p>Robot Studio was selected because the workflow required interaction rather than passive page extraction. During recording, Google Flights initially produced the wrong origin despite São Paulo having been entered. Waiting for refreshed autocomplete results and explicitly selecting the São Paulo city option repaired the route.</p>
-
   <div class="key-findings">
     <p class="key-findings-label">Key Findings</p>
     <ul>
@@ -111,6 +99,18 @@
       <li>Reporting across Browse AI surfaces was not fully consistent. Usage, balance, Tables, and History did not always show the same interpretation of task state or credit consumption.</li>
     </ul>
   </div>
+
+  <h2>Evaluation Setup</h2>
+
+  <p>The evaluation used one simulated first-use scenario: a person in Brazil repeatedly checking a fixed São Paulo–Tokyo itinerary for a one-month stay and wanting to replace manual revisits with structured recurring monitoring.</p>
+
+  <p>The task was deliberately more specific than &ldquo;find a cheap flight.&rdquo; The goal was to determine whether a non-developer could record the search once, extract useful itinerary information into a table, rerun the workflow automatically, detect changes, and receive an alert without writing scraper code.</p>
+
+  <p>The frozen expectation was not merely one-time extraction. The intended value depended on scheduled monitoring, automatic reruns, and visible change detection.</p>
+
+  <p>Testing used a new Free account in Google Chrome on a Mac with the Browse AI interface in English. The target trip concerned Japan, but no Japan-specific localization behavior was evaluated.</p>
+
+  <p>Robot Studio was selected because the workflow required interaction rather than passive page extraction. During recording, Google Flights initially produced the wrong origin despite São Paulo having been entered. Waiting for refreshed autocomplete results and explicitly selecting the São Paulo city option repaired the route.</p>
 
   <h2>The First Cloud Execution Failed, but the Repair Was Cheap</h2>
 
