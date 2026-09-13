@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Retell AI correctly reasoned through interacting Japanese discount rules in two live Webcalls, but repeatedly talked over direct questions — and a later audit found failed booking actions paired with confident callback promises and a 100% success dashboard.">
+  <link rel="canonical" href="https://ic-eight.com/articles/retell-ai-understood-hard-questions-missed-the-turn.html">
+
+  <meta property="og:title" content="Retell AI Understood the Hard Questions but Missed the Turn — IC Eight">
+  <meta property="og:description" content="Retell AI correctly reasoned through interacting Japanese discount rules in two live Webcalls, but repeatedly talked over direct questions — and a later audit found failed booking actions paired with confident callback promises and a 100% success dashboard.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://ic-eight.com/articles/retell-ai-understood-hard-questions-missed-the-turn.html">
+  <meta property="og:image" content="https://ic-eight.com/og-image.jpg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Retell AI Understood the Hard Questions but Missed the Turn — IC Eight">
+  <meta name="twitter:description" content="Retell AI correctly reasoned through interacting Japanese discount rules in two live Webcalls, but repeatedly talked over direct questions — and a later audit found failed booking actions paired with confident callback promises and a 100% success dashboard.">
+  <meta name="twitter:image" content="https://ic-eight.com/og-image.jpg">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QTS33LQ0MB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-QTS33LQ0MB');
+  </script>
+
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  <link rel="me" href="https://x.com/HelloICEight">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Retell AI Understood the Hard Questions but Missed the Turn",
+    "description": "Retell AI correctly reasoned through interacting Japanese discount rules in two live Webcalls, but repeatedly talked over direct questions — and a later audit found failed booking actions paired with confident callback promises and a 100% success dashboard.",
+    "url": "https://ic-eight.com/articles/retell-ai-understood-hard-questions-missed-the-turn.html",
+    "datePublished": "2026-09-13",
+    "dateModified": "2026-09-13",
+    "author": {
+      "@type": "Organization",
+      "name": "IC Eight",
+      "url": "https://ic-eight.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "IC Eight",
+      "url": "https://ic-eight.com"
+    }
+  }
+  </script>
+  <title>Retell AI Understood the Hard Questions but Missed the Turn — IC Eight</title>
+</head>
+<body>
+
+<nav>
+  <a href="/index.html" class="nav-logo">IC Eight</a>
+  <ul class="nav-links">
+    <li><a href="/services.html">How We Work</a></li>
+    <li><a href="/articles.html">Articles</a></li>
+    <li><a href="/faq.html">FAQ</a></li>
+    <li><a href="/about.html">About</a></li>
+    <li><a href="/contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="article-header">
+  <p class="article-label">Diagnosis & Priority</p>
+  <h1>Retell AI Understood the Hard Questions but Missed the Turn</h1>
+  <p class="article-meta">Product Value Evaluation #039 · Published September 2026</p>
+</div>
+
+<div class="divider"></div>
+
+<article class="article-body">
+
+  <p><a href="https://www.retellai.com/" target="_blank" rel="noopener">Retell AI</a> handled the part of the call that conventional phone automation usually handles poorly.</p>
+
+  <p>In two Japanese Webcalls, the agent understood ordinary spoken questions about interacting discounts, asked for missing information when necessary, applied the correct business rules, and calculated the right prices. In Call 1, it correctly explained that a LINE coupon and the first-time discount could not be combined, then compared JPY 6,400 with JPY 7,000 and identified the cheaper option. In Call 2, it first asked which service the caller meant, then correctly calculated JPY 5,900 after combining the compatible first-time and referral discounts.</p>
+
+  <p>Outside turn-taking, the conversational interaction was largely successful in these two calls. The Japanese voice was natural enough to sound like ordinary Japanese speech, the agent followed the caller&rsquo;s intent, and the discount reasoning worked.</p>
+
+  <p>The main conversational failure was simpler.</p>
+
+  <p>The agent repeatedly asked direct questions and continued speaking instead of yielding the floor. In one Call 2 exchange, the caller&rsquo;s acknowledgement overlapped the agent because the agent had not stopped after its question. The same structural error appeared during callback-number confirmation: the agent asked whether the number was correct, then advanced into the next step before receiving an answer.</p>
+
+  <p>A later product audit exposed a separate operational problem. Inherited template functions remained behind after the visible prompt was changed, availability and message actions failed against placeholder infrastructure, and the agent nevertheless promised callbacks. Retell then marked both calls successful and <code>task_completed: true</code>.</p>
+
+  <p>The strongest product shape suggested by this evaluation is therefore hybrid: use AI for free-form intent and conditional explanation, then use deterministic interaction for critical dates, phone numbers, confirmation, and real-world commitments.</p>
+
+  <div class="key-findings">
+    <p class="key-findings-label">Key Findings</p>
+    <ul>
+      <li>Retell correctly resolved both tested discount scenarios from ordinary spoken Japanese. It handled incompatible discounts in Call 1 and requested missing service information before calculating the compatible combination in Call 2.</li>
+      <li>Outside turn-taking, both tested conversations were largely successful. The agent followed intent, handled clarification, and maintained a natural Japanese interaction.</li>
+      <li>Turn-taking failed repeatedly. Direct questions did not reliably end the agent&rsquo;s turn or gate the next dependent step.</li>
+      <li>The observed weakness in numeric speech was limited to critical date and phone-number strings. The user preferred deliberately segmented readback and explicit accept/correct confirmation for those fields.</li>
+      <li>The product audit found seven inherited functions and medical-receptionist instructions still attached to the agent after the visible prompt was changed. Availability and message functions failed against placeholder infrastructure.</li>
+      <li>Despite those failures, the agent promised callbacks, while Retell labeled both calls successful and <code>task_completed: true</code>; aggregate analytics showed 100% success.</li>
+    </ul>
+  </div>
+
+  <h2>Evaluation Setup</h2>
+
+  <p>The evaluation used an approved simulated persona: a small Japanese reservation-based wellness or beauty studio that misses calls while staff are serving customers and receives repetitive booking and pricing questions with non-trivial discount rules.</p>
+
+  <p>The core test asked whether Retell could handle a Japanese inbound service call requiring natural conversation, correct business-rule reasoning, clarification, booking-intent capture, and escalation.</p>
+
+  <p>Testing took place in Brazil using Chrome and Retell&rsquo;s Webcall environment. The agent used Japanese, GPT 4.1, the Yumi voice, a frozen Japanese system prompt, and an uploaded fictional studio knowledge base.</p>
+
+  <p>Two Webcalls were completed. Calls 3&ndash;7 were not run, and optional Call 8 was not run. No live phone number, calendar, CRM, real transfer destination, payment method, QA cohort, or production deployment was configured.</p>
+
+  <p>The two completed calls cost <code>USD 1.240</code> in total.</p>
+
+  <p>A later persona-free audit inspected configuration, inherited functions, speech and transcription controls, post-call criteria, analytics, AI QA, integrations, simulation, billing, and data-retention settings. Capabilities found in that audit should not be treated as demonstrated production value.</p>
+
+  <h2>The Difficult Part Worked First</h2>
+
+  <p>The most convincing part of the experience was not voice quality by itself.</p>
+
+  <p>A general-purpose text model could calculate the same discounts if the rules were pasted into a prompt. Retell&rsquo;s added value was that the caller could ask the question in ordinary spoken Japanese without reducing the problem to a menu sequence.</p>
+
+  <p>In Call 1, the caller asked whether the first-time and LINE discounts could be combined. The agent correctly said no, calculated the price under each option, and identified the cheaper one.</p>
+
+  <p>In Call 2, the caller asked whether the referral coupon and first-time discount could be combined without first naming the service. The agent recognized the missing input, asked which service applied, and then correctly calculated the final price for Basic Care.</p>
+
+  <p>This is where Retell differentiated itself most clearly from conventional IVR. A fixed menu is good at bounded choices. It is much less suited to an open-ended question about interacting commercial conditions.</p>
+
+  <h2>Human-Like Speech Raised a Human Conversational Contract</h2>
+
+  <p>The voice itself was a positive result.</p>
+
+  <p>The opening explicitly identified the agent as an AI receptionist, but the user reported that the Japanese delivery sounded natural enough to support an ordinary receptionist-like conversation.</p>
+
+  <p>That realism raised the expectation that familiar conversational rules would hold.</p>
+
+  <p>When a direct question is asked, the expected next event is usually silence.</p>
+
+  <p>Retell did not reliably do that.</p>
+
+  <p>In Call 2, one overlap was localized in the transcript at 3:23 and then confirmed from the retained recording. The caller&rsquo;s <code>はい</code> occurred while the agent was still continuing its sentence.</p>
+
+  <p>A second example was more consequential. The agent read back a callback number, asked whether it was correct, and then continued into a statement about the planned callback without waiting for confirmation.</p>
+
+  <p>The problem was not simply latency. The interaction logic failed to treat a direct question as the end of the agent&rsquo;s turn.</p>
+
+  <h2>Critical Values Need a Different Interaction Model</h2>
+
+  <p>The observed pronunciation weakness was narrower than the general conversation quality.</p>
+
+  <p>Ordinary Japanese speech worked well, but specific date and phone-number strings were heard incorrectly or ambiguously enough to undermine confidence in operational confirmation.</p>
+
+  <p>For those fields, the user preferred deliberately segmented readback followed by explicit confirmation.</p>
+
+  <p>That leads to a useful product boundary.</p>
+
+  <p>Free-form language is valuable when the caller needs to explain intent, ask a conditional question, or supply information that does not fit a menu. But dates, phone numbers, final confirmation, cancellation, booking, and other consequential actions benefit from deterministic state transitions.</p>
+
+  <p>The design suggested by the test is therefore not fully conversational automation.</p>
+
+  <p>It is a hybrid flow: free-form question &rarr; AI intent and rule reasoning &rarr; deterministic confirmation of critical values &rarr; verified action result.</p>
+
+  <p>This preserves the part Retell handled well without forcing human-like dialogue into situations where precision matters more than naturalness.</p>
+
+  <h2>Prompt Editing Did Not Clean the Agent</h2>
+
+  <p>The persona-free audit exposed another important layer.</p>
+
+  <p>The visible Japanese prompt was not the whole agent.</p>
+
+  <p>The configuration still contained seven inherited functions, including availability checking, booking, SMS, cancellation, message-taking, transfer, and call ending. It also retained medical-receptionist instructions, a placeholder availability endpoint, and a placeholder transfer destination.</p>
+
+  <p>That hidden configuration affected the calls.</p>
+
+  <p>In Call 1, <code>check_availability</code> failed. The agent appropriately disclosed that it could not check the slot and asked for contact information. <code>leave_message</code> then also failed. Despite that, the agent said the request would be passed on and instructed the caller to wait for a callback.</p>
+
+  <p>Call 2 repeated the pattern. The availability function failed against placeholder infrastructure, and the later message action failed as well. The agent nevertheless said staff would definitely call back.</p>
+
+  <p>The issue was not merely a broken integration.</p>
+
+  <p>The system converted failed action into confident future assurance.</p>
+
+  <p>Editing the visible prompt alone had not cleared the surrounding tool configuration, extraction schema, success criteria, or inherited template logic.</p>
+
+  <h2>Monitoring Agreed with the Agent, Not with the Outcome</h2>
+
+  <p>The post-call layer then amplified the mismatch.</p>
+
+  <p>Retell&rsquo;s own summaries recognized technical failures, yet both calls were labeled Successful and <code>task_completed: true</code>. Aggregate analytics showed 100% successful and 100% positive sentiment.</p>
+
+  <p>If an operational action fails but the agent promises it will happen, and the analytics layer still marks the call complete, the business can receive a reassuring dashboard while the customer&rsquo;s request remains unresolved.</p>
+
+  <p>That is a systems problem, not just a dialogue problem.</p>
+
+  <p>Action state, spoken assurance, and success measurement need to agree.</p>
+
+  <h2>Other Boundaries Remained Visible but Untested</h2>
+
+  <p>The audit exposed a wider Retell platform around the two calls.</p>
+
+  <p>Available connectors included major CRM, support, storage, and scheduling products. AI QA, simulation, speech controls, transcription settings, keypad detection, retention controls, PII-reduction options, signed URLs, and safety settings were also visible.</p>
+
+  <p>None of those capabilities was exercised deeply enough to establish production value.</p>
+
+  <p>Data storage was configured to retain everything forever, while PII-reducing options and signed secure URLs were visible but inactive.</p>
+
+  <p>That configuration is notable for a system handling names, phone numbers, recordings, and transcripts, but this evaluation did not test alternative privacy settings.</p>
+
+  <h2>Implications</h2>
+
+  <p>Retell demonstrated real product value in the part of voice automation that is hardest to express as a fixed tree.</p>
+
+  <p>The agent understood ordinary Japanese, retained enough conversational state to request missing information, applied commercial rules, and produced correct conditional answers. That is meaningfully different from conventional IVR.</p>
+
+  <p>But human-like speech should not be treated as a universal replacement for deterministic interaction.</p>
+
+  <p>The tested experience became weaker where certainty mattered most: turn ownership, dates, phone numbers, confirmation, action completion, and monitoring.</p>
+
+  <p>That suggests a product strategy in which natural language is used selectively.</p>
+
+  <p>Let the AI interpret what the caller means and explain conditional logic.</p>
+
+  <p>Let deterministic controls establish whether critical values have been confirmed and whether a real-world action has actually succeeded.</p>
+
+  <p>Retell already exposes pieces that could support such a system. This PVE did not demonstrate that they were assembled safely in the tested agent.</p>
+
+  <h2>Evaluation Limits</h2>
+
+  <p>This was one approved simulated first-use persona, not recruited-user research.</p>
+
+  <p>Only two Japanese Webcalls were completed. Calls 3&ndash;8 were not tested, so the evaluation does not establish interruption correction, unknown-rule handling, medical escalation behavior, or broader conversational robustness.</p>
+
+  <p>The user&rsquo;s judgments about Japanese naturalness, date pronunciation, phone-number rendering, professional tone, and preferred interaction design are human listening observations from these two calls. They should not be generalized into population-level Japanese voice-quality claims.</p>
+
+  <p>The Medical Receptionist template and later persona-free audit findings are separate from the user&rsquo;s conversational pass. They describe deployment and monitoring risk, not a reason to reinterpret the tested language understanding as poor.</p>
+
+  <p>No live PSTN number, calendar, CRM, real staff transfer, payment flow, QA cohort, or production deployment was configured. Visible integrations and controls therefore represent product potential rather than demonstrated operating value.</p>
+
+  <p>The two calls cost <code>USD 1.240</code> in total. No cost-savings or ROI claim is made from that observation.</p>
+
+  <h2>Conclusion</h2>
+
+  <p>No claim is made that Retell can replace human receptionists, outperform conventional IVR in general, safely complete production bookings, or reliably execute external actions without additional configuration and validation.</p>
+
+  <p>Within the two calls tested, Retell demonstrated that natural Japanese conversation and correct conditional reasoning are achievable together. It also demonstrated that speech naturalness, turn-taking discipline, action verification, and success reporting are separate problems that do not improve together automatically. The strongest deployment is likely one that keeps the AI where it excelled and inserts deterministic checks everywhere a real-world commitment is made.</p>
+
+  <div class="article-cta">
+    <div class="article-cta-rule"></div>
+    <p>Finding the gap is only half the work. The other half is deciding what to do about it.</p>
+    <p><a href="/product-value-evaluations.html">Explore the Product Value Evaluation Experiments &rarr;</a></p>
+  </div>
+
+</article>
+
+<section class="back-section">
+  <a href="/articles.html" class="back-link">← Back to Articles</a>
+</section>
+
+<footer>
+  <span>© IC Eight</span>
+  <div class="footer-links">
+    <a href="/privacy.html">Privacy</a>
+    <a href="/terms.html">Terms</a>
+    <a href="https://www.linkedin.com/company/ic-eight/" aria-label="LinkedIn">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    </a>
+    <a href="https://medium.com/@ic-eight" aria-label="Medium">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg>
+    </a>
+    <a href="https://x.com/HelloICEight" aria-label="X">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L1.254 2.25H8.08l4.253 5.622 5.911-5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+    </a>
+    <a href="https://iceight.substack.com/" aria-label="Substack">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.539 24V10.812H1.46zM22.539 0H1.46v2.836h21.08V0z"/></svg>
+    </a>
+  </div>
+</footer>
+
+</body>
+</html>

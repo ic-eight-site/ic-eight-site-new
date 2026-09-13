@@ -1,6 +1,46 @@
 [
   {
     "tag": "Diagnosis & Priority",
+    "title": "Retell AI Understood the Hard Questions but Missed the Turn",
+    "url": "/articles/retell-ai-understood-hard-questions-missed-the-turn.html",
+    "description": "Retell AI correctly reasoned through interacting Japanese discount rules in two live Webcalls, but repeatedly talked over direct questions — and a later audit found failed booking actions paired with confident callback promises and a 100% success dashboard.",
+    "publishedAt": "2026-09-13T23:00:00Z",
+    "pve": {
+      "id": "pve-039",
+      "label": "Product Value Evaluation #039",
+      "order": 40,
+      "cards": [
+        {
+          "title": "Retell AI",
+          "finding": "Retell AI correctly reasoned through interacting Japanese discount rules in two live Webcalls, but repeatedly talked over direct questions — and a later audit found failed booking actions paired with confident callback promises and a 100% success dashboard.",
+          "url": "/articles/retell-ai-understood-hard-questions-missed-the-turn.html",
+          "linkLabel": "Read the evaluation →"
+        }
+      ]
+    }
+  },
+  {
+    "tag": "Diagnosis & Priority",
+    "title": "Qwilr's Value Starts After the Proposal, but First Use Did Not Get There",
+    "url": "/articles/qwilr-value-starts-after-proposal-first-use-did-not-get-there.html",
+    "description": "Qwilr's first-use session stalled inside an oversized template before reaching a buyer-ready proposal. A later audit found a stronger transaction layer underneath — pricing, acceptance, signature, and payment — but also a 16-second AI draft that changed the commercial offer.",
+    "publishedAt": "2026-09-13T22:00:00Z",
+    "pve": {
+      "id": "pve-038",
+      "label": "Product Value Evaluation #038",
+      "order": 39,
+      "cards": [
+        {
+          "title": "Qwilr",
+          "finding": "Qwilr's first-use session stalled inside an oversized template before reaching a buyer-ready proposal. A later audit found a stronger transaction layer underneath — pricing, acceptance, signature, and payment — but also a 16-second AI draft that changed the commercial offer.",
+          "url": "/articles/qwilr-value-starts-after-proposal-first-use-did-not-get-there.html",
+          "linkLabel": "Read the evaluation →"
+        }
+      ]
+    }
+  },
+  {
+    "tag": "Diagnosis & Priority",
     "title": "Partiful Makes RSVP Easier to Manage, Not More Binding",
     "url": "/articles/partiful-rsvp-easier-to-manage-not-more-binding.html",
     "description": "Once a guest RSVP'd, Partiful turned that reply into a connected operational record — capacity, dietary answers, and targeted messaging all stayed attached to the same guest. It did not demonstrate that Going responses become more reliable.",
