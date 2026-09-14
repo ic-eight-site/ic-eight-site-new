@@ -1,6 +1,26 @@
 [
   {
     "tag": "Diagnosis & Priority",
+    "title": "Resend's Value Started After the First Email",
+    "url": "/articles/resend-value-started-after-the-first-email.html",
+    "description": "Resend's strongest value wasn't the first transactional send. It was that a synthetic signup event, an automation, an inbound reply, and a failed API call all stayed observable inside one account — while Delivered still didn't mean Inbox.",
+    "publishedAt": "2026-09-14T14:00:00Z",
+    "pve": {
+      "id": "pve-040",
+      "label": "Product Value Evaluation #040",
+      "order": 41,
+      "cards": [
+        {
+          "title": "Resend",
+          "finding": "Resend's strongest value wasn't the first transactional send. It was that a synthetic signup event, an automation, an inbound reply, and a failed API call all stayed observable inside one account — while Delivered still didn't mean Inbox.",
+          "url": "/articles/resend-value-started-after-the-first-email.html",
+          "linkLabel": "Read the evaluation →"
+        }
+      ]
+    }
+  },
+  {
+    "tag": "Diagnosis & Priority",
     "title": "Retell AI Understood the Hard Questions but Missed the Turn",
     "url": "/articles/retell-ai-understood-hard-questions-missed-the-turn.html",
     "description": "Retell AI correctly reasoned through interacting Japanese discount rules in two live Webcalls, but repeatedly talked over direct questions — and a later audit found failed booking actions paired with confident callback promises and a 100% success dashboard.",
