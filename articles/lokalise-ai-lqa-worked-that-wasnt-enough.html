@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Lokalise's AI quality scoring correctly flagged eleven of twelve deliberately flawed Japanese translations for human review. That worked. The harder question is whether software companies will keep manufacturing the same volume of parallel multilingual artifacts at all.">
+  <link rel="canonical" href="https://ic-eight.com/articles/lokalise-ai-lqa-worked-that-wasnt-enough.html">
+
+  <meta property="og:title" content="Lokalise's AI LQA Worked. That Wasn't Enough. — IC Eight">
+  <meta property="og:description" content="Lokalise's AI quality scoring correctly flagged eleven of twelve deliberately flawed Japanese translations for human review. That worked. The harder question is whether software companies will keep manufacturing the same volume of parallel multilingual artifacts at all.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://ic-eight.com/articles/lokalise-ai-lqa-worked-that-wasnt-enough.html">
+  <meta property="og:image" content="https://ic-eight.com/og-image.jpg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Lokalise's AI LQA Worked. That Wasn't Enough. — IC Eight">
+  <meta name="twitter:description" content="Lokalise's AI quality scoring correctly flagged eleven of twelve deliberately flawed Japanese translations for human review. That worked. The harder question is whether software companies will keep manufacturing the same volume of parallel multilingual artifacts at all.">
+  <meta name="twitter:image" content="https://ic-eight.com/og-image.jpg">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QTS33LQ0MB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-QTS33LQ0MB');
+  </script>
+
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  <link rel="me" href="https://x.com/HelloICEight">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Lokalise's AI LQA Worked. That Wasn't Enough.",
+    "description": "Lokalise's AI quality scoring correctly flagged eleven of twelve deliberately flawed Japanese translations for human review. That worked. The harder question is whether software companies will keep manufacturing the same volume of parallel multilingual artifacts at all.",
+    "url": "https://ic-eight.com/articles/lokalise-ai-lqa-worked-that-wasnt-enough.html",
+    "datePublished": "2026-09-14",
+    "dateModified": "2026-09-14",
+    "author": {
+      "@type": "Organization",
+      "name": "IC Eight",
+      "url": "https://ic-eight.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "IC Eight",
+      "url": "https://ic-eight.com"
+    }
+  }
+  </script>
+  <title>Lokalise's AI LQA Worked. That Wasn't Enough. — IC Eight</title>
+</head>
+<body>
+
+<nav>
+  <a href="/index.html" class="nav-logo">IC Eight</a>
+  <ul class="nav-links">
+    <li><a href="/services.html">How We Work</a></li>
+    <li><a href="/articles.html">Articles</a></li>
+    <li><a href="/faq.html">FAQ</a></li>
+    <li><a href="/about.html">About</a></li>
+    <li><a href="/contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="article-header">
+  <p class="article-label">Diagnosis & Priority</p>
+  <h1>Lokalise&rsquo;s AI LQA Worked. That Wasn&rsquo;t Enough.</h1>
+  <p class="article-meta">Product Value Evaluation #041 · Published September 2026</p>
+</div>
+
+<div class="divider"></div>
+
+<article class="article-body">
+
+  <p><a href="https://lokalise.com/" target="_blank" rel="noopener">Lokalise&rsquo;s</a> AI quality scoring worked better than its first-use surface initially suggested.</p>
+
+  <p>In a controlled P02 evaluation, twelve deliberately flawed Japanese translations were scored between 0 and 90. All twelve received penalties, eleven fell below Lokalise&rsquo;s documented default review threshold of 80, and the three inspected score-detail panels correctly identified terminology or meaning problems.</p>
+
+  <p>The earlier impression that the scoring layer was little more than opaque numbers was therefore wrong. Lokalise had demonstrated a real capability: it could triage flawed translations and identify work that warranted human attention.</p>
+
+  <p>But that correction did not change the larger product-value conclusion.</p>
+
+  <p>The strongest parts of Lokalise still depended on an existing translation operation: files or connected content, keys, translation memory, glossaries, AI or machine translation, quality scoring, review thresholds, human reviewers, approvals, exports, processed-word accounting, and external translation vendors.</p>
+
+  <p>The strategic question was no longer whether Lokalise could make that factory more efficient. It was whether software companies will continue to manufacture the same volume of parallel multilingual artifacts at all.</p>
+
+  <div class="key-findings">
+    <p class="key-findings-label">Key Findings</p>
+    <ul>
+      <li>P01 never reached generated Japanese translation within its limited first-use window. The evaluator had to repair CSV mapping through two local derivatives, correct a Norwegian language misdetection, and then encountered glossary-format rejection before stopping. The source data itself was not corrupt; the friction came from adapting ordinary files to Lokalise-specific data requirements.</li>
+      <li>Standard AI/MT exposed Google Translate and DeepL suggestions. Pro AI later generated one context-aware Japanese suggestion after retry, but one bounded sentence did not demonstrate a material quality advantage over the coherent DeepL suggestion.</li>
+      <li>P02 changed the functional judgment. All twelve intentionally flawed translations received penalties, eleven scored below the documented default review threshold of 80, and sampled detail panels accurately diagnosed terminology or accuracy problems.</li>
+      <li>The scoring layer still did not eliminate skilled Japanese review. One translation scored 90 and correctly received two terminology penalties, while a cumbersome nested-negative construction the evaluator flagged was not listed as a problem.</li>
+      <li>Lokalise&rsquo;s documented AI strategy remains centered on production and governance of multilingual artifacts: reviewed translation pairs, TM and glossary context, AI LQA, thresholds, human review, post-edit analytics, workflows, imports, exports, and vendors.</li>
+      <li>Current practitioner and product examples also show a different direction: some UI translation can move toward demand-driven or implementation-time generation, while help, support, sales, and internal knowledge can increasingly be consumed through AI answers and actions rather than complete language-by-language libraries. The reviewed sources establish existence, not market-wide prevalence.</li>
+    </ul>
+  </div>
+
+  <h2>Evaluation Setup</h2>
+
+  <p>The evaluation used two simulated lenses against a controlled English-to-Japanese dataset.</p>
+
+  <p>P01 represented a localization owner at a global SaaS company attempting to import source strings and terminology and reach useful Japanese output within limited patience. Testing took place in Brazil using Chrome and a 14-day full-feature Lokalise trial. The supplied source content was synthetic, and no private customer data was used.</p>
+
+  <p>P01 stopped before generating Japanese translation. The session encountered source-import mapping problems, a Norwegian language misdetection, successful import only after two local derivatives, and rejection of the ordinary glossary format.</p>
+
+  <p>The later audit converted the glossary into the semicolon-delimited ordered eight-column schema expected by the product, after which all 17 terms imported successfully. That recovery establishes format incompatibility and setup burden, not corrupt input.</p>
+
+  <p>P02 reused the same account and project familiarity, so it should not be treated as a fresh-user replication of P01. It focused on AI quality scoring using twelve intentionally flawed Japanese translations. Raw scores were frozen before the private ground-truth file was opened. Later audit work inspected three score-detail panels and current official documentation.</p>
+
+  <p>The evaluation did not benchmark Lokalise against a statistically valid clean control set, measure translation quality across a large corpus, execute a live MCP or GitHub workflow, or perform financial diligence.</p>
+
+  <h2>Before Translation, the First Problem Was the Data Contract</h2>
+
+  <p>P01 did not fail because the source file was unusable. It failed because ordinary source assets had to be reshaped before the product demonstrated why that effort was worthwhile.</p>
+
+  <p>The original source CSV did not map cleanly. Two derivative files were created locally before the source content appeared as 30 English keys. Lokalise detected the no-header derivative as Norwegian. The filename token and UI behavior made filename-based inference the most plausible explanation, but the underlying detection mechanism was not inspected.</p>
+
+  <p>The glossary created a second boundary. The supplied glossary contained consistent three-field rows, but the product rejected it. The later audit found that Lokalise expected a predefined ordered eight-column semicolon-delimited schema. Once converted, all 17 terms imported.</p>
+
+  <p>The evidence therefore does not support saying &ldquo;Lokalise cannot import a glossary.&rdquo; It supports a narrower claim: the evaluator had to adapt ordinary source assets to Lokalise&rsquo;s data contract before reaching the value layer.</p>
+
+  <p>For a mature localization operation, that cost may be routine. For a company deciding whether it needs such an operation in the first place, it is part of the adoption burden.</p>
+
+  <h2>The AI Translation Layer Was Not the Strongest Differentiator</h2>
+
+  <p>Once the audit reached an empty Japanese field, Lokalise exposed Google Translate and DeepL suggestions under Standard AI/MT.</p>
+
+  <p>Pro AI represented the more differentiated path. After an initial attempt produced no visible result, a retry returned a context-aware Japanese suggestion using imported key metadata.</p>
+
+  <p>The result was coherent and preserved the relevant placeholder and condition. But one sentence did not demonstrate a general quality advantage over DeepL, consistent glossary enforcement, or enough incremental value to justify the setup burden on its own.</p>
+
+  <p>The later LQA result mattered more.</p>
+
+  <h2>AI LQA Recovered Real Product Value</h2>
+
+  <p>P02 supplied twelve Japanese translations containing deliberate defects. Every translation received a score below 100. Eleven received scores below 80, the default threshold under which <a href="https://docs.lokalise.com/en/articles/11631905-scoring-translation-quality" target="_blank" rel="noopener">Lokalise&rsquo;s own scoring documentation</a> strongly recommends human review; configured workflows can route those translations to reviewers.</p>
+
+  <p>During P02 itself, those scores initially looked under-explained. The later audit corrected that impression.</p>
+
+  <p>Clicking sampled scores exposed severity, error category, penalty, and explanatory detail. The inspected findings accurately described the seeded terminology or meaning problems.</p>
+
+  <p>That is genuine triage value: a localization team can use scoring to decide where human attention should go instead of reviewing every translation with equal intensity.</p>
+
+  <p>The boundary remained visible. One translation scored 90. Lokalise correctly identified two terminology deviations and penalized them as minor errors. The evaluator also judged the sentence cumbersome because of its nested-negative construction, yet that readability issue did not appear in the inspected findings.</p>
+
+  <p>The system therefore demonstrated useful error triage, not final Japanese editorial judgment or autonomous repair.</p>
+
+  <h2>What Lokalise Is Actually Selling</h2>
+
+  <p>Seen as a whole, Lokalise is less interesting as a translation engine than as an operating system for a translation operation.</p>
+
+  <p>Its <a href="https://docs.lokalise.com/en/articles/1400427-what-is-lokalise" target="_blank" rel="noopener">current product definition</a> centers mobile and web apps, games, IoT software, localization files, and digital content. Its finance and healthcare positioning extends that same product-adjacent model into software, documentation, knowledge bases, support content, patient portals, medical-device UI, and instructions for use.</p>
+
+  <p>Its architecture brings together projects, strings or keys, imported files, translation memory, glossaries, AI or MT, quality scoring, human review, workflows, approvals, exports, processed-word accounting, and external service providers.</p>
+
+  <p>That solves a real organizational problem. Large companies do not merely need one sentence translated. They need terminology consistency, version control, ownership, review, exception handling, traceability, and reliable publication across many surfaces.</p>
+
+  <p>Lokalise&rsquo;s <a href="https://docs.lokalise.com/en/articles/14077324-what-is-lokalise-vantage" target="_blank" rel="noopener">Vantage documentation</a> reinforces this interpretation. It describes <a href="https://docs.lokalise.com/en/articles/14078920-lokalise-vantage-projects" target="_blank" rel="noopener">Pro AI using contextual assets such as translation memory and glossary data, AI LQA assigning scores, threshold-based routing, and human review where needed</a>.</p>
+
+  <p>This is not simply &ldquo;DeepL with a nicer interface.&rdquo; Lokalise&rsquo;s more defensible value lies in governing the work around translation.</p>
+
+  <p>But that also exposes its strategic dependency: the organization still needs enough multilingual artifacts to justify the factory.</p>
+
+  <h2>Internalization Still Does Not Remove the Vendor</h2>
+
+  <p>Lokalise makes human translation supply easier to organize. <a href="https://docs.lokalise.com/en/articles/2141000-professional-translation-services" target="_blank" rel="noopener">Official documentation directs customers without internal translators toward the Lokalise Translation Team, Gengo, or recommended partner LSPs</a>, while translators and editors can be added directly to projects.</p>
+
+  <p>That can simplify procurement and coordination, but it does not make the company linguistically self-sufficient. A customer still needs someone capable of defining terminology, supplying context, setting thresholds, judging exceptions, and approving the result. If those people are not internal, the organization still depends on a translation vendor or marketplace.</p>
+
+  <p>Lokalise therefore helps internalize operational control more readily than linguistic capability. Its Orders documentation also states that machine-translation or AI post-editing is excluded from bilingual editing and monolingual proofreading orders.</p>
+
+  <p>The product can orchestrate the translation supply chain. It does not remove it.</p>
+
+  <h2>The Larger Risk Is Not Another TMS</h2>
+
+  <p>Traditional localization assumes that companies repeatedly manufacture reader-facing artifacts in many languages.</p>
+
+  <p>A help page is written in English, translated into Japanese, reviewed, stored, updated, and republished. The same logic applies to support macros, product strings, sales material, internal enablement content, and many other assets.</p>
+
+  <p>Lokalise is designed to make that model more governable. But credible software architectures increasingly challenge the need to create every parallel artifact in advance.</p>
+
+  <p>For some UI, language variants can be generated or retrieved during implementation or on demand. Practitioner and architecture sources reviewed for this audit describe runtime or demand-driven translation designs, while still retaining static catalogs where latency, mobile behavior, or human override makes them useful.</p>
+
+  <p>The more disruptive change may occur outside the UI. Help, support, sales, and internal knowledge can increasingly be consumed through an AI that reads canonical knowledge, observes user context, answers in the requested language, takes permitted actions, and escalates unresolved work.</p>
+
+  <p>Revolut, for example, <a href="https://www.revolut.com/en-BR/legal/rita-disclaimer/" target="_blank" rel="noopener">publicly documents in-app AI support that answers questions and helps with troubleshooting</a>, and other reviewed fintech and support examples point toward conversational resolution rather than complete language-specific libraries of support content.</p>
+
+  <p>These examples do not establish that static localization has disappeared or that this architecture is already dominant. They establish that an alternative product model exists.</p>
+
+  <p>And that changes the category question.</p>
+
+  <h2>Lokalise&rsquo;s 2026 AI Strategy Still Assumes the Factory</h2>
+
+  <p>Lokalise&rsquo;s own current positioning makes the contrast unusually clear.</p>
+
+  <p>An <a href="https://lokalise.com/blog/ai-translation-quality-evaluation/" target="_blank" rel="noopener">official article updated on September 1, 2026 recommends assembling at least 500 human-reviewed translation pairs per language pair when evaluating AI translation quality</a>. It describes comparing translation approaches before production, assigning quality thresholds, routing lower-scoring work to human reviewers, and measuring post-editing afterward.</p>
+
+  <p>That is a sophisticated answer to the question: &ldquo;How do we manufacture and govern multilingual content more efficiently with AI?&rdquo;</p>
+
+  <p>It is not an answer to a different question: &ldquo;Which multilingual artifacts should still be manufactured at all?&rdquo;</p>
+
+  <p>The distinction does not make Lokalise obsolete. It means feature competence and category durability are separate evaluations.</p>
+
+  <h2>What Remains Durable</h2>
+
+  <p>Some multilingual artifacts are unlikely to become casual, ephemeral AI output.</p>
+
+  <p>Healthcare is an especially plausible durable area. <a href="https://lokalise.com/blog/localization-tools-healthcare/" target="_blank" rel="noopener">Lokalise itself positions patient portals, medical-device UI, instructions for use, documentation, and related product surfaces as localization targets requiring governed, audit-ready workflows</a>. These are closer to its existing product-localization model than to the broader medical-translation market, and some require fixed, reviewable, versioned wording. That requirement is not merely a Lokalise positioning claim: <a href="https://health.ec.europa.eu/publications/overview-language-requirements-manufacturers-medical-devices_en" target="_blank" rel="noopener">EU guidance sets out language requirements for the information accompanying medical devices and their user interfaces</a>, and <a href="https://www.fda.gov/medical-devices/device-labeling/quality-system-regulation-labeling-requirements" target="_blank" rel="noopener">FDA labeling regulation imposes its own quality-system controls on labeling, including review and change control</a>. Neither framework was tested in this evaluation; they are cited here as the general regulatory reason this category of content resists casual generation.</p>
+
+  <p><a href="https://lokalise.com/solutions/finance/" target="_blank" rel="noopener">Lokalise&rsquo;s current finance positioning targets software, technical documentation, knowledge bases, support content, and live chat</a>. Financial products likewise plausibly retain deterministic content such as disclosures, risk warnings, fee language, and contractual terms even if support and guidance become increasingly conversational, though that is this evaluation&rsquo;s strategic inference rather than a claim made by Lokalise&rsquo;s own positioning.</p>
+
+  <p>Legal work may preserve even stronger requirements for exact reviewed language, but the reviewed evidence did not establish that Lokalise currently holds a major position in contract translation, litigation material, certified translation, or other specialist legal workflows.</p>
+
+  <p>These categories are meaningful counterarguments to the replacement thesis. What this evaluation did not determine is whether they are large enough to sustain Lokalise&rsquo;s current breadth and growth ambitions if higher-volume SaaS content shifts toward generated answers and actions.</p>
+
+  <p>That is the unresolved strategic question.</p>
+
+  <h2>Implications</h2>
+
+  <p>The fair product judgment is better than P01 alone suggested. Lokalise&rsquo;s AI LQA demonstrated real value, and its broader Vantage architecture describes a coherent AI-plus-human quality system. Its terminology, workflow, vendor, review, and governance layers address genuine enterprise problems.</p>
+
+  <p>But those strengths do not remove the central concern.</p>
+
+  <p>Lokalise is becoming better at managing the translation factory while AI-native software may reduce how much of that factory needs to exist.</p>
+
+  <p>That does not mean every translation disappears or that regulated content becomes generative. It means Lokalise&rsquo;s strategic exposure is not limited to competition from another TMS or a better translation model. The deeper risk is that companies increasingly govern canonical knowledge, answer quality, action authorization, and human escalation instead of maintaining complete parallel libraries of translated reader artifacts.</p>
+
+  <p>If that shift remains limited, Lokalise can continue to gain value from increasingly sophisticated automation. If it becomes substantial, the product may remain useful while becoming less central.</p>
+
+  <p>A future Lokalise could therefore be narrower but durable: less a universal multilingual-content factory and more a high-control governance system for the subset of language that must remain fixed, reviewed, versioned, and accountable.</p>
+
+  <p>This PVE cannot determine how large that market will be. It can show why the question matters.</p>
+
+  <h2>Evaluation Limits</h2>
+
+  <p>P01 and P02 were controlled simulated evaluation lenses, not recruited-user research.</p>
+
+  <p>P01 stopped before generating Japanese output. Its import and glossary problems should not be generalized to every file or every Lokalise customer. The later successful glossary import demonstrates that the source was usable after conversion to Lokalise&rsquo;s required format.</p>
+
+  <p>P02 contained twelve deliberately flawed translations and no clean control set. It therefore demonstrates bounded triage behavior, not general LQA accuracy.</p>
+
+  <p>Only three score-detail panels were inspected after the frozen outputs were compared against private ground truth. No claim is made about the correctness of all twelve explanations.</p>
+
+  <p>The evaluator&rsquo;s judgment that one translation was cumbersome Japanese is a human-language judgment, not product output or an objective benchmark.</p>
+
+  <p>Google Translate and DeepL suggestions were observed, and one Pro AI suggestion was generated after retry. No broad comparison of translation quality, glossary compliance, consistency, latency, or cost was performed.</p>
+
+  <p>Vantage, MCP, GitHub integration, automations, batch quality routing, Orders, partner LSPs, and other broader capabilities were documented or observed but not executed end to end.</p>
+
+  <p>Current practitioner and product examples establish that runtime translation and AI-first support interfaces exist. They do not establish adoption prevalence, the pace of category replacement, or the size of any reduction in translated-content volume.</p>
+
+  <p>Lokalise&rsquo;s current product-localization targeting and its extension into regulated product-adjacent healthcare and finance surfaces are documented above. They do not establish comparative market size, category growth, or Lokalise&rsquo;s revenue mix.</p>
+
+  <p>No market-size, customer-retention, processed-word-growth, competitive win-rate, valuation, or financial diligence was performed.</p>
+
+  <h2>Conclusion</h2>
+
+  <p>No claim is made that Lokalise is failing financially, that all translation artifacts will disappear, or that regulated multilingual content becomes unnecessary.</p>
+
+  <p>Within the boundaries tested, Lokalise&rsquo;s AI LQA did what a triage layer should do: it found real problems and pointed toward the translations that needed a human. That capability is genuine. The larger question this evaluation surfaces is not whether Lokalise can run the translation factory well, but how much of that factory software companies will still need to run.</p>
+
+  <details style="margin-top: 3rem;">
+    <summary style="cursor: pointer; font-family: 'DM Serif Display', serif; font-size: 1.3rem; color: var(--ink); padding: 1rem 0; border-top: 1px solid var(--rule);">Evidence &amp; Sources</summary>
+    <div style="padding-top: 1rem;">
+      <p>This evaluation combined a controlled first-use session (P01), a controlled AI-quality-scoring session using twelve deliberately flawed Japanese translations (P02), and a later persona-free audit that inspected score details and current official Lokalise documentation.</p>
+      <p>Claims about Lokalise&rsquo;s product scope, scoring thresholds, Vantage workflow, vendor network, and market positioning are drawn from Lokalise&rsquo;s own current public documentation, linked inline above. Claims about the evaluation itself &mdash; the import friction, the scored translations, the inspected score details, and the evaluator&rsquo;s language judgment &mdash; are direct observations from this PVE and are not independently published elsewhere.</p>
+      <p>Primary sources referenced in this article:</p>
+      <ul>
+        <li><a href="https://docs.lokalise.com/en/articles/1400427-what-is-lokalise" target="_blank" rel="noopener">What is Lokalise</a></li>
+        <li><a href="https://docs.lokalise.com/en/articles/11631905-scoring-translation-quality" target="_blank" rel="noopener">Scoring translation quality (AI LQA)</a></li>
+        <li><a href="https://docs.lokalise.com/en/articles/14077324-what-is-lokalise-vantage" target="_blank" rel="noopener">What is Lokalise Vantage</a></li>
+        <li><a href="https://docs.lokalise.com/en/articles/14078920-lokalise-vantage-projects" target="_blank" rel="noopener">Lokalise Vantage projects</a></li>
+        <li><a href="https://docs.lokalise.com/en/articles/2141000-professional-translation-services" target="_blank" rel="noopener">Professional translation services</a></li>
+        <li><a href="https://lokalise.com/solutions/finance/" target="_blank" rel="noopener">Lokalise for finance</a></li>
+        <li><a href="https://lokalise.com/blog/localization-tools-healthcare/" target="_blank" rel="noopener">Lokalise on healthcare localization tools</a></li>
+        <li><a href="https://lokalise.com/blog/ai-translation-quality-evaluation/" target="_blank" rel="noopener">Evaluating AI translation quality (September 1, 2026)</a></li>
+        <li><a href="https://www.revolut.com/en-BR/legal/rita-disclaimer/" target="_blank" rel="noopener">Revolut AI support disclaimer</a></li>
+        <li><a href="https://health.ec.europa.eu/publications/overview-language-requirements-manufacturers-medical-devices_en" target="_blank" rel="noopener">EU overview of language requirements for medical device manufacturers</a></li>
+        <li><a href="https://www.fda.gov/medical-devices/device-labeling/quality-system-regulation-labeling-requirements" target="_blank" rel="noopener">FDA quality system regulation labeling requirements</a></li>
+      </ul>
+    </div>
+  </details>
+
+  <div class="article-cta">
+    <div class="article-cta-rule"></div>
+    <p>Finding the gap is only half the work. The other half is deciding what to do about it.</p>
+    <p><a href="/product-value-evaluations.html">Explore the Product Value Evaluation Experiments &rarr;</a></p>
+  </div>
+
+</article>
+
+<section class="back-section">
+  <a href="/articles.html" class="back-link">← Back to Articles</a>
+</section>
+
+<footer>
+  <span>© IC Eight</span>
+  <div class="footer-links">
+    <a href="/privacy.html">Privacy</a>
+    <a href="/terms.html">Terms</a>
+    <a href="https://www.linkedin.com/company/ic-eight/" aria-label="LinkedIn">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    </a>
+    <a href="https://medium.com/@ic-eight" aria-label="Medium">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg>
+    </a>
+    <a href="https://x.com/HelloICEight" aria-label="X">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L1.254 2.25H8.08l4.253 5.622 5.911-5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+    </a>
+    <a href="https://iceight.substack.com/" aria-label="Substack">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.539 24V10.812H1.46zM22.539 0H1.46v2.836h21.08V0z"/></svg>
+    </a>
+  </div>
+</footer>
+
+</body>
+</html>

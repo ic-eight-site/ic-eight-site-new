@@ -1,6 +1,26 @@
 [
   {
     "tag": "Diagnosis & Priority",
+    "title": "Lokalise's AI LQA Worked. That Wasn't Enough.",
+    "url": "/articles/lokalise-ai-lqa-worked-that-wasnt-enough.html",
+    "description": "Lokalise's AI quality scoring correctly flagged eleven of twelve deliberately flawed Japanese translations for human review. That worked. The harder question is whether software companies will keep manufacturing the same volume of parallel multilingual artifacts at all.",
+    "publishedAt": "2026-09-14T16:00:00Z",
+    "pve": {
+      "id": "pve-041",
+      "label": "Product Value Evaluation #041",
+      "order": 42,
+      "cards": [
+        {
+          "title": "Lokalise",
+          "finding": "Lokalise's AI quality scoring correctly flagged eleven of twelve deliberately flawed Japanese translations for human review. That worked. The harder question is whether software companies will keep manufacturing the same volume of parallel multilingual artifacts at all.",
+          "url": "/articles/lokalise-ai-lqa-worked-that-wasnt-enough.html",
+          "linkLabel": "Read the evaluation →"
+        }
+      ]
+    }
+  },
+  {
+    "tag": "Diagnosis & Priority",
     "title": "Resend's Value Started After the First Email",
     "url": "/articles/resend-value-started-after-the-first-email.html",
     "description": "Resend's strongest value wasn't the first transactional send. It was that a synthetic signup event, an automation, an inbound reply, and a failed API call all stayed observable inside one account — while Delivered still didn't mean Inbox.",
