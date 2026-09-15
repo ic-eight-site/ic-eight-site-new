@@ -1,6 +1,26 @@
 [
   {
     "tag": "Diagnosis & Priority",
+    "title": "beehiiv Built the Control Room Before I Wrote the Newsletter",
+    "url": "/articles/beehiiv-built-the-control-room-before-the-newsletter.html",
+    "description": "beehiiv built a public signup shell, design system, and a full media-business control room — subscribers, automations, monetization, API, MCP — before the simulated publisher had written a single newsletter issue.",
+    "publishedAt": "2026-09-14T20:00:00Z",
+    "pve": {
+      "id": "pve-042",
+      "label": "Product Value Evaluation #042",
+      "order": 43,
+      "cards": [
+        {
+          "title": "beehiiv",
+          "finding": "beehiiv built a public signup shell, design system, and a full media-business control room — subscribers, automations, monetization, API, MCP — before the simulated publisher had written a single newsletter issue.",
+          "url": "/articles/beehiiv-built-the-control-room-before-the-newsletter.html",
+          "linkLabel": "Read the evaluation →"
+        }
+      ]
+    }
+  },
+  {
+    "tag": "Diagnosis & Priority",
     "title": "Lokalise's AI LQA Worked. That Wasn't Enough.",
     "url": "/articles/lokalise-ai-lqa-worked-that-wasnt-enough.html",
     "description": "Lokalise's AI quality scoring correctly flagged eleven of twelve deliberately flawed Japanese translations for human review. That worked. The harder question is whether software companies will keep manufacturing the same volume of parallel multilingual artifacts at all.",
