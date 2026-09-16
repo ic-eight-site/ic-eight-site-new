@@ -1,6 +1,26 @@
 [
   {
     "tag": "Diagnosis & Priority",
+    "title": "Sudowrite Could Write the Prose. The Harder Part Was Building the Story.",
+    "url": "/articles/sudowrite-could-write-prose-harder-part-was-story.html",
+    "description": "Sudowrite reliably generated fluent Japanese fiction prose. Across a natural first-use session and four progressively constrained tests — down to a supplied causal skeleton — it did not reliably turn a premise into a story whose events supported its own plot.",
+    "publishedAt": "2026-09-15T18:00:00Z",
+    "pve": {
+      "id": "pve-044",
+      "label": "Product Value Evaluation #044",
+      "order": 45,
+      "cards": [
+        {
+          "title": "Sudowrite",
+          "finding": "Sudowrite reliably generated fluent Japanese fiction prose. Across a natural first-use session and four progressively constrained tests — down to a supplied causal skeleton — it did not reliably turn a premise into a story whose events supported its own plot.",
+          "url": "/articles/sudowrite-could-write-prose-harder-part-was-story.html",
+          "linkLabel": "Read the evaluation →"
+        }
+      ]
+    }
+  },
+  {
+    "tag": "Diagnosis & Priority",
     "title": "Documenso Made the Signing Process Legible. The Invitations Still Went to Junk.",
     "url": "/articles/documenso-signing-process-legible-invitations-went-to-junk.html",
     "description": "Documenso made a three-party signing process fully legible — order, status, completion, and an auditable certificate. But every controlled invitation landed in Outlook Junk despite passing SPF, DKIM, and DMARC.",
