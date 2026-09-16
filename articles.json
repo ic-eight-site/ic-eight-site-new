@@ -1,6 +1,26 @@
 [
   {
     "tag": "Diagnosis & Priority",
+    "title": "Documenso Made the Signing Process Legible. The Invitations Still Went to Junk.",
+    "url": "/articles/documenso-signing-process-legible-invitations-went-to-junk.html",
+    "description": "Documenso made a three-party signing process fully legible — order, status, completion, and an auditable certificate. But every controlled invitation landed in Outlook Junk despite passing SPF, DKIM, and DMARC.",
+    "publishedAt": "2026-09-15T14:00:00Z",
+    "pve": {
+      "id": "pve-043",
+      "label": "Product Value Evaluation #043",
+      "order": 44,
+      "cards": [
+        {
+          "title": "Documenso",
+          "finding": "Documenso made a three-party signing process fully legible — order, status, completion, and an auditable certificate. But every controlled invitation landed in Outlook Junk despite passing SPF, DKIM, and DMARC.",
+          "url": "/articles/documenso-signing-process-legible-invitations-went-to-junk.html",
+          "linkLabel": "Read the evaluation →"
+        }
+      ]
+    }
+  },
+  {
+    "tag": "Diagnosis & Priority",
     "title": "beehiiv Built the Control Room Before I Wrote the Newsletter",
     "url": "/articles/beehiiv-built-the-control-room-before-the-newsletter.html",
     "description": "beehiiv built a public signup shell, design system, and a full media-business control room — subscribers, automations, monetization, API, MCP — before the simulated publisher had written a single newsletter issue.",
