@@ -1,6 +1,26 @@
 [
   {
     "tag": "Diagnosis & Priority",
+    "title": "Fabric Failed as a Downloads Organizer. It Worked as Project Memory.",
+    "url": "/articles/fabric-failed-downloads-organizer-worked-project-memory.html",
+    "description": "Fabric Free failed as an automatic Downloads organizer — Desktop sync was Pro-gated. But once a small mixed-format project library was manually built, its Assistant reconciled superseded decisions, preserved open issues, and linked answers back to source pages.",
+    "publishedAt": "2026-09-15T21:00:00Z",
+    "pve": {
+      "id": "pve-045",
+      "label": "Product Value Evaluation #045",
+      "order": 46,
+      "cards": [
+        {
+          "title": "Fabric",
+          "finding": "Fabric Free failed as an automatic Downloads organizer — Desktop sync was Pro-gated. But once a small mixed-format project library was manually built, its Assistant reconciled superseded decisions, preserved open issues, and linked answers back to source pages.",
+          "url": "/articles/fabric-failed-downloads-organizer-worked-project-memory.html",
+          "linkLabel": "Read the evaluation →"
+        }
+      ]
+    }
+  },
+  {
+    "tag": "Diagnosis & Priority",
     "title": "Sudowrite Could Write the Prose. The Harder Part Was Building the Story.",
     "url": "/articles/sudowrite-could-write-prose-harder-part-was-story.html",
     "description": "Sudowrite reliably generated fluent Japanese fiction prose. Across a natural first-use session and four progressively constrained tests — down to a supplied causal skeleton — it did not reliably turn a premise into a story whose events supported its own plot.",
