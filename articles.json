@@ -1,6 +1,26 @@
 [
   {
     "tag": "Diagnosis & Priority",
+    "title": "Jam Helped Fix the Bug. First, We Had to Get Jam Working.",
+    "url": "/articles/jam-helped-fix-bug-first-had-to-get-jam-working.html",
+    "description": "A blind developer used a recovered Jam to correctly diagnose and fix a planted bug on the first try. But the reporter couldn't create a shareable Jam through natural first use — it took support-led recovery, a Chrome restart, and a macOS permission change to get there.",
+    "publishedAt": "2026-09-16T14:00:00Z",
+    "pve": {
+      "id": "pve-046",
+      "label": "Product Value Evaluation #046",
+      "order": 47,
+      "cards": [
+        {
+          "title": "Jam",
+          "finding": "A blind developer used a recovered Jam to correctly diagnose and fix a planted bug on the first try. But the reporter couldn't create a shareable Jam through natural first use — it took support-led recovery, a Chrome restart, and a macOS permission change to get there.",
+          "url": "/articles/jam-helped-fix-bug-first-had-to-get-jam-working.html",
+          "linkLabel": "Read the evaluation →"
+        }
+      ]
+    }
+  },
+  {
+    "tag": "Diagnosis & Priority",
     "title": "Fabric Failed as a Downloads Organizer. It Worked as Project Memory.",
     "url": "/articles/fabric-failed-downloads-organizer-worked-project-memory.html",
     "description": "Fabric Free failed as an automatic Downloads organizer — Desktop sync was Pro-gated. But once a small mixed-format project library was manually built, its Assistant reconciled superseded decisions, preserved open issues, and linked answers back to source pages.",
