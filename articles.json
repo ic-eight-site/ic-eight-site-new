@@ -1,5 +1,25 @@
 [
   {
+    "tag": "Diagnosis & Priority",
+    "title": "Morgen Planned the Week. Then the Week Changed.",
+    "url": "/articles/morgen-planned-the-week-then-the-week-changed.html",
+    "description": "Morgen turned a week of tasks and fixed events into an editable, approval-gated schedule — a real first-value win. But when an urgent call disrupted the plan, its AI recovery path returned zero rescheduled tasks and left the conflict unresolved.",
+    "publishedAt": "2026-09-18T14:00:00Z",
+    "pve": {
+      "id": "pve-047",
+      "label": "Product Value Evaluation #047",
+      "order": 48,
+      "cards": [
+        {
+          "title": "Morgen",
+          "finding": "Morgen turned a week of tasks and fixed events into an editable, approval-gated schedule — a real first-value win. But when an urgent call disrupted the plan, its AI recovery path returned zero rescheduled tasks and left the conflict unresolved.",
+          "url": "/articles/morgen-planned-the-week-then-the-week-changed.html",
+          "linkLabel": "Read the evaluation →"
+        }
+      ]
+    }
+  },
+  {
     "tag": "AI & Value Creation",
     "title": "The Relationship a Wrapper Can't Copy",
     "url": "/articles/the-relationship-a-wrapper-cant-copy.html",
