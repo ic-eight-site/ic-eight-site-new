@@ -1,6 +1,26 @@
 [
   {
     "tag": "Diagnosis & Priority",
+    "title": "Senja Made Testimonials Reusable. It Didn't Make Them Self-Governing.",
+    "url": "/articles/senja-made-testimonials-reusable-not-self-governing.html",
+    "description": "Senja let one managed proof library feed both a testimonial carousel and a Wall of Love without re-importing a single review. But new assets defaulted to all 12 testimonials — including a one-star criticism — and its AI analysis misattributed a source.",
+    "publishedAt": "2026-09-19T00:30:00Z",
+    "pve": {
+      "id": "pve-048",
+      "label": "Product Value Evaluation #048",
+      "order": 49,
+      "cards": [
+        {
+          "title": "Senja",
+          "finding": "Senja let one managed proof library feed both a testimonial carousel and a Wall of Love without re-importing a single review. But new assets defaulted to all 12 testimonials — including a one-star criticism — and its AI analysis misattributed a source.",
+          "url": "/articles/senja-made-testimonials-reusable-not-self-governing.html",
+          "linkLabel": "Read the evaluation →"
+        }
+      ]
+    }
+  },
+  {
+    "tag": "Diagnosis & Priority",
     "title": "Morgen Planned the Week. Then the Week Changed.",
     "url": "/articles/morgen-planned-the-week-then-the-week-changed.html",
     "description": "Morgen turned a week of tasks and fixed events into an editable, approval-gated schedule — a real first-value win. But when an urgent call disrupted the plan, its AI recovery path returned zero rescheduled tasks and left the conflict unresolved.",
