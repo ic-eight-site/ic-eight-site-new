@@ -83,19 +83,17 @@
 
 <p>What the evaluation did not establish was whether the video-avatar layer materially improved that outcome. The live interaction included a human-like visual counterpart, but there was no matched text-only or voice-only condition. The clearest demonstrated value therefore came from the conversational system itself: understanding the user, carrying multiple constraints through the exchange, and remaining sufficiently grounded in the supplied policy to reach the right offer.</p>
 
-<h2>Key findings</h2>
-
-<p>A natural-language request produced a Japanese support PAL with an identity prompt, three guardrails, and a four-step objective without requiring the builder to script every conversational branch manually. Charlie also generated biography and casting-style details that the task had not requested, and those were removed during review.</p>
-
-<p>A fictional retention-policy document was added through Paste text after the file-picker route did not produce a usable chooser in the bounded attempts. The knowledge document reached Ready state and was attached to the PAL.</p>
-
-<p>After one failed call attempt, a retry connected successfully with microphone and camera active. The Japanese conversation then continued until the Free account’s five-minute limit.</p>
-
-<p>The PAL followed the user’s explanation across several constraints: another AI product had replaced part of Plaude’s value, some value still remained, the $22 monthly price felt high, the usage cap was frustrating, and an annual upfront payment was not acceptable. It suggested Lite once even though the lower allowance did not fit the stated usage problem, but dropped that option immediately after rejection and returned to the eligible six-month discount.</p>
-
-<p>The final offer was stated correctly as $13.20 per month for six months, followed by $22 per month, and the user accepted it.</p>
-
-<p>The later audit showed that the configured PAL remained a conversational prototype rather than an operational support system. No connector was connected, no custom action tool was configured, no participant memory store existed, no structured objective output or callback was configured, and no deployment was created.</p>
+  <div class="key-findings">
+    <p class="key-findings-label">Key Findings</p>
+    <ul>
+      <li>A natural-language request produced a Japanese support PAL with an identity prompt, three guardrails, and a four-step objective without requiring the builder to script every conversational branch manually. Charlie also generated biography and casting-style details that the task had not requested, and those were removed during review.</li>
+      <li>A fictional retention-policy document was added through Paste text after the file-picker route did not produce a usable chooser in the bounded attempts. The knowledge document reached Ready state and was attached to the PAL.</li>
+      <li>After one failed call attempt, a retry connected successfully with microphone and camera active. The Japanese conversation then continued until the Free account’s five-minute limit.</li>
+      <li>The PAL followed the user’s explanation across several constraints: another AI product had replaced part of Plaude’s value, some value still remained, the $22 monthly price felt high, the usage cap was frustrating, and an annual upfront payment was not acceptable. It suggested Lite once even though the lower allowance did not fit the stated usage problem, but dropped that option immediately after rejection and returned to the eligible six-month discount.</li>
+      <li>The final offer was stated correctly as $13.20 per month for six months, followed by $22 per month, and the user accepted it.</li>
+      <li>The later audit showed that the configured PAL remained a conversational prototype rather than an operational support system. No connector was connected, no custom action tool was configured, no participant memory store existed, no structured objective output or callback was configured, and no deployment was created.</li>
+    </ul>
+  </div>
 
 <h2>Evaluation Setup</h2>
 
