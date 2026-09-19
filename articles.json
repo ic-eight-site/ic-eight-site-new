@@ -1,6 +1,26 @@
 [
   {
     "tag": "Diagnosis & Priority",
+    "title": "BugBug Remembered the Test After the Coding Conversation Ended",
+    "url": "/articles/bugbug-remembered-test-after-coding-conversation-ended.html",
+    "description": "BugBug turned one browser workflow into a persistent, re-runnable test with clear pass/fail evidence, and repairing it took one field edit, not a re-recording. But the evaluator could not find a recurring task in the current occasional site-update workflow that would justify maintaining it.",
+    "publishedAt": "2026-09-19T23:30:00Z",
+    "pve": {
+      "id": "pve-050",
+      "label": "Product Value Evaluation #050",
+      "order": 51,
+      "cards": [
+        {
+          "title": "BugBug",
+          "finding": "BugBug turned one browser workflow into a persistent, re-runnable test with clear pass/fail evidence, and repairing it took one field edit, not a re-recording. But the evaluator could not find a recurring task in the current occasional site-update workflow that would justify maintaining it.",
+          "url": "/articles/bugbug-remembered-test-after-coding-conversation-ended.html",
+          "linkLabel": "Read the evaluation →"
+        }
+      ]
+    }
+  },
+  {
+    "tag": "Diagnosis & Priority",
     "title": "Tavus Handled the Conversation. The Video Layer’s Added Value Remained Unclear.",
     "url": "/articles/tavus-handled-conversation-video-value-unclear.html",
     "description": "Tavus built and ran a coherent Japanese retention-support conversation from a natural-language request, but this PVE did not establish that its human-like video layer improved the outcome.",
