@@ -89,20 +89,6 @@
 
   <p>For this evaluator, that would remove most of the practical value. Parseur demonstrated useful document normalization. It did not demonstrate a workflow in which accounting data could move downstream without full human review.</p>
 
-  <h2>Evaluation setup</h2>
-
-  <p>The evaluation used seven one-page synthetic Japanese business documents under one Parseur mailbox schema.</p>
-
-  <p>Five documents formed the first-use set. They varied in structure and presentation, including vertical and horizontal invoice layouts, a receipt-style document, and a mixed-tax example. A ten-field schema was created from the first document and then reused without creating a new template for each subsequent layout.</p>
-
-  <p>Two additional documents were then introduced as an unseen-variation check. They changed wording and field placement while keeping the same underlying business concepts. The existing ten-field schema was left unchanged.</p>
-
-  <p>The account was a Free account with 20 credits at the beginning of the evaluation. The browser/account environment was recorded as ja-JP, while Parseur's visible interface was in English; testing took place from Brazil.</p>
-
-  <p>The analysis used three different measurements that should not be combined into one accuracy rate. P01 and P02 measured strict field presence in the product’s Data views: 45/50 and 17/20 respectively. The later CSV audit evaluated 70 fixed target cells after all mailbox columns had been made visible; 64 matched the frozen ground truth, including two intentionally blank due dates, while six expected-zero tax cells were blank.</p>
-
-  <p>These results came from a controlled synthetic set, not production accounting data or a volume benchmark.</p>
-
   <div class="key-findings">
 
     <p class="key-findings-label">Key Findings</p>
@@ -124,6 +110,20 @@
     </ul>
 
   </div>
+
+  <h2>Evaluation setup</h2>
+
+  <p>The evaluation used seven one-page synthetic Japanese business documents under one Parseur mailbox schema.</p>
+
+  <p>Five documents formed the first-use set. They varied in structure and presentation, including vertical and horizontal invoice layouts, a receipt-style document, and a mixed-tax example. A ten-field schema was created from the first document and then reused without creating a new template for each subsequent layout.</p>
+
+  <p>Two additional documents were then introduced as an unseen-variation check. They changed wording and field placement while keeping the same underlying business concepts. The existing ten-field schema was left unchanged.</p>
+
+  <p>The account was a Free account with 20 credits at the beginning of the evaluation. The browser/account environment was recorded as ja-JP, while Parseur's visible interface was in English; testing took place from Brazil.</p>
+
+  <p>The analysis used three different measurements that should not be combined into one accuracy rate. P01 and P02 measured strict field presence in the product’s Data views: 45/50 and 17/20 respectively. The later CSV audit evaluated 70 fixed target cells after all mailbox columns had been made visible; 64 matched the frozen ground truth, including two intentionally blank due dates, while six expected-zero tax cells were blank.</p>
+
+  <p>These results came from a controlled synthetic set, not production accounting data or a volume benchmark.</p>
 
   <h2>One schema handled several document shapes</h2>
 
