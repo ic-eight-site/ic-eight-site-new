@@ -5,6 +5,30 @@
     "pveRoles": [
       "evaluation"
     ],
+    "title": "Parseur Normalized the Documents. Silent Blanks Kept Accounting Review in the Loop.",
+    "url": "/articles/parseur-normalized-documents-silent-blanks-kept-accounting-review.html",
+    "description": "Parseur normalized seven differently structured Japanese invoices and receipts into one reusable schema without returning a wrong nonblank target value. But expected-zero tax fields became silent blanks, leaving accounting review in the loop.",
+    "publishedAt": "2026-09-20T22:48:18Z",
+    "pve": {
+      "id": "pve-051",
+      "label": "Product Value Evaluation #051",
+      "order": 52,
+      "cards": [
+        {
+          "title": "Parseur",
+          "finding": "Parseur normalized seven differently structured Japanese invoices and receipts into one reusable schema without returning a wrong nonblank target value. But expected-zero tax fields became silent blanks, leaving accounting review in the loop.",
+          "url": "/articles/parseur-normalized-documents-silent-blanks-kept-accounting-review.html",
+          "linkLabel": "Read the evaluation →"
+        }
+      ]
+    }
+  },
+  {
+    "tag": "Diagnosis & Priority",
+    "contentType": "pve",
+    "pveRoles": [
+      "evaluation"
+    ],
     "title": "BugBug Remembered the Test After the Coding Conversation Ended",
     "url": "/articles/bugbug-remembered-test-after-coding-conversation-ended.html",
     "description": "BugBug turned one browser workflow into a persistent, re-runnable test with clear pass/fail evidence, and repairing it took one field edit, not a re-recording. But the evaluator could not find a recurring task in the current occasional site-update workflow that would justify maintaining it.",
