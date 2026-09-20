@@ -30,6 +30,7 @@ ALLOWED_TAGS = {
     "Content Systems",
     "AI & Value Creation",
 }
+ALLOWED_CONTENT_TYPES = {"pve-research-note"}
 NOSCRIPT_START = "<!-- GENERATED:ARTICLES_NOSCRIPT:START -->"
 NOSCRIPT_END = "<!-- GENERATED:ARTICLES_NOSCRIPT:END -->"
 PVE_START = "<!-- GENERATED:PVE_LIBRARY:START -->"
@@ -202,6 +203,9 @@ def validate(entries: list[dict]) -> None:
                 errors.append(f"{prefix} is missing {field}")
         if entry.get("tag") not in ALLOWED_TAGS and entry.get("tag") is not None:
             errors.append(f"{prefix} has an unknown tag: {entry.get('tag')}")
+        content_type = entry.get("contentType")
+        if content_type not in ALLOWED_CONTENT_TYPES and content_type is not None:
+            errors.append(f"{prefix} has an unknown contentType: {content_type}")
         if entry.get("url") and not article_path(entry["url"]).exists():
             errors.append(f"{prefix} points to a missing file: {entry['url']}")
         try:
@@ -209,6 +213,8 @@ def validate(entries: list[dict]) -> None:
         except (ValueError, TypeError):
             errors.append(f"{prefix} has an invalid publishedAt value")
         pve = entry.get("pve")
+        if pve and content_type:
+            errors.append(f"{prefix} cannot have both pve and contentType")
         if pve:
             pve_ids.append(pve.get("id", ""))
             if not isinstance(pve.get("order"), int):
