@@ -30,7 +30,15 @@ ALLOWED_TAGS = {
     "Content Systems",
     "AI & Value Creation",
 }
-ALLOWED_CONTENT_TYPES = {"pve-research-note"}
+ALLOWED_CONTENT_TYPES = {"article", "pve"}
+ALLOWED_PVE_ROLES = {
+    "evaluation",
+    "pilot",
+    "extra",
+    "research-note",
+    "follow-up",
+    "cross-pve-synthesis",
+}
 NOSCRIPT_START = "<!-- GENERATED:ARTICLES_NOSCRIPT:START -->"
 NOSCRIPT_END = "<!-- GENERATED:ARTICLES_NOSCRIPT:END -->"
 PVE_START = "<!-- GENERATED:PVE_LIBRARY:START -->"
@@ -196,6 +204,11 @@ def validate(entries: list[dict]) -> None:
         errors.append("Duplicate article title in articles.json")
     pve_ids: list[str] = []
     pve_orders: list[int] = []
+    declared_pve_ids = {
+        entry["pve"]["id"]
+        for entry in entries
+        if entry.get("pve") and entry["pve"].get("id")
+    }
     for index, entry in enumerate(entries):
         prefix = f"Entry {index + 1}"
         for field in ("title", "url", "description", "publishedAt"):
@@ -204,8 +217,28 @@ def validate(entries: list[dict]) -> None:
         if entry.get("tag") not in ALLOWED_TAGS and entry.get("tag") is not None:
             errors.append(f"{prefix} has an unknown tag: {entry.get('tag')}")
         content_type = entry.get("contentType")
-        if content_type not in ALLOWED_CONTENT_TYPES and content_type is not None:
+        if content_type not in ALLOWED_CONTENT_TYPES:
             errors.append(f"{prefix} has an unknown contentType: {content_type}")
+        pve_roles = entry.get("pveRoles")
+        parent_pve_ids = entry.get("parentPveIds")
+        if content_type == "pve":
+            if not isinstance(pve_roles, list) or not pve_roles:
+                errors.append(f"{prefix} is PVE content without pveRoles")
+            elif len(pve_roles) != len(set(pve_roles)):
+                errors.append(f"{prefix} has duplicate pveRoles")
+            elif any(role not in ALLOWED_PVE_ROLES for role in pve_roles):
+                errors.append(f"{prefix} has an unknown pveRole: {pve_roles}")
+        elif pve_roles is not None:
+            errors.append(f"{prefix} is not PVE content but has pveRoles")
+        if parent_pve_ids is not None:
+            if not isinstance(parent_pve_ids, list) or not parent_pve_ids:
+                errors.append(f"{prefix} has invalid parentPveIds")
+            elif any(parent not in declared_pve_ids for parent in parent_pve_ids):
+                errors.append(f"{prefix} points to an unknown parent PVE: {parent_pve_ids}")
+            if not isinstance(pve_roles, list) or "follow-up" not in pve_roles:
+                errors.append(f"{prefix} has parentPveIds without the follow-up role")
+        if isinstance(pve_roles, list) and "follow-up" in pve_roles and not parent_pve_ids:
+            errors.append(f"{prefix} is a follow-up without parentPveIds")
         if entry.get("url") and not article_path(entry["url"]).exists():
             errors.append(f"{prefix} points to a missing file: {entry['url']}")
         try:
@@ -213,8 +246,10 @@ def validate(entries: list[dict]) -> None:
         except (ValueError, TypeError):
             errors.append(f"{prefix} has an invalid publishedAt value")
         pve = entry.get("pve")
-        if pve and content_type:
-            errors.append(f"{prefix} cannot have both pve and contentType")
+        if pve and content_type != "pve":
+            errors.append(f"{prefix} has a PVE block without PVE contentType")
+        if content_type == "article" and (pve or parent_pve_ids):
+            errors.append(f"{prefix} is an article with PVE-only metadata")
         if pve:
             pve_ids.append(pve.get("id", ""))
             if not isinstance(pve.get("order"), int):
