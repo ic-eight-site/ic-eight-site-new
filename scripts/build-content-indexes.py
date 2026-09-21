@@ -17,6 +17,7 @@ from urllib.parse import urlsplit
 
 
 ROOT = Path(__file__).resolve().parent.parent
+HOME_PAGE = ROOT / "index.html"
 REGISTRY = ROOT / "articles.json"
 ARTICLES_PAGE = ROOT / "articles.html"
 PVE_PAGE = ROOT / "product-value-evaluations.html"
@@ -43,6 +44,7 @@ NOSCRIPT_START = "<!-- GENERATED:ARTICLES_NOSCRIPT:START -->"
 NOSCRIPT_END = "<!-- GENERATED:ARTICLES_NOSCRIPT:END -->"
 PVE_START = "<!-- GENERATED:PVE_LIBRARY:START -->"
 PVE_END = "<!-- GENERATED:PVE_LIBRARY:END -->"
+NAV_PATTERN = re.compile(r"<nav>.*?</nav>", re.S)
 
 
 class HeadMetadataParser(HTMLParser):
@@ -71,6 +73,13 @@ def plain_text(fragment: str) -> str:
     parser = TextParser()
     parser.feed(fragment)
     return " ".join("".join(parser.parts).split())
+
+
+def normalized_nav(source: str) -> str | None:
+    match = NAV_PATTERN.search(source)
+    if not match:
+        return None
+    return re.sub(r">\s+<", "><", match.group(0).strip())
 
 
 def read_registry() -> list[dict]:
@@ -196,6 +205,9 @@ def bootstrap(entries: list[dict]) -> list[dict]:
 
 def validate(entries: list[dict]) -> None:
     errors: list[str] = []
+    canonical_nav = normalized_nav(HOME_PAGE.read_text(encoding="utf-8"))
+    if canonical_nav is None:
+        errors.append("Homepage is missing its canonical navigation")
     urls = [entry.get("url") for entry in entries]
     titles = [entry.get("title") for entry in entries]
     if len(urls) != len(set(urls)):
@@ -239,8 +251,18 @@ def validate(entries: list[dict]) -> None:
                 errors.append(f"{prefix} has parentPveIds without the follow-up role")
         if isinstance(pve_roles, list) and "follow-up" in pve_roles and not parent_pve_ids:
             errors.append(f"{prefix} is a follow-up without parentPveIds")
-        if entry.get("url") and not article_path(entry["url"]).exists():
-            errors.append(f"{prefix} points to a missing file: {entry['url']}")
+        if entry.get("url"):
+            path = article_path(entry["url"])
+            if not path.exists():
+                errors.append(f"{prefix} points to a missing file: {entry['url']}")
+            else:
+                article_nav = normalized_nav(path.read_text(encoding="utf-8"))
+                if article_nav is None:
+                    errors.append(f"{prefix} article is missing navigation: {entry['url']}")
+                elif canonical_nav is not None and article_nav != canonical_nav:
+                    errors.append(
+                        f"{prefix} article navigation differs from index.html: {entry['url']}"
+                    )
         try:
             parse_iso_datetime(entry.get("publishedAt", ""))
         except (ValueError, TypeError):
