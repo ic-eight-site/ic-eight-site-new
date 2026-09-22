@@ -168,6 +168,7 @@ td:last-child { color:var(--accent); font-weight:500; } tr:last-child td { borde
 .visual-evidence-pair img,.visual-evidence-single img { width:100%; border:1px solid var(--rule); border-radius:3px; }
 .visual-evidence-pair figcaption,.visual-evidence-single figcaption { margin-top:.5rem; color:var(--muted); font-size:.82rem; line-height:1.5; }
 .visual-evidence-single { max-width:calc(50% - .5rem); margin:1rem 0 1.5rem; }
+.article-figure-medium { width:100%; max-width:640px; margin:2rem auto; }
 
 .pve-intro-grid { width:var(--page); margin:clamp(3rem,6vw,5rem) auto; display:grid; grid-template-columns:repeat(3,1fr); gap:1rem; }
 .pve-context-block { padding:1.7rem; border:1px solid var(--rule); border-radius:var(--radius); background:#fff; box-shadow:0 12px 40px rgba(22,40,72,.05); }
