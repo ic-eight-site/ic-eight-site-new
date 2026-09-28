@@ -539,6 +539,16 @@
 
   <p>Until the final block was added.</p>
 
+  <h2>Update: September 21, 2026</h2>
+
+  <p>After publication, IC Eight ran a follow-up check on the same workspace using Attio's AI Builder as available on September 21. This was an evaluator-led verification, not a repeat of the original first-use session, and it used a different prompt on one new synthetic Company record.</p>
+
+  <p>After an in-product request to grant the workflow access to Attio tools, the Builder produced a complete chain: <strong>Record action → Custom agent → Create note</strong>, with the agent's response mapped to the note content and the triggering Company mapped as the parent record. The run was already complete when first inspected approximately nine seconds after triggering, used 4 credits, and created a durable note on the record.</p>
+
+  <p>The omission described above did not reproduce in this bounded check. The original finding remains valid for the state tested on September 5, but this single follow-up demonstrates a successful current workflow rather than establishing how often the earlier omission may still occur. Ask Attio's diagnosis was not re-tested.</p>
+
+  <p>One first-use gap remained visible: before triggering, the Custom Agent's cost was shown only as <em>Dynamic</em>, while the record picker showed no estimated total credits, expected runtime, remaining credit balance, or trial constraint. After triggering, however, Attio took the evaluator directly to the completed run and provided a path from the <em>Created note</em> output to the durable result.</p>
+
   <h2>Evaluation Limits</h2>
 
   <p>This evaluation used one approved simulated persona, not a recruited participant.</p>
