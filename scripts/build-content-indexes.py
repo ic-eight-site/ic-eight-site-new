@@ -267,6 +267,11 @@ def validate(entries: list[dict]) -> None:
             parse_iso_datetime(entry.get("publishedAt", ""))
         except (ValueError, TypeError):
             errors.append(f"{prefix} has an invalid publishedAt value")
+        if entry.get("modifiedAt") is not None:
+            try:
+                parse_iso_datetime(entry.get("modifiedAt", ""))
+            except (ValueError, TypeError):
+                errors.append(f"{prefix} has an invalid modifiedAt value")
         pve = entry.get("pve")
         if pve and content_type != "pve":
             errors.append(f"{prefix} has a PVE block without PVE contentType")
@@ -386,7 +391,7 @@ def render_sitemap(entries: list[dict]) -> str:
     other_static = [entry for entry in static_entries if entry[0] != ORIGIN + "/"]
     generated_articles = [(
         ORIGIN + entry["url"],
-        parse_iso_datetime(entry["publishedAt"]).date().isoformat(),
+        parse_iso_datetime(entry.get("modifiedAt", entry["publishedAt"])).date().isoformat(),
         "0.7",
     ) for entry in entries]
     lines = [
