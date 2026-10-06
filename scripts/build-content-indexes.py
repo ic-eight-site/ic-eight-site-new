@@ -44,7 +44,7 @@ NOSCRIPT_START = "<!-- GENERATED:ARTICLES_NOSCRIPT:START -->"
 NOSCRIPT_END = "<!-- GENERATED:ARTICLES_NOSCRIPT:END -->"
 PVE_START = "<!-- GENERATED:PVE_LIBRARY:START -->"
 PVE_END = "<!-- GENERATED:PVE_LIBRARY:END -->"
-NAV_PATTERN = re.compile(r"<nav>.*?</nav>", re.S)
+NAV_PATTERN = re.compile(r"<nav(?:\s[^>]*)?>.*?</nav>", re.S)
 
 
 class HeadMetadataParser(HTMLParser):

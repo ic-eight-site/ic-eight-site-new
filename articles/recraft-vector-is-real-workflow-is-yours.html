@@ -55,19 +55,53 @@
   }
   </script>
   <title>Recraft: The Vector Is Real. The Workflow Is Still Yours. — IC Eight</title>
+  <link rel="stylesheet" href="/navigation.css">
+  <script src="/navigation.js" defer></script>
 </head>
 <body>
 
-<nav>
-  <a href="/" class="nav-logo">IC Eight</a>
-  <ul class="nav-links">
-    <li><a href="/product-value-evaluation.html">Evaluation</a></li>
-    <li><a href="/product-value-diagnosis.html">Diagnosis</a></li>
-    <li><a href="/services.html">Method</a></li>
-    <li><a href="/articles.html">Insights</a></li>
-    <li><a href="/about.html">About</a></li>
-    <li><a href="/contact.html">Contact</a></li>
-  </ul>
+<nav class="site-header" aria-label="Primary navigation">
+  <a href="/" class="nav-logo" aria-label="IC Eight shared entrance">IC Eight</a>
+  <div class="primary-nav">
+    <details class="nav-menu" data-nav-menu="buyer">
+      <summary>Buyers &amp; Evaluators</summary>
+      <div class="nav-dropdown">
+        <a href="/buyer-evaluator.html" data-nav-path data-nav-section="buyer">Buyer / Evaluator Home</a>
+        <a href="/product-decision-review.html" data-nav-path data-nav-section="buyer">Product Decision Review</a>
+      </div>
+    </details>
+    <details class="nav-menu" data-nav-menu="product">
+      <summary>Product Teams</summary>
+      <div class="nav-dropdown">
+        <a href="/product-team.html" data-nav-path data-nav-section="product">Product Team Home</a>
+        <a href="/product-value-evaluation.html" data-nav-path data-nav-section="product">Evaluation</a>
+        <a href="/product-value-diagnosis.html" data-nav-path data-nav-section="product">Diagnosis</a>
+        <a href="/services.html" data-nav-path data-nav-section="product">Method</a>
+      </div>
+    </details>
+    <a class="nav-link" href="/product-value-evaluations.html" data-nav-path>PVE Library</a>
+    <a class="nav-link" href="/articles.html" data-nav-path>Insights</a>
+    <a class="nav-link" href="/about.html" data-nav-path>About</a>
+    <a class="nav-link" href="/contact.html" data-nav-path>Contact</a>
+  </div>
+  <details class="mobile-nav">
+    <summary>Menu</summary>
+    <div class="mobile-panel">
+      <p class="mobile-group">Buyers &amp; Evaluators</p>
+      <a href="/buyer-evaluator.html" data-nav-path data-nav-section="buyer">Buyer / Evaluator Home</a>
+      <a href="/product-decision-review.html" data-nav-path data-nav-section="buyer">Product Decision Review</a>
+      <p class="mobile-group">Product Teams</p>
+      <a href="/product-team.html" data-nav-path data-nav-section="product">Product Team Home</a>
+      <a href="/product-value-evaluation.html" data-nav-path data-nav-section="product">Evaluation</a>
+      <a href="/product-value-diagnosis.html" data-nav-path data-nav-section="product">Diagnosis</a>
+      <a href="/services.html" data-nav-path data-nav-section="product">Method</a>
+      <div class="mobile-divider"></div>
+      <a href="/product-value-evaluations.html" data-nav-path>PVE Library</a>
+      <a href="/articles.html" data-nav-path>Insights</a>
+      <a href="/about.html" data-nav-path>About</a>
+      <a href="/contact.html" data-nav-path>Contact</a>
+    </div>
+  </details>
 </nav>
 
 <div class="article-header">
