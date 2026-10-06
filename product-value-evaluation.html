@@ -113,26 +113,28 @@
   <h2 id="published-evaluations-heading">The latest published evaluations.</h2>
   <p style="max-width:680px;color:var(--muted);margin-bottom:2rem;">Independent evaluations show the evidence chain in practice: the public promise, first use, the wider product audit, and the judgment that follows.</p>
   <div class="ways-list latest-evaluations" id="latest-pve-list">
-    <a href="/articles/arcade-website-became-the-brief.html" class="ways-item">
-      <p class="ways-title">Arcade</p>
-      <p class="ways-desc">The website became the brief.</p>
-      <p class="ways-link">Read PVE #023 →</p>
+<!-- GENERATED:LATEST_PVE:START -->
+    <a href="/articles/parseur-normalized-documents-silent-blanks-kept-accounting-review.html" class="ways-item">
+      <p class="ways-title">Parseur</p>
+      <p class="ways-desc">Parseur normalized seven differently structured Japanese invoices and receipts into one reusable schema without returning a wrong nonblank target value. But expected-zero tax fields became silent blanks, leaving accounting review in the loop.</p>
+      <p class="ways-link">Read PVE #051 →</p>
     </a>
-    <a href="/articles/scribe-click-was-clear-context-wasnt.html" class="ways-item">
-      <p class="ways-title">Scribe</p>
-      <p class="ways-desc">The click was clear. The context wasn't.</p>
-      <p class="ways-link">Read PVE #022 →</p>
+    <a href="/articles/bugbug-remembered-test-after-coding-conversation-ended.html" class="ways-item">
+      <p class="ways-title">BugBug</p>
+      <p class="ways-desc">BugBug turned one browser workflow into a persistent, re-runnable test with clear pass/fail evidence, and repairing it took one field edit, not a re-recording. But the evaluator could not find a recurring task in the current occasional site-update workflow that would justify maintaining it.</p>
+      <p class="ways-link">Read PVE #050 →</p>
     </a>
-    <a href="/articles/lyro-missing-answer-wasnt-copy-problem.html" class="ways-item">
-      <p class="ways-title">Lyro</p>
-      <p class="ways-desc">The missing answer wasn't a copy problem.</p>
-      <p class="ways-link">Read PVE #021 →</p>
+    <a href="/articles/tavus-handled-conversation-video-value-unclear.html" class="ways-item">
+      <p class="ways-title">Tavus</p>
+      <p class="ways-desc">Tavus built and ran a coherent Japanese retention-support conversation from a natural-language request, but this PVE did not establish that its human-like video layer improved the outcome.</p>
+      <p class="ways-link">Read PVE #049 →</p>
     </a>
-    <a href="/articles/lovable-app-worked-research-needed-auditor.html" class="ways-item">
-      <p class="ways-title">Lovable</p>
-      <p class="ways-desc">The app worked. The research still needed an auditor.</p>
-      <p class="ways-link">Read PVE #020 →</p>
+    <a href="/articles/senja-made-testimonials-reusable-not-self-governing.html" class="ways-item">
+      <p class="ways-title">Senja</p>
+      <p class="ways-desc">Senja let one managed proof library feed both a testimonial carousel and a Wall of Love without re-importing a single review. But new assets defaulted to all 12 testimonials — including a one-star criticism — and its AI analysis misattributed a source.</p>
+      <p class="ways-link">Read PVE #048 →</p>
     </a>
+<!-- GENERATED:LATEST_PVE:END -->
   </div>
   <a href="/product-value-evaluations.html" class="ways-anchor">Browse the full PVE library →</a>
 </section>
@@ -154,59 +156,5 @@
 
 <footer><span>© IC Eight</span><div class="footer-links"><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a>
     <a href="/faq.html">FAQ</a><a href="https://www.linkedin.com/company/ic-eight/">LinkedIn</a><a href="https://medium.com/@ic-eight">Medium</a><a href="https://x.com/HelloICEight">X</a></div></footer>
-<script>
-  (() => {
-    const list = document.getElementById('latest-pve-list');
-    if (!list) return;
-
-    fetch('/product-value-evaluations.html', { cache: 'no-cache' })
-      .then((response) => {
-        if (!response.ok) throw new Error('PVE library unavailable');
-        return response.text();
-      })
-      .then((html) => {
-        const library = new DOMParser().parseFromString(html, 'text/html');
-        const latest = [...library.querySelectorAll('#pve-library > .practice')]
-          .filter((entry) => /^pve-\d+$/.test(entry.id))
-          .sort((a, b) => Number(b.id.slice(4)) - Number(a.id.slice(4)))
-          .slice(0, 4);
-
-        if (latest.length !== 4) return;
-
-        const cards = document.createDocumentFragment();
-        latest.forEach((entry) => {
-          const sourceLink = entry.querySelector('.case-card .text-link');
-          const sourceTitle = entry.querySelector('.case-card h2');
-          const sourceFinding = entry.querySelector('.case-card .case-finding');
-          if (!sourceLink || !sourceTitle || !sourceFinding) return;
-
-          const number = String(Number(entry.id.slice(4))).padStart(3, '0');
-          const card = document.createElement('a');
-          card.className = 'ways-item';
-          card.href = sourceLink.getAttribute('href');
-
-          const title = document.createElement('p');
-          title.className = 'ways-title';
-          title.textContent = sourceTitle.textContent.trim();
-
-          const finding = document.createElement('p');
-          finding.className = 'ways-desc';
-          finding.textContent = sourceFinding.textContent.trim();
-
-          const link = document.createElement('p');
-          link.className = 'ways-link';
-          link.textContent = `Read PVE #${number} →`;
-
-          card.append(title, finding, link);
-          cards.append(card);
-        });
-
-        if (cards.childNodes.length === 4) list.replaceChildren(cards);
-      })
-      .catch(() => {
-        // Keep the four server-rendered fallback cards.
-      });
-  })();
-</script>
 </body>
 </html>

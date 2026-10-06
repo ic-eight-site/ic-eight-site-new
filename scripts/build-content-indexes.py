@@ -21,6 +21,7 @@ HOME_PAGE = ROOT / "index.html"
 REGISTRY = ROOT / "articles.json"
 ARTICLES_PAGE = ROOT / "articles.html"
 PVE_PAGE = ROOT / "product-value-evaluations.html"
+PVE_PRODUCT_PAGE = ROOT / "product-value-evaluation.html"
 RSS_FILE = ROOT / "rss.xml"
 SITEMAP_FILE = ROOT / "sitemap.xml"
 ORIGIN = "https://ic-eight.com"
@@ -44,6 +45,8 @@ NOSCRIPT_START = "<!-- GENERATED:ARTICLES_NOSCRIPT:START -->"
 NOSCRIPT_END = "<!-- GENERATED:ARTICLES_NOSCRIPT:END -->"
 PVE_START = "<!-- GENERATED:PVE_LIBRARY:START -->"
 PVE_END = "<!-- GENERATED:PVE_LIBRARY:END -->"
+LATEST_PVE_START = "<!-- GENERATED:LATEST_PVE:START -->"
+LATEST_PVE_END = "<!-- GENERATED:LATEST_PVE:END -->"
 NAV_PATTERN = re.compile(r"<nav(?:\s[^>]*)?>.*?</nav>", re.S)
 
 
@@ -342,6 +345,35 @@ def render_pve(entries: list[dict]) -> str:
     return "\n\n".join(sections)
 
 
+def render_latest_pve(entries: list[dict], limit: int = 4) -> str:
+    latest = sorted(
+        (
+            entry
+            for entry in entries
+            if entry.get("pve")
+            and re.fullmatch(r"pve-\d+", entry["pve"].get("id", ""))
+        ),
+        key=lambda entry: entry["pve"]["order"],
+        reverse=True,
+    )[:limit]
+    if len(latest) != limit:
+        raise ValueError(f"Expected {limit} numbered PVEs for the latest evaluations block")
+
+    cards: list[str] = []
+    for entry in latest:
+        pve = entry["pve"]
+        card = pve["cards"][0]
+        number = int(pve["id"].removeprefix("pve-"))
+        cards.extend([
+            f'    <a href="{html.escape(card["url"], quote=True)}" class="ways-item">',
+            f'      <p class="ways-title">{html.escape(card["title"], quote=False)}</p>',
+            f'      <p class="ways-desc">{html.escape(card["finding"], quote=False)}</p>',
+            f'      <p class="ways-link">Read PVE #{number:03d} →</p>',
+            "    </a>",
+        ])
+    return "\n".join(cards)
+
+
 def render_rss(entries: list[dict]) -> str:
     newest = max(parse_iso_datetime(entry["publishedAt"]) for entry in entries)
     newest_first = sorted(
@@ -412,6 +444,7 @@ def render_sitemap(entries: list[dict]) -> str:
 def generated_outputs(entries: list[dict]) -> dict[Path, str]:
     articles_source = ARTICLES_PAGE.read_text(encoding="utf-8")
     pve_source = PVE_PAGE.read_text(encoding="utf-8")
+    pve_product_source = PVE_PRODUCT_PAGE.read_text(encoding="utf-8")
     pve_count = sum(1 for entry in entries if entry.get("pve"))
     pve_source = re.sub(
         r'(<p id="pve-results" class="pve-results" role="status" aria-live="polite">)\d+ entries(</p>)',
@@ -422,6 +455,12 @@ def generated_outputs(entries: list[dict]) -> dict[Path, str]:
     return {
         ARTICLES_PAGE: replace_generated(articles_source, NOSCRIPT_START, NOSCRIPT_END, render_noscript(entries)),
         PVE_PAGE: replace_generated(pve_source, PVE_START, PVE_END, render_pve(entries)),
+        PVE_PRODUCT_PAGE: replace_generated(
+            pve_product_source,
+            LATEST_PVE_START,
+            LATEST_PVE_END,
+            render_latest_pve(entries),
+        ),
         RSS_FILE: render_rss(entries),
         SITEMAP_FILE: render_sitemap(entries),
     }
