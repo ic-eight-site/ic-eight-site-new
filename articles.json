@@ -5,6 +5,30 @@
     "pveRoles": [
       "evaluation"
     ],
+    "title": "Vozo Made Japanese Video Translation Usable. Finishing It Was a Different Task.",
+    "url": "/articles/vozo-japanese-video-translation-usable-finishing-different-task.html",
+    "description": "Vozo made a short English lecture understandable in Japanese. Dubbing needed pronunciation repairs and a human rewrite; dedicated subtitles were practically sufficient with layout limitations.",
+    "publishedAt": "2026-10-07T23:16:54.195356Z",
+    "pve": {
+      "id": "pve-052",
+      "label": "Product Value Evaluation #052",
+      "order": 53,
+      "cards": [
+        {
+          "title": "Vozo",
+          "finding": "Vozo made a short English lecture understandable in Japanese. Dubbing needed pronunciation repairs and a human rewrite; dedicated subtitles were practically sufficient with layout limitations.",
+          "url": "/articles/vozo-japanese-video-translation-usable-finishing-different-task.html",
+          "linkLabel": "Read the evaluation →"
+        }
+      ]
+    }
+  },
+  {
+    "tag": "Diagnosis & Priority",
+    "contentType": "pve",
+    "pveRoles": [
+      "evaluation"
+    ],
     "title": "Parseur Normalized the Documents. Silent Blanks Kept Accounting Review in the Loop.",
     "url": "/articles/parseur-normalized-documents-silent-blanks-kept-accounting-review.html",
     "description": "Parseur normalized seven differently structured Japanese invoices and receipts into one reusable schema without returning a wrong nonblank target value. But expected-zero tax fields became silent blanks, leaving accounting review in the loop.",
