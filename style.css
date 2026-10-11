@@ -204,7 +204,7 @@ td:last-child { color:var(--accent); font-weight:500; } tr:last-child td { borde
 .pve-comparison-card:hover { transform:translateY(-3px); box-shadow:0 28px 68px rgba(13,28,58,.26); }
 .pve-comparison-card:focus-visible { outline:3px solid var(--accent-bright); outline-offset:4px; }
 .pve-comparison-kicker { grid-column:1/-1; color:#9fc0ff; font-size:.72rem; font-weight:600; letter-spacing:.12em; text-transform:uppercase; }
-.pve-comparison-card h3 { max-width:760px; align-self:end; font-family:'DM Serif Display',serif; font-size:clamp(2rem,4vw,3.65rem); font-weight:400; line-height:1.02; letter-spacing:-.035em; }
+.pve-comparison-card h3 { max-width:760px; align-self:end; font-family:inherit; font-size:clamp(2rem,4vw,3.65rem); font-weight:500; line-height:1.02; letter-spacing:-.035em; }
 .pve-comparison-card p { max-width:470px; align-self:end; color:#d3dced; line-height:1.65; }
 .pve-comparison-link { grid-column:1/-1; margin-top:.8rem; color:#fff; font-size:.86rem; font-weight:600; letter-spacing:.02em; }
 .pve-library-toolbar { width:var(--page); margin:0 auto; padding:clamp(3rem,6vw,5rem) 0 2.5rem; display:grid; grid-template-columns:1fr minmax(280px,380px); align-items:end; gap:2rem; }
