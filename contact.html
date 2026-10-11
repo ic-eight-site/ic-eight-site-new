@@ -138,7 +138,7 @@
       <label for="service">Which service are you considering?</label>
       <select id="service" name="service" required>
         <option value="" disabled selected>Select one</option>
-        <option value="Free PVD Preflight">PVD Preflight (free)</option>
+        <option value="Free Product Decision Preflight">Product Decision Preflight (free)</option>
         <option value="Product Decision Review">Product Decision Review</option>
         <option value="Commissioned Product Value Evaluation">Commissioned Product Value Evaluation</option>
         <option value="First-Use Value Audit">First-Use Value Audit</option>
@@ -190,9 +190,9 @@
     const service = document.querySelector('#service');
     const message = document.querySelector('#message');
     const note = document.querySelector('#contact-prefill-note');
-    service.value = 'Free PVD Preflight';
-    message.value = `PVD Preflight reference viewed: ${selected.product}\n\nProduct name:\n\nProduct URL:\n\nWhat made this product interesting to you? (optional):\n\nIs there a particular public claim or use case you want us to notice? (optional):\n\nOther context (optional):\n`;
-    note.textContent = `Request a free PVD Preflight for your product. The ${selected.product} example is included below for reference. Add the product name and URL; we will develop the verification questions in the preflight. Opening this form has not run an analysis.`;
+    service.value = 'Free Product Decision Preflight';
+    message.value = `Product Decision Preflight reference viewed: ${selected.product}\n\nProduct name:\n\nProduct URL:\n\nWhat made this product interesting to you? (optional):\n\nIs there a particular public claim or use case you want us to notice? (optional):\n\nOther context (optional):\n`;
+    note.textContent = `Request a free Product Decision Preflight for your product. The ${selected.product} example is included below for reference. Add the product name and URL; we will develop the verification questions in the preflight. Opening this form has not run an analysis.`;
     note.hidden = false;
   })();
 </script>
