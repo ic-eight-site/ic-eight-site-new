@@ -34,6 +34,7 @@ ALLOWED_TAGS = {
 }
 ALLOWED_CONTENT_TYPES = {"article", "pve"}
 ALLOWED_PVE_ROLES = {
+    "comparison",
     "evaluation",
     "pilot",
     "extra",
@@ -45,6 +46,8 @@ NOSCRIPT_START = "<!-- GENERATED:ARTICLES_NOSCRIPT:START -->"
 NOSCRIPT_END = "<!-- GENERATED:ARTICLES_NOSCRIPT:END -->"
 PVE_START = "<!-- GENERATED:PVE_LIBRARY:START -->"
 PVE_END = "<!-- GENERATED:PVE_LIBRARY:END -->"
+PVE_COMPARISONS_START = "<!-- GENERATED:PVE_COMPARISONS:START -->"
+PVE_COMPARISONS_END = "<!-- GENERATED:PVE_COMPARISONS:END -->"
 LATEST_PVE_START = "<!-- GENERATED:LATEST_PVE:START -->"
 LATEST_PVE_END = "<!-- GENERATED:LATEST_PVE:END -->"
 NAV_PATTERN = re.compile(r"<nav(?:\s[^>]*)?>.*?</nav>", re.S)
@@ -345,6 +348,32 @@ def render_pve(entries: list[dict]) -> str:
     return "\n\n".join(sections)
 
 
+def render_pve_comparisons(entries: list[dict]) -> str:
+    comparisons = sorted(
+        (
+            entry
+            for entry in entries
+            if "comparison" in entry.get("pveRoles", [])
+        ),
+        key=lambda entry: parse_iso_datetime(entry["publishedAt"]),
+        reverse=True,
+    )
+    if not comparisons:
+        return ""
+
+    cards: list[str] = []
+    for entry in comparisons:
+        cards.extend([
+            f'  <a href="{html.escape(entry["url"], quote=True)}" class="pve-comparison-card">',
+            '    <span class="pve-comparison-kicker">Cross-product comparison</span>',
+            f'    <h3>{html.escape(entry["title"], quote=False)}</h3>',
+            f'    <p>{html.escape(entry["description"], quote=False)}</p>',
+            '    <span class="pve-comparison-link">Read the comparison <span aria-hidden="true">→</span></span>',
+            "  </a>",
+        ])
+    return "\n".join(cards)
+
+
 def render_latest_pve(entries: list[dict], limit: int = 4) -> str:
     latest = sorted(
         (
@@ -454,7 +483,17 @@ def generated_outputs(entries: list[dict]) -> dict[Path, str]:
     )
     return {
         ARTICLES_PAGE: replace_generated(articles_source, NOSCRIPT_START, NOSCRIPT_END, render_noscript(entries)),
-        PVE_PAGE: replace_generated(pve_source, PVE_START, PVE_END, render_pve(entries)),
+        PVE_PAGE: replace_generated(
+            replace_generated(
+                pve_source,
+                PVE_COMPARISONS_START,
+                PVE_COMPARISONS_END,
+                render_pve_comparisons(entries),
+            ),
+            PVE_START,
+            PVE_END,
+            render_pve(entries),
+        ),
         PVE_PRODUCT_PAGE: replace_generated(
             pve_product_source,
             LATEST_PVE_START,

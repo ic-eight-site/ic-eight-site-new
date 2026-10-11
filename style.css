@@ -163,6 +163,13 @@ td:last-child { color:var(--accent); font-weight:500; } tr:last-child td { borde
 .article-body ul,.article-body ol { padding-left:1.25rem; }
 .article-body li { margin-bottom:.65rem; }
 .article-body blockquote,.note,.finding-locked { margin:2rem 0; padding:1.4rem 1.6rem; border-left:3px solid var(--accent); background:var(--blue-wash); color:var(--ink-soft); }
+.article-table-wrap { width:calc(100% + min(8vw,88px)); margin:2.25rem 0 2.5rem; overflow-x:auto; border:1px solid var(--rule); border-radius:var(--radius); background:#fff; box-shadow:0 12px 38px rgba(20,38,70,.07); }
+.article-table-wrap table { width:100%; min-width:720px; border-collapse:collapse; }
+.article-table-wrap th { background:var(--blue-wash); }
+.article-table-wrap td { color:var(--ink-soft); font-weight:400; line-height:1.5; }
+.article-table-wrap td:first-child { color:var(--ink); font-weight:600; }
+.article-table-wrap td:last-child { color:var(--ink-soft); font-weight:400; }
+.article-table-wrap tr:last-child td { border-bottom:0; }
 .article-body a { color:var(--accent); }
 .article-body .pdf-download-btn { color:#fff; }
 .article-cta { margin-top:4rem; padding:2rem; border-radius:var(--radius); background:var(--navy); color:#fff; }
@@ -186,6 +193,20 @@ td:last-child { color:var(--accent); font-weight:500; } tr:last-child td { borde
 .pve-context-block p { color:var(--ink-soft); }
 .pve-context-block p + p { margin-top:.8rem; }
 .pve-context-label { color:var(--accent); font-size:.72rem; font-weight:600; letter-spacing:.12em; text-transform:uppercase; margin-bottom:1rem; }
+.pve-comparisons { width:var(--page); margin:0 auto; padding:clamp(1rem,3vw,2rem) 0 clamp(3rem,6vw,5rem); scroll-margin-top:96px; }
+.pve-comparisons-header { display:grid; grid-template-columns:minmax(0,1.15fr) minmax(260px,.85fr); column-gap:clamp(2rem,6vw,6rem); align-items:end; margin-bottom:1.5rem; }
+.pve-comparisons-header .pve-context-label { grid-column:1/-1; }
+.pve-comparisons-header h2 { max-width:720px; font-size:clamp(2rem,4vw,3.4rem); line-height:1.08; letter-spacing:-.04em; font-weight:500; }
+.pve-comparisons-header>p:last-child { color:var(--muted); font-size:1.02rem; }
+.pve-comparison-list { display:grid; gap:1rem; }
+.pve-comparison-card { position:relative; isolation:isolate; overflow:hidden; display:grid; grid-template-columns:minmax(0,1.3fr) minmax(260px,.7fr); gap:1rem clamp(2rem,5vw,5rem); min-height:300px; padding:clamp(1.8rem,4vw,3.2rem); border-radius:18px; background:linear-gradient(135deg,#0b1730 0%,#132955 68%,#1b3c7a 100%); color:#fff; text-decoration:none; box-shadow:0 22px 60px rgba(13,28,58,.2); transition:transform .18s ease,box-shadow .18s ease; }
+.pve-comparison-card::after { content:""; position:absolute; z-index:-1; width:360px; aspect-ratio:1; right:-120px; bottom:-210px; border:1px solid rgba(255,255,255,.16); border-radius:50%; box-shadow:0 0 0 55px rgba(255,255,255,.035),0 0 0 110px rgba(255,255,255,.025); }
+.pve-comparison-card:hover { transform:translateY(-3px); box-shadow:0 28px 68px rgba(13,28,58,.26); }
+.pve-comparison-card:focus-visible { outline:3px solid var(--accent-bright); outline-offset:4px; }
+.pve-comparison-kicker { grid-column:1/-1; color:#9fc0ff; font-size:.72rem; font-weight:600; letter-spacing:.12em; text-transform:uppercase; }
+.pve-comparison-card h3 { max-width:760px; align-self:end; font-family:'DM Serif Display',serif; font-size:clamp(2rem,4vw,3.65rem); font-weight:400; line-height:1.02; letter-spacing:-.035em; }
+.pve-comparison-card p { max-width:470px; align-self:end; color:#d3dced; line-height:1.65; }
+.pve-comparison-link { grid-column:1/-1; margin-top:.8rem; color:#fff; font-size:.86rem; font-weight:600; letter-spacing:.02em; }
 .pve-library-toolbar { width:var(--page); margin:0 auto; padding:clamp(3rem,6vw,5rem) 0 2.5rem; display:grid; grid-template-columns:1fr minmax(280px,380px); align-items:end; gap:2rem; }
 .pve-library-toolbar h2 { font-size:clamp(2rem,4vw,3.4rem); line-height:1.08; letter-spacing:-.04em; font-weight:500; }
 .pve-results { color:var(--muted); margin-top:.8rem; }
@@ -240,6 +261,8 @@ footer { min-height:150px; padding:3rem max(24px,calc((100vw - 1180px)/2)); disp
   .process-detail { grid-column:2; }
   .case-meta { grid-template-columns:1fr; }
   .pve-intro-grid { grid-template-columns:1fr; }
+  .pve-comparisons-header,.pve-comparison-card { grid-template-columns:1fr; }
+  .pve-comparison-card { min-height:0; }
   .pve-library-toolbar { grid-template-columns:1fr; align-items:start; }
   .pve-library-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
   .signal-list { grid-template-columns:1fr; }
@@ -251,12 +274,15 @@ footer { min-height:150px; padding:3rem max(24px,calc((100vw - 1180px)/2)); disp
   .hero { padding-top:4.7rem; } .hero h1 { font-size:clamp(2.65rem,13vw,4rem); }
   .hero-pain-grid { grid-template-columns:1fr; } .hero-pain-item:nth-child(odd) { margin-right:0; }
   .section,.story,.service,.contact,.article-body { padding-inline:0; }
+  .article-table-wrap { width:100%; }
   .signal-section { padding-inline:0; }
   .page-header h1,.article-header h1 { font-size:clamp(2.5rem,12vw,3.8rem); }
   .process-row,.spec-row { grid-template-columns:1fr; gap:.45rem; } .process-detail { grid-column:1; }
   .branch-head { display:none; } .branch-row { grid-template-columns:1fr; gap:.8rem; }
   .more-item { grid-template-columns:1fr; gap:.3rem; } .visual-evidence-pair { grid-template-columns:1fr; } .visual-evidence-single { max-width:100%; }
   .pve-library-grid { grid-template-columns:1fr; }
+  .pve-comparisons-header>p:last-child { margin-top:1rem; }
+  .pve-comparison-card { padding:1.6rem; border-radius:14px; }
   footer { align-items:flex-start; flex-direction:column; }
 }
 @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } *,*::before,*::after { transition:none!important; } }

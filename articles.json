@@ -3,6 +3,18 @@
     "tag": "Diagnosis & Priority",
     "contentType": "pve",
     "pveRoles": [
+      "comparison",
+      "cross-pve-synthesis"
+    ],
+    "title": "Four AI Dubbing Tools, One Japanese Listener: Only One Required No Japanese Corrections",
+    "url": "/articles/ai-dubbing-synthesia-heygen-vozo-rask-japanese-comparison.html",
+    "description": "The same English lecture was dubbed into Japanese by Synthesia, HeyGen, Vozo, and Rask. Only Synthesia's reviewed output required no Japanese correction in this sample; the others exposed different tradeoffs in meaning, repair, pace, and speech quality.",
+    "publishedAt": "2026-10-11T03:02:34Z"
+  },
+  {
+    "tag": "Diagnosis & Priority",
+    "contentType": "pve",
+    "pveRoles": [
       "evaluation"
     ],
     "title": "Vozo Made Japanese Video Translation Usable. Finishing It Was a Different Task.",
