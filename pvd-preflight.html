@@ -534,7 +534,7 @@
         tab.tabIndex = active ? 0 : -1;
       });
       panels.forEach((panel) => { panel.hidden = panel.dataset.productPanel !== selected; });
-      document.querySelectorAll('[data-nav-menu="product"]').forEach((menu) => menu.classList.add('is-active'));
+      document.querySelectorAll('[data-nav-menu="buyer"]').forEach((menu) => menu.classList.add('is-active'));
       if (updateHash) history.replaceState(null, '', `#${selected}`);
     };
 
