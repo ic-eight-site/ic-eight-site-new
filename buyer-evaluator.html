@@ -45,6 +45,7 @@
         "url": "https://ic-eight.com/buyer-evaluator.html",
         "name": "Product Evidence for Buyers and Evaluators — IC Eight",
         "description": "Independent product evidence for vendor selection, procurement, due diligence, and competitive evaluation.",
+        "dateModified": "2026-10-11",
         "about": { "@id": "https://ic-eight.com/#org" },
         "audience": {
           "@type": "Audience",
@@ -195,7 +196,7 @@
     .button.secondary{background:transparent;color:#fff;border-color:rgba(255,255,255,.42)}
     .button:hover{transform:translateY(-2px);background:#e9efff}
     .button.secondary:hover{background:rgba(255,255,255,.08);border-color:#fff}
-    .button:focus-visible,.context-card:focus-visible,.evidence-link:focus-visible,.brand:focus-visible{outline:3px solid #9db7ff;outline-offset:4px}
+    .button:focus-visible,.context-card:focus-visible,.evidence-link:focus-visible,.preflight-entry:focus-visible,.brand:focus-visible{outline:3px solid #9db7ff;outline-offset:4px}
     .section{
       width:var(--page);
       margin-inline:auto;
@@ -217,6 +218,26 @@
       color:var(--muted);
       font-size:1.08rem;
     }
+    .preflight-entry{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:2rem;
+      margin-bottom:clamp(4rem,7vw,6.5rem);
+      padding:clamp(1.5rem,3vw,2.1rem);
+      border:1px solid #cdd7e9;
+      border-radius:var(--radius);
+      background:#eaf0fc;
+      color:var(--ink);
+      text-decoration:none;
+      transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease;
+    }
+    .preflight-entry:hover{transform:translateY(-3px);border-color:#a9bce4;box-shadow:0 16px 42px rgba(24,52,108,.1)}
+    .preflight-entry>span:first-child{display:grid;gap:.35rem}
+    .preflight-entry-label{color:#5178d6;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase}
+    .preflight-entry strong{font-size:clamp(1.25rem,2.5vw,1.65rem);letter-spacing:-.025em}
+    .preflight-entry-copy{max-width:720px;color:var(--muted);font-size:.94rem}
+    .preflight-entry-link{flex:0 0 auto;color:#214da9;font-size:.86rem;font-weight:600;white-space:nowrap}
     .context-grid{
       display:grid;
       grid-template-columns:repeat(2,minmax(0,1fr));
@@ -356,6 +377,7 @@
       .hero{min-height:auto;padding-top:5.5rem;padding-bottom:6rem}
       .hero::after{right:-170px;opacity:.65}
       .context-grid,.crosspoint{grid-template-columns:1fr}
+      .preflight-entry{align-items:flex-start;flex-direction:column;gap:1rem}
       .evidence-flow{grid-template-columns:repeat(2,minmax(0,1fr))}
       .evidence-step:nth-child(3){border-left:0;border-top:1px solid rgba(255,255,255,.2);padding-left:0}
       .evidence-step:nth-child(4){border-top:1px solid rgba(255,255,255,.2)}
@@ -444,6 +466,14 @@
     </section>
 
     <section class="section" aria-labelledby="decision-contexts-heading">
+      <a class="preflight-entry" href="/pvd-preflight.html">
+        <span>
+          <span class="preflight-entry-label">Before product access · Free</span>
+          <strong>PVD Preflight</strong>
+          <span class="preflight-entry-copy">See how a product’s public promises become focused questions for actual-use verification, then request a free preflight for a product you are considering.</span>
+        </span>
+        <span class="preflight-entry-link">Explore saved preflights →</span>
+      </a>
       <p class="section-label">The decision</p>
       <h2 class="section-heading" id="decision-contexts-heading">You already have the claims. See what the product actually demonstrates in use.</h2>
       <p class="section-intro">Independent product evidence helps you test whether the value you are considering is visible, usable, and supported by the experience itself.</p>

@@ -38,7 +38,7 @@
     "description": "Talk to IC Eight about how your product lands in Japan, from positioning and first use to trust, UX, and localization.",
     "isPartOf": { "@id": "https://ic-eight.com/#website" },
     "datePublished": "2025-11-12",
-    "dateModified": "2026-10-06"
+    "dateModified": "2026-10-11"
   }
   </script>
 
@@ -106,6 +106,8 @@
 <main class="contact-wrap">
   <p class="contact-email">Or email us directly at <a href="mailto:hello@ic-eight.com">hello@ic-eight.com</a></p>
 
+  <p class="reference-note contact-prefill-note" id="contact-prefill-note" hidden></p>
+
   <form class="contact-form" action="https://formspree.io/f/mrewewvp" method="POST">
     <input type="hidden" name="_next" value="https://ic-eight.com/contact-thanks" />
 
@@ -136,6 +138,7 @@
       <label for="service">Which service are you considering?</label>
       <select id="service" name="service" required>
         <option value="" disabled selected>Select one</option>
+        <option value="Free PVD Preflight">PVD Preflight (free)</option>
         <option value="Product Decision Review">Product Decision Review</option>
         <option value="Commissioned Product Value Evaluation">Commissioned Product Value Evaluation</option>
         <option value="First-Use Value Audit">First-Use Value Audit</option>
@@ -174,6 +177,25 @@
     </a>
   </div>
 </footer>
+
+<script>
+  (() => {
+    const savedPreflights = {
+      napkin: { product: 'Napkin' },
+      parseur: { product: 'Parseur' }
+    };
+    const selected = savedPreflights[new URLSearchParams(window.location.search).get('preflight')];
+    if (!selected) return;
+
+    const service = document.querySelector('#service');
+    const message = document.querySelector('#message');
+    const note = document.querySelector('#contact-prefill-note');
+    service.value = 'Free PVD Preflight';
+    message.value = `PVD Preflight reference viewed: ${selected.product}\n\nProduct name:\n\nProduct URL:\n\nWhat made this product interesting to you? (optional):\n\nIs there a particular public claim or use case you want us to notice? (optional):\n\nOther context (optional):\n`;
+    note.textContent = `Request a free PVD Preflight for your product. The ${selected.product} example is included below for reference. Add the product name and URL; we will develop the verification questions in the preflight. Opening this form has not run an analysis.`;
+    note.hidden = false;
+  })();
+</script>
 
 </body>
 </html>

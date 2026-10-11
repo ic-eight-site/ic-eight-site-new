@@ -239,6 +239,7 @@ label,.input-label { color:var(--ink-soft); font-size:.82rem; font-weight:600; }
 .contact-form select { cursor:pointer; }
 .contact-form textarea { min-height:150px; resize:vertical; }
 .contact-form .btn-primary { border:0; cursor:pointer; }
+.contact-prefill-note { max-width:640px!important; margin-top:2rem!important; }
 .kit-hero,.apply-header { padding:clamp(5rem,9vw,8rem) max(24px,calc((100vw - 1180px)/2)); background:var(--navy); color:#fff; }
 .kit-hero h1,.apply-header h1 { font-size:clamp(2.8rem,6vw,5.5rem); line-height:1; letter-spacing:-.05em; }
 .kit-section,.kit-scarcity,.kit-delivery { padding:clamp(4rem,7vw,7rem) max(24px,calc((100vw - 1180px)/2)); }
