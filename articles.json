@@ -3,6 +3,30 @@
     "tag": "Diagnosis & Priority",
     "contentType": "pve",
     "pveRoles": [
+      "evaluation"
+    ],
+    "title": "Caring Village: Simple care coordination works, while cross-Village professional task visibility remains unverified",
+    "url": "/articles/caring-village-simple-care-coordination-professional-task-visibility-unverified.html",
+    "description": "Caring Village kept a clear family care request, ownership, result, and completion history together. Cross-Village professional task visibility, deadline handling, and measured time savings remain unverified.",
+    "publishedAt": "2026-10-18T13:54:40Z",
+    "pve": {
+      "id": "pve-053",
+      "label": "Product Value Evaluation #053",
+      "order": 54,
+      "cards": [
+        {
+          "title": "Caring Village",
+          "finding": "Caring Village kept a clear family care request, ownership, result, and completion history together. Cross-Village professional task visibility, deadline handling, and measured time savings remain unverified.",
+          "url": "/articles/caring-village-simple-care-coordination-professional-task-visibility-unverified.html",
+          "linkLabel": "Read the evaluation →"
+        }
+      ]
+    }
+  },
+  {
+    "tag": "Diagnosis & Priority",
+    "contentType": "pve",
+    "pveRoles": [
       "comparison",
       "cross-pve-synthesis"
     ],
