@@ -256,6 +256,8 @@
     .boundary-box{padding:clamp(2rem,4vw,3rem);border:1px solid var(--line);border-radius:var(--radius);background:#fff}
     .boundary-box p{color:var(--muted);font-size:.94rem}
     .boundary-box p+p{margin-top:1rem}
+    .sample-reviews{align-items:start}
+    .sample-stack{display:grid;gap:1rem}
     .sample-button{background:var(--navy);border-color:var(--navy);color:#fff}
     .sample-button:hover{background:#173467;border-color:#173467}
     .library{
@@ -477,20 +479,30 @@
       </div>
     </section>
 
-    <section class="section boundary" aria-labelledby="sample-heading">
+    <section class="section boundary sample-reviews" aria-labelledby="sample-heading">
       <div>
-        <p class="section-label">Sample review</p>
+        <p class="section-label">Sample reviews</p>
         <h2 class="section-heading" id="sample-heading">See how product evidence becomes decision direction.</h2>
-        <p class="section-intro">This sample was created from a hypothetical buyer request: can an accounting user normalize differently formatted Japanese invoices and receipts with one field setup? It uses an existing IC Eight evaluation and does not add a new product test.</p>
+        <p class="section-intro">These public samples reinterpret existing IC Eight evaluations for hypothetical buyer decisions. They show how product evidence becomes decision direction without adding a new product test.</p>
       </div>
-      <aside class="boundary-box">
-        <p><strong>Parseur Product Decision Review sample</strong></p>
-        <p>A decision brief and evidence matrix show what the product demonstrated, what qualified the result, and what the buyer would still need to validate.</p>
-        <div class="actions">
-          <a class="button sample-button" href="/samples/IC_Eight_Parseur_Product_Decision_Review_Sample.pdf">View sample PDF</a>
-          <a class="text-link" href="/articles/parseur-normalized-documents-silent-blanks-kept-accounting-review.html">Read the underlying PVE #051</a>
-        </div>
-      </aside>
+      <div class="sample-stack">
+        <aside class="boundary-box">
+          <p><strong>Parseur Product Decision Review sample</strong></p>
+          <p>A decision brief and evidence matrix show what the product demonstrated, what qualified the result, and what the buyer would still need to validate.</p>
+          <div class="actions">
+            <a class="button sample-button" href="/samples/IC_Eight_Parseur_Product_Decision_Review_Sample.pdf">View sample PDF</a>
+            <a class="text-link" href="/articles/parseur-normalized-documents-silent-blanks-kept-accounting-review.html">Read the underlying PVE #051</a>
+          </div>
+        </aside>
+        <aside class="boundary-box">
+          <p><strong>CodeRabbit Product Decision Review sample</strong></p>
+          <p>A decision brief and evidence matrix show why a bounded trial is supported, what remained qualified, and what still requires human approval and independent verification.</p>
+          <div class="actions">
+            <a class="button sample-button" href="/samples/IC_Eight_CodeRabbit_Product_Decision_Review_Sample.pdf">View sample PDF</a>
+            <a class="text-link" href="/articles/coderabbit-what-ai-review-caught-after-tests-passed.html">Read the underlying evaluation</a>
+          </div>
+        </aside>
+      </div>
     </section>
 
     <section class="section boundary" aria-labelledby="boundary-heading">
