@@ -256,8 +256,15 @@
     .boundary-box{padding:clamp(2rem,4vw,3rem);border:1px solid var(--line);border-radius:var(--radius);background:#fff}
     .boundary-box p{color:var(--muted);font-size:.94rem}
     .boundary-box p+p{margin-top:1rem}
-    .sample-reviews{align-items:start}
-    .sample-stack{display:grid;gap:1rem}
+    .sample-reviews{display:block}
+    .sample-stack{
+      display:grid;
+      grid-template-columns:repeat(2,minmax(0,1fr));
+      gap:1rem;
+      margin-top:clamp(2.5rem,5vw,4rem);
+    }
+    .sample-stack .boundary-box{display:flex;flex-direction:column}
+    .sample-stack .actions{margin-top:auto;padding-top:2.3rem}
     .sample-button{background:var(--navy);border-color:var(--navy);color:#fff}
     .sample-button:hover{background:#173467;border-color:#173467}
     .library{
@@ -311,6 +318,7 @@
       .hero{min-height:auto;padding-top:5.5rem;padding-bottom:6rem}
       .hero::after{right:-170px;opacity:.65}
       .why-grid,.boundary,.library-inner{grid-template-columns:1fr}
+      .sample-stack{grid-template-columns:1fr}
       .process-row{grid-template-columns:54px 1fr}
       .process-detail{grid-column:2}
       .library .button{justify-self:start}
@@ -479,7 +487,7 @@
       </div>
     </section>
 
-    <section class="section boundary sample-reviews" aria-labelledby="sample-heading">
+    <section class="section sample-reviews" aria-labelledby="sample-heading">
       <div>
         <p class="section-label">Sample reviews</p>
         <h2 class="section-heading" id="sample-heading">See how product evidence becomes decision direction.</h2>
