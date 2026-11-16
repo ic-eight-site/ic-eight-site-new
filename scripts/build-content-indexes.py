@@ -262,13 +262,33 @@ def validate(entries: list[dict]) -> None:
             if not path.exists():
                 errors.append(f"{prefix} points to a missing file: {entry['url']}")
             else:
-                article_nav = normalized_nav(path.read_text(encoding="utf-8"))
+                article_source = path.read_text(encoding="utf-8")
+                article_nav = normalized_nav(article_source)
                 if article_nav is None:
                     errors.append(f"{prefix} article is missing navigation: {entry['url']}")
                 elif canonical_nav is not None and article_nav != canonical_nav:
                     errors.append(
                         f"{prefix} article navigation differs from index.html: {entry['url']}"
                     )
+                if isinstance(pve_roles, list) and "evaluation" in pve_roles:
+                    method_context = re.search(
+                        r'<p class="article-series-context">.*?href="/product-value-evaluation\.html".*?</p>',
+                        article_source,
+                        re.S,
+                    )
+                    commissioned_cta = re.search(
+                        r'<div class="article-cta">.*?href="/commissioned-pve\.html".*?</div>',
+                        article_source,
+                        re.S,
+                    )
+                    if method_context is None:
+                        errors.append(
+                            f"{prefix} numbered PVE is missing its method context link"
+                        )
+                    if commissioned_cta is None:
+                        errors.append(
+                            f"{prefix} numbered PVE is missing its commissioned PVE CTA"
+                        )
         try:
             parse_iso_datetime(entry.get("publishedAt", ""))
         except (ValueError, TypeError):
