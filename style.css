@@ -44,6 +44,8 @@ nav { min-height:76px; padding:0 max(24px,calc((100vw - 1180px)/2)); display:fle
 .page-header .page-label,.article-header .article-label { color:var(--accent-bright); }
 .page-header h1,.article-header h1 { font-size:clamp(2.7rem,6vw,5.3rem); line-height:1.02; letter-spacing:-.05em; font-weight:500; }
 .page-header p,.article-meta { color:#bdc9df; margin-top:1.4rem; font-size:1.02rem; max-width:660px; }
+.article-series-context { color:#bdc9df; margin-top:.8rem; font-size:.94rem; max-width:660px; }
+.article-series-context a { color:#fff; }
 .page-actions { display:flex; flex-wrap:wrap; align-items:center; gap:1rem 1.35rem; margin-top:1.8rem; }
 .page-actions .hero-cta,.page-actions .ways-anchor { margin-top:0; }
 .ways-anchor { display:inline-block; margin-top:1.6rem; color:#fff; text-decoration:none; border-bottom:1px solid #7587aa; }
